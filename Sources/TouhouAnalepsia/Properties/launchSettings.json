@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Launch Bannerlord": {
+      "commandName": "Executable",
+      "executablePath": "$(BannerlordExePath)",
+      "workingDirectory": "$(BannerlordBinPath)",
+	  "commandLineArgs": "/singleplayer _MODULES_*Native*SandBoxCore*Sandbox*CustomBattle*StoryMode*TouhouAnalepsia*_MODULES_"
+    }
+  }
+}

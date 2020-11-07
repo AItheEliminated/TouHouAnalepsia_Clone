@@ -1,0 +1,16 @@
+pipeline:
+  build:
+    image: mcr.microsoft.com/dotnet/core/sdk:3.1
+    commands:
+      - apt-get update -q
+      - apt-get dist-upgrade -y -q
+      - apt-get install -y -q wget curl tar zip
+      - cd Sources
+      - dotnet restore -nowarn:NU1701
+      - dotnet build /nowarn:NU1701,MSB3277 --verbosity:minimal --framework netstandard2.0 --configuration=Release TouhouAnalepsia.sln
+      - cd ../bin/
+      - printf "$(sha1sum Win64_Shipping_Client/TouhouAnalepsia.dll)\n$(sha1sum Win64_Shipping_wEditor/TouhouAnalepsia.dll)\n" > manifest.txt
+      - zip -r artifacts.zip Win64_Shipping_Client Win64_Shipping_wEditor
+      - curl -F scene=touhouanalepsia -F path=./touhouanalepsia -F file=@manifest.txt http://fastdfs:8080/upload
+      - curl -F scene=touhouanalepsia -F path=./touhouanalepsia -F file=@artifacts.zip http://fastdfs:8080/upload
+      

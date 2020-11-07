@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Touhou Analepsia"/>
+	<Id value = "TouhouAnalepsia"/>
+	<Version value = "v0.1.0"/>
+	<DefaultModule value="false"/>
+	<SingleplayerModule value="true"/>
+    <Official value="false" />
+    <DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="StoryMode"/>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value = "TouhouAnalepsia"/>
+			<DLLName value = "TouhouAnalepsia.dll"/>
+			<SubModuleClassType value = "TouhouAnalepsia.SubModule"/>			
+			<Tags>
+				<Tag key="DedicatedServerType" value ="none" />
+				<Tag key="IsNoRenderModeElement" value ="false" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls>
+	</Xmls>
+</Module>

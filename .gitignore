@@ -1,0 +1,14 @@
+*.user
+*.userprefs
+
+[Bb]in/
+[Aa]ssetPackages/
+[Ee]mAssetPackages/
+[Dd]sAssetPackages/
+[Rr]untimeDataCache/
+[Ss]ceneEditData/
+[Ss]hader[Cc]ache/
+[Ss]ceneObj/Backups/
+[Ss]ceneObj/temp_mission_scene/
+
+UserSettings.props

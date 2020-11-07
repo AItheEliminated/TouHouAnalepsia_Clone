@@ -1,0 +1,18 @@
+<Project>
+	<!-- Properties which you need to set -->
+	<PropertyGroup>
+		<!-- The root directory of MountBlade:Bannerlord -->
+		<!-- Example: D:\steamapps\common\Mount &amp; Blade II Bannerlord\ -->
+		<!-- REMEMBER YOU CANNOT INPUT AMPERSAND(&) IN XML (except the comment block). USE &amp; INSTEAD -->
+		<BannerlordDirectory></BannerlordDirectory>
+		<!-- True if you want to launch the game with editor when debugging (make sure the modding tool is installed). False if without -->
+		<PreferEditor>false</PreferEditor>
+	</PropertyGroup>
+	<!-- Some unimportant properties -->
+	<PropertyGroup>
+		<ReleaseOutputDirectory>..\..\bin\Win64_Shipping_Client\</ReleaseOutputDirectory>
+		<EditorOutputDirectory>..\..\bin\Win64_Shipping_wEditor\</EditorOutputDirectory>
+		<OutputRelease>true</OutputRelease> <!-- Should the compiled dlls be copied to the release output directory after build -->
+		<OutputEditor>true</OutputEditor>
+	</PropertyGroup>
+</Project>
