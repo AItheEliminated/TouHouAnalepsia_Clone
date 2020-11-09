@@ -10,6 +10,7 @@ exit
 :INSTALL_HOOK
 echo #!/bin/sh > "./post-merge"
 echo Powershell.exe -executionpolicy unrestricted -File ./Tools/process_downloadartifacts.ps1 NOPAUSE >> "./post-merge"
+echo git lfs post-merge "$@" >> "./post-merge"
 move /Y "./post-merge" "./../.git/hooks/"
 echo Install done
 pause
