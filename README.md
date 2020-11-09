@@ -8,25 +8,25 @@ This is the repo of Touhou Analepsia. A short tutorial will tell you how to setu
 
 First, you need an access token before checkout. Access tokens are used to access restricted networks without inputting or storing your password. You can generate an access token in Settings - Applications - Manage Access Tokens.
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/gat1.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/gat1.png" />
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/gat2.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/gat2.png" />
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/gat3.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/gat3.png" />
 
 #### Clone the repository
 
 I recommend using [Git Extensions](https://github.com/gitextensions/gitextensions/releases) as the tool for managing git repository.  I will use Git Extensions for the demonstration, although you can use any git tool you like, of course.
 
-Clone the repository with this url "http://\[Your_access_token\]@git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia.git". You can set the destination to either the module folder of Bannerlord, or a singleton folder and then link it to the module folder by the symbolic link.
+Clone the repository with this url "https://\[Your_access_token\]@git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia.git". You can set the destination to either the module folder of Bannerlord, or a singleton folder and then link it to the module folder by the symbolic link.
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/clone1.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/clone1.png" />
 
 ##### Choice A: Clone to the module folder
 
 Cloning the repo to the module folder is the easiest way. Just set the destination to the module folder and you can move to next section.
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/clone2.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/clone2.png" />
 
 *(Notice: If you are using JetBrains Rider, don't do this. I will explain later. Use the method B instead.)*
 
@@ -34,9 +34,9 @@ Cloning the repo to the module folder is the easiest way. Just set the destinati
 
 For some reason, you may not want to dump a scrap heap into the game directory. That can be achieved by the symbolic link. Clone the repo to anywhere you like. Then open the cmd as administrator, and run *mklink /D "\[Bannerlord Module Path\]/TouhouAnalepsia" "\[Repo Path\]"*
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/clone3.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/clone3.png" />
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/clone4.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/clone4.png" />
 
 After that, a symbolic link will be created in the module folder. The game can recognize the mod just as it's in the module folder.
 
@@ -46,11 +46,11 @@ After that, a symbolic link will be created in the module folder. The game can r
 
 The repository doesn't contain the compiled binary files (dll files). There is a script to download the latest binary files from the server. In the *Tools* folder, you can run *UpdateBinary.bat* to download the binaries.
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/sa1.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/sa1.png" />
 
 However, manually running the script is too bothering. You can install a githook to run the script everytime you pull the repo. Run *InstallAutoUpdateHook.bat* to install the githook.
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/sa2.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/sa2.png" />
 
 *Githook is a single file which installed in the .git folder of the repo. It won't affect your computer and can be uninstalled anytime*
 
@@ -64,11 +64,11 @@ Make a copy of *UserSettings.props.template* in the *Sources*, and then rename t
 
 *UserSettings.props won't be committed because of the gitignore*
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/sp1.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/sp1.png" />
 
 Open the file with the text editor. Fill the *BannerlordDirectory* item with the game path. If you have installed the modding tool, you can set *PreferEditor* to true.
 
-<img src="http://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/branch/master/Tools/Gitea/sp2.png" />
+<img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/sp2.png" />
 
 That's all. Open *TouhouAnalepsia.sln* with the IDE and the project is ready-to-use. You can launch the game and debug with the IDE. The output files will be copied to bin folder automatically after compile.
 

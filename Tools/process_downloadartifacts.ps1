@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
-$download_manifest = "http://fs.hinageshi.org/touhouanalepsia/manifest.txt" + "?nocache=" + [String][DateTime]::Now.Ticks.ToString()
-$download_archive = "http://fs.hinageshi.org/touhouanalepsia/artifacts.zip" + "?nocache=" + [String][DateTime]::Now.Ticks.ToString()
+$download_manifest = "https://fs.hinageshi.org/touhouanalepsia/manifest.txt" + "?nocache=" + [String][DateTime]::Now.Ticks.ToString()
+$download_archive = "https://fs.hinageshi.org/touhouanalepsia/artifacts.zip" + "?nocache=" + [String][DateTime]::Now.Ticks.ToString()
 $noPause = $false
 if ($args[0] -eq "NOPAUSE") {
 	$noPause = $true
