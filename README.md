@@ -2,6 +2,8 @@
 
 This is the repo of Touhou Analepsia. A short tutorial will tell you how to setup the project.
 
+[中文版本](https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/src/branch/master/README.zh-CN.md)
+
 ## Checkout
 
 #### Generate the access token
@@ -17,6 +19,8 @@ First, you need an access token before checkout. Access tokens are used to acces
 #### Clone the repository
 
 I recommend using [Git Extensions](https://github.com/gitextensions/gitextensions/releases) as the tool for managing git repository.  I will use Git Extensions for the demonstration, although you can use any git tool you like, of course.
+
+*If you use other tool, make sure your tool supports [Git-LFS](https://git-lfs.github.com/).*
 
 Clone the repository with this url "https://\[Your_access_token\]@git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia.git". You can set the destination to either the module folder of Bannerlord, or a singleton folder and then link it to the module folder by the symbolic link.
 
@@ -62,14 +66,14 @@ The source codes are located in the *Sources* folder. The configuration is almos
 
 Make a copy of *UserSettings.props.template* in the *Sources*, and then rename the copy to *UserSettings.props*
 
-*UserSettings.props won't be committed because of the gitignore*
+*UserSettings.props won't be committed because of the gitignore. Your settings won't affect the others.*
 
 <img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/sp1.png" />
 
-Open the file with the text editor. Fill the *BannerlordDirectory* item with the game path. If you have installed the modding tool, you can set *PreferEditor* to true.
+Open the file with the text editor (*Windows Notepad* is **NOT recommended**). Fill the *BannerlordDirectory* item with the game path. If you have installed the modding tool, you can set *PreferEditor* to true.
 
 <img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/sp2.png" />
 
-That's all. Open *TouhouAnalepsia.sln* with the IDE and the project is ready-to-use. You can launch the game and debug with the IDE. The output files will be copied to bin folder automatically after compile.
+That's all. Open *TouhouAnalepsia.sln* with your favourite IDE and the project is ready-to-use. You can launch the game and debug with the IDE. The output files will be copied to bin folder automatically after compile.
 
 *Tips for JetBrains Rider users: (Tested in version 2018.2) Don't clone the project to the module folder of Bannerlord. Due to the ampersand(&) symbol in the path, Rider cannot correctly initialize the project. You will get 'Error executing the AssignProjectConfiguration task' message and the project is corrupt if you do so. Moreover, you have to configure the launching settings by yourself. One more problem is that, the reference libraries don't show up in the left list, though they actully exist. It shouldn't affect the operation, anyway.*
