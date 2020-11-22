@@ -56,7 +56,7 @@
 				<BannerlordExePath>$(BannerlordBinPath)\Bannerlord.exe</BannerlordExePath>
 			</PropertyGroup>
 			<ItemGroup>
-				<Reference Include="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.*.dll" Exclude="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.Starter.DotNetCore.dll" />
+				<Reference Include="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.*.dll" Exclude="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.Starter.DotNetCore.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.TwoDimension.SpriteSheetGenerator.Library.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.TwoDimension.Standalone.dll" />
 				<Reference Include="$(BannerlordDirectory)\Modules\Native\bin\$(BinDirName)\*.dll" />
 				<Reference Include="$(BannerlordDirectory)\Modules\SandBoxCore\bin\$(BinDirName)\*.dll" />
 				<Reference Include="$(BannerlordDirectory)\Modules\SandBox\bin\$(BinDirName)\*.dll" />
