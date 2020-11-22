@@ -95,7 +95,7 @@ namespace TouhouAnalepsia {
 		}
 		private static Ability abilityFromLevel(int level) {
 			Ability newAbility = new Ability();
-			newAbility.hpScaled *= (Math.Pow(1.04, level) + Math.Sqrt(level)/10);
+			newAbility.hpScaled *= Math.Max(1.0, (Math.Pow(1.07, level) - Math.Sqrt(level)/10));
 			//newAbility.hpScaled *= 2;
 			return newAbility;
 		}

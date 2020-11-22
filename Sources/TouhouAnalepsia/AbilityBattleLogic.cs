@@ -21,12 +21,18 @@ namespace TouhouAnalepsia {
 			base.OnMissionTick(dt);
 			tickCounter += 1;
 			if (initializedAgents.Count < Mission.Agents.Count) { //Simple check to initialize agents, probably a problem if too many agents are on the field. Further testing, however, is needed.
+				int nullAgents=0;
 				foreach (Agent agent in Mission.Agents) {
+					if (agent != null) {
+						nullAgents++;
+						continue;
+					}
 					if (!initializedAgents.Contains(agent)) initializeAgent(agent);
 					if (agent.IsHero) {
 						InformationManager.DisplayMessage(new InformationMessage("Hero was here!"));
 					}
 				}
+				if(nullAgents!=0) InformationManager.DisplayMessage(new InformationMessage(nullAgents.ToString().Add(" Null Agents present! (Ignore if you're in the tutorial area)")));
 			}
 			if (tickCounter%tickRate==0) {//don't run all the time, only once in a while. (~once a second)
 				foreach (Agent agent in initializedAgents) {
