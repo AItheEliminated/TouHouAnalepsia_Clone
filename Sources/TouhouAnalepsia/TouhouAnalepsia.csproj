@@ -1,8 +1,37 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
 		<Platforms>x64</Platforms>
+		<Authors>Hinageshi Koubou</Authors>
+		<Copyright>Copyright © 2020</Copyright>
+		<PackageId>TouhouAnalepsia</PackageId>
+		<AssemblyName>TouhouAnalepsia</AssemblyName>
+		<ReferenceAssembliesVersion>1.5.4.243410</ReferenceAssembliesVersion> <!-- Bannerlord Version -->
 	</PropertyGroup>
+	
+	<PropertyGroup Condition="'$(RunningOnCI)'=='true'">
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+	
+	<PropertyGroup Condition="'$(RunningOnCI)'!='true'">
+		<TargetFramework>net461</TargetFramework>
+	</PropertyGroup>
+	
+	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
+		<Optimize>false</Optimize>
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DefineConstants>DEBUG</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<Optimize>true</Optimize>
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Lib.Harmony" Version="2.0.4" />
+	</ItemGroup>
   
 	<!-- Import the user settings -->
 	<Import Project="../UserSettings.props" Condition="exists('../UserSettings.props')" />
@@ -13,6 +42,7 @@
 		<EditorOutputDirectory Condition="'$(EditorOutputDirectory)' == ''">..\..\bin\Win64_Shipping_wEditor\</EditorOutputDirectory>
 		<OutputRelease Condition="'$(OutputRelease)' == ''">true</OutputRelease>
 		<OutputEditor Condition="'$(OutputEditor)' == ''">true</OutputEditor>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	</PropertyGroup>
 	
 	<!-- Import the references -->
@@ -37,11 +67,8 @@
 		<!-- I can't believe that you didn't set the user settings. You are either a badass who never give the readme a fuck, or a simple CI server. 
 		In this situation I will add some reference-only assemblies to make sure you can barely compile this project. -->
 		<Otherwise>
-			<PropertyGroup>
-				<ReferenceAssembliesVersion>1.5.3.243624</ReferenceAssembliesVersion>
-			</PropertyGroup>
 			<ItemGroup>
-				<!-- Here is a shit anyway. Those packages target .net472 but we are using .netstard20. Need some hack here. -->
+				<!-- Here is a shit anyway. Those packages target .net472 but we are using either .netstandard2 or .net461. Need some hack here. -->
 				<!-- Step1: Download and unzip them but don't add them to the dependency -->
 				<PackageReference Include="Bannerlord.ReferenceAssemblies.EarlyAccess" IncludeAssets="none" Version="$(ReferenceAssembliesVersion)" />
 				<PackageReference Include="Bannerlord.ReferenceAssemblies.Native.EarlyAccess" IncludeAssets="none" Version="$(ReferenceAssembliesVersion)" />
@@ -60,24 +87,29 @@
 		</Otherwise>
 	</Choose>
 	
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Copy
-			Condition="'$(OutputRelease)' == 'true'"
-			SkipUnchangedFiles="true"
-			SourceFiles="$(ProjectDir)$(OutDir)$(TargetFileName)"
-			DestinationFolder="$(ProjectDir)$(ReleaseOutputDirectory)">
-			<Output
-				TaskParameter="CopiedFiles"
-				ItemName="SuccessfullyCopiedFiles"/>
+	<!-- Delete the outdated assemblies -->
+	<ItemGroup>
+		<DeleteReleaseTargets Include="$(ProjectDir)$(ReleaseOutputDirectory)\*.pdb;$(ProjectDir)$(ReleaseOutputDirectory)\*.dll" />
+		<DeleteEditorTargets Include="$(ProjectDir)$(EditorOutputDirectory)\*.pdb;$(ProjectDir)$(EditorOutputDirectory)\*.dll" />
+	</ItemGroup>
+	<Target Name="DeleteOutdatedFile" AfterTargets="Clean">
+		<Delete Condition="'$(OutputRelease)' == 'true'" Files="@(DeleteReleaseTargets)" />
+		<Delete Condition="'$(OutputEditor)' == 'true'" Files="@(DeleteEditorTargets)" />
+	</Target>
+	
+	<!-- Copy the assemblies after build -->
+	<ItemGroup Condition="'$(Configuration)'=='Debug'">
+		<CopyTargets Include="$(ProjectDir)$(OutDir)$(TargetFileName);$(ProjectDir)$(OutDir)$(TargetName).pdb;$(ProjectDir)$(OutDir)0Harmony.dll" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(Configuration)'!='Debug'">
+		<CopyTargets Include="$(ProjectDir)$(OutDir)$(TargetFileName);$(ProjectDir)$(OutDir)0Harmony.dll" />
+	</ItemGroup>
+	<Target Name="CopyAssemblies" AfterTargets="PostBuildEvent">
+		<Copy Condition="'$(OutputRelease)' == 'true'" SkipUnchangedFiles="true" SourceFiles="@(CopyTargets)" DestinationFolder="$(ProjectDir)$(ReleaseOutputDirectory)">
+			<Output TaskParameter="CopiedFiles" ItemName="SuccessfullyCopiedFiles" />
 		</Copy>
-		<Copy
-			Condition="'$(OutputEditor)' == 'true'"
-			SkipUnchangedFiles="true"
-			SourceFiles="$(ProjectDir)$(OutDir)$(TargetFileName)"
-			DestinationFolder="$(ProjectDir)$(EditorOutputDirectory)">
-			<Output
-				TaskParameter="CopiedFiles"
-				ItemName="SuccessfullyCopiedFiles"/>
+		<Copy Condition="'$(OutputEditor)' == 'true'" SkipUnchangedFiles="true" SourceFiles="@(CopyTargets)" DestinationFolder="$(ProjectDir)$(EditorOutputDirectory)">
+			<Output TaskParameter="CopiedFiles" ItemName="SuccessfullyCopiedFiles" />
 		</Copy>
 	</Target>
 </Project>
