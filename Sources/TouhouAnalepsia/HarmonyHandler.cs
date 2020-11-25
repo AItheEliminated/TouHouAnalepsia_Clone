@@ -3,7 +3,7 @@ using System.Reflection;
 using HarmonyLib;
 namespace TouhouAnalepsia {
 	class HarmonyHandler {
-		protected static Harmony harmony { get; private set; } = new Harmony("hinageshi.touhouAnalepsia");
+		protected static Harmony harmony { get; private set; } = new Harmony("org.hinageshi.touhouanalepsia");
 
 		/* Sample Harmony program
 		
