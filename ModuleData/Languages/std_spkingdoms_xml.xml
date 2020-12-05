@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="Kingdoms.Kingdom.hakurei_shrine.name" text="Hakurei Shrine" />
+    <string id="Kingdoms.Kingdom.hakurei_shrine.title" text="Hakurei Shrine" />
+    <string id="Kingdoms.Kingdom.hakurei_shrine.ruler_title" text="Shrine Maiden" />
+    <string id="Kingdoms.Kingdom.human_city.name" text="Human City" />
+    <string id="Kingdoms.Kingdom.eientei.name" text="Eientei" />
+    <string id="Kingdoms.Kingdom.scarlet_empire.name" text="Scarlet Empire" />
+    <string id="Kingdoms.Kingdom.scarlet_empire.ruler_title" text="Emperor" />
+    <string id="Kingdoms.Kingdom.misty_empire.name" text="Mistylake Empire" />
+    <string id="Kingdoms.Kingdom.misty_empire.ruler_title" text="Emperor" />
+    <string id="Kingdoms.Kingdom.anokuni.name" text="Amanojaku no Kuni" />
+    <string id="Kingdoms.Kingdom.kyuutaki.name" text="Kyuuten no Taki" />
+    <string id="Kingdoms.Kingdom.underworld.name" text="Underworld" />
+    <string id="Kingdoms.Kingdom.netherworld.name" text="Netherworld" />
+    <string id="Kingdoms.Kingdom.shogunate.name" text="Shogunate of the Gods" />
+    <string id="Kingdoms.Kingdom.shogunate.short_name" text="Shogunate" />
+    <string id="Kingdoms.Kingdom.shogunate.ruler_title" text="Shogun" />
+  </strings>
+</base>

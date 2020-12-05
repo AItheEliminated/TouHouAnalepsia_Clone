@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <string id="str_neutral_term_for_culture.human" text="{=Cultures.Culture.human.name}Human" />
+    <string id="str_neutral_term_for_culture.youkai" text="{=Cultures.Culture.youkai.name}Youkai" />
+    <string id="str_neutral_term_for_culture.fairy" text="{=Cultures.Culture.fairy.name}Fairy" />
+  </strings>
+</base>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="kokoro" default_group="Infantry" level="20" age="1300" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.kokoro.name}Kokoro" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="sumireko" default_group="Infantry" level="20" age="16" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.sumireko.name}Sumireko" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="joon" default_group="Infantry" level="20" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.joon.name}Joon" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="shion" default_group="Infantry" level="20" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.shion.name}Shion" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="joutouguu" default_group="Infantry" level="20" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.joutouguu.name}Joutouguu" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="keiki" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.keiki.name}Keiki" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="clownpiece" default_group="Infantry" level="20" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.clownpiece.name}Clownpiece" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="junko" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.junko.name}Junko" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+</NPCCharacters>

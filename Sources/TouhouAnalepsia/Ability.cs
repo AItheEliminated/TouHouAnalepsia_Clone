@@ -85,9 +85,9 @@ namespace TouhouAnalepsia {
 			if (!agent.IsHuman) return newAbility; // Insures agent is Human, that is, not a horse. Support for non-human creatures is something to be done for the future... Maybe.
 
 			if (agent.Origin==null) {
-				InformationManager.DisplayMessage(new InformationMessage("Error at calculateAbility! Origin is Null!"));
+				Logger.Log("Error at calculateAbility! Origin is Null!");
 				return newAbility;
-			} //else InformationManager.DisplayMessage(new InformationMessage("Sucess at calculateAbility! Origin is not Null!"));
+			}
 
 			newAbility = newAbility.add(abilityFromLevel(agent.Origin.Troop.Level))
 								   .add(abilityFromCulture(agent.Origin.Troop.Culture));
@@ -96,12 +96,14 @@ namespace TouhouAnalepsia {
 		private static Ability abilityFromLevel(int level) {
 			Ability newAbility = new Ability();
 			newAbility.hpScaled *= Math.Max(1.0, (Math.Pow(1.07, level) - Math.Sqrt(level)/10));
-			//newAbility.hpScaled *= 2;
 			return newAbility;
 		}
 		private static Ability abilityFromCulture(BasicCultureObject culture) {
 			Ability newAbility = new Ability();
-			newAbility.hpHealedPerMinute += 10;
+			
+			if (culture.StringId.Equals("fairy")) newAbility.hpHealedPerMinute += 10;
+
+			if (culture.StringId.Equals("youkai")) newAbility.hpScaled *= 2;
 
 			//if (culture.IsBandit) newAbility.movementSpeed += 5; //Currently movement speed increase seems impossible... More work is to be done on this.
 			//newAbility.movementSpeed += 5;

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="NPCCharacters.NPCCharacter.villager_human.name" text="Human Villager" />
+    <string id="NPCCharacters.NPCCharacter.villager_youkai.name" text="Minor Youkai" />
+    <string id="NPCCharacters.NPCCharacter.villager_fairy.name" text="Lesser Fairy" />
+  </strings>
+</base>

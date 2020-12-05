@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="Settlements.Settlement.castle_HS1.name" text="Sukuna Castle" />
+    <string id="Settlements.Settlement.castle_HS2.name" text="Fantasy Ruins" />
+    <string id="Settlements.Settlement.castle_HS3.name" text="Sumeru Hall" />
+    <string id="Settlements.Settlement.castle_HS4.name" text="Youkai Trail" />
+    <string id="Settlements.Settlement.castle_HS5.name" text="Spring Path" />
+    <string id="Settlements.Settlement.castle_HS6.name" text="Senbon Tori" />
+    <string id="Settlements.Settlement.castle_HS7.name" text="Forest of Magic" />
+    <string id="Settlements.Settlement.castle_HS8.name" text="Fujiyama Volcano Tower" />
+    <string id="Settlements.Settlement.castle_HS9.name" text="No Man's Land" />
+    <string id="Settlements.Settlement.town_HS1.name" text="KishinJou" />
+    <string id="Settlements.Settlement.town_HS2.name" text="The Realm of Vagueness" />
+    <string id="Settlements.Settlement.town_HS3.name" text="Hakurei Shrine" />
+    <string id="Settlements.Settlement.town_HS4.name" text="Ibuki City" />
+    <string id="Settlements.Settlement.town_HS5.name" text="Kirisame Town" />
+    <string id="Settlements.Settlement.town_HS6.name" text="Nirvana City" />
+    <string id="Settlements.Settlement.town_HS7.name" text="Margatroid's House" />
+    <string id="Settlements.Settlement.castle_HC1.name" text="Road of Lingering Snow" />
+    <string id="Settlements.Settlement.castle_HC2.name" text="Canal of Willows" />
+    <string id="Settlements.Settlement.town_HC1.name" text="Human City" />
+    <string id="Settlements.Settlement.castle_ET1.name" text="Inaba Camp" />
+    <string id="Settlements.Settlement.castle_ET2.name" text="Wood of Birdsong" />
+    <string id="Settlements.Settlement.castle_ET3.name" text="Nightbug Hill" />
+    <string id="Settlements.Settlement.castle_ET4.name" text="Aldebaran Palace" />
+    <string id="Settlements.Settlement.castle_ET5.name" text="Interstellar Gate" />
+    <string id="Settlements.Settlement.castle_ET6.name" text="Nameless Hill" />
+    <string id="Settlements.Settlement.castle_ET7.name" text="Garden of the Sun" />
+    <string id="Settlements.Settlement.castle_ET8.name" text="Hercules-Corona Borealis Great Wall" />
+    <string id="Settlements.Settlement.town_ET1.name" text="Takakusa-gun" />
+    <string id="Settlements.Settlement.town_ET2.name" text="Fujiwara City" />
+    <string id="Settlements.Settlement.town_ET3.name" text="Luna Mirror Pond" />
+    <string id="Settlements.Settlement.town_ET4.name" text="Universe Great Wall Palace" />
+    <string id="Settlements.Settlement.town_ET5.name" text="Mansion of Fantasies" />
+    <string id="Settlements.Settlement.town_ET6.name" text="Eientei" />
+    <string id="Settlements.Settlement.castle_SE1.name" text="Scarlet Cross" />
+    <string id="Settlements.Settlement.castle_SE2.name" text="Seven Luminaries Acedemia" />
+    <string id="Settlements.Settlement.castle_SE3.name" text="Prominence Tower" />
+    <string id="Settlements.Settlement.castle_SE4.name" text="Cranberry Tower" />
+    <string id="Settlements.Settlement.castle_SE5.name" text="Ghost Mansion" />
+    <string id="Settlements.Settlement.castle_SE6.name" text="Black Tea Castle" />
+    <string id="Settlements.Settlement.castle_SE7.name" text="Late Dawn Castle" />
+    <string id="Settlements.Settlement.castle_SE8.name" text="Phantom Meadow" />
+    <string id="Settlements.Settlement.castle_SE9.name" text="Pudding Castle for Flandre" />
+    <string id="Settlements.Settlement.town_SE1.name" text="Voile, the Magic Library" />
+    <string id="Settlements.Settlement.town_SE2.name" text="Koumakan" />
+    <string id="Settlements.Settlement.town_SE3.name" text="Luna Clock" />
+    <string id="Settlements.Settlement.town_SE4.name" text="Foggy Stream" />
+    <string id="Settlements.Settlement.town_SE5.name" text="Prismriver Mansion" />
+    <string id="Settlements.Settlement.town_SE6.name" text="Darkness Castle" />
+    <string id="Settlements.Settlement.castle_ME1.name" text="New Koumakan" />
+    <string id="Settlements.Settlement.castle_ME2.name" text="Tachiiri Kinshi" />
+    <string id="Settlements.Settlement.castle_ME3.name" text="Dessert Town" />
+    <string id="Settlements.Settlement.castle_ME4.name" text="Many Many Forts" />
+    <string id="Settlements.Settlement.castle_ME5.name" text="Fairies Huge Tree" />
+    <string id="Settlements.Settlement.castle_ME6.name" text="Empty Stump Castle" />
+    <string id="Settlements.Settlement.castle_ME7.name" text="Sashimi Hall" />
+    <string id="Settlements.Settlement.castle_ME8.name" text="Castle of Icefairy" />
+    <string id="Settlements.Settlement.town_ME1.name" text="Tree of Life" />
+    <string id="Settlements.Settlement.town_ME2.name" text="Sunny and everyone's new garden" />
+    <string id="Settlements.Settlement.town_ME3.name" text="Night God's Wood" />
+    <string id="Settlements.Settlement.town_ME4.name" text="Bright Moon Bay" />
+    <string id="Settlements.Settlement.town_ME5.name" text="Twinkle Twinkle Little Chateau" />
+    <string id="Settlements.Settlement.castle_AK1.name" text="Youkai Visiting Way" />
+    <string id="Settlements.Settlement.castle_AK2.name" text="Yamanashi-ken" />
+    <string id="Settlements.Settlement.castle_AK3.name" text="Undefined Castle" />
+    <string id="Settlements.Settlement.castle_AK4.name" text="Execution Stone" />
+    <string id="Settlements.Settlement.castle_AK5.name" text="Five Strings Stage" />
+    <string id="Settlements.Settlement.castle_AK6.name" text="Snow Pass" />
+    <string id="Settlements.Settlement.castle_AK7.name" text="Liberation Fort" />
+    <string id="Settlements.Settlement.castle_AK8.name" text="Mermaid Palace" />
+    <string id="Settlements.Settlement.town_AK1.name" text="Youkai Tanuki Forest" />
+    <string id="Settlements.Settlement.town_AK2.name" text="Capital of Drum roll" />
+    <string id="Settlements.Settlement.town_AK3.name" text="Banki City" />
+    <string id="Settlements.Settlement.town_AK4.name" text="Full Moon Town" />
+    <string id="Settlements.Settlement.town_AK5.name" text="No-Higher City" />
+    <string id="Settlements.Settlement.town_AK6.name" text="Jolly Corner" />
+    <string id="Settlements.Settlement.castle_KT1.name" text="Refining Temple" />
+    <string id="Settlements.Settlement.castle_KT2.name" text="Mystereous Sea of Clouds" />
+    <string id="Settlements.Settlement.castle_KT3.name" text="Eagle's Roost Valley" />
+    <string id="Settlements.Settlement.castle_KT4.name" text="Demon-sealing City" />
+    <string id="Settlements.Settlement.castle_KT5.name" text="White Fox Hill" />
+    <string id="Settlements.Settlement.castle_KT6.name" text="Maple Falling Field" />
+    <string id="Settlements.Settlement.castle_KT7.name" text="Pass of Wind Gods" />
+    <string id="Settlements.Settlement.castle_KT8.name" text="Sentry of Thousand-Yard Stare" />
+    <string id="Settlements.Settlement.town_KT1.name" text="Feather Peak" />
+    <string id="Settlements.Settlement.town_KT2.name" text="Bhavaag City" />
+    <string id="Settlements.Settlement.town_KT3.name" text="County of Youkai Forest" />
+    <string id="Settlements.Settlement.town_KT4.name" text="City of Nine Heavens Waterfall" />
+    <string id="Settlements.Settlement.town_KT5.name" text="Shrine of Izanagi" />
+    <string id="Settlements.Settlement.castle_UW1.name" text="Fantastic Blowhole" />
+    <string id="Settlements.Settlement.castle_UW2.name" text="Deep Road to Hell" />
+    <string id="Settlements.Settlement.castle_UW3.name" text="Hot Spring Street" />
+    <string id="Settlements.Settlement.castle_UW4.name" text="Requiem Tower" />
+    <string id="Settlements.Settlement.castle_UW5.name" text="Castle of Flaming Wheels" />
+    <string id="Settlements.Settlement.castle_UW6.name" text="Tokamak Device" />
+    <string id="Settlements.Settlement.castle_UW7.name" text="Needle Hill of Elder Hell" />
+    <string id="Settlements.Settlement.castle_UW8.name" text="Sai no Kawara" />
+    <string id="Settlements.Settlement.town_UW1.name" text="Rainbow Cavern of Earth Spirits" />
+    <string id="Settlements.Settlement.town_UW2.name" text="Former Hell Street" />
+    <string id="Settlements.Settlement.town_UW3.name" text="Remains of Blazing Hell" />
+    <string id="Settlements.Settlement.town_UW4.name" text="Palace of the Earth Spirits" />
+    <string id="Settlements.Settlement.town_UW5.name" text="Underground Geyser Center" />
+    <string id="Settlements.Settlement.town_UW6.name" text="Nuclear Furnace" />
+    <string id="Settlements.Settlement.castle_NW1.name" text="Mayohiga" />
+    <string id="Settlements.Settlement.castle_NW2.name" text="Infernal Hell" />
+    <string id="Settlements.Settlement.castle_NW3.name" text="Death Cliff" />
+    <string id="Settlements.Settlement.castle_NW4.name" text="Enterance of Animal Realm" />
+    <string id="Settlements.Settlement.castle_NW5.name" text="Soul Ferry" />
+    <string id="Settlements.Settlement.castle_NW6.name" text="Higanbana Sea" />
+    <string id="Settlements.Settlement.castle_NW7.name" text="Hakugyokurou's Stairs" />
+    <string id="Settlements.Settlement.castle_NW8.name" text="Barrier of Life and Death" />
+    <string id="Settlements.Settlement.town_NW1.name" text="Hibernating City" />
+    <string id="Settlements.Settlement.town_NW2.name" text="Capital of Hell" />
+    <string id="Settlements.Settlement.town_NW3.name" text="The Ministry of Right and Wrong" />
+    <string id="Settlements.Settlement.town_NW4.name" text="Primate Spirit Garden" />
+    <string id="Settlements.Settlement.town_NW5.name" text="Sanzu River Town" />
+    <string id="Settlements.Settlement.town_NW6.name" text="Hakugyokurou" />
+    <string id="Settlements.Settlement.castle_SG1.name" text="Wood Fall Gate" />
+    <string id="Settlements.Settlement.castle_SG2.name" text="Road of Reconsideration" />
+    <string id="Settlements.Settlement.castle_SG3.name" text="Muenzuka" />
+    <string id="Settlements.Settlement.castle_SG4.name" text="Hina Stream" />
+    <string id="Settlements.Settlement.castle_SG5.name" text="Nitori's Defense Line" />
+    <string id="Settlements.Settlement.castle_SG6.name" text="Sizuha Palace" />
+    <string id="Settlements.Settlement.castle_SG7.name" text="Geyser" />
+    <string id="Settlements.Settlement.castle_SG8.name" text="Sakata Castle" />
+    <string id="Settlements.Settlement.town_SG1.name" text="Kazahouri Town" />
+    <string id="Settlements.Settlement.town_SG2.name" text="Road of Liminality" />
+    <string id="Settlements.Settlement.town_SG3.name" text="Moriya Shrine" />
+    <string id="Settlements.Settlement.town_SG4.name" text="Genbu Ravine" />
+    <string id="Settlements.Settlement.town_SG5.name" text="Wind God's Lake" />
+    <string id="Settlements.Settlement.town_SG6.name" text="Minoriko Palace" />
+  </strings>
+</base>

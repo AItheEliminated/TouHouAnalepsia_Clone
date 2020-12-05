@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="villager_human" default_group="Infantry" level="2" age="23" is_hero="" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.villager_human.name}Human Villager" occupation="Villager" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" age="20" weight="0.3164" build="0.2485" />
+      <BodyPropertiesMax version="4" key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" age="69.94" weight="0.9923" build="0.7052" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="villager_youkai" default_group="Cavalry" level="4" age="23" is_hero="" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.villager_youkai.name}Minor Youkai" occupation="Villager" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady" skill_template="NPCCharacter.cavalry_lightcavalry_heavycavalry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" age="25.57" weight="0.3164" build="0.2485" />
+      <BodyPropertiesMax version="4" key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" age="30" weight="0.8" build="0.7052" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="villager_fairy" default_group="Ranged" level="1" age="23" is_hero="" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.villager_fairy.name}Lesser Fairy" occupation="Villager" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady" skill_template="NPCCharacter.ranged_skirmisher_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" age="12.5" weight="0.2" build="0.2485" />
+      <BodyPropertiesMax version="4" key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" age="30" weight="0.5" build="0.7052" />
+    </face>
+    <equipmentSet />
+  </NPCCharacter>
+</NPCCharacters>

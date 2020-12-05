@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="reimu" default_group="Infantry" level="30" age="17" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.reimu.name}Reimu" banner_key="26.35.83.1128.1725.764.764.1.0.90.510.83.116.323.240.870.764.1.0.-90.510.83.116.323.240.658.764.1.0.-90.510.83.116.323.240.764.594.1.0.0" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="suika" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.suika.name}Suika" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="fujiwara" default_group="Infantry" level="30" age="1300" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.fujiwara.name}Fujiwara" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="marisa" default_group="Ranged" level="30" age="16" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.marisa.name}Marisa" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="alice" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.alice.name}Alice" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="shanghai" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.shanghai.name}Shanghai" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="sukuna" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.sukuna.name}Sukuna" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="mima" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.mima.name}Mima" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="aunn" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.aunn.name}Aunn" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="narumi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.narumi.name}Narumi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="akyuu" default_group="Infantry" level="30" age="26" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.akyuu.name}Akyuu" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="cirno" default_group="Ranged" level="30" age="60" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.cirno.name}Cirno" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="tenshi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.tenshi.name}Tenshi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="yuuka" default_group="Infantry" level="30" age="60" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.yuuka.name}Yuuka" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="eirin" default_group="Infantry" level="30" age="1500" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.eirin.name}Eirin" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="kaguya" default_group="Infantry" level="30" age="1400" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.kaguya.name}Kaguya" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="kurumi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.kurumi.name}Kurumi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="reisen" default_group="Infantry" level="30" age="40" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.reisen.name}Reisen" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="tewi" default_group="Infantry" level="30" age="1300" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.tewi.name}Tewi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="elly" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.elly.name}Elly" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="medicine" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.medicine.name}Medicine" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="wriggle" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.wriggle.name}Wriggle" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="remelia" default_group="Infantry" level="30" age="500" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.remelia.name}Remelia" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="lunasa" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.lunasa.name}Lunasa" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="patchouli" default_group="Infantry" level="30" age="100" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.patchouli.name}Patchouli" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="sakuya" default_group="Infantry" level="30" age="20" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.sakuya.name}Sakuya" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="koakuma" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.koakuma.name}Koakuma" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="hong" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.hong.name}Hong" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="merlin" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.merlin.name}Merlin" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="lyrica" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.lyrica.name}Lyrica" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="flandre" default_group="Infantry" level="30" age="495" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.flandre.name}Flandre" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="eternity" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.eternity.name}Eternity" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="star" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.star.name}Star" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="luna" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.luna.name}Lunasa" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="sunny" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.sunny.name}Sunny" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="letty" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.letty.name}Letty" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="lily0" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.lily0.name}Lily" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="lily1" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.lily1.name}Lily" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="seija" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.seija.name}Seija" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="raiko" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.raiko.name}Raiko" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="kagerou" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.kagerou.name}Kagerou" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="yatsuhashi" default_group="Infantry" level="30" age="1" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.yatsuhashi.name}Yatsuhashi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="sekibanki" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.sekibanki.name}Sekibanki" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="nue" default_group="Infantry" level="30" age="800" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.nue.name}Nue" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="wakasagihime" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.wakasagihime.name}Wakasagihime" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="benben" default_group="Infantry" level="30" age="1" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.benben.name}Benben" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="tenma" default_group="Infantry" level="30" age="900" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.tenma.name}Tenma" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="tengu" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.tengu.name}Tengu" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="hatate" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.hatate.name}Hatate" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="momizi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.momizi.name}Momizi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="aya" default_group="Infantry" level="30" age="1000" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.aya.name}Aya" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="rumia" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.rumia.name}Rumia" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="mugetsu" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.mugetsu.name}Mugestu" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="gengetsu" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.gengetsu.name}Gengetsu" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="yachi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.yachi.name}Yachi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="yugi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.yugi.name}Yugi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="konngara" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.konngara.name}Konngara" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="satori" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.satori.name}Satori" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="ustuho" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.ustuho.name}Utsuho" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="koishi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.koishi.name}Koishi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="yamame" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.yamame.name}Yamame" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="rin" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.rin.name}Rin" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="eika" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.eika.name}Eika" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="parsee" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.parsee.name}Parsee" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="kisume" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.kisume.name}Kisume" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="yuyuko" default_group="Infantry" level="30" age="1000" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.yuyuko.name}Yuyuko" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="komachi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.komachi.name}Komachi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="yamaxanadu" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.yamaxanadu.name}Yamaxanadu" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="kutaka" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.kutaka.name}Kutaka" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="yukari" default_group="Infantry" level="30" age="1200" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.yukari.name}Yukari" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="ran" default_group="Infantry" level="30" age="900" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.ran.name}Ran" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="youmu" default_group="Infantry" level="30" age="60" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.youmu.name}Youmu" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="chen" default_group="Infantry" level="30" age="30" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.chen.name}Chen" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="kanako" default_group="Infantry" level="30" age="2000" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.kanako.name}Kanako" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="minoriko" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.minoriko.name}Minoriko" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="suwako" default_group="Infantry" level="30" age="2300" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.suwako.name}Suwako" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="nitori" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.nitori.name}Nitori" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="urumi" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.urumi.name}Urumi" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="sanae" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.sanae.name}Sanae" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="sizuha" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.sizuha.name}Sizuha" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="nemuno" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.nemuno.name}Nemuno" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+  <NPCCharacter id="hina" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.hina.name}Hina" occupation="Lord" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
+    <equipmentSet />
+  </NPCCharacter>
+</NPCCharacters>

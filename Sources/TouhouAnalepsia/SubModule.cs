@@ -2,6 +2,7 @@
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.Library;
 
 namespace TouhouAnalepsia
 {
@@ -10,13 +11,30 @@ namespace TouhouAnalepsia
 			base.OnSubModuleLoad();
 		}
 		public override void OnMissionBehaviourInitialize(Mission mission) {
-			base.OnMissionBehaviourInitialize(mission);
 			mission.AddMissionBehaviour(new AbilityBattleLogic());
+
+			base.OnMissionBehaviourInitialize(mission);
 		}
 		protected override void OnGameStart(Game game, IGameStarter gameStarterObject) {
 			gameStarterObject.AddModel(new TouhouMarriageModel());
+			gameStarterObject.AddModel(new TouhouAgeModel());
+			gameStarterObject.AddModel(new TouhouHeroDeathProbabilityCalculationModel());
 
-			game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
+			loadLocalizationData((CampaignGameStarter)gameStarterObject);
+			//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
+
+			base.OnGameStart(game, gameStarterObject);
+		}
+		public override void OnCampaignStart(Game game, object starterObject) {
+			CampaignGameStarter campaignGameStarter = (CampaignGameStarter)starterObject;
+
+			campaignGameStarter.AddBehavior(new CompanionHandler.CompanionCampaignBehavior());
+
+			base.OnCampaignStart(game, starterObject);
+		}
+
+		private void loadLocalizationData(CampaignGameStarter gameStarter) {
+			gameStarter.LoadGameTexts(BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/module_strings.xml");
 		}
 	}
 }

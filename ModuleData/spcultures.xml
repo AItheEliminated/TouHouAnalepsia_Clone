@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+  <Culture id="human" name="{=Cultures.Culture.human.name}Human" is_main_culture="true" can_have_settlement="true" town_edge_number="16" prosperity_bonus="1" encounter_background_mesh="encounter_aserai" basic_troop="NPCCharacter.aserai_recruit" elite_basic_troop="NPCCharacter.aserai_youth" default_party_template="PartyTemplate.kingdom_hero_party_empire_template">
+    <male_names>
+      <name name="{Culture.male_names.akihito}Akihito" />
+      <name name="{Culture.male_names.akimitsu}Akimitsu" />
+      <name name="{Culture.male_names.arata}Arata" />
+      <name name="{Culture.male_names.chihiro}Chihiro" />
+      <name name="{Culture.male_names.daichi}Daichi" />
+      <name name="{Culture.male_names.fumihito}Fumihito" />
+      <name name="{Culture.male_names.goro}Goro" />
+      <name name="{Culture.male_names.haru}Haru" />
+      <name name="{Culture.male_names.hayate}Hayate" />
+      <name name="{Culture.male_names.hiroto}Hiroto" />
+      <name name="{Culture.male_names.kaedo}Kaedo" />
+      <name name="{Culture.male_names.kaito}Kaito" />
+      <name name="{Culture.male_names.kei}Kei" />
+      <name name="{Culture.male_names.ken}Ken" />
+      <name name="{Culture.male_names.koji}Koji" />
+      <name name="{Culture.male_names.michi}Michi" />
+      <name name="{Culture.male_names.nobu}Nobu" />
+      <name name="{Culture.male_names.shion}Shion" />
+      <name name="{Culture.male_names.shiro}Shiro" />
+      <name name="{Culture.male_names.sora}Sora" />
+      <name name="{Culture.male_names.subaru}Subaru" />
+      <name name="{Culture.male_names.takashi}Takashi" />
+      <name name="{Culture.male_names.tsubasa}Tsubasa" />
+      <name name="{Culture.male_names.yori}Yori" />
+      <name name="{Culture.male_names.yoshi}Yoshi" />
+      <name name="{Culture.male_names.yuki}Yuki" />
+    </male_names>
+    <female_names>
+      <name name="{Culture.female_names.airi}Airi" />
+      <name name="{Culture.female_names.akari}Akari" />
+      <name name="{Culture.female_names.ayame}Ayame" />
+      <name name="{Culture.female_names.chika}Chika" />
+      <name name="{Culture.female_names.chou}Chou" />
+      <name name="{Culture.female_names.ema}Ema" />
+      <name name="{Culture.female_names.emi}Emi" />
+      <name name="{Culture.female_names.etsuko}Etsuko" />
+      <name name="{Culture.female_names.fuyuko}Fuyuko" />
+      <name name="{Culture.female_names.hanae}Hanae" />
+      <name name="{Culture.female_names.haruka}Haruka" />
+      <name name="{Culture.female_names.hibiki}Hibiki" />
+      <name name="{Culture.female_names.hikari}Hikari" />
+      <name name="{Culture.female_names.hina}Hina" />
+      <name name="{Culture.female_names.hitomi}Hitomi" />
+      <name name="{Culture.female_names.honoka}Honoka" />
+      <name name="{Culture.female_names.hosha}Hosha" />
+      <name name="{Culture.female_names.hotaru}Hotaru" />
+      <name name="{Culture.female_names.izumi}Izumi" />
+      <name name="{Culture.female_names.jun}Jun" />
+      <name name="{Culture.female_names.kaede}Kaede" />
+      <name name="{Culture.female_names.kanako}Kanako" />
+      <name name="{Culture.female_names.kaori}Kaori" />
+      <name name="{Culture.female_names.kasumi}Kasumi" />
+      <name name="{Culture.female_names.kei}Kei" />
+      <name name="{Culture.female_names.kimiko}Kimiko" />
+      <name name="{Culture.female_names.kyoko}Kyoko" />
+      <name name="{Culture.female_names.mai}Mai" />
+      <name name="{Culture.female_names.makoto}Makoto" />
+      <name name="{Culture.female_names.mayu}Mayu" />
+      <name name="{Culture.female_names.megumi}Megumi" />
+      <name name="{Culture.female_names.mei}Mei" />
+      <name name="{Culture.female_names.mika}Mika" />
+      <name name="{Culture.female_names.miku}Miku" />
+      <name name="{Culture.female_names.moriko}Moriko" />
+      <name name="{Culture.female_names.nanami}Nanami" />
+      <name name="{Culture.female_names.natsumi}Natsumi" />
+      <name name="{Culture.female_names.rei}Rei" />
+      <name name="{Culture.female_names.rin}Rin" />
+      <name name="{Culture.female_names.sachie}Sachie" />
+      <name name="{Culture.female_names.saki}Saki" />
+      <name name="{Culture.female_names.sakura}Sakura" />
+      <name name="{Culture.female_names.saori}Saori" />
+      <name name="{Culture.female_names.shion}Shion" />
+      <name name="{Culture.female_names.sumiko}Sumiko" />
+      <name name="{Culture.female_names.takara}Takara" />
+      <name name="{Culture.female_names.tokomo}Tokomo" />
+      <name name="{Culture.female_names.tsubasa}Tsubasa" />
+      <name name="{Culture.female_names.wakana}Wakana" />
+      <name name="{Culture.female_names.yoshi}Yoshi" />
+      <name name="{Culture.female_names.youko}Youko" />
+      <name name="{Culture.female_names.yui}Yui" />
+      <name name="{Culture.female_names.yuka}Yuka" />
+      <name name="{Culture.female_names.yuki}Yuki" />
+      <name name="{Culture.female_names.yumi}Yumi" />
+      <name name="{Culture.female_names.yuri}Yuri" />
+      <name name="{Culture.female_names.yuzuki}Yuzuki" />
+    </female_names>
+    <clan_names>
+      <name name="{Culture.clan_names.nagai}Nagai" />
+      <name name="{Culture.clan_names.sato}Sato" />
+      <name name="{Culture.clan_names.suzuki}Suzuki" />
+      <name name="{Culture.clan_names.takahashi}Takahashi" />
+      <name name="{Culture.clan_names.tanaka}Tanaka" />
+      <name name="{Culture.clan_names.watanabe}Watanabe" />
+      <name name="{Culture.clan_names.ito}Ito" />
+      <name name="{Culture.clan_names.yamamoto}Yamamoto" />
+      <name name="{Culture.clan_names.nakamura}Nakamura" />
+      <name name="{Culture.clan_names.kobayashi}Kobayashi" />
+      <name name="{Culture.clan_names.kato}Kato" />
+      <name name="{Culture.clan_names.yoshida}Yoshida" />
+      <name name="{Culture.clan_names.yamada}Yamada" />
+      <name name="{Culture.clan_names.sasaki}Sasaki" />
+      <name name="{Culture.clan_names.yamaguchi}Yamaguchi" />
+      <name name="{Culture.clan_names.saito}Saito" />
+      <name name="{Culture.clan_names.matsumoto}Matsumoto" />
+      <name name="{Culture.clan_names.inoue}Inoue" />
+      <name name="{Culture.clan_names.kimura}Kimura" />
+      <name name="{Culture.clan_names.hayashi}Hayashi" />
+      <name name="{Culture.clan_names.shimizu}Shimizu" />
+    </clan_names>
+  </Culture>
+  <Culture id="youkai" name="{=Cultures.Culture.youkai.name}Youkai" is_main_culture="true" can_have_settlement="true" town_edge_number="16" militia_bonus="1" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" />
+  <Culture id="fairy" name="{=Cultures.Culture.fairy.name}Fairy" is_main_culture="true" can_have_settlement="true" town_edge_number="16" prosperity_bonus="1" encounter_background_mesh="encounter_vlandia" basic_troop="NPCCharacter.vlandian_recruit" elite_basic_troop="NPCCharacter.vlandian_squire" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" />
+</SPCultures>

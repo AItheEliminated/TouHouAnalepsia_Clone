@@ -111,17 +111,17 @@ namespace TouhouAnalepsia {
 
 		public override int HeroComesOfAge {
 			get {
-				return 18;
+				return 16;
 			}
 		}
 		public override int BecomeOldAge { //See MaxAge comment bellow.
 			get {
-				return 500;
+				return 5000;
 			}
 		}
 		public override int MaxAge { //Or something similar, further testing on game effects of this is needed. Doesn't *seem* to effect much except visual stuff in dnSpy, but probably something I'm missing.
 			get {
-				return 4000;
+				return 10000;
 			}
 		}
 	}

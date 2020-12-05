@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="NPCCharacters.NPCCharacter.kokoro.name" text="Kokoro" />
+    <string id="NPCCharacters.NPCCharacter.sumireko.name" text="Sumireko" />
+    <string id="NPCCharacters.NPCCharacter.joon.name" text="Joon" />
+    <string id="NPCCharacters.NPCCharacter.shion.name" text="Shion" />
+    <string id="NPCCharacters.NPCCharacter.joutouguu.name" text="Joutouguu" />
+    <string id="NPCCharacters.NPCCharacter.keiki.name" text="Keiki" />
+    <string id="NPCCharacters.NPCCharacter.clownpiece.name" text="Clownpiece" />
+    <string id="NPCCharacters.NPCCharacter.junko.name" text="Junko" />
+  </strings>
+</base>
