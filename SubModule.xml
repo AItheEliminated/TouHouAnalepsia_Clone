@@ -24,5 +24,12 @@
 		</SubModule>
 	</SubModules>
 	<Xmls>
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="test_npcs"/>
+			<IncludedGameTypes>
+				<GameType value = "TestGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
 	</Xmls>
 </Module>
