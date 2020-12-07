@@ -15,7 +15,7 @@ namespace TouhouAnalepsia {
 		}
 		public override void OnAgentRemoved(Agent affectedAgent, Agent affectorAgent, AgentState agentState, KillingBlow blow) {
 			base.OnAgentRemoved(affectedAgent, affectorAgent, agentState, blow);
-			if (initializedAgents.Remove(affectedAgent)); //InformationManager.DisplayMessage(new InformationMessage("Agent died! Removed from list.")); //Debug information, if statement method must be present, however.
+			initializedAgents.Remove(affectedAgent);
 		}
 		public override void OnMissionTick(float dt) {
 			base.OnMissionTick(dt);

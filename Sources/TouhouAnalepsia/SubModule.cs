@@ -16,9 +16,9 @@ namespace TouhouAnalepsia
 			base.OnMissionBehaviourInitialize(mission);
 		}
 		protected override void OnGameStart(Game game, IGameStarter gameStarterObject) {
-			gameStarterObject.AddModel(new TouhouMarriageModel());
-			gameStarterObject.AddModel(new TouhouAgeModel());
-			gameStarterObject.AddModel(new TouhouHeroDeathProbabilityCalculationModel());
+			FactionCulture.initializeFactionCultures();
+
+			TouhouModelManager.initializeTouhouModels(gameStarterObject);
 
 			loadLocalizationData((CampaignGameStarter)gameStarterObject);
 			//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);

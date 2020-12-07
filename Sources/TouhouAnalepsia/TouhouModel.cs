@@ -9,17 +9,31 @@ using TaleWorlds.MountAndBlade;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Localization;
 using Helpers;
+using TaleWorlds.CampaignSystem.SandBox.GameComponents;
+using TaleWorlds.CampaignSystem.SandBox.GameComponents.Map;
 
 namespace TouhouAnalepsia {
-    class TouhouMarriageModel : MarriageModel {
-		public override int MinimumMarriageAgeMale { //Vanilla Settings
+	public class TouhouModelManager {
+		public static void initializeTouhouModels(IGameStarter gameStarterObject) {
+			gameStarterObject.AddModel(new TouhouMarriageModel());
+
+			gameStarterObject.AddModel(new TouhouAgeModel());
+			gameStarterObject.AddModel(new TouhouHeroDeathProbabilityCalculationModel());
+
+			gameStarterObject.AddModel(new TouhouDiplomacyModel());
+
+			gameStarterObject.AddModel(new TouhouKingdomCreationModel());
+		}
+	}
+    class TouhouMarriageModel : DefaultMarriageModel {
+		public override int MinimumMarriageAgeMale {
 			get {
-				return 18;
+				return 16;
 			}
 		}
-		public override int MinimumMarriageAgeFemale { //Vanilla Settings
+		public override int MinimumMarriageAgeFemale {
 			get {
-				return 18;
+				return 16;
 			}
 		}
 		public override bool IsCoupleSuitableForMarriage(Hero firstHero, Hero secondHero) {
@@ -32,20 +46,15 @@ namespace TouhouAnalepsia {
 			}
 			//Yuri procreation, of course, and incest is *probably* not too big of a deal. TODO: Perhaps some unique mechanic for procreation?
 			//if (firstHero.IsFemale != secondHero.IsFemale && !this.DiscoverAncestors(firstHero, 3).Intersect(this.DiscoverAncestors(secondHero, 3)).Any<Hero>()) {
-			return this.IsSuitableForMarriage(firstHero) && this.IsSuitableForMarriage(secondHero);
-			//}
-			//return false;
-		}
-		public override List<Hero> GetChildrenSuitableForMarriage(Hero hero) { //Vanilla Settings
-			List<Hero> list = new List<Hero>();
-			foreach (Hero hero2 in hero.Children) {
-				if (this.IsSuitableForMarriage(hero2)) {
-					list.Add(hero2);
-				}
+
+			//Reimplemented the incest check for human cultures.
+			if ((!CultureHandler.isHuman(firstHero.Culture) && !CultureHandler.isHuman(secondHero.Culture)) || !this.DiscoverAncestors(firstHero, 3).Intersect(this.DiscoverAncestors(secondHero, 3)).Any<Hero>()) {
+				return this.IsSuitableForMarriage(firstHero) && this.IsSuitableForMarriage(secondHero);
 			}
-			return list;
+			//}
+			return false;
 		}
-		private IEnumerable<Hero> DiscoverAncestors(Hero hero, int n) { //Vanilla Settings
+		private IEnumerable<Hero> DiscoverAncestors(Hero hero, int n) { // Vanilla Settings
 			if (hero != null) {
 				yield return hero;
 				if (n > 0) {
@@ -57,41 +66,9 @@ namespace TouhouAnalepsia {
 					}
 				}
 			}
-			yield break;
-		}
-		public override int GetEffectiveRelationIncrease(Hero firstHero, Hero secondHero) { //Vanilla Settings
-			ExplainedNumber explainedNumber = new ExplainedNumber(20f, null);
-			SkillHelper.AddSkillBonusForCharacter(DefaultSkills.Charm, DefaultSkillEffects.CharmRelationBonus, firstHero.IsFemale ? secondHero.CharacterObject : firstHero.CharacterObject, ref explainedNumber, -1, true, 0);
-			return MathF.Round(explainedNumber.ResultNumber);
-		}
-		public override bool IsSuitableForMarriage(Hero maidenOrSuitor) { //Vanilla Settings
-			if (!maidenOrSuitor.IsAlive || maidenOrSuitor.Spouse != null || !maidenOrSuitor.IsNoble || maidenOrSuitor.IsNotable || maidenOrSuitor.IsTemplate) {
-				return false;
-			}
-			if (maidenOrSuitor.IsFemale) {
-				return maidenOrSuitor.CharacterObject.Age >= (float)this.MinimumMarriageAgeFemale;
-			}
-			return maidenOrSuitor.CharacterObject.Age >= (float)this.MinimumMarriageAgeMale;
-		}
-		public override Clan GetClanAfterMarriage(Hero firstHero, Hero secondHero) { //Vanilla Settings
-			if (firstHero.IsHumanPlayerCharacter) {
-				return firstHero.Clan;
-			}
-			if (secondHero.IsHumanPlayerCharacter) {
-				return secondHero.Clan;
-			}
-			if (firstHero.Clan.Leader == firstHero) {
-				return firstHero.Clan;
-			}
-			if (secondHero.Clan.Leader == secondHero) {
-				return secondHero.Clan;
-			}
-			if (!firstHero.IsFemale) {
-				return firstHero.Clan;
-			}
-			return secondHero.Clan;
 		}
 	}
+
 	public class TouhouAgeModel : AgeModel {
 		public override int BecomeInfantAge {
 			get {
@@ -125,29 +102,115 @@ namespace TouhouAnalepsia {
 			}
 		}
 	}
-	public class TouhouHeroDeathProbabilityCalculationModel : HeroDeathProbabilityCalculationModel { //Vanilla Settings - I'll work on this a bit more later on, so true immortals don't die.
-		public override float CalculateHeroDeathProbability(Hero hero, StatExplainer explanation = null) {
-			return this.CalculateHeroDeathProbabilityInternal(hero, explanation);
+	public class TouhouHeroDeathProbabilityCalculationModel : DefaultHeroDeathProbabilityCalculationModel { //Vanilla Settings - I'll work on this a bit more later on, so true immortals don't die.
+		
+	}
+
+	public class TouhouDiplomacyModel : DefaultDiplomacyModel {
+		public override float GetScoreOfClanToJoinKingdom(Clan clan, Kingdom kingdom) {
+			if (clan.Kingdom != null && clan.Kingdom.RulingClan == clan) {
+				return -100000000f;
+			}
+			int relationBetweenClans = FactionManager.GetRelationBetweenClans(kingdom.RulingClan, clan);
+			float num = (float)Math.Min(2.0, Math.Max(0.5, 1.0 + Math.Sqrt((double)Math.Abs(relationBetweenClans)) * (double)((relationBetweenClans < 0) ? -0.06f : 0.04f)));
+			float num2 = 1f + (CultureHandler.isCultureAccepted(clan.Culture,FactionCulture.getFactionCultureByID(kingdom.Culture.StringId)) ? 0.15f : ((kingdom.Leader == Hero.MainHero) ? 0f : -0.15f));
+			float num3 = clan.CalculateSettlementValue(null);
+			float num4 = clan.CalculateSettlementValue(kingdom);
+			int commanderLimit = clan.CommanderLimit;
+			float num5 = 0f;
+			float num6 = 0f;
+			if (!clan.IsMinorFaction) {
+				float num7 = 0f;
+				foreach (Town town in kingdom.Fiefs) {
+					num7 += town.Settlement.GetSettlementValueForFaction(kingdom);
+				}
+				int num8 = 0;
+				foreach (Clan clan2 in kingdom.Clans) {
+					if (!clan2.IsUnderMercenaryService) {
+						num8 += clan2.CommanderLimit;
+					}
+				}
+				num5 = num7 / (float)(num8 + commanderLimit);
+				num6 = -((float)(num8 * num8) * 50f);
+			}
+			float num9 = (clan.Leader != null && clan.Leader.Gold < 100000) ? (0.33f + 0.67f * (1f - (float)clan.Leader.Gold / 100000f) * (1f - (float)clan.Leader.Gold / 100000f)) : 0.33f;
+			return num5 * (float)Math.Sqrt((double)commanderLimit) * num9 * 0.2f * (num * num2) + (clan.MapFaction.IsAtWarWith(kingdom) ? (num4 - num3) : 0f) + num6;
 		}
-		private float CalculateHeroDeathProbabilityInternal(Hero hero, StatExplainer explanation = null) {
-			TextObject textObject = new TextObject("{=fPJKSmnq}Daily Death Probability", null);
-			TextObject textObject2 = new TextObject("{=uaGEbQyJ}Daily Death Probability with Health Advise Perk", null);
-			ExplainedNumber explainedNumber = new ExplainedNumber(0f, explanation, null);
-			int becomeOldAge = Campaign.Current.Models.AgeModel.BecomeOldAge;
-			int maxAge = Campaign.Current.Models.AgeModel.MaxAge;
-			if (hero.Age > (float)becomeOldAge) {
-				if (hero.Age < (float)maxAge && !hero.IsSpecial) {
-					float num = 0.8f * ((hero.Age - (float)becomeOldAge) / (float)(Campaign.Current.Models.AgeModel.MaxAge - becomeOldAge));
-					ExplainedNumber explainedNumber2 = new ExplainedNumber(1f, null);
-					PerkHelper.AddPerkBonusForCharacter(DefaultPerks.Medicine.HealthAdvise, hero.CharacterObject, true, ref explainedNumber2);
-					float num2 = (float)(1.0 - Math.Pow((double)(1f - num), 0.011904762126505375));
-					num2 *= explainedNumber2.ResultNumber;
-					explainedNumber.Add(num2, (explainedNumber2.ResultNumber < 1f) ? textObject2 : textObject, null);
-				} else if (hero.Age >= (float)maxAge) {
-					explainedNumber.Add(1f, null, null);
+
+		public override float GetScoreOfClanToLeaveKingdom(Clan clan, Kingdom kingdom) {
+			int relationBetweenClans = FactionManager.GetRelationBetweenClans(kingdom.RulingClan, clan);
+			float num = (float)Math.Min(2.0, Math.Max(0.5, 1.0 + Math.Sqrt((double)Math.Abs(relationBetweenClans)) * (double)((relationBetweenClans < 0) ? -0.06f : 0.04f)));
+			float num2 = 1f + (CultureHandler.isCultureAccepted(clan.Culture, FactionCulture.getFactionCultureByID(kingdom.Culture.StringId)) ? 0.15f : ((kingdom.Leader == Hero.MainHero) ? 0f : -0.15f));
+			float num3 = clan.CalculateSettlementValue(null);
+			float num4 = clan.CalculateSettlementValue(kingdom);
+			int commanderLimit = clan.CommanderLimit;
+			float num5 = 0f;
+			if (!clan.IsMinorFaction) {
+				float num6 = 0f;
+				foreach (Town town in kingdom.Fiefs) {
+					num6 += town.Settlement.GetSettlementValueForFaction(kingdom);
+				}
+				int num7 = 0;
+				foreach (Clan clan2 in kingdom.Clans) {
+					if (!clan2.IsUnderMercenaryService) {
+						num7 += clan2.CommanderLimit;
+					}
+				}
+				num5 = num6 / (float)(num7 + commanderLimit);
+			}
+			float num8 = HeroHelper.CalculateReliabilityConstant(clan.Leader, 1f);
+			double toDays = (CampaignTime.Now - clan.LastFactionChangeTime).ToDays;
+			float num9 = 4000f * (float)(15.0 - Math.Sqrt(Math.Min(225.0, toDays)));
+			float num10 = 60000f + (float)((clan.Fortifications != null) ? clan.Fortifications.Count<Town>() : 0) * 10000f;
+			float num11 = (clan.Leader.Gold < 100000) ? (0.33f + 0.67f * (1f - (float)clan.Leader.Gold / 100000f) * (1f - (float)clan.Leader.Gold / 100000f)) : 0.33f;
+			num10 /= num11;
+			return (-num5 * (float)Math.Sqrt((double)commanderLimit) * num11 * 0.2f - num10 * num8 + -num9) * (num * num2) + (num3 - num4) + (float)((kingdom.Ruler == Hero.MainHero) ? -80000 : 0);
+		}
+		public override float GetScoreOfKingdomToGetClan(Kingdom kingdom, Clan clan) {
+			float num = Math.Min(2f, Math.Max(0.33f, 1f + 0.02f * (float)FactionManager.GetRelationBetweenClans(kingdom.RulingClan, clan)));
+			float num2 = 1f + (CultureHandler.isCultureAccepted(clan.Culture, FactionCulture.getFactionCultureByID(kingdom.Culture.StringId)) ? 1f : 0f);
+			int commanderLimit = clan.CommanderLimit;
+			float num3 = (clan.TotalStrength + 150f * (float)commanderLimit) * 20f;
+			float powerRatioToEnemies = FactionHelper.GetPowerRatioToEnemies(kingdom);
+			float num4 = HeroHelper.CalculateReliabilityConstant(clan.Leader, 1f);
+			float num5 = 1f / Math.Max(0.4f, Math.Min(2.5f, (float)Math.Sqrt((double)powerRatioToEnemies)));
+			num3 *= num5;
+			return (clan.CalculateSettlementValue(kingdom) * 0.1f + num3) * num * num2 * num4;
+		}
+		public override float GetScoreOfKingdomToSackClan(Kingdom kingdom, Clan clan) {
+			float num = Math.Min(2f, Math.Max(0.33f, 1f + 0.02f * (float)FactionManager.GetRelationBetweenClans(kingdom.RulingClan, clan)));
+			float num2 = 1f + (CultureHandler.isCultureAccepted(clan.Culture, FactionCulture.getFactionCultureByID(kingdom.Culture.StringId)) ? 1f : 0.5f);
+			int commanderLimit = clan.CommanderLimit;
+			float num3 = (clan.TotalStrength + 150f * (float)commanderLimit) * 20f;
+			float num4 = clan.CalculateSettlementValue(kingdom);
+			return 10f - 1f * num3 * num2 * num - num4;
+		}
+	}
+
+	public class TouhouKingdomCreationModel : DefaultKingdomCreationModel {
+
+		public override IEnumerable<CultureObject> GetAvailablePlayerKingdomCultures() {
+			List<CultureObject> cultures = new List<CultureObject>();
+			cultures.Add(Clan.PlayerClan.Culture);
+			foreach (Settlement settlement in from t in Clan.PlayerClan.Settlements
+											  where t.IsTown || t.IsCastle
+											  select t) {
+				if (!cultures.Contains(settlement.Culture)) {
+					cultures.Add(settlement.Culture);
 				}
 			}
-			return explainedNumber.ResultNumber;
+
+			List<FactionCulture> factionCultures = new List<FactionCulture>();
+			foreach (FactionCulture factionCulture in FactionCulture.factionCultures) {
+				if (factionCultures.Contains(factionCulture)) continue;
+				foreach (CultureObject cultureObject in cultures) {
+					if (factionCulture.acceptedCultures.Contains(cultureObject) && !factionCultures.Contains(factionCulture)) {
+						factionCultures.Add(factionCulture);
+						break;
+					}
+				}
+			}
+			foreach (FactionCulture selectedFactionCulture in factionCultures) yield return selectedFactionCulture.culture;
 		}
 	}
 }

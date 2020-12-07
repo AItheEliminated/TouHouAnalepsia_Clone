@@ -9,7 +9,6 @@ using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Library;
-using TaleWorlds.Localization;
 using TaleWorlds.SaveSystem;
 using TaleWorlds.ObjectSystem;
 
