@@ -47,19 +47,23 @@ namespace TouhouAnalepsia
 		}
 
 		protected override void OnGameStart(Game game, IGameStarter gameStarterObject) {
-			FactionCulture.initializeFactionCultures();
+			if (game.GameType is Campaign) {
+				FactionCulture.initializeFactionCultures();
 
-			TouhouModelManager.initializeTouhouModels(gameStarterObject);
+				TouhouModelManager.initializeTouhouModels(gameStarterObject);
 
-			loadLocalizationData((CampaignGameStarter)gameStarterObject);
-			//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
+				loadLocalizationData((CampaignGameStarter)gameStarterObject);
+				//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
+			}
 
 			base.OnGameStart(game, gameStarterObject);
 		}
 		public override void OnCampaignStart(Game game, object starterObject) {
-			CampaignGameStarter campaignGameStarter = (CampaignGameStarter)starterObject;
+			if (game.GameType is Campaign) {
+				CampaignGameStarter campaignGameStarter = (CampaignGameStarter)starterObject;
 
-			campaignGameStarter.AddBehavior(new CompanionHandler.CompanionCampaignBehavior());
+				campaignGameStarter.AddBehavior(new CompanionHandler.CompanionCampaignBehavior());
+			}
 
 			base.OnCampaignStart(game, starterObject);
 		}
