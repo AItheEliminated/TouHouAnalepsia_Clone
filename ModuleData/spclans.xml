@@ -1,5 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Factions>
+  <Faction id="player_faction"
+           owner="Hero.main_hero"
+           banner_key="11.154.116.1536.1536.768.768.1.0.0.133.15.155.483.483.773.729.0.0.0"
+           is_minor_faction="true"
+           label_color="FFD2C0AA"
+           color="FF8D5C44"
+           color2="FFE9A74D"
+           alternative_color="FF6C5749"
+           alternative_color2="FFB3A491"
+           culture="Culture.human"
+           settlement_banner_mesh="encounter_flag_a"
+           name="{=o0Xm5Rqk}Playerland"
+           tier="0"></Faction>
+  <Faction id="neutral"
+           owner="Hero.neutral_lord_1"
+           banner_key="11.154.154.1536.1536.768.768.1.0.0.515.155.155.100.100.773.729.0.0.0"
+           label_color="FFCCC3AB"
+           color="FFCCC3AB"
+           color2="FFCCC3AB"
+           alternative_color="FFCCC3AB"
+           alternative_color2="FFCCC3AB"
+           culture="Culture.neutral_culture"
+           settlement_banner_mesh="encounter_flag_a"
+           name="{=3PzgpFGq}Neutral"
+           tier="1"></Faction>
   <Faction id="clan_hakurei_shrine_hakurei" tier="6" owner="Hero.reimu" label_color="FFBB0000" color="FFFF0000" color2="FFFF3333" culture="Culture.human" super_faction="Kingdom.hakurei_shrine" name="{=Factions.Faction.clan_hakurei_shrine_hakurei.name}Hakurei" text="{=Factions.Faction.clan_hakurei_shrine_hakurei.text}Human" />
   <Faction id="clan_hakurei_shrine_ibuki" tier="5" owner="Hero.suika" culture="Culture.youkai" super_faction="Kingdom.hakurei_shrine" name="{=Factions.Faction.clan_hakurei_shrine_ibuki.name}Ibuki" text="{=Factions.Faction.clan_hakurei_shrine_ibuki.text}Oni" />
   <Faction id="clan_hakurei_shrine_mokou" tier="5" owner="Hero.fujiwara" culture="Culture.human" super_faction="Kingdom.hakurei_shrine" name="{=Factions.Faction.clan_hakurei_shrine_mokou.name}Mokou" text="{=Factions.Faction.clan_hakurei_shrine_mokou.text}Human" />

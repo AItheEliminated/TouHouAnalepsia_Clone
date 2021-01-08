@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Heroes>
+  <Hero id="main_hero" is_noble="true" father="Hero.main_hero_father" mother="Hero.main_hero_mother" faction="Faction.player_faction" banner_key="11.8.1.4345.4345.770.774.1.0.0.414.7.5.512.512.784.769.1.0.0" />
+  <Hero id="main_hero_father" alive="false" is_noble="true" faction="Faction.player_faction" spouse="Hero.main_hero_mother" />
+  <Hero id="main_hero_mother" alive="false" is_noble="true" faction="Faction.player_faction" spouse="Hero.main_hero_father" />
+  <Hero id="neutral_lord_1" alive="false" faction="Faction.neutral" />
   <Hero id="reimu" is_noble="true" faction="Faction.clan_hakurei_shrine_hakurei" banner_key="26.35.83.1128.1725.764.764.1.0.90.510.83.116.323.240.870.764.1.0.-90.510.83.116.323.240.658.764.1.0.-90.510.83.116.323.240.764.594.1.0.0" />
   <Hero id="suika" is_noble="true" faction="Faction.clan_hakurei_shrine_ibuki" />
   <Hero id="fujiwara" is_noble="true" faction="Faction.clan_hakurei_shrine_mokou" />
