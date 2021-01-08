@@ -52,7 +52,7 @@ namespace TouhouAnalepsia
 		[HarmonyPatch(typeof(psai.net.PsaiCore), "LoadSoundtrackFromProjectFile")]
 		class MusicPatch {
 			static bool Prefix(psai.net.PsaiCore __instance, ref string pathToProjectFile) {
-				if (pathToProjectFile.Equals(BasePath.Name + "music/soundtrack.xml")) pathToProjectFile = BasePath.Name + "Modules/TouhouAnalepsia/music/soundtrack.xml";
+				//if (pathToProjectFile.Equals(BasePath.Name + "music/soundtrack.xml")) pathToProjectFile = BasePath.Name + "Modules/TouhouAnalepsia/music/soundtrack.xml";
 				return true;
 			}
 		}
