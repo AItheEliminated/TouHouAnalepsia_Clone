@@ -71,7 +71,7 @@ namespace TouhouAnalepsia {
 			abilities = new Dictionary<Agent, Ability>();
 		}
 
-		private static void initializeAgent(Agent agent) {
+		public static void initializeAgent(Agent agent) {
 			if (agent == null) return;
 			if (initializedAgents.Contains(agent)) return;
 			initializedAgents.Add(agent);
@@ -107,5 +107,26 @@ namespace TouhouAnalepsia {
 		//Initialized once per mission, more work may need to go into this in the future, to ensure no bugs.
 		public static Dictionary<Agent, Ability> abilities = new Dictionary<Agent, Ability>();
 		public static List<Agent> initializedAgents = new List<Agent>();
+	}
+	class TouhouAgentStatCalculateModel : SandBox.SandboxAgentStatCalculateModel {
+		public override void UpdateAgentStats(Agent agent, AgentDrivenProperties agentDrivenProperties) {
+			base.UpdateAgentStats(agent, agentDrivenProperties);
+
+			Ability ability;
+			if (!AbilityBattleLogic.abilities.TryGetValue(agent, out ability)) {
+				AbilityBattleLogic.initializeAgent(agent);
+				if (!AbilityBattleLogic.abilities.TryGetValue(agent, out ability)) {
+					Logger.Log("TouhouAgentStatCalculateModel Error: abilities is not initializing agent " + agent.ToString());
+				}
+			}
+
+			if (ability == null) return;
+
+			agentDrivenProperties.MaxSpeedMultiplier *= (float) ability.movementSpeed;
+			agentDrivenProperties.CombatMaxSpeedMultiplier *= (float) ability.movementSpeed;
+
+			//agentDrivenProperties.MaxSpeedMultiplier *= 10;
+			//agentDrivenProperties.CombatMaxSpeedMultiplier *= 10;
+		}
 	}
 }

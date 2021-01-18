@@ -23,6 +23,8 @@ namespace TouhouAnalepsia {
 			gameStarterObject.AddModel(new TouhouDiplomacyModel());
 
 			gameStarterObject.AddModel(new TouhouKingdomCreationModel());
+
+			gameStarterObject.AddModel(new TouhouAgentStatCalculateModel());
 		}
 	}
     class TouhouMarriageModel : DefaultMarriageModel {

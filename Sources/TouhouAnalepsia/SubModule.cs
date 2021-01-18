@@ -149,7 +149,7 @@ namespace TouhouAnalepsia
 			static bool Prefix(ref Settlement settlement) {
 				if (settlement.IsTown || settlement.IsVillage) {
 					float randomFloat = MBRandom.RandomFloat;
-					int targetNotableCountForSettlement = Campaign.Current.Models.NotableSpawnModel.GetTargetNotableCountForSettlement(settlement);
+					int targetNotableCountForSettlement = settlement.IsTown ? 6 : (settlement.IsVillage ? 2 : 0);
 					float num = settlement.Notables.Any<Hero>() ? ((float)(targetNotableCountForSettlement - settlement.Notables.Count) / (float)targetNotableCountForSettlement) : 1f;
 					if (randomFloat <= num) {
 						List<Occupation> list = new List<Occupation>();
@@ -226,11 +226,19 @@ namespace TouhouAnalepsia
 		[HarmonyPatch(typeof(StoryMode.Behaviors.TutorialPhaseCampaignBehavior), "OnStoryModeTutorialEnded")]
 		class DebugPatch10 {
 			static bool Prefix() {
-				PartyBase.MainParty.ItemRoster.AddToCounts(DefaultItems.Grain, 2, true);
+				//PartyBase.MainParty.ItemRoster.AddToCounts(DefaultItems.Grain, 2, true);
 				Hero.MainHero.Heal(PartyBase.MainParty, Hero.MainHero.MaxHitPoints, false);
 				//GiveGoldAction.ApplyBetweenCharacters(Hero.MainHero, null, Hero.MainHero.Gold, true);
 				//GiveGoldAction.ApplyBetweenCharacters(null, Hero.MainHero, 1000, true);
 				return false;
+			}
+		}
+		[HarmonyPatch(typeof(TaleWorlds.Engine.GauntletUI.GauntletLayer), "LoadMovie")]
+		class DebugPatch11 {
+			static bool Prefix(String movieName, ViewModel dataSource) {
+				//if (movieName != null) Logger.Log("LoadMovie: " + movieName);
+				//else Logger.Log("LoadMovie: null");
+				return true;
 			}
 		}
 		protected override void OnBeforeInitialModuleScreenSetAsRoot()
