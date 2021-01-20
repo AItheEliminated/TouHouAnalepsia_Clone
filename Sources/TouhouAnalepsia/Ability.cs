@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
@@ -14,7 +15,7 @@ namespace TouhouAnalepsia {
 		public int hpHealedPerMinute { get; private set; }
 		public double damageStatic { get; private set; } //Non-working
 		public double damageScaled { get; private set; } //Non-working
-		public double movementSpeed { get; private set; } //Non-working
+		public double movementSpeed { get; private set; }
 
 		public Ability() {
 			hpStatic = 0.0;
@@ -88,9 +89,24 @@ namespace TouhouAnalepsia {
 				Logger.Log("Error at calculateAbility! Origin is Null!");
 				return newAbility;
 			}
+			Hero hero = null;
+			if (agent?.Character is CharacterObject charObj) hero = charObj.HeroObject;
 
-			newAbility = newAbility.add(abilityFromLevel(agent.Origin.Troop.Level))
-								   .add(abilityFromCulture(agent.Origin.Troop.Culture));
+			if (hero != null) { //To allow for more potential interactions with lords and such, access to their Hero object should be useful
+				newAbility = newAbility.add(abilityFromLevel(hero.Level))
+									   .add(abilityFromCulture(hero.Culture));
+
+				if(hero==Hero.MainHero) { //Special Bonuses for the Main Hero
+					newAbility.add(new Ability() { 
+						movementSpeed = 2.0,
+						hpScaled = 2.0
+					});
+				}
+			} else {
+				newAbility = newAbility.add(abilityFromLevel(agent.Origin.Troop.Level))
+									   .add(abilityFromCulture(agent.Origin.Troop.Culture));
+			}
+
 			return newAbility;
 		}
 		private static Ability abilityFromLevel(int level) {

@@ -122,7 +122,7 @@ namespace TouhouAnalepsia {
 
 			if (ability == null) return;
 
-			agentDrivenProperties.MaxSpeedMultiplier *= (float) ability.movementSpeed;
+			agentDrivenProperties.MaxSpeedMultiplier *= (float) ability.movementSpeed; //This *might* need to be disabled, but I don't know yet... I suspect it may affect the walking speed around settlements.
 			agentDrivenProperties.CombatMaxSpeedMultiplier *= (float) ability.movementSpeed;
 
 			//agentDrivenProperties.MaxSpeedMultiplier *= 10;

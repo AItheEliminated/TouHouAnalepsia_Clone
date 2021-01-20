@@ -12,3 +12,10 @@
 [Ss]ceneObj/temp_mission_scene/
 
 UserSettings.props
+
+[Ss]ceneObj/hell_map
+[Ss]ceneObj/Main_map_full_navmesh
+[Ss]ceneObj/Main_map_gensokyo
+[Ss]ceneObj/main_map_gensokyo2
+[Ss]ceneObj/main_map_gensokyo_navmeshing
+[Ss]ceneObj/main_map_gensokyo_navmesh_complete
