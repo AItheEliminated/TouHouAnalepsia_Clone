@@ -600,7 +600,7 @@
 			<Area type="Waterfront" name="{=CommonAreas.Area.Backstreet}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SE3" name="{=Settlements.Settlement.town_SE3.name}Luna Clock" owner="Faction.clan_scarlet_empire_izayoi" posX="254.366" posY="382.736" culture="Culture.youkai" gate_posX="252.67" gate_posY="379.96">
+	<Settlement id="town_SE3" name="{=Settlements.Settlement.town_SE3.name}Luna Clock" owner="Faction.clan_scarlet_empire_izayoi" posX="255.085" posY="389.333" culture="Culture.youkai" gate_posX="252.67" gate_posY="379.96">
 		<Components>
 			<Town id="town_comp_SE3" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
 		</Components>
@@ -660,7 +660,7 @@
 			<Area type="Waterfront" name="{=CommonAreas.Area.Backstreet}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SE6" name="{=Settlements.Settlement.town_SE6.name}Darkness Castle" owner="Faction.clan_scarlet_empire_meiling" posX="471.430" posY="357.844" culture="Culture.youkai" gate_posX="465.71" gate_posY="359.33">
+	<Settlement id="town_SE6" name="{=Settlements.Settlement.town_SE6.name}Darkness Castle" owner="Faction.clan_scarlet_empire_meiling" posX="452.733" posY="364.248" culture="Culture.youkai" gate_posX="465.71" gate_posY="359.33">
 		<Components>
 			<Town id="town_comp_SE6" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
 		</Components>
@@ -1600,7 +1600,7 @@
 			<Area type="Waterfront" name="{=CommonAreas.Area.Backstreet}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_NW5" name="{=Settlements.Settlement.town_NW5.name}Sanzu River Town" owner="Faction.clan_netherworld_onozuka" posX="176.788" posY="593.430" culture="Culture.youkai">
+	<Settlement id="town_NW5" name="{=Settlements.Settlement.town_NW5.name}Sanzu River Town" owner="Faction.clan_netherworld_onozuka" posX="210.133" posY="575.549" culture="Culture.youkai">
 		<Components>
 			<Town id="town_comp_NW5" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
 		</Components>
@@ -1740,7 +1740,7 @@
 			<Area type="Waterfront" name="{=CommonAreas.Area.Backstreet}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SG2" name="{=Settlements.Settlement.town_SG2.name}Road of Liminality" owner="Faction.clan_shogunate_ushizaki" posX="256.295" posY="545.663" culture="Culture.youkai">
+	<Settlement id="town_SG2" name="{=Settlements.Settlement.town_SG2.name}Road of Liminality" owner="Faction.clan_shogunate_ushizaki" posX="259.609" posY="546.643" culture="Culture.youkai">
 		<Components>
 			<Town id="town_comp_SG2" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
 		</Components>
@@ -1760,7 +1760,7 @@
 			<Area type="Waterfront" name="{=CommonAreas.Area.Backstreet}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SG3" name="{=Settlements.Settlement.town_SG3.name}Moriya Shrine" owner="Faction.clan_shogunate_yasaka" posX="381.630" posY="538.412" culture="Culture.youkai">
+	<Settlement id="town_SG3" name="{=Settlements.Settlement.town_SG3.name}Moriya Shrine" owner="Faction.clan_shogunate_yasaka" posX="379.768" posY="544.623" culture="Culture.youkai">
 		<Components>
 			<Town id="town_comp_SG3" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
 		</Components>
@@ -1780,7 +1780,7 @@
 			<Area type="Waterfront" name="{=CommonAreas.Area.Backstreet}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SG4" name="{=Settlements.Settlement.town_SG4.name}Genbu Ravine" owner="Faction.clan_shogunate_kawasiro" posX="400.897" posY="478.135" culture="Culture.youkai">
+	<Settlement id="town_SG4" name="{=Settlements.Settlement.town_SG4.name}Genbu Ravine" owner="Faction.clan_shogunate_kawasiro" posX="404.921" posY="468.689" culture="Culture.youkai">
 		<Components>
 			<Town id="town_comp_SG4" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
 		</Components>
@@ -4960,7 +4960,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE3_1" name="{=Settlements.Settlement.village_SE3_1.name}Luna Clock" posX="250.366" posY="378.736" culture="Culture.youkai">
+	<Settlement id="village_SE3_1" name="{=Settlements.Settlement.village_SE3_1.name}Luna Clock" posX="251.085" posY="385.333" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE3_1" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE3" bound="Settlement.town_SE3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -4973,7 +4973,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE3_2" name="{=Settlements.Settlement.village_SE3_2.name}" posX="254.366" posY="378.736" culture="Culture.youkai">
+	<Settlement id="village_SE3_2" name="{=Settlements.Settlement.village_SE3_2.name}" posX="255.085" posY="385.333" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE3_2" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE3" bound="Settlement.town_SE3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -4986,7 +4986,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE3_3" name="{=Settlements.Settlement.village_SE3_3.name}" posX="258.366" posY="378.736" culture="Culture.youkai">
+	<Settlement id="village_SE3_3" name="{=Settlements.Settlement.village_SE3_3.name}" posX="259.08500000000004" posY="385.333" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE3_3" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE3" bound="Settlement.town_SE3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -4999,7 +4999,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE3_4" name="{=Settlements.Settlement.village_SE3_4.name}" posX="250.366" posY="382.736" culture="Culture.youkai">
+	<Settlement id="village_SE3_4" name="{=Settlements.Settlement.village_SE3_4.name}" posX="251.085" posY="389.333" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE3_4" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE3" bound="Settlement.town_SE3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5012,7 +5012,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE3_5" name="{=Settlements.Settlement.village_SE3_5.name}" posX="258.366" posY="382.736" culture="Culture.youkai">
+	<Settlement id="village_SE3_5" name="{=Settlements.Settlement.village_SE3_5.name}" posX="259.08500000000004" posY="389.333" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE3_5" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE3" bound="Settlement.town_SE3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5025,7 +5025,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE3_6" name="{=Settlements.Settlement.village_SE3_6.name}" posX="250.366" posY="386.736" culture="Culture.youkai">
+	<Settlement id="village_SE3_6" name="{=Settlements.Settlement.village_SE3_6.name}" posX="251.085" posY="393.333" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE3_6" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE3" bound="Settlement.town_SE3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5038,7 +5038,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE3_7" name="{=Settlements.Settlement.village_SE3_7.name}" posX="254.366" posY="386.736" culture="Culture.youkai">
+	<Settlement id="village_SE3_7" name="{=Settlements.Settlement.village_SE3_7.name}" posX="255.085" posY="393.333" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE3_7" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE3" bound="Settlement.town_SE3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5051,7 +5051,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE3_8" name="{=Settlements.Settlement.village_SE3_8.name}" posX="258.366" posY="386.736" culture="Culture.youkai">
+	<Settlement id="village_SE3_8" name="{=Settlements.Settlement.village_SE3_8.name}" posX="259.08500000000004" posY="393.333" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE3_8" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE3" bound="Settlement.town_SE3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5272,7 +5272,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE6_1" name="{=Settlements.Settlement.village_SE6_1.name}Darkness Castle" posX="467.43" posY="353.844" culture="Culture.youkai">
+	<Settlement id="village_SE6_1" name="{=Settlements.Settlement.village_SE6_1.name}Darkness Castle" posX="448.733" posY="360.248" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE6_1" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5285,7 +5285,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE6_2" name="{=Settlements.Settlement.village_SE6_2.name}" posX="471.43" posY="353.844" culture="Culture.youkai">
+	<Settlement id="village_SE6_2" name="{=Settlements.Settlement.village_SE6_2.name}" posX="452.733" posY="360.248" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE6_2" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5298,7 +5298,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE6_3" name="{=Settlements.Settlement.village_SE6_3.name}" posX="475.43" posY="353.844" culture="Culture.youkai">
+	<Settlement id="village_SE6_3" name="{=Settlements.Settlement.village_SE6_3.name}" posX="456.733" posY="360.248" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE6_3" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5311,7 +5311,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE6_4" name="{=Settlements.Settlement.village_SE6_4.name}" posX="467.43" posY="357.844" culture="Culture.youkai">
+	<Settlement id="village_SE6_4" name="{=Settlements.Settlement.village_SE6_4.name}" posX="448.733" posY="364.248" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE6_4" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5324,7 +5324,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE6_5" name="{=Settlements.Settlement.village_SE6_5.name}" posX="475.43" posY="357.844" culture="Culture.youkai">
+	<Settlement id="village_SE6_5" name="{=Settlements.Settlement.village_SE6_5.name}" posX="456.733" posY="364.248" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE6_5" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5337,7 +5337,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE6_6" name="{=Settlements.Settlement.village_SE6_6.name}" posX="467.43" posY="361.844" culture="Culture.youkai">
+	<Settlement id="village_SE6_6" name="{=Settlements.Settlement.village_SE6_6.name}" posX="448.733" posY="368.248" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE6_6" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5350,7 +5350,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE6_7" name="{=Settlements.Settlement.village_SE6_7.name}" posX="471.43" posY="361.844" culture="Culture.youkai">
+	<Settlement id="village_SE6_7" name="{=Settlements.Settlement.village_SE6_7.name}" posX="452.733" posY="368.248" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE6_7" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -5363,7 +5363,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SE6_8" name="{=Settlements.Settlement.village_SE6_8.name}" posX="475.43" posY="361.844" culture="Culture.youkai">
+	<Settlement id="village_SE6_8" name="{=Settlements.Settlement.village_SE6_8.name}" posX="456.733" posY="368.248" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SE6_8" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10160,7 +10160,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_NW5_1" name="{=Settlements.Settlement.village_NW5_1.name}Sanzu River Town" posX="172.788" posY="589.43" culture="Culture.youkai">
+	<Settlement id="village_NW5_1" name="{=Settlements.Settlement.village_NW5_1.name}Sanzu River Town" posX="206.133" posY="571.549" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_NW5_1" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_NW5" bound="Settlement.town_NW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10173,7 +10173,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_NW5_2" name="{=Settlements.Settlement.village_NW5_2.name}" posX="176.788" posY="589.43" culture="Culture.youkai">
+	<Settlement id="village_NW5_2" name="{=Settlements.Settlement.village_NW5_2.name}" posX="210.133" posY="571.549" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_NW5_2" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_NW5" bound="Settlement.town_NW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10186,7 +10186,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_NW5_3" name="{=Settlements.Settlement.village_NW5_3.name}" posX="180.788" posY="589.43" culture="Culture.youkai">
+	<Settlement id="village_NW5_3" name="{=Settlements.Settlement.village_NW5_3.name}" posX="214.133" posY="571.549" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_NW5_3" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_NW5" bound="Settlement.town_NW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10199,7 +10199,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_NW5_4" name="{=Settlements.Settlement.village_NW5_4.name}" posX="172.788" posY="593.43" culture="Culture.youkai">
+	<Settlement id="village_NW5_4" name="{=Settlements.Settlement.village_NW5_4.name}" posX="206.133" posY="575.549" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_NW5_4" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_NW5" bound="Settlement.town_NW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10212,7 +10212,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_NW5_5" name="{=Settlements.Settlement.village_NW5_5.name}" posX="180.788" posY="593.43" culture="Culture.youkai">
+	<Settlement id="village_NW5_5" name="{=Settlements.Settlement.village_NW5_5.name}" posX="214.133" posY="575.549" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_NW5_5" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_NW5" bound="Settlement.town_NW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10225,7 +10225,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_NW5_6" name="{=Settlements.Settlement.village_NW5_6.name}" posX="172.788" posY="597.43" culture="Culture.youkai">
+	<Settlement id="village_NW5_6" name="{=Settlements.Settlement.village_NW5_6.name}" posX="206.133" posY="579.549" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_NW5_6" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_NW5" bound="Settlement.town_NW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10238,7 +10238,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_NW5_7" name="{=Settlements.Settlement.village_NW5_7.name}" posX="176.788" posY="597.43" culture="Culture.youkai">
+	<Settlement id="village_NW5_7" name="{=Settlements.Settlement.village_NW5_7.name}" posX="210.133" posY="579.549" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_NW5_7" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_NW5" bound="Settlement.town_NW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10251,7 +10251,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_NW5_8" name="{=Settlements.Settlement.village_NW5_8.name}" posX="180.788" posY="597.43" culture="Culture.youkai">
+	<Settlement id="village_NW5_8" name="{=Settlements.Settlement.village_NW5_8.name}" posX="214.133" posY="579.549" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_NW5_8" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_NW5" bound="Settlement.town_NW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10888,7 +10888,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG2_1" name="{=Settlements.Settlement.village_SG2_1.name}Road of Liminality" posX="252.29500000000002" posY="541.663" culture="Culture.youkai">
+	<Settlement id="village_SG2_1" name="{=Settlements.Settlement.village_SG2_1.name}Road of Liminality" posX="255.60899999999998" posY="542.643" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG2_1" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG2" bound="Settlement.town_SG2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10901,7 +10901,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG2_2" name="{=Settlements.Settlement.village_SG2_2.name}" posX="256.295" posY="541.663" culture="Culture.youkai">
+	<Settlement id="village_SG2_2" name="{=Settlements.Settlement.village_SG2_2.name}" posX="259.609" posY="542.643" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG2_2" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG2" bound="Settlement.town_SG2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10914,7 +10914,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG2_3" name="{=Settlements.Settlement.village_SG2_3.name}" posX="260.295" posY="541.663" culture="Culture.youkai">
+	<Settlement id="village_SG2_3" name="{=Settlements.Settlement.village_SG2_3.name}" posX="263.609" posY="542.643" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG2_3" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG2" bound="Settlement.town_SG2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10927,7 +10927,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG2_4" name="{=Settlements.Settlement.village_SG2_4.name}" posX="252.29500000000002" posY="545.663" culture="Culture.youkai">
+	<Settlement id="village_SG2_4" name="{=Settlements.Settlement.village_SG2_4.name}" posX="255.60899999999998" posY="546.643" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG2_4" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG2" bound="Settlement.town_SG2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10940,7 +10940,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG2_5" name="{=Settlements.Settlement.village_SG2_5.name}" posX="260.295" posY="545.663" culture="Culture.youkai">
+	<Settlement id="village_SG2_5" name="{=Settlements.Settlement.village_SG2_5.name}" posX="263.609" posY="546.643" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG2_5" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG2" bound="Settlement.town_SG2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10953,7 +10953,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG2_6" name="{=Settlements.Settlement.village_SG2_6.name}" posX="252.29500000000002" posY="549.663" culture="Culture.youkai">
+	<Settlement id="village_SG2_6" name="{=Settlements.Settlement.village_SG2_6.name}" posX="255.60899999999998" posY="550.643" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG2_6" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG2" bound="Settlement.town_SG2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10966,7 +10966,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG2_7" name="{=Settlements.Settlement.village_SG2_7.name}" posX="256.295" posY="549.663" culture="Culture.youkai">
+	<Settlement id="village_SG2_7" name="{=Settlements.Settlement.village_SG2_7.name}" posX="259.609" posY="550.643" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG2_7" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG2" bound="Settlement.town_SG2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10979,7 +10979,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG2_8" name="{=Settlements.Settlement.village_SG2_8.name}" posX="260.295" posY="549.663" culture="Culture.youkai">
+	<Settlement id="village_SG2_8" name="{=Settlements.Settlement.village_SG2_8.name}" posX="263.609" posY="550.643" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG2_8" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG2" bound="Settlement.town_SG2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -10992,7 +10992,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG3_1" name="{=Settlements.Settlement.village_SG3_1.name}Moriya Shrine" posX="377.63" posY="534.412" culture="Culture.youkai">
+	<Settlement id="village_SG3_1" name="{=Settlements.Settlement.village_SG3_1.name}Moriya Shrine" posX="375.768" posY="540.623" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG3_1" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG3" bound="Settlement.town_SG3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11005,7 +11005,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG3_2" name="{=Settlements.Settlement.village_SG3_2.name}" posX="381.63" posY="534.412" culture="Culture.youkai">
+	<Settlement id="village_SG3_2" name="{=Settlements.Settlement.village_SG3_2.name}" posX="379.768" posY="540.623" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG3_2" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG3" bound="Settlement.town_SG3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11018,7 +11018,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG3_3" name="{=Settlements.Settlement.village_SG3_3.name}" posX="385.63" posY="534.412" culture="Culture.youkai">
+	<Settlement id="village_SG3_3" name="{=Settlements.Settlement.village_SG3_3.name}" posX="383.768" posY="540.623" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG3_3" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG3" bound="Settlement.town_SG3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11031,7 +11031,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG3_4" name="{=Settlements.Settlement.village_SG3_4.name}" posX="377.63" posY="538.412" culture="Culture.youkai">
+	<Settlement id="village_SG3_4" name="{=Settlements.Settlement.village_SG3_4.name}" posX="375.768" posY="544.623" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG3_4" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG3" bound="Settlement.town_SG3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11044,7 +11044,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG3_5" name="{=Settlements.Settlement.village_SG3_5.name}" posX="385.63" posY="538.412" culture="Culture.youkai">
+	<Settlement id="village_SG3_5" name="{=Settlements.Settlement.village_SG3_5.name}" posX="383.768" posY="544.623" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG3_5" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG3" bound="Settlement.town_SG3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11057,7 +11057,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG3_6" name="{=Settlements.Settlement.village_SG3_6.name}" posX="377.63" posY="542.412" culture="Culture.youkai">
+	<Settlement id="village_SG3_6" name="{=Settlements.Settlement.village_SG3_6.name}" posX="375.768" posY="548.623" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG3_6" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG3" bound="Settlement.town_SG3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11070,7 +11070,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG3_7" name="{=Settlements.Settlement.village_SG3_7.name}" posX="381.63" posY="542.412" culture="Culture.youkai">
+	<Settlement id="village_SG3_7" name="{=Settlements.Settlement.village_SG3_7.name}" posX="379.768" posY="548.623" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG3_7" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG3" bound="Settlement.town_SG3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11083,7 +11083,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG3_8" name="{=Settlements.Settlement.village_SG3_8.name}" posX="385.63" posY="542.412" culture="Culture.youkai">
+	<Settlement id="village_SG3_8" name="{=Settlements.Settlement.village_SG3_8.name}" posX="383.768" posY="548.623" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG3_8" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG3" bound="Settlement.town_SG3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11096,7 +11096,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG4_1" name="{=Settlements.Settlement.village_SG4_1.name}Genbu Ravine" posX="396.897" posY="474.135" culture="Culture.youkai">
+	<Settlement id="village_SG4_1" name="{=Settlements.Settlement.village_SG4_1.name}Genbu Ravine" posX="400.921" posY="464.689" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG4_1" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG4" bound="Settlement.town_SG4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11109,7 +11109,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG4_2" name="{=Settlements.Settlement.village_SG4_2.name}" posX="400.897" posY="474.135" culture="Culture.youkai">
+	<Settlement id="village_SG4_2" name="{=Settlements.Settlement.village_SG4_2.name}" posX="404.921" posY="464.689" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG4_2" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG4" bound="Settlement.town_SG4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11122,7 +11122,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG4_3" name="{=Settlements.Settlement.village_SG4_3.name}" posX="404.897" posY="474.135" culture="Culture.youkai">
+	<Settlement id="village_SG4_3" name="{=Settlements.Settlement.village_SG4_3.name}" posX="408.921" posY="464.689" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG4_3" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG4" bound="Settlement.town_SG4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11135,7 +11135,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG4_4" name="{=Settlements.Settlement.village_SG4_4.name}" posX="396.897" posY="478.135" culture="Culture.youkai">
+	<Settlement id="village_SG4_4" name="{=Settlements.Settlement.village_SG4_4.name}" posX="400.921" posY="468.689" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG4_4" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG4" bound="Settlement.town_SG4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11148,7 +11148,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG4_5" name="{=Settlements.Settlement.village_SG4_5.name}" posX="404.897" posY="478.135" culture="Culture.youkai">
+	<Settlement id="village_SG4_5" name="{=Settlements.Settlement.village_SG4_5.name}" posX="408.921" posY="468.689" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG4_5" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG4" bound="Settlement.town_SG4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11161,7 +11161,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG4_6" name="{=Settlements.Settlement.village_SG4_6.name}" posX="396.897" posY="482.135" culture="Culture.youkai">
+	<Settlement id="village_SG4_6" name="{=Settlements.Settlement.village_SG4_6.name}" posX="400.921" posY="472.689" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG4_6" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG4" bound="Settlement.town_SG4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11174,7 +11174,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG4_7" name="{=Settlements.Settlement.village_SG4_7.name}" posX="400.897" posY="482.135" culture="Culture.youkai">
+	<Settlement id="village_SG4_7" name="{=Settlements.Settlement.village_SG4_7.name}" posX="404.921" posY="472.689" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG4_7" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG4" bound="Settlement.town_SG4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>
@@ -11187,7 +11187,7 @@
 			<Area type="Bog" name="{=CommonAreas.Area.Pasture}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SG4_8" name="{=Settlements.Settlement.village_SG4_8.name}" posX="404.897" posY="482.135" culture="Culture.youkai">
+	<Settlement id="village_SG4_8" name="{=Settlements.Settlement.village_SG4_8.name}" posX="408.921" posY="472.689" culture="Culture.youkai">
 		<Components>
 			<Village id="village_comp_SG4_8" village_type="VillageType.sheep_farm" hearth="300" trade_bound="Settlement.town_SG4" bound="Settlement.town_SG4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
 		</Components>

@@ -12,6 +12,7 @@ using HarmonyLib;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using StoryMode.Behaviors;
 
 namespace TouhouAnalepsia
 {
@@ -239,6 +240,126 @@ namespace TouhouAnalepsia
 				//if (movieName != null) Logger.Log("LoadMovie: " + movieName);
 				//else Logger.Log("LoadMovie: null");
 				return true;
+			}
+		}
+		/*
+		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.GameMenuItemVM), "ExecuteAction")]
+		class DebugPatch12 {
+			static bool Prefix(TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.GameMenuItemVM __instance, MenuContext ____menuContext) {
+				Logger.Log("Made it to ExecuteAction! The GameMenuItemVM is " + __instance);
+				if (__instance != null) Logger.Log("The GameMenuItemVM has a menuContext of " + ____menuContext);
+				return true;
+			}
+			static void Postfix() {
+				Logger.Log("Made it past ExecuteAction!");
+			}
+		}
+		[HarmonyPatch(typeof(MenuContext), "InvokeConsequence")]
+		class DebugPatch13 {
+			static bool Prefix(MenuContext __instance, int index) {
+				Logger.Log("Made it to InvokeConsequence! The MenuContext is " + __instance + ", and the Campaign's MenuContext is " + Campaign.Current.CurrentMenuContext);
+				Logger.Log("The GameMenuItemVM has a index of " + index);
+				Logger.Log("The Campaign's GameMenuManager is " + Campaign.Current.GameMenuManager);
+				return true;
+			}
+			static void Postfix() {
+				Logger.Log("Made it past InvokeConsequence!");
+			}
+		}
+		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.GameMenus.GameMenuManager), "RunConsequencesOfMenuOption")]
+		class DebugPatch14 {
+			static bool Prefix(MenuContext menuContext, int menuItemNumber) {
+				Logger.Log("Made it to RunConsequencesOfMenuOption!");
+				Logger.Log("The MenuContext is " + menuContext + ", and the item number is " + menuItemNumber);
+				return true;
+			}
+			static void Postfix() {
+				Logger.Log("Made it past RunConsequencesOfMenuOption!");
+			}
+		}
+		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.GameMenus.GameMenu), "RunMenuOptionConsequence")]
+		class DebugPatch15 {
+			static bool Prefix(MenuContext menuContext, int menuItemNumber, List<TaleWorlds.CampaignSystem.GameMenus.GameMenuOption> ____menuItems) {
+				Logger.Log("Made it to RunMenuOptionConsequence!");
+				Logger.Log("The MenuContext is " + menuContext + ", and the item number is " + menuItemNumber + " of " + ____menuItems.Count);
+				return true;
+			}
+			static void Postfix() {
+				Logger.Log("Made it past RunConsequencesOfMenuOption!");
+			}
+		}
+		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.GameMenus.GameMenuOption), "RunConsequence")]
+		class DebugPatch16 {
+			static bool Prefix(TaleWorlds.CampaignSystem.GameMenus.GameMenuOption __instance, MenuContext menuContext) {
+				Logger.Log("Made it to RunConsequence! The GameMenuOption is " + __instance);
+				Logger.Log("The MenuContext is " + menuContext);
+				return true;
+			}
+			static void Postfix() {
+				Logger.Log("Made it past RunConsequence!");
+			}
+		}
+		[HarmonyPatch(typeof(MenuContext), "OnConsequence")]
+		class DebugPatch17 {
+			static bool Prefix() {
+				Logger.Log("Made it to OnConsequence!");
+				return true;
+			}
+			static void Postfix() {
+				Logger.Log("Made it past OnConsequence!");
+			}
+		}
+		[HarmonyPatch(typeof(TrainingFieldCampaignBehavior), "game_menu_settlement_leave_on_consequence")]
+		class DebugPatch18 {
+			static bool Prefix() {
+				Logger.Log("Made it to game_menu_settlement_leave_on_consequence!");
+				PlayerEncounter.LeaveSettlement();
+				Logger.Log("LeaveSettlement Suceded!");
+				PlayerEncounter.Finish(true);
+				Logger.Log("Made it past game_menu_settlement_leave_on_consequence!");
+				return false;
+			}
+		}
+		*/
+		[HarmonyPatch(typeof(StoryMode.StoryModeSubModule), "AddBehaviors")]
+		class DebugPatch19 {
+			static bool Prefix(CampaignGameStarter campaignGameStarter) {
+				//campaignGameStarter.AddBehavior(new LordConversationsStoryModeBehavior());
+				//campaignGameStarter.AddBehavior(new TrainingFieldCampaignBehavior());
+				campaignGameStarter.AddBehavior(new TutorialPhaseCampaignBehavior());
+				//campaignGameStarter.AddBehavior(new FirstPhaseCampaignBehavior());
+				//campaignGameStarter.AddBehavior(new SecondPhaseCampaignBehavior());
+				//campaignGameStarter.AddBehavior(new ThirdPhaseCampaignBehavior());
+				//campaignGameStarter.AddBehavior(new StoryModeTutorialBoxCampaignBehavior());
+				//campaignGameStarter.AddBehavior(new TravelToVillageTutorialQuestBehavior());
+				/*
+				campaignGameStarter.AddBehavior(new TalkToTheHeadmanTutorialQuestBehavior());
+				campaignGameStarter.AddBehavior(new PurchaseGrainTutorialQuestBehavior());
+				campaignGameStarter.AddBehavior(new RecruitTroopsTutorialQuestBehavior());
+				campaignGameStarter.AddBehavior(new LocateAndRescueTravellerTutorialQuestBehavior());
+				campaignGameStarter.AddBehavior(new FindHideoutTutorialQuestBehavior());
+				campaignGameStarter.AddBehavior(new BannerInvestigationQuestBehavior());
+				campaignGameStarter.AddBehavior(new MeetWithIstianaQuestBehavior());
+				campaignGameStarter.AddBehavior(new MeetWithArzagosQuestBehavior());
+				campaignGameStarter.AddBehavior(new IstianasBannerPieceQuestBehavior());
+				campaignGameStarter.AddBehavior(new ArzagosBannerPieceQuestBehavior());
+				campaignGameStarter.AddBehavior(new WeakenEmpireQuestBehavior());
+				campaignGameStarter.AddBehavior(new AssembleEmpireQuestBehavior());
+				campaignGameStarter.AddBehavior(new SupportKingdomQuestBehavior());
+				campaignGameStarter.AddBehavior(new CreateKingdomQuestBehavior());
+				campaignGameStarter.AddBehavior(new ConspiracyProgressQuestBehavior());
+				campaignGameStarter.AddBehavior(new DefeatTheConspiracyQuestBehavior());
+				campaignGameStarter.AddBehavior(new RebuildPlayerClanQuestBehavior());
+				*/
+				//campaignGameStarter.AddBehavior(new RescueFamilyQuestBehavior());
+				return false;
+			}
+		}
+		[HarmonyPatch(typeof(StoryMode.MainStoryLine), "get_IsPlayerInteractionRestricted")]
+		class DebugPatch20 {
+			static bool Prefix(ref bool __result) {
+				__result = false;
+				return false;
 			}
 		}
 		protected override void OnBeforeInitialModuleScreenSetAsRoot()
