@@ -1,5 +1,4 @@
 ﻿using System;
-using JetBrains.Annotations;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
@@ -9,7 +8,7 @@ namespace TouhouAnalepsia.Editor.FastScene
 	{
 		private Action _afterLoad;
 
-		public FastSceneManager([NotNull] Action afterLoad)
+		public FastSceneManager(/*[JetBrains.Annotations.NotNull]*/ Action afterLoad)  //For compatibility reasons I'm commenting out [NotNull] - seems to be causing some issues for others.
 		{
 			_afterLoad = afterLoad;
 		}
