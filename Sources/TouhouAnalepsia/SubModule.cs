@@ -13,6 +13,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 using StoryMode.Behaviors;
+using SandBox;
+using System.Xml;
 
 namespace TouhouAnalepsia
 {
@@ -360,6 +362,62 @@ namespace TouhouAnalepsia
 			static bool Prefix(ref bool __result) {
 				__result = false;
 				return false;
+			}
+		}
+		/*
+		[HarmonyPatch(typeof(SandBox.MapScene), "Load")]
+		class DebugPatch21 {
+			static bool Prefix(ref Scene ___scene) {
+				Debug.Print("Creating map scene", 0, Debug.DebugColor.White, 17592186044416UL);
+				___scene = Scene.CreateNewScene(false);
+				___scene.SetName("MapScene");
+				___scene.SetClothSimulationState(true);
+				this._agentRendererSceneController = MBAgentRendererSceneController.CreateNewAgentRendererSceneController(this._scene, 4096);
+				___scene.SetOcclusionMode(true);
+				SceneInitializationData initData = new SceneInitializationData(true);
+				initData.UsePhysicsMaterials = false;
+				initData.EnableFloraPhysics = false;
+				initData.UseTerrainMeshBlending = false;
+				Debug.Print("reading map scene", 0, Debug.DebugColor.White, 17592186044416UL);
+				___scene.Read("Main_map", initData);
+				MBDebug.SetErrorReportScene(this._scene);
+				___scene.DisableStaticShadows(true);
+				___scene.InvalidateTerrainPhysicsMaterials();
+				this.LoadAtmosphereData(___scene);
+				this.DisableUnwalkableNavigationMeshes();
+				MBMapScene.ValidateTerrainSoundIds();
+				___scene.OptimizeScene(true, false);
+				Debug.Print("Ticking map scene for first initialization", 0, Debug.DebugColor.White, 17592186044416UL);
+				this._scene.Tick(0.1f);
+				return false;
+			}
+		}
+		*/
+		[HarmonyPatch(typeof(Scene), "Read", new Type[] { typeof(string), typeof(SceneInitializationData) })]
+		class DebugPatch22 {
+			static bool Prefix(ref string sceneName) {
+				//if (sceneName.Equals("Main_map")) sceneName = "test_map";
+				return true;
+			}
+		}
+		[HarmonyPatch(typeof(SettlementPositionScript), "SaveSettlementDistanceCache")] //TODO - implement this
+		class DebugPatch23 {
+			static bool Prefix() {
+				return true;
+			}
+		}
+		[HarmonyPatch(typeof(SettlementPositionScript), "LoadXmlFile")]
+		class DebugPatch24 {
+			static bool Prefix(ref string path) {
+				if (path.Equals(BasePath.Name + "Modules/SandBox/ModuleData/settlements.xml")) path = BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/settlements.xml";
+				return true;
+			}
+		}
+		[HarmonyPatch(typeof(XmlDocument), "Save", new Type[] { typeof(string) } )]
+		class DebugPatch25 {
+			static bool Prefix(ref string filename) {
+				if (filename.Equals(BasePath.Name + "Modules/SandBox/ModuleData/settlements.xml")) filename = BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/settlements.xml";
+				return true;
 			}
 		}
 		protected override void OnBeforeInitialModuleScreenSetAsRoot()
