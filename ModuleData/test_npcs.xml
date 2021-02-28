@@ -14,7 +14,7 @@
     <Traits>
       <Trait id="BalancedFightingSkills" value="7" />
     </Traits>
-    <equipmentSet>
+    <Equipments>
       <equipment slot="Item0" id="Item.empire_sword_4_t4" />
       <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
       <equipment slot="Item2" id="Item.composite_steppe_bow" />
@@ -26,6 +26,6 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
       <equipment slot="Horse" id="Item.aserai_horse" />
       <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
-    </equipmentSet>
+    </Equipments>
   </NPCCharacter>
 </NPCCharacters>

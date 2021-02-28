@@ -1,51 +1,185 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <NPCCharacters>
-  <NPCCharacter id="kokoro" default_group="Infantry" level="20" age="1300" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.kokoro.name}Kokoro" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
-    <face>
-      <face_key_template value="NPCCharacter.townswoman_empire" />
-    </face>
-    <equipmentSet />
+  <!--This document was created with XmlTool, a tool originally developed for the Touhou Analepsia project by Urist McAurelian.
+
+Feel free to check out our own project at https://forums.taleworlds.com/index.php?threads/tbd-bannerlord-mod-touhou-analepsia-illusory-nirvana.411674/ 
+and join our discord at https://discord.gg/PUqYrGZ 
+
+If you want to use this tool yourself for you own project, you can find it at https://github.com/RomanResistance/XmlTool-->
+  <NPCCharacter id="kokoro" level="20" age="1300" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.kokoro}Kokoro" occupation="Wanderer">
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+        <equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+        <equipment slot="Item2" id="Item.steppe_war_bow"/>
+        <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Horse" id="Item.noble_horse"/>
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sumireko" default_group="Infantry" level="20" age="16" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.sumireko.name}Sumireko" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
-    <face>
-      <face_key_template value="NPCCharacter.townswoman_empire" />
-    </face>
-    <equipmentSet />
+  <NPCCharacter id="sumireko" level="20" age="16" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.sumireko}Sumireko" occupation="Wanderer">
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+        <equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+        <equipment slot="Item2" id="Item.steppe_war_bow"/>
+        <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Horse" id="Item.noble_horse"/>
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="joon" default_group="Infantry" level="20" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.joon.name}Joon" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
-    <face>
-      <face_key_template value="NPCCharacter.townswoman_empire" />
-    </face>
-    <equipmentSet />
+  <NPCCharacter id="joon" level="20" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.joon}Joon" occupation="Wanderer">
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+        <equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+        <equipment slot="Item2" id="Item.steppe_war_bow"/>
+        <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Horse" id="Item.noble_horse"/>
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="shion" default_group="Infantry" level="20" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.shion.name}Shion" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
-    <face>
-      <face_key_template value="NPCCharacter.townswoman_empire" />
-    </face>
-    <equipmentSet />
+  <NPCCharacter id="shion" level="20" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.shion}Shion" occupation="Wanderer">
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+        <equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+        <equipment slot="Item2" id="Item.steppe_war_bow"/>
+        <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Horse" id="Item.noble_horse"/>
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="joutouguu" default_group="Infantry" level="20" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.joutouguu.name}Joutouguu" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
-    <face>
-      <face_key_template value="NPCCharacter.townswoman_empire" />
-    </face>
-    <equipmentSet />
+  <NPCCharacter id="joutouguu" level="20" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.joutouguu}Joutouguu" occupation="Wanderer">
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+        <equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+        <equipment slot="Item2" id="Item.steppe_war_bow"/>
+        <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Horse" id="Item.noble_horse"/>
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="keiki" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.keiki.name}Keiki" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
-    <face>
-      <face_key_template value="NPCCharacter.townswoman_empire" />
-    </face>
-    <equipmentSet />
+  <NPCCharacter id="keiki" level="30" is_hero="true" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.keiki}Keiki" occupation="Wanderer">
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+        <equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+        <equipment slot="Item2" id="Item.steppe_war_bow"/>
+        <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Horse" id="Item.noble_horse"/>
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="clownpiece" default_group="Infantry" level="20" age="23" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.clownpiece.name}Clownpiece" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
-    <face>
-      <face_key_template value="NPCCharacter.townswoman_empire" />
-    </face>
-    <equipmentSet />
+  <NPCCharacter id="clownpiece" level="20" is_hero="true" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.clownpiece}Clownpiece" occupation="Wanderer">
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+        <equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+        <equipment slot="Item2" id="Item.steppe_war_bow"/>
+        <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Horse" id="Item.noble_horse"/>
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="junko" default_group="Infantry" level="30" age="23" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.junko.name}Junko" occupation="Wanderer" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady">
-    <face>
-      <face_key_template value="NPCCharacter.townswoman_empire" />
-    </face>
-    <equipmentSet />
+  <NPCCharacter id="junko" level="30" is_hero="true" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.junko}Junko" occupation="Wanderer">
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+        <equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+        <equipment slot="Item2" id="Item.steppe_war_bow"/>
+        <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Horse" id="Item.noble_horse"/>
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+    </Equipments>
   </NPCCharacter>
 </NPCCharacters>
