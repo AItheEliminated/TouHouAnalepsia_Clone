@@ -403,21 +403,21 @@ namespace TouhouAnalepsia
 		[HarmonyPatch(typeof(SettlementPositionScript), "SaveSettlementDistanceCache")] //TODO - implement this
 		class DebugPatch23 {
 			static bool Prefix() {
-				return true;
+				return false;
 			}
 		}
 		[HarmonyPatch(typeof(SettlementPositionScript), "LoadXmlFile")]
 		class DebugPatch24 {
 			static bool Prefix(ref string path) {
 				if (path.Equals(BasePath.Name + "Modules/SandBox/ModuleData/settlements.xml")) path = BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/settlements.xml";
-				return true;
+				return false;
 			}
 		}
 		[HarmonyPatch(typeof(XmlDocument), "Save", new Type[] { typeof(string) } )]
 		class DebugPatch25 {
 			static bool Prefix(ref string filename) {
 				if (filename.Equals(BasePath.Name + "Modules/SandBox/ModuleData/settlements.xml")) filename = BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/settlements.xml";
-				return true;
+				return false;
 			}
 		}
 		protected override void OnBeforeInitialModuleScreenSetAsRoot()
