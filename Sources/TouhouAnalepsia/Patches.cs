@@ -1,5 +1,6 @@
 ﻿using HarmonyLib;
 using SandBox;
+using StoryMode;
 using StoryMode.Behaviors;
 using System;
 using System.Collections.Generic;
@@ -50,28 +51,6 @@ namespace TouhouAnalepsia {
 		}
 
 		//Debug Harmony patches
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.SandBox.GameComponents.Map.DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(Settlement), typeof(Settlement) })]
-		class DebugPatch1 {
-			static bool Prefix(ref Settlement fromSettlement, ref Settlement toSettlement) {
-				string message = (fromSettlement == null).ToString() + ", " + (toSettlement == null).ToString();
-
-				bool toLogOrNotToLog = false;
-
-				if (fromSettlement != null) {
-					message += ", from: " + fromSettlement.StringId;
-				} else toLogOrNotToLog = true;
-
-				if (toSettlement != null) {
-					message += ", to: " + toSettlement.StringId;
-				} else toLogOrNotToLog = true;
-
-				if (toLogOrNotToLog) {
-					Logger.Log(message);
-				}
-
-				return true;
-			}
-		}
 		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.UrbanCharactersCampaignBehavior), "CreateCompanion")]
 		class DebugPatch2 {
 			static bool Prefix(ref CharacterObject companionTemplate) {
@@ -171,49 +150,13 @@ namespace TouhouAnalepsia {
 				return false;
 			}
 		}
-		[HarmonyPatch(typeof(StoryMode.MainStoryLine), "get_IsPlayerInteractionRestricted")]
+		[HarmonyPatch(typeof(MainStoryLine), "get_IsPlayerInteractionRestricted")]
 		class DebugPatch20 {
 			static bool Prefix(ref bool __result) {
 				__result = false;
 				return false;
 			}
 		}
-		/*
-		[HarmonyPatch(typeof(SandBox.MapScene), "Load")]
-		class DebugPatch21 {
-			static bool Prefix(ref Scene ___scene) {
-				Debug.Print("Creating map scene", 0, Debug.DebugColor.White, 17592186044416UL);
-				___scene = Scene.CreateNewScene(false);
-				___scene.SetName("MapScene");
-				___scene.SetClothSimulationState(true);
-				this._agentRendererSceneController = MBAgentRendererSceneController.CreateNewAgentRendererSceneController(this._scene, 4096);
-				___scene.SetOcclusionMode(true);
-				SceneInitializationData initData = new SceneInitializationData(true);
-				initData.UsePhysicsMaterials = false;
-				initData.EnableFloraPhysics = false;
-				initData.UseTerrainMeshBlending = false;
-				Debug.Print("reading map scene", 0, Debug.DebugColor.White, 17592186044416UL);
-				___scene.Read("Main_map", initData);
-				MBDebug.SetErrorReportScene(this._scene);
-				___scene.DisableStaticShadows(true);
-				___scene.InvalidateTerrainPhysicsMaterials();
-				this.LoadAtmosphereData(___scene);
-				this.DisableUnwalkableNavigationMeshes();
-				MBMapScene.ValidateTerrainSoundIds();
-				___scene.OptimizeScene(true, false);
-				Debug.Print("Ticking map scene for first initialization", 0, Debug.DebugColor.White, 17592186044416UL);
-				this._scene.Tick(0.1f);
-				return false;
-			}
-		}
-		[HarmonyPatch(typeof(Scene), "Read", new Type[] { typeof(string), typeof(SceneInitializationData) })]
-		class DebugPatch22 {
-			static bool Prefix(ref string sceneName) {
-				//if (sceneName.Equals("Main_map")) sceneName = "test_map";
-				return true;
-			}
-		}
-		*/
 		[HarmonyPatch(typeof(SettlementPositionScript), "get_SettlementsDistanceCacheFilePath")]
 		class DebugPatch23 {
 			static bool Prefix(ref string __result) {
