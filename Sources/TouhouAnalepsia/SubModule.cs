@@ -401,14 +401,15 @@ namespace TouhouAnalepsia
 				return true;
 			}
 		}
-		[HarmonyPatch(typeof(SettlementPositionScript), "SaveSettlementDistanceCache")] //TODO - implement this
+		[HarmonyPatch(typeof(SettlementPositionScript), "get_SettlementsDistanceCacheFilePath")]
 		class DebugPatch23 {
-			static bool Prefix() {
-				return true;
+			static bool Prefix(ref string __result) {
+				__result = ModuleHelper.GetModuleFullPath("TouhouAnalepsia") + "ModuleData/settlements_distance_cache.bin";
+				return false;
 			}
 		}
 		[HarmonyPatch(typeof(SettlementPositionScript), "get_SettlementsXmlPath")]
-		class DebugPatch26 {
+		class DebugPatch24 {
 			static bool Prefix(ref string __result) {
 				__result = ModuleHelper.GetModuleFullPath("TouhouAnalepsia") + "ModuleData/settlements.xml";
 				return false;
