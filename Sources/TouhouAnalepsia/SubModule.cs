@@ -15,6 +15,7 @@ using System;
 using StoryMode.Behaviors;
 using SandBox;
 using System.Xml;
+using TaleWorlds.ModuleManager;
 
 namespace TouhouAnalepsia
 {
@@ -406,11 +407,11 @@ namespace TouhouAnalepsia
 				return true;
 			}
 		}
-		[HarmonyPatch(typeof(SettlementPositionScript), "LoadXmlFile")]
-		class DebugPatch24 {
-			static bool Prefix(ref string path) {
-				if (path.Equals(BasePath.Name + "Modules/SandBox/ModuleData/settlements.xml")) path = BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/settlements.xml";
-				return true;
+		[HarmonyPatch(typeof(SettlementPositionScript), "get_SettlementsXmlPath")]
+		class DebugPatch26 {
+			static bool Prefix(ref string __result) {
+				__result = ModuleHelper.GetModuleFullPath("TouhouAnalepsia") + "ModuleData/settlements.xml";
+				return false;
 			}
 		}
 		[HarmonyPatch(typeof(XmlDocument), "Save", new Type[] { typeof(string) } )]
