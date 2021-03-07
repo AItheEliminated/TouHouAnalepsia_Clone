@@ -15,6 +15,8 @@ using System;
 using StoryMode.Behaviors;
 using SandBox;
 using System.Xml;
+using TouhouAnalepsia.BeastFunction;
+using TaleWorlds.ModuleManager;
 
 namespace TouhouAnalepsia
 {
@@ -406,11 +408,11 @@ namespace TouhouAnalepsia
 				return true;
 			}
 		}
-		[HarmonyPatch(typeof(SettlementPositionScript), "LoadXmlFile")]
+		[HarmonyPatch(typeof(SettlementPositionScript), "get_SettlementsXmlPath")]
 		class DebugPatch24 {
-			static bool Prefix(ref string path) {
-				if (path.Equals(BasePath.Name + "Modules/SandBox/ModuleData/settlements.xml")) path = BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/settlements.xml";
-				return true;
+			static bool Prefix(ref string __result) {
+				__result = ModuleHelper.GetModuleFullPath("TouhouAnalepsia") + "ModuleData/settlements.xml";
+				return false;
 			}
 		}
 		[HarmonyPatch(typeof(XmlDocument), "Save", new Type[] { typeof(string) } )]
@@ -432,6 +434,7 @@ namespace TouhouAnalepsia
 
 		public override void OnMissionBehaviourInitialize(Mission mission) {
 			mission.AddMissionBehaviour(new AbilityBattleLogic());
+			mission.AddMissionBehaviour(new BeastModeBattleLogic());
 
 			base.OnMissionBehaviourInitialize(mission);
 		}
