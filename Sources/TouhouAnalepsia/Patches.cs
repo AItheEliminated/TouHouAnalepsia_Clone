@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
-using TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.ModuleManager;
@@ -15,7 +14,20 @@ using TaleWorlds.ModuleManager;
 namespace TouhouAnalepsia {
 	class Patches {
 		public static void DefaultPatches() {
-			HarmonyHandler.patchPrefix("SandBox.View.Map.PartyVisual", "TaleWorlds.CampaignSystem.IPartyVisual.OnStartup", "TouhouAnalepsia.SubModule", "DebugPatchPrefix");
+			HarmonyHandler.patchPrefix("SandBox.View.Map.PartyVisual", "TaleWorlds.CampaignSystem.IPartyVisual.OnStartup", "TouhouAnalepsia.Patches", "DebugPatchPrefix");
+			
+			//StoryMode patches
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnMainStoryLineSideChosen", "TouhouAnalepsia.Patches", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "InitializeTutorial", "TouhouAnalepsia.Patches", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches", "RemoveMethod");
+			
+			//Various deletions
+			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.BackstoryCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod"); //Makes reference to certain characters who now have their information removed from the files.
+			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior", "BuildWorkshopsAtGameStart", "TouhouAnalepsia.Patches", "RemoveMethod");
+			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.Source.TournamentGames.TournamentCampaignBehavior", "InitializeTournamentLeaderboard", "TouhouAnalepsia.Patches", "RemoveMethod");
+
 		}
 		public static bool DebugPatchPrefix(ref PartyBase party) {
 			//Logger.Log(party.Name.GetID() + ": " + party.Name.ToString());
@@ -34,31 +46,6 @@ namespace TouhouAnalepsia {
 			static bool Prefix(psai.net.PsaiCore __instance, ref string pathToProjectFile) {
 				if (pathToProjectFile.Equals(BasePath.Name + "music/soundtrack.xml")) pathToProjectFile = BasePath.Name + "Modules/TouhouAnalepsia/music/soundtrack.xml";
 				return true;
-			}
-		}
-		[HarmonyPatch(typeof(BackstoryCampaignBehavior), "OnNewGameCreated")] //Makes reference to certain characters who now have their information removed from the files.
-		class BackstoryCampaignBehaviorPatch {
-			static bool Prefix(ref CampaignGameStarter campaignGameStarter) {
-				return false;
-			}
-		}
-		//StoryMode Patches
-		[HarmonyPatch(typeof(FirstPhaseCampaignBehavior), "OnNewGameCreated")]
-		class FirstPhaseCampaignBehaviorPatch1 {
-			static bool Prefix(ref CampaignGameStarter campaignGameStarter) {//, ref Location ____inperialMentorHouse, ref Location ____antiImperialMentorHouse
-				return false;
-			}
-		}
-		[HarmonyPatch(typeof(StoryMode.Behaviors.FirstPhaseCampaignBehavior), "OnMainStoryLineSideChosen")]
-		class FirstPhaseCampaignBehaviorPatch2 {
-			static bool Prefix(ref StoryMode.MainStoryLineSide side) {
-				return false;
-			}
-		}
-		[HarmonyPatch(typeof(StoryMode.Behaviors.TutorialPhaseCampaignBehavior), "InitializeTutorial")]
-		class FirstPhaseCampaignBehaviorPatch3 {
-			static bool Prefix() {
-				return false;
 			}
 		}
 
@@ -108,22 +95,6 @@ namespace TouhouAnalepsia {
 				return true;
 			}
 		}
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.SandBox.GameComponents.Map.DefaultDiplomacyModel), "GetHeroesForEffectiveRelation")]
-		class DebugPatch3 {
-			static bool Prefix(Hero hero1, Hero hero2) {
-				string message = (hero1 == null).ToString() + ", " + (hero2 == null).ToString();
-
-				//Logger.Log(message);
-
-				return true;
-			}
-		}
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior), "BuildWorkshopsAtGameStart")]
-		class DebugPatch4 {
-			static bool Prefix() {
-				return false;
-			}
-		}
 		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.UrbanCharactersCampaignBehavior), "SpawnNotablesIfNeeded")]
 		class DebugPatch5 {
 			static bool Prefix(ref Settlement settlement) {
@@ -166,140 +137,6 @@ namespace TouhouAnalepsia {
 				return false;
 			}
 		}
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.Actions.EnterSettlementAction), "ApplyInternal")]
-		class DebugPatch6 {
-			static bool Prefix(ref Hero hero, ref MobileParty mobileParty, ref Settlement settlement) {
-				string message = settlement.StringId;
-				if (hero != null) message += ": " + hero.StringId;
-				else message += ": null";
-				//Logger.Log(message);
-
-
-				return true;
-			}
-		}
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.SandBox.Source.TournamentGames.TournamentCampaignBehavior), "InitializeTournamentLeaderboard")]
-		class DebugPatch7 {
-			static bool Prefix() {
-				return false;
-			}
-		}
-		[HarmonyPatch(typeof(TroopRoster), "AddToCounts")]
-		class DebugPatch8 {
-			static bool Prefix(ref CharacterObject character) {
-				string message = "";
-				if (character != null) message += character.StringId;
-				else message += "null";
-
-				//Logger.Log(message);
-
-
-				return true;
-			}
-		}
-		[HarmonyPatch(typeof(StoryMode.Behaviors.FirstPhaseCampaignBehavior), "OnStoryModeTutorialEnded")]
-		class DebugPatch9 {
-			static bool Prefix() {
-				return false;
-			}
-		}
-		[HarmonyPatch(typeof(StoryMode.Behaviors.TutorialPhaseCampaignBehavior), "OnStoryModeTutorialEnded")]
-		class DebugPatch10 {
-			static bool Prefix() {
-				//PartyBase.MainParty.ItemRoster.AddToCounts(DefaultItems.Grain, 2, true);
-				Hero.MainHero.Heal(PartyBase.MainParty, Hero.MainHero.MaxHitPoints, false);
-				//GiveGoldAction.ApplyBetweenCharacters(Hero.MainHero, null, Hero.MainHero.Gold, true);
-				//GiveGoldAction.ApplyBetweenCharacters(null, Hero.MainHero, 1000, true);
-				return false;
-			}
-		}
-		[HarmonyPatch(typeof(TaleWorlds.Engine.GauntletUI.GauntletLayer), "LoadMovie")]
-		class DebugPatch11 {
-			static bool Prefix(String movieName, ViewModel dataSource) {
-				//if (movieName != null) Logger.Log("LoadMovie: " + movieName);
-				//else Logger.Log("LoadMovie: null");
-				return true;
-			}
-		}
-		/*
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.GameMenuItemVM), "ExecuteAction")]
-		class DebugPatch12 {
-			static bool Prefix(TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.GameMenuItemVM __instance, MenuContext ____menuContext) {
-				Logger.Log("Made it to ExecuteAction! The GameMenuItemVM is " + __instance);
-				if (__instance != null) Logger.Log("The GameMenuItemVM has a menuContext of " + ____menuContext);
-				return true;
-			}
-			static void Postfix() {
-				Logger.Log("Made it past ExecuteAction!");
-			}
-		}
-		[HarmonyPatch(typeof(MenuContext), "InvokeConsequence")]
-		class DebugPatch13 {
-			static bool Prefix(MenuContext __instance, int index) {
-				Logger.Log("Made it to InvokeConsequence! The MenuContext is " + __instance + ", and the Campaign's MenuContext is " + Campaign.Current.CurrentMenuContext);
-				Logger.Log("The GameMenuItemVM has a index of " + index);
-				Logger.Log("The Campaign's GameMenuManager is " + Campaign.Current.GameMenuManager);
-				return true;
-			}
-			static void Postfix() {
-				Logger.Log("Made it past InvokeConsequence!");
-			}
-		}
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.GameMenus.GameMenuManager), "RunConsequencesOfMenuOption")]
-		class DebugPatch14 {
-			static bool Prefix(MenuContext menuContext, int menuItemNumber) {
-				Logger.Log("Made it to RunConsequencesOfMenuOption!");
-				Logger.Log("The MenuContext is " + menuContext + ", and the item number is " + menuItemNumber);
-				return true;
-			}
-			static void Postfix() {
-				Logger.Log("Made it past RunConsequencesOfMenuOption!");
-			}
-		}
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.GameMenus.GameMenu), "RunMenuOptionConsequence")]
-		class DebugPatch15 {
-			static bool Prefix(MenuContext menuContext, int menuItemNumber, List<TaleWorlds.CampaignSystem.GameMenus.GameMenuOption> ____menuItems) {
-				Logger.Log("Made it to RunMenuOptionConsequence!");
-				Logger.Log("The MenuContext is " + menuContext + ", and the item number is " + menuItemNumber + " of " + ____menuItems.Count);
-				return true;
-			}
-			static void Postfix() {
-				Logger.Log("Made it past RunConsequencesOfMenuOption!");
-			}
-		}
-		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.GameMenus.GameMenuOption), "RunConsequence")]
-		class DebugPatch16 {
-			static bool Prefix(TaleWorlds.CampaignSystem.GameMenus.GameMenuOption __instance, MenuContext menuContext) {
-				Logger.Log("Made it to RunConsequence! The GameMenuOption is " + __instance);
-				Logger.Log("The MenuContext is " + menuContext);
-				return true;
-			}
-			static void Postfix() {
-				Logger.Log("Made it past RunConsequence!");
-			}
-		}
-		[HarmonyPatch(typeof(MenuContext), "OnConsequence")]
-		class DebugPatch17 {
-			static bool Prefix() {
-				Logger.Log("Made it to OnConsequence!");
-				return true;
-			}
-			static void Postfix() {
-				Logger.Log("Made it past OnConsequence!");
-			}
-		}
-		[HarmonyPatch(typeof(TrainingFieldCampaignBehavior), "game_menu_settlement_leave_on_consequence")]
-		class DebugPatch18 {
-			static bool Prefix() {
-				Logger.Log("Made it to game_menu_settlement_leave_on_consequence!");
-				PlayerEncounter.LeaveSettlement();
-				Logger.Log("LeaveSettlement Suceded!");
-				PlayerEncounter.Finish(true);
-				Logger.Log("Made it past game_menu_settlement_leave_on_consequence!");
-				return false;
-			}
-		}
-		*/
 		[HarmonyPatch(typeof(StoryMode.StoryModeSubModule), "AddBehaviors")]
 		class DebugPatch19 {
 			static bool Prefix(CampaignGameStarter campaignGameStarter) {
