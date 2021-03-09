@@ -1,4 +1,4 @@
-452
+454
 mesh arrow_new_icon
 mesh bd_carpet_khuzait_h
 mesh bd_carpet_khuzait_i
@@ -310,6 +310,7 @@ prefab cave_desert_rock_wall_d
 prefab cave_rock_wall_a
 prefab cave_rock_wall_b
 prefab cave_rock_wall_e
+prefab cliff_h
 prefab defender_ranged_l1
 prefab defender_ranged_l2
 prefab defender_ranged_l3
@@ -334,6 +335,7 @@ prefab map_icon_siege
 prefab map_icon_siege_camp_1
 prefab map_icon_siege_camp_4
 prefab map_icon_siege_camp_5
+prefab map_icon_waterfall
 prefab map_icons_battania_gatehouse_l1
 prefab map_icons_battania_gatehouse_l2
 prefab map_icons_battania_gatehouse_l3
@@ -395,15 +397,15 @@ prefab map_icons_sack_b
 prefab map_icons_sack_c
 prefab map_icons_straw
 prefab map_mountain_rock_a_snw
-prefab mountain_border_b
-prefab mountain_border_c
-prefab mountain_border_d
+prefab terrain_cliff_a4
 prefab town_circle_decal
 prefab volume_box
 prefab volume_box_corner
 prefab water_plane
+prefab waterfall_end
 texture ashes_a_n
 texture ashes_a_s
+texture black_terrain
 texture cliff_c_h
 texture cliff_c_s
 texture color_grade_empire_harsh
@@ -437,8 +439,8 @@ texture rock_cliff_b_n
 texture rock_f_h
 texture rock_f_s
 texture semi_cloudy_2
-texture snow_a_d
 texture snow_a_s
+texture snow_b_d
 texture snow_b_h
 texture snow_b_n
 texture splatmap
