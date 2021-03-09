@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.SandBox.GameComponents;
 using TaleWorlds.Core;
+using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.CustomBattle;
 using TaleWorlds.MountAndBlade.CustomBattle.CustomBattle;
 using TaleWorlds.ObjectSystem;
@@ -16,9 +17,14 @@ namespace TouhouAnalepsia.BeastFunction {
 		//Harmony Patches
 		[HarmonyPatch(typeof(CustomBattleMenuVM), "GetSiegeWeaponType")]
 		class CustomBattleDataPatch1 {
-			static bool Prefix(SiegeEngineType siegeWeaponType, SiegeEngineType __result) {
-				__result = TouhouSiegeEngineTypes.BeastUnit;
-				return siegeWeaponType != __result;
+			static void Postfix(SiegeEngineType siegeWeaponType, ref SiegeEngineType __result) {
+				if (siegeWeaponType == TouhouSiegeEngineTypes.BeastUnit) __result = TouhouSiegeEngineTypes.BeastUnit;
+			}
+		}
+		[HarmonyPatch(typeof(BannerlordMissions), "GetSiegeWeaponType")]
+		class BannerlordMissionsPatch1 {
+			static void Postfix(SiegeEngineType siegeWeaponType, ref Type __result) {
+				if (siegeWeaponType == TouhouSiegeEngineTypes.BeastUnit) __result = typeof(BeastUnit);
 			}
 		}
 

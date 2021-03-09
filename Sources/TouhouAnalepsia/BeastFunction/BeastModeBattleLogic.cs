@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.Core;
+using TaleWorlds.Engine;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
@@ -44,8 +45,11 @@ namespace TouhouAnalepsia.BeastFunction {
 
 		public override void AfterStart() {
 			base.AfterStart();
-			beast_unit = Mission.Current.GetActiveEntitiesWithScriptComponentOfType<SiegeWeapon>().FirstOrDefault()?.GetFirstScriptOfType<SiegeWeapon>();
-			beast_unit.GameEntity.SetMobility(TaleWorlds.Engine.GameEntity.Mobility.dynamic_forced);
+
+			foreach(GameEntity entity in Mission.Current.GetActiveEntitiesWithScriptComponentOfType<SiegeWeapon>()) {
+				SiegeWeapon siegeWeapon = entity.GetFirstScriptOfType<SiegeWeapon>();
+				if (siegeWeapon is BeastUnit) beast_unit = siegeWeapon;
+			}
 		}
 	}
 }
