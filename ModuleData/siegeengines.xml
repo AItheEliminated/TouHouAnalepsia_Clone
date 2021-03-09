@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Check SiegeEngines.xsd for available attributes-->
+<SiegeEngineTypes>
+  <SiegeEngineType id="beast_unit"
+                   name ="{=beast_unit}Beast Unit"
+                   description ="{=*}Beast Unit"
+                   is_ranged="true"
+                   damage="192"
+                   difficulty="50"
+                   max_hit_points="500"
+                   hit_chance="0.52"
+                   is_anti_personnel="true"
+                   anti_personnel_hit_chance="0.25"
+                   man_day_cost="8"
+                   campaign_rate_of_fire_per_day="20.0"/>
+</SiegeEngineTypes>

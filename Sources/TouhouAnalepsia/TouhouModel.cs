@@ -11,6 +11,7 @@ using TaleWorlds.Localization;
 using Helpers;
 using TaleWorlds.CampaignSystem.SandBox.GameComponents;
 using TaleWorlds.CampaignSystem.SandBox.GameComponents.Map;
+using TouhouAnalepsia.BeastFunction;
 
 namespace TouhouAnalepsia {
 	public class TouhouModelManager {
@@ -25,6 +26,9 @@ namespace TouhouAnalepsia {
 			gameStarterObject.AddModel(new TouhouKingdomCreationModel());
 
 			gameStarterObject.AddModel(new TouhouAgentStatCalculateModel());
+
+
+			gameStarterObject.AddModel(new TouhouSiegeEventModel());
 		}
 	}
     class TouhouMarriageModel : DefaultMarriageModel {

@@ -22,6 +22,11 @@ namespace TouhouAnalepsia.BeastFunction {
 			base.OnMissionTick(dt);
 			//Logger.Log("Beast Unit: " + beast_unit + ", Selected Agent: " + sel_agent?.Name);
 			if (beast_unit != null && sel_agent != null) {
+				sel_agent.TeleportToPosition(beast_unit.Entity().GetGlobalFrame().origin);
+
+				//beast_unit.GameEntity.
+
+				/*
 				Vec3 pos = sel_agent.Position;
 
 				pos += 3 * Vec3.Up;
@@ -33,7 +38,7 @@ namespace TouhouAnalepsia.BeastFunction {
 				frame.origin = pos;
 
 				beast_unit.GameEntity.SetGlobalFrame(frame);
-
+				*/
 			}
 		}
 

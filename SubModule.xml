@@ -82,5 +82,8 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		<XmlNode>                
+			<XmlName id="SiegeEngines" path="siegeengines"/>
+		</XmlNode>  
 	</Xmls>
 </Module>
