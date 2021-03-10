@@ -161,7 +161,7 @@ namespace TouhouAnalepsia {
 			float num8 = HeroHelper.CalculateReliabilityConstant(clan.Leader, 1f);
 			double toDays = (CampaignTime.Now - clan.LastFactionChangeTime).ToDays;
 			float num9 = 4000f * (float)(15.0 - Math.Sqrt(Math.Min(225.0, toDays)));
-			float num10 = 60000f + (float)((clan.Fortifications != null) ? clan.Fortifications.Count<Town>() : 0) * 10000f;
+			float num10 = 60000f;// + (float)((clan.Fortifications != null) ? clan.Fortifications.Count<Town>() : 0) * 10000f; //TODO reimplement this
 			float num11 = (clan.Leader.Gold < 100000) ? (0.33f + 0.67f * (1f - (float)clan.Leader.Gold / 100000f) * (1f - (float)clan.Leader.Gold / 100000f)) : 0.33f;
 			num10 /= num11;
 			return (-num5 * (float)Math.Sqrt((double)commanderLimit) * num11 * 0.2f - num10 * num8 + -num9) * (num * num2) + (num3 - num4) + (float)((kingdom.Ruler == Hero.MainHero) ? -80000 : 0);
