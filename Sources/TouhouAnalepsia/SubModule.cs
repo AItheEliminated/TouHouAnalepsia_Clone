@@ -32,6 +32,7 @@ namespace TouhouAnalepsia
 
 			if (Utilities.EditModeEnabled)
 			{
+				/* //TODO fix this, temporarily disabled completely to stop crash.
 				Module.CurrentModule.AddInitialStateOption(new InitialStateOption(
 					"Playground", new TextObject("Playground"), 1,
 					() => { MBGameManager.StartNewGame(new FastSceneManager(
@@ -40,6 +41,7 @@ namespace TouhouAnalepsia
 							PlaygroundMission.OpenPlaygroundMission("scn_playground", "");
 						}
 						)); }, false));
+				*/
 			}
 		}
 		

@@ -59,10 +59,8 @@ namespace TouhouAnalepsia {
 				}
 
 
-				while (companionTemplate.Culture == null || !companionTemplate.Culture.StringId.ToString().Equals("human")) {
-					Settlement chosen = (from settlement in Settlement.All
-										 where settlement.Culture != null && settlement.IsTown
-										 select settlement).GetRandomElement<Settlement>();
+				if (companionTemplate.Culture == null || !companionTemplate.Culture.StringId.ToString().Equals("human")) {
+					Settlement chosen = Settlement.All.GetRandomElementWithPredicate((Settlement settlement) => settlement.Culture.StringId.ToString().Equals("human") && settlement.IsTown);
 					companionTemplate.Culture = chosen.Culture;
 				}
 
