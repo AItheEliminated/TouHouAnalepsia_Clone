@@ -39,6 +39,22 @@ namespace TouhouAnalepsia {
 			return false;
 		}
 
+		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.Campaign), "MapWidth")]
+		public static bool MapWidthPatch(ref float __result) {
+			__result = 2700f;
+			return false;
+		}
+		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.Campaign), "MapHeight")]
+		public static bool MapHeightPatch(ref float __result) {
+			__result = 2700f;
+			return false;
+		}
+		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.Campaign), "MapDiagonal")]
+		public static bool MapDiagonalPatch(ref float __result) {
+			__result = (float)Math.Sqrt(14580000.0);
+			return false;
+		}
+
 		/// <summary>
 		/// Music Patch
 		/// </summary>

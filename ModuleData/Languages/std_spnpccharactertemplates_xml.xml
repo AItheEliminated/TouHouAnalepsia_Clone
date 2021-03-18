@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="NPCCharacters.NPCCharacter.name.villager_human" text="Human Villager" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_youkai" text="Youkai Villager" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_fairy" text="Fairy Villager" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_human" text="Human Townswoman" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_youkai" text="Youkai Townswoman" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_fairy" text="Fairy Townswoman" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_wanderer_equipment_template_human" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_armed_wanderer_equipment_template_human" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_companion_equipment_template_human" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_wanderer_equipment_template_youkai" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_armed_wanderer_equipment_template_youkai" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_companion_equipment_template_youkai" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_wanderer_equipment_template_fairy" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_armed_wanderer_equipment_template_fairy" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.npc_companion_equipment_template_fairy" text="wanderer_equipment" />
+    <string id="NPCCharacters.NPCCharacter.name.guard" text="Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.fighter_human" text="Human Fighter" />
+    <string id="NPCCharacters.NPCCharacter.name.fighter_youkai" text="Youkai Fighter" />
+    <string id="NPCCharacters.NPCCharacter.name.fighter_fairy" text="Fairy Fighter" />
+    <string id="NPCCharacters.NPCCharacter.name.human_troop_civilian_template_t1" text="human_troop_civilian_template_t1" />
+    <string id="NPCCharacters.NPCCharacter.name.human_troop_civilian_template_t2" text="human_troop_civilian_template_t2" />
+    <string id="NPCCharacters.NPCCharacter.name.human_troop_civilian_template_t3" text="human_troop_civilian_template_t3" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_troop_civilian_template_t1" text="youkai_troop_civilian_template_t1" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_troop_civilian_template_t2" text="youkai_troop_civilian_template_t2" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_troop_civilian_template_t3" text="youkai_troop_civilian_template_t3" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_troop_civilian_template_t1" text="fairy_troop_civilian_template_t1" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_troop_civilian_template_t2" text="fairy_troop_civilian_template_t2" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_troop_civilian_template_t3" text="fairy_troop_civilian_template_t3" />
+  </strings>
+</base>
