@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!--This document was created with XmlTool, a tool originally developed for the Touhou Analepsia project by Urist McAurelian.
+
+Feel free to check out our own project at https://forums.taleworlds.com/index.php?threads/tbd-bannerlord-mod-touhou-analepsia-illusory-nirvana.411674/ 
+and join our discord at https://discord.gg/PUqYrGZ 
+
+If you want to use this tool yourself for you own project, you can find it at https://github.com/RomanResistance/XmlTool-->
+  <NPCCharacter id="villager_human" default_group="Infantry" level="1" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.villager_human}Human Villager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="000DC40D800005C6507011122CB700080603060883A8010100000000800001000000100300001000000000000000000000000000000000000000000006000000" age="22.49" weight="0.0417" build="0.0324" />
+      <BodyPropertiesMax version="4" key="001EFC0FC00038D4FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA0698E06809FFFFFF000000000000000000000000000000000000000079209100" age="66.85" weight="0.9182" build="0.5231" />
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.khuzait_nomad" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Head" id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.fur_hood" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_youkai" default_group="Infantry" level="1" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.villager_youkai}Youkai Villager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" age="25.57" weight="0.3164" build="0.2485" />
+      <BodyPropertiesMax version="4" key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" age="69.94" weight="0.9923" build="0.7052" />
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.imperial_recruit" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Item1" id="Item.throwing_stone" />
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_fairy" default_group="Infantry" level="1" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.villager_fairy}Fairy Villager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="001EA40C400000000100110121111110053000001111000000000001480101330125501302100000000000000000000000000000000000000000000000401000" age="24.69" weight="0.304" build="0.3225" />
+      <BodyPropertiesMax version="4" key="0034FC0FC0003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE07BB90780BEEEFFF00000000000000000000000000000000000000006F809105" age="71.09" weight="0.5725" build="0.7299" />
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_recruit" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.aserai_civil_d_hscarf" />
+        <equipment slot="Body" id="Item.aserai_civil_d" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Head" id="Item.aserai_civil_c_head" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Body" id="Item.aserai_civil_c" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_civil_b" />
+        <equipment slot="Head" id="Item.aserai_civil_hscarf_b" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_civil_a" />
+        <equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_civil_e" />
+        <equipment slot="Head" id="Item.desert_cap" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.aserai_civil_hscarf_b" />
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Head" id="Item.tied_head_wrapping" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.turban" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Body" id="Item.tassled_southern_robes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.throwing_stone" />
+        <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Head" id="Item.aserai_civil_d_hscarf" />
+        <equipment slot="Body" id="Item.aserai_civil_d" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_human" default_group="Infantry" level="1" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.townswoman_human}Human Townswoman" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="0000600990000001227101022221000240008203101023225532432173535432004446030401121200000000000000000000000000000000000000000A940001" age="22.05" weight="0.2918" build="0.2886" />
+      <BodyPropertiesMax version="4" key="0020F80FD2B4300FFE7EFEEEEDFFFFEFEFFE9EEFEFF8FFEEFFFFEFEE8FFEFFFE05CDC6570CFEFFFF0000000000000000000000000000000000000000698C90C4" age="58.36" weight="0.7701" build="0.838" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_youkai" default_group="Infantry" level="1" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.townswoman_youkai}Youkai Townswoman" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="001EA40C500000071172111110111020111071111110211108121100782222130034460303001100000000000000000000000000000000000000000012640003" age="22.94" weight="0.2546" build="0.2731" />
+      <BodyPropertiesMax version="4" key="0036F40FD22C3015FF8EFFFFEFEFEFFF7FE78FFFEEF8EFFEFFFEFFEEFEFFEEEF05CCD6570CEFFFFE00000000000000000000000000000000000000006B9440C4" age="59.91" weight="0.8565" build="0.8287" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_fairy" default_group="Infantry" level="1" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.townswoman_fairy}Fairy Townswoman" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000" age="22" weight="0.2083" build="0.4579" />
+      <BodyPropertiesMax version="4" key="0008DC0D00703010EECDBCCEDDDDEDDDFFFEFFFA7FF7FEFFFFEEFFFFAEEEFFEF08DDE6890DFFFEEF000000000000000000000000000000000000000067C440C4" age="76.5" weight="0.9182" build="0.8781" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_wanderer_equipment_template_human" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.npc_wanderer_equipment_template_human}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_armed_wanderer_equipment_template_human" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.npc_armed_wanderer_equipment_template_human}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_companion_equipment_template_human" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.npc_companion_equipment_template_human}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_wanderer_equipment_template_youkai" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.npc_wanderer_equipment_template_youkai}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_armed_wanderer_equipment_template_youkai" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.npc_armed_wanderer_equipment_template_youkai}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_companion_equipment_template_youkai" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.npc_companion_equipment_template_youkai}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_wanderer_equipment_template_fairy" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.npc_wanderer_equipment_template_fairy}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_armed_wanderer_equipment_template_fairy" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.npc_armed_wanderer_equipment_template_fairy}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_companion_equipment_template_fairy" default_group="Infantry" level="16" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.npc_companion_equipment_template_fairy}wanderer_equipment" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="guard" default_group="Infantry" level="11" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.guard}Guard" occupation="Townsfolk" formation_position_preference="Front" skill_template="NPCCharacter.infantry_heavyinfantry_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <skills>
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Bow" value="50" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item1" id="Item.strapped_round_shield" />
+        <equipment slot="Item2" id="Item.triangluar_spear_t3" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item1" id="Item.strapped_round_shield" />
+        <equipment slot="Item2" id="Item.triangluar_spear_t3" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fighter_human" default_group="Infantry" level="1" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.fighter_human}Human Fighter" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="000DC40D800005C6507011122CB700080603060883A8010100000000800001000000100300001000000000000000000000000000000000000000000006000000" age="22.49" weight="0.0417" build="0.0324" />
+      <BodyPropertiesMax version="4" key="001EFC0FC00038D4FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA0698E06809FFFFFF000000000000000000000000000000000000000079209100" age="40.8" weight="0.7182" build="0.5231" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="fighter_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fighter_youkai" default_group="Infantry" level="1" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.fighter_youkai}Youkai Fighter" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" age="25.57" weight="0.3164" build="0.2485" />
+      <BodyPropertiesMax version="4" key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" age="39" weight="0.7223" build="0.7052" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="fighter_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fighter_fairy" default_group="Infantry" level="1" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fighter_fairy}Fairy Fighter" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4" key="001EA40C400000000100110121111110053000001111000000000001480101330125501302100000000000000000000000000000000000000000000000401000" age="24.69" weight="0.304" build="0.3225" />
+      <BodyPropertiesMax version="4" key="0034FC0FC0003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE07BB90780BEEEFFF00000000000000000000000000000000000000006F809105" age="38.09" weight="0.7425" build="0.7299" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="fighter_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="human_troop_civilian_template_t1" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.human_troop_civilian_template_t1}human_troop_civilian_template_t1" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="khuzait_troop_civilian_template_t1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="human_troop_civilian_template_t2" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.human_troop_civilian_template_t2}human_troop_civilian_template_t2" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="khuzait_troop_civilian_template_t2" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="human_troop_civilian_template_t3" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.human_troop_civilian_template_t3}human_troop_civilian_template_t3" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="khuzait_troop_civilian_template_t3" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="youkai_troop_civilian_template_t1" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.youkai_troop_civilian_template_t1}youkai_troop_civilian_template_t1" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="empire_troop_civilian_template_t1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="youkai_troop_civilian_template_t2" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.youkai_troop_civilian_template_t2}youkai_troop_civilian_template_t2" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="empire_troop_civilian_template_t2" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="youkai_troop_civilian_template_t3" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.youkai_troop_civilian_template_t3}youkai_troop_civilian_template_t3" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="empire_troop_civilian_template_t3" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fairy_troop_civilian_template_t1" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fairy_troop_civilian_template_t1}fairy_troop_civilian_template_t1" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="aserai_troop_civilian_template_t1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fairy_troop_civilian_template_t2" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fairy_troop_civilian_template_t2}fairy_troop_civilian_template_t2" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fairy_troop_civilian_template_t3" default_group="infantry" age="48" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fairy_troop_civilian_template_t3}fairy_troop_civilian_template_t3" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

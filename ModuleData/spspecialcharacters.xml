@@ -1,24 +1,1657 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="villager_human" default_group="Infantry" level="2" age="23" is_hero="" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.villager_human.name}Human Villager" occupation="Villager" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+  <!--This document was created with XmlTool, a tool originally developed for the Touhou Analepsia project by Urist McAurelian.
+
+Feel free to check out our own project at https://forums.taleworlds.com/index.php?threads/tbd-bannerlord-mod-touhou-analepsia-illusory-nirvana.411674/ 
+and join our discord at https://discord.gg/PUqYrGZ 
+
+If you want to use this tool yourself for you own project, you can find it at https://github.com/RomanResistance/XmlTool-->
+  <NPCCharacter id="spc_wanderer_human_0" default_group="Infantry" age="29" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_0} the Knowing" occupation="Wanderer">
     <face>
-      <BodyProperties version="4" key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" age="20" weight="0.3164" build="0.2485" />
-      <BodyPropertiesMax version="4" key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" age="69.94" weight="0.9923" build="0.7052" />
+      <face_key_template value="NPCCharacter.fighter_human" />
     </face>
-    <equipmentSet />
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="CrossbowmanStyle" value="2" />
+      <Trait id="EngineerSkills" value="4" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="villager_youkai" default_group="Cavalry" level="4" age="23" is_hero="" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.villager_youkai.name}Minor Youkai" occupation="Villager" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady" skill_template="NPCCharacter.cavalry_lightcavalry_heavycavalry_level1_template_skills">
+  <NPCCharacter id="spc_wanderer_human_1" default_group="Infantry" age="27" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_1} the Hawk" occupation="Wanderer">
     <face>
-      <BodyProperties version="4" key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" age="25.57" weight="0.3164" build="0.2485" />
-      <BodyPropertiesMax version="4" key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" age="30" weight="0.8" build="0.7052" />
+      <face_key_template value="NPCCharacter.fighter_human" />
     </face>
-    <equipmentSet />
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HorseArcherFightingSkills" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="villager_fairy" default_group="Ranged" level="1" age="23" is_hero="" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.villager_fairy.name}Lesser Fairy" occupation="Villager" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_empire" battleTemplate="NPCCharacter.emp_bat_template_lady" skill_template="NPCCharacter.ranged_skirmisher_level1_template_skills">
+  <NPCCharacter id="spc_wanderer_human_2" default_group="Infantry" age="22" voice="earnest" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_2} the Fatherless" occupation="Wanderer">
     <face>
-      <BodyProperties version="4" key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" age="12.5" weight="0.2" build="0.2485" />
-      <BodyPropertiesMax version="4" key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" age="30" weight="0.5" build="0.7052" />
+      <face_key_template value="NPCCharacter.fighter_human" />
     </face>
-    <equipmentSet />
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HorseArcherFightingSkills" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_human_3" default_group="Infantry" age="32" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_3} Ironeye" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="SergeantCommandSkills" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_human_4" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_4} the Outcast" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HorseArcherFightingSkills" value="3" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_human_5" default_group="Infantry" age="21" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_5} the Mad" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="3" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_human_6" default_group="Infantry" age="20" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_6} the Grey Falcon" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="HorseArcherFightingSkills" value="3" />
+      <Trait id="HillScoutSkills" value="2" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_human_7" default_group="Infantry" age="28" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_7} the She-Wolf" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="SergeantCommandSkills" value="2" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_human_8" default_group="Infantry" age="29" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_8} the Alone" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="HillScoutSkills" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_human_9" default_group="Infantry" age="21" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_9} the Swift" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Traits>
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="RogueSkills" value="5" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_human_10" default_group="Infantry" voice="earnest" is_hero="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_10} the Ragged" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="HillScoutSkills" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Head" id="Item.decorated_nomad_cap" />
+        <equipment slot="Body" id="Item.ragged_robes" />
+        <equipment slot="Leg" id="Item.ragged_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_0" default_group="Infantry" age="29" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_0} the Scholar" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="EngineerSkills" value="3" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_1" default_group="Infantry" age="29" voice="earnest" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_1} the Bull" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_2" default_group="Infantry" age="26" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_2} the Silent" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="KnightFightingSkills" value="4" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_3" default_group="Infantry" age="40" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_3} the Boar" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="SergeantCommandSkills" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_4" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_4} the Robber" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="3" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_5" default_group="Infantry" age="30" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_5} the Butcher" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="PeltastFightingSkills" value="4" />
+      <Trait id="RogueSkills" value="3" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_6" default_group="Infantry" age="22" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_6} of the Hills" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="WoodsScoutSkills" value="2" />
+      <Trait id="RogueSkills" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_7" default_group="Infantry" age="24" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_7} the Wanderer" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="HopliteFightingSkills" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_8" default_group="Infantry" age="23" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_8} the Wronged" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="CrossbowmanStyle" value="3" />
+      <Trait id="RogueSkills" value="2" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_9" default_group="Infantry" age="21" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_9} the Black" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="2" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_10" default_group="Infantry" age="31" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_10} the Surgeon" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="Surgeon" value="4" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_youkai_11" default_group="Infantry" age="28" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_11} the Wronged" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="CavalryFightingSkills" value="4" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_0" default_group="Infantry" age="26" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_0} the Scholar" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="Surgeon" value="6" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_1" default_group="Infantry" age="23" voice="earnest" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_1} the Golden" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="CavalryFightingSkills" value="6" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_2" default_group="Infantry" age="25" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_2} the Falcon" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="CavalryFightingSkills" value="4" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_3" default_group="Infantry" age="33" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_3} the Swordsman" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_4" default_group="Infantry" age="25" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_4} the Prince" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="PeltastFightingSkills" value="4" />
+      <Trait id="RogueSkills" value="7" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_5" default_group="Infantry" age="27" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_5} the Hyena" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="RogueSkills" value="5" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_6" default_group="Infantry" age="31" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_6} of the Wastes" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArcherFIghtingSkills" value="5" />
+      <Trait id="DesertScoutSkills" value="7" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_7" default_group="Infantry" age="25" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_7} the Wanderer" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="CavalryFightingSkills" value="4" />
+      <Trait id="Commander" value="5" />
+      <Trait id="DesertScoutSkills" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_8" default_group="Infantry" age="28" voice="softspoken" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_8} the Spicevendor" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="CrossbowmanStyle" value="4" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_9" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_9} the Leopardess" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_fairy_10" default_group="Infantry" age="26" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_10} the Engineer" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="CrossbowmanStyle" value="3" />
+      <Trait id="EngineerSkills" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_merchant_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_merchant_1}Cautious human merchant" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_0b} the Broker" occupation="Merchant" skill_template="NPCCharacter.spc_notable_human_0b">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_notable_khuzait_0b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1} the Dyer" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_notable_khuzait_1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_1b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1b} the Horsetrader" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_notable_khuzait_1b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_1c" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1c} the Wineseller" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_notable_khuzait_1c" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_2" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_2} the Freedwoman" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Traits>
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_notable_khuzait_2" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_2b" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_2b} the Silkseller" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Traits>
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_notable_khuzait_2b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_3" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_3}human shaman" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_notable_khuzait_3" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_human_4" default_group="Infantry" voice="softspoken" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_4}Female preacher" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Traits>
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_notable_khuzait_4" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_gangleader_1" default_group="Infantry" voice="curt" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_gangleader_1}Female gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_gangleader_2" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_gangleader_2}Standard male gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_gangleader_3" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_gangleader_3}Standard male gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="spc_khuzait_gangleader_3" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_rural_notable_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_rural_notable_1}human craft rural notable" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_rural_notable_2" default_group="Infantry" voice="earnest" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_rural_notable_2}human proud rural notable" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_outlaw_1}human bold outlaw" occupation="Outlaw">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_outlaw_2}human menacing outlaw" occupation="Outlaw">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_artisan_1" default_group="Infantry" voice="earnest" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_artisan_1}human rebellious artisan" occupation="Artisan">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_artisan_2" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_artisan_2}human conservative artisan" occupation="Artisan">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_artisan_3" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_artisan_3}human devious artisan" occupation="Artisan">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_headman_1" default_group="Infantry" voice="earnest" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_headman_1}human rebellious headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_headman_2" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_headman_2}human conservative headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_human_headman_3" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_headman_3}human devious headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait" />
+      <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_0" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_0}Cautious imperial merchant" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_0b} the Vintner" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_1" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_1}youkai merchant 3, ruthless" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_1b" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_1b}Cold imperial merchant" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_2} the Saltpanner" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_2b" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_2b}youkai merchant 6, cautious" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_3" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_3}youkai merchant 7, selfmade" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_3b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_3b}youkai merchant 8, jocular" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_4" default_group="Infantry" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_4}youkai merchant 9, heiress" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_4b" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_4b}youkai merchant 10, devious" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_5" default_group="Infantry" voice="earnest" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_5}Messianic imperial preacher" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="spc_notable_empire_5" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_6" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_6}Puritan imperial preacher" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="spc_notable_empire_6" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_7" default_group="Infantry" voice="earnest" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_7}Female imperial mystic" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="0" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="spc_notable_empire_7" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_8" default_group="Infantry" voice="curt" is_female="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_8}Imperial gruff labor leader" occupation="Artisan">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="spc_notable_empire_8" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_9" default_group="Infantry" voice="earnest" is_female="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_9}Imperial outgoing labor leader" occupation="Artisan">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="spc_notable_empire_9" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_gl1" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_gl1}Protective imperial male gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_10" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_10}Ironic imperial gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_11" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_11}Intimidating male imperial gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_gl4" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_gl4}Bestial male imperial gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_12" default_group="Infantry" voice="ironic" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_12}Female imperial gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_13" default_group="Infantry" voice="softspoken" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_13}Menacing female imperial gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_21" default_group="Infantry" voice="curt" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_21}youkai gruff rural notable" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_youkai_22" default_group="Infantry" voice="softspoken" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_22}youkai rural notable agreeable" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_youkai" />
+    </face>
+    <Traits>
+      <Trait id="GentryEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_youkai_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_outlaw_1}youkai bold outlaw" occupation="Outlaw">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_youkai_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_outlaw_2}youkai menacing outlaw" occupation="Outlaw">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_youkai_headman_1" default_group="Infantry" voice="earnest" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_headman_1}youkai rebellious headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_youkai_headman_2" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_headman_2}youkai conservative headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_youkai_headman_3" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_headman_3}youkai devious headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
+      <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_0" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_0} the Dateseller" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_0" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_0b} the Minter" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_0b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_1" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_1} the Coppermonger" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_1b" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_1b} the Incensemonger" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_1b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_2} the Woolseller" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_2" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_2b" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_2b} the Appraiser" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Commander" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_2b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_3" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_3} the Caravanser" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_3" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_3b" default_group="Infantry" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_3b} the Benefactor" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Commander" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_3b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_4" default_group="Infantry" voice="earnest" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_4}fairy rebellious preacher" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_4" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_5" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_5}fairy fire-and-brimstone preacher" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_5" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_6" default_group="Infantry" voice="earnest" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_6}fairy female preacher" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Generosity" value="0" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_6" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_7" default_group="Infantry" voice="earnest" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_7}fairy fitiwi" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_7" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_8" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_8}fairy fitiwi" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_8" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_9" default_group="Infantry" voice="curt" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_9}Fearsome female fairy gang leader" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_9" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_10" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_10}fairy artisan leader" occupation="Artisan">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="spc_notable_aserai_10" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_11" default_group="Infantry" voice="earnest" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_11}fairy earnest umda rural notable" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_fairy_12" default_group="Infantry" voice="softspoken" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_12}fairy quiet umda rural notable" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_fairy_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_outlaw_1}fairy bold outlaw" occupation="Outlaw">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_fairy_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_outlaw_2}fairy menacing outlaw" occupation="Outlaw">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_fairy_headman_1" default_group="Infantry" voice="earnest" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_headman_1}fairy rebellious headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_fairy_headman_2" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_headman_2}fairy conservative headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_fairy_headman_3" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_headman_3}fairy devious headman" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
   </NPCCharacter>
 </NPCCharacters>

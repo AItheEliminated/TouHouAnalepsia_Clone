@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_human_one_participant_set_v1" text="tournament_template_human_one_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_human_two_participant_set_v1" text="tournament_template_human_two_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_human_four_participant_set_v1" text="tournament_template_human_four_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_youkai_one_participant_set_v1" text="tournament_template_youkai_one_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_youkai_two_participant_set_v1" text="tournament_template_youkai_two_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_youkai_four_participant_set_v1" text="tournament_template_youkai_four_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_fairy_one_participant_set_v1" text="tournament_template_fairy_one_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_fairy_two_participant_set_v1" text="tournament_template_fairy_two_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_template_fairy_four_participant_set_v1" text="tournament_template_fairy_four_participant_set_v1" />
+    <string id="NPCCharacters.NPCCharacter.name.human_nomad" text="Human Nomad" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_recruit" text="Youkai Recruit" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_recruit" text="Fairy Recruit" />
+    <string id="NPCCharacters.NPCCharacter.name.gear_practice_dummy_human" text="Human Gear Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_1_human" text="Human Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_2_human" text="Human Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_3_human" text="Human Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.gear_practice_dummy_youkai" text="Youkai Gear Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_1_youkai" text="Youkai Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_2_youkai" text="Youkai Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_3_youkai" text="Youkai Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.gear_practice_dummy_fairy" text="Fairy Gear Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_1_fairy" text="Fairy Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_2_fairy" text="Fairy Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.weapon_practice_stage_3_fairy" text="Fairy Weapon Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.gear_dummy_human" text="Human Gear Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.gear_dummy_youkai" text="Youkai Gear Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.gear_dummy_fairy" text="Fairy Gear Dummy" />
+    <string id="NPCCharacters.NPCCharacter.name.beggar_human" text="Beggar" />
+    <string id="NPCCharacters.NPCCharacter.name.beggar_youkai" text="Beggar" />
+    <string id="NPCCharacters.NPCCharacter.name.beggar_fairy" text="Beggar" />
+    <string id="NPCCharacters.NPCCharacter.name.female_beggar_human" text="Beggar" />
+    <string id="NPCCharacters.NPCCharacter.name.female_beggar_youkai" text="Beggar" />
+    <string id="NPCCharacters.NPCCharacter.name.female_beggar_fairy" text="Beggar" />
+    <string id="NPCCharacters.NPCCharacter.name.female_dancer_human" text="Dancer" />
+    <string id="NPCCharacters.NPCCharacter.name.female_dancer_youkai" text="Dancer" />
+    <string id="NPCCharacters.NPCCharacter.name.female_dancer_fairy" text="Dancer" />
+    <string id="NPCCharacters.NPCCharacter.name.barber_human" text="Barber" />
+    <string id="NPCCharacters.NPCCharacter.name.barber_youkai" text="Barber" />
+    <string id="NPCCharacters.NPCCharacter.name.barber_fairy" text="Barber" />
+    <string id="NPCCharacters.NPCCharacter.name.armorer_human" text="Armorer" />
+    <string id="NPCCharacters.NPCCharacter.name.armorer_youkai" text="Armorer" />
+    <string id="NPCCharacters.NPCCharacter.name.armorer_fairy" text="Armorer" />
+    <string id="NPCCharacters.NPCCharacter.name.horseMerchant_human" text="Horse Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.horseMerchant_youkai" text="Horse Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.horseMerchant_fairy" text="Horse Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.merchant_human" text="Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.merchant_youkai" text="Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.merchant_fairy" text="Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.tavernkeeper_human" text="Tavern Keeper" />
+    <string id="NPCCharacters.NPCCharacter.name.tavernkeeper_youkai" text="Tavern Keeper" />
+    <string id="NPCCharacters.NPCCharacter.name.tavernkeeper_fairy" text="Tavern Keeper" />
+    <string id="NPCCharacters.NPCCharacter.name.taverngamehost_human" text="Game Host" />
+    <string id="NPCCharacters.NPCCharacter.name.taverngamehost_youkai" text="Game Host" />
+    <string id="NPCCharacters.NPCCharacter.name.taverngamehost_fairy" text="Game Host" />
+    <string id="NPCCharacters.NPCCharacter.name.musician_human" text="Musician" />
+    <string id="NPCCharacters.NPCCharacter.name.musician_youkai" text="Musician" />
+    <string id="NPCCharacters.NPCCharacter.name.musician_fairy" text="Musician" />
+    <string id="NPCCharacters.NPCCharacter.name.tavern_wench_human" text="Tavern Maid" />
+    <string id="NPCCharacters.NPCCharacter.name.tavern_wench_youkai" text="Tavern Maid" />
+    <string id="NPCCharacters.NPCCharacter.name.tavern_wench_fairy" text="Tavern Maid" />
+    <string id="NPCCharacters.NPCCharacter.name.shop_worker_human" text="Shop Worker" />
+    <string id="NPCCharacters.NPCCharacter.name.shop_worker_youkai" text="Shop Worker" />
+    <string id="NPCCharacters.NPCCharacter.name.shop_worker_fairy" text="Shop Worker" />
+    <string id="NPCCharacters.NPCCharacter.name.merchant_notary_human" text="Merchant Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.merchant_notary_youkai" text="Merchant Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.merchant_notary_fairy" text="Merchant Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.preacher_notary_human" text="Preacher Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.preacher_notary_youkai" text="Preacher Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.preacher_notary_fairy" text="Preacher Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.artisan_notary_human" text="Artisan Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.artisan_notary_youkai" text="Artisan Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.artisan_notary_fairy" text="Artisan Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.rural_notable_notary_human" text="Rural Notable Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.rural_notable_notary_youkai" text="Rural Notable Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.rural_notable_notary_fairy" text="Rural Notable Notary" />
+    <string id="NPCCharacters.NPCCharacter.name.ransom_broker_human" text="Ransom Broker" />
+    <string id="NPCCharacters.NPCCharacter.name.ransom_broker_youkai" text="Ransom Broker" />
+    <string id="NPCCharacters.NPCCharacter.name.ransom_broker_fairy" text="Ransom Broker" />
+    <string id="NPCCharacters.NPCCharacter.name.gangleader_bodyguard_human" text="Gang Leader Bodyguard" />
+    <string id="NPCCharacters.NPCCharacter.name.gangleader_bodyguard_youkai" text="Gang Leader Bodyguard" />
+    <string id="NPCCharacters.NPCCharacter.name.gangleader_bodyguard_fairy" text="Gang Leader Bodyguard" />
+    <string id="NPCCharacters.NPCCharacter.name.prison_guard_human" text="Prison Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.prison_guard_youkai" text="Prison Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.prison_guard_fairy" text="Prison Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.guard_human" text="Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.guard_youkai" text="Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.guard_fairy" text="Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.steward_human" text="Judge" />
+    <string id="NPCCharacters.NPCCharacter.name.steward_youkai" text="Judge" />
+    <string id="NPCCharacters.NPCCharacter.name.steward_fairy" text="Judge" />
+    <string id="NPCCharacters.NPCCharacter.name.blacksmith_human" text="Blacksmith" />
+    <string id="NPCCharacters.NPCCharacter.name.blacksmith_youkai" text="Blacksmith" />
+    <string id="NPCCharacters.NPCCharacter.name.blacksmith_fairy" text="Blacksmith" />
+    <string id="NPCCharacters.NPCCharacter.name.weaponsmith_human" text="Weaponsmith" />
+    <string id="NPCCharacters.NPCCharacter.name.weaponsmith_youkai" text="Weaponsmith" />
+    <string id="NPCCharacters.NPCCharacter.name.weaponsmith_fairy" text="Weaponsmith" />
+    <string id="NPCCharacters.NPCCharacter.name.human_duel_preset" text="Human preset" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_duel_preset" text="Youkai preset" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_duel_preset" text="Fairy preset" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_master_human" text="Tournament Master" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_master_youkai" text="Tournament Master" />
+    <string id="NPCCharacters.NPCCharacter.name.tournament_master_fairy" text="Tournament Master" />
+    <string id="NPCCharacters.NPCCharacter.name.caravan_master_human" text="Human Caravan Master" />
+    <string id="NPCCharacters.NPCCharacter.name.caravan_master_youkai" text="Youkai Caravan Master" />
+    <string id="NPCCharacters.NPCCharacter.name.caravan_master_fairy" text="Fairy Caravan Master" />
+    <string id="NPCCharacters.NPCCharacter.name.armed_trader_human" text="Human Armed Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.armed_trader_youkai" text="Youkai Armed Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.armed_trader_fairy" text="Fairy Armed Trader" />
+    <string id="NPCCharacters.NPCCharacter.name.caravan_guard_human" text="Human Caravan Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.caravan_guard_youkai" text="Youkai Caravan Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.caravan_guard_fairy" text="Fairy Caravan Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.veteran_caravan_guard_human" text="Human Veteran Caravan Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.veteran_caravan_guard_youkai" text="Youkai Veteran Caravan Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.veteran_caravan_guard_fairy" text="Fairy Veteran Caravan Guard" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_human" text="Townsman" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_youkai" text="Townsman" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_fairy" text="Townsman" />
+  </strings>
+</base>

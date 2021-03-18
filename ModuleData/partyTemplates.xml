@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+  <!--This document was created with XmlTool, a tool originally developed for the Touhou Analepsia project by Urist McAurelian.
+
+Feel free to check out our own project at https://forums.taleworlds.com/index.php?threads/tbd-bannerlord-mod-touhou-analepsia-illusory-nirvana.411674/ 
+and join our discord at https://discord.gg/PUqYrGZ 
+
+If you want to use this tool yourself for you own project, you can find it at https://github.com/RomanResistance/XmlTool-->
+  <MBPartyTemplate id="villager_human_template">
+    <stacks>
+      <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_human" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="villager_youkai_template">
+    <stacks>
+      <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_youkai" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="villager_fairy_template">
+    <stacks>
+      <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_fairy" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_human_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.human_nomad" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_youkai_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.youkai_recruit" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_fairy_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.fairy_recruit" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>
