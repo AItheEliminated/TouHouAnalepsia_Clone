@@ -1,0 +1,292 @@
+<prefabs>
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	<game_entity name="beast_unit_a" old_prefab_name="" mobility="1" season_mask="255">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics override_material="wood" mass="1.000"/>
+		<scripts>
+			<script name="BeastUnit">
+				<variables>
+					<variable name="NavelTag" value="BallistaNavel"/>
+					<variable name="BodyTag" value="BallistaBody"/>
+					<variable name="AnimationHeightDifference" value="0.000"/>
+					<variable name="IdleActionName" value="act_usage_ballista_idle_attacker"/>
+					<variable name="ReloadActionName" value="act_usage_ballista_reload_attacker"/>
+					<variable name="PlaceAmmoStartActionName" value="act_usage_ballista_ammo_place_start_attacker"/>
+					<variable name="PlaceAmmoEndActionName" value="act_usage_ballista_ammo_place_end_attacker"/>
+					<variable name="PickUpAmmoStartActionName" value="act_usage_ballista_ammo_pick_up_start_attacker"/>
+					<variable name="PickUpAmmoEndActionName" value="act_usage_ballista_ammo_pick_up_end_attacker"/>
+					<variable name="ReloadTag" value="reload"/>
+					<variable name="AmmoLoadTag" value="ammoload"/>
+					<variable name="CameraHolderTag" value="cameraHolder"/>
+					<variable name="ProjectileTag" value="projectile"/>
+					<variable name="MissileItemID" value="ballista_projectile"/>
+					<variable name="Focus" value="Troops"/>
+					<variable name="startingAmmoCount" value="12"/>
+					<variable name="TopReleaseAngleRestriction" value="0.700"/>
+					<variable name="BottomReleaseAngleRestriction" value="-0.700"/>
+					<variable name="VisualizeReleaseTrajectoryAngle" value="0.700"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value="ballista_a_dnm"/>
+				</variables>
+			</script>
+			<script name="DestructableComponent">
+				<variables>
+					<variable name="DestructionStates" value="destroyed"/>
+					<variable name="DestroyedByStoneOnly" value="false"/>
+					<variable name="CanBeDestroyedInitially" value="false"/>
+					<variable name="MaxHitPoint" value="250.000"/>
+					<variable name="DestroyOnAnyHit" value="false"/>
+					<variable name="PassHitOnToParent" value="false"/>
+					<variable name="ReferenceEntityTag" value=""/>
+					<variable name="HeavyHitParticlesTag" value=""/>
+					<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+					<variable name="ParticleEffectOnDestroy" value=""/>
+					<variable name="SoundEffectOnDestroy" value="event:/mission/siege/ballista/break"/>
+					<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+					<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+					<variable name="BattleSide" value="Attacker"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+				<tags>
+					<tag name="operational"/>
+				</tags>
+				<physics shape="bo_ballista_a_stand" override_material="wood_nonstick" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ballista_a_stand"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="navel" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="BallistaNavel"/>
+						</tags>
+						<transform position="-0.005, -0.114, 1.046"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="ballista_a_navel"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="body" old_prefab_name="" mobility="1" season_mask="255">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="BallistaBody"/>
+								</tags>
+								<transform position="0.005, -0.006, 0.266"/>
+								<physics shape="bo_ballista_a_body" override_material="wood_nonstick" mass="1.000"/>
+								<skeleton skeleton_model="ballista_skeleton">
+									<components>
+										<meta_mesh_component name="ballista_a_body"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="camera" old_prefab_name="" mobility="1" season_mask="255">
+										<visibility_masks>
+											<visibility_mask name="visible_only_when_editing" value="true"/>
+										</visibility_masks>
+										<tags>
+											<tag name="cameraHolder"/>
+										</tags>
+										<transform position="0.000, 0.723, 0.190" rotation_euler="1.571, -3.142, 0.000"/>
+										<physics mass="1.000"/>
+										<components>
+											<meta_mesh_component name="icon_camera"/>
+										</components>
+									</game_entity>
+									<game_entity name="projectile" old_prefab_name="" mobility="1" season_mask="255">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="projectile"/>
+											<tag name="ballista_projectile"/>
+										</tags>
+										<transform position="0.000, 0.337, 0.065" rotation_euler="-1.544, 0.000, 3.141"/>
+										<physics mass="1.000"/>
+										<components>
+											<meta_mesh_component name="ballista_projectile_a"/>
+										</components>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="use_pos" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="Pilot"/>
+							<tag name="reload"/>
+						</tags>
+						<transform position="0.000, 1.350, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPoint">
+								<variables>
+									<variable name="WaypointTag" value="aiwaypoint"/>
+									<variable name="AutoSheathWeapons" value="true"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1" season_mask="255">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="Wait"/>
+						</tags>
+						<transform position="0.562, 6.690, 0.000" rotation_euler="0.000, 0.000, 3.105"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+					</game_entity>
+					<game_entity name="projectile_pile" old_prefab_name="" mobility="1" season_mask="255">
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="ballista_a_projectile_a_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="targeting_volume" old_prefab_name="" mobility="1" season_mask="255">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="targeting_entity"/>
+						</tags>
+						<transform position="0.000, 0.099, 1.178" rotation_euler="0.000, 0.000, 0.000" scale="2.000, 2.000, 2.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="barrier_sphere">
+								<mesh name="barrier_sphere" material="volume_box"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="destroyed" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="part_02" old_prefab_name="" mobility="1" season_mask="255">
+						<transform position="0.000, 0.000, 0.027"/>
+						<physics shape="bo_ballista_damaged_part_02" override_material="wood" mass="20.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="ballista_damaged_part_02"/>
+						</components>
+					</game_entity>
+					<game_entity name="part_01" old_prefab_name="" mobility="1" season_mask="255">
+						<transform position="0.000, 0.679, 0.194" rotation_euler="0.082, 0.000, 0.000"/>
+						<physics shape="bo_ballista_damaged_part_01" override_material="wood" mass="20.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="ballista_damaged_part_01"/>
+						</components>
+					</game_entity>
+					<game_entity name="part_03" old_prefab_name="" mobility="1" season_mask="255">
+						<transform position="0.712, -0.509, 0.273" rotation_euler="0.999, -0.350, 0.409"/>
+						<physics shape="bo_ballista_damaged_part_03" override_material="wood" mass="20.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="ballista_damaged_part_03"/>
+						</components>
+					</game_entity>
+					<game_entity name="part_05" old_prefab_name="" mobility="1" season_mask="255">
+						<transform position="0.512, -0.936, 1.314"/>
+						<physics shape="bo_ballista_damaged_part_05" override_material="wood" mass="10.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="ballista_damaged_part_05"/>
+						</components>
+					</game_entity>
+					<game_entity name="part_04" old_prefab_name="" mobility="1" season_mask="255">
+						<transform position="0.063, -0.154, 1.447"/>
+						<physics shape="bo_ballista_damaged_part_04" override_material="wood" mass="20.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="ballista_damaged_part_04"/>
+						</components>
+					</game_entity>
+					<game_entity name="particles" old_prefab_name="" mobility="1" season_mask="255">
+						<physics mass="1.000"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{A2EFFC00-300A-4A7E-8D4D-A204D4AB7319}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

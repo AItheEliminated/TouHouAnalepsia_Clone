@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomBattleScenes>
+  <!--Siege Maps-->
+  <Scene id="beast_unit_test_castle"
+         name="{=*}Beast Unit Test Castle"
+         terrain="Plain"
+         is_siege_map="true"></Scene>
+</CustomBattleScenes>

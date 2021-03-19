@@ -1,4 +1,6 @@
 ﻿using HarmonyLib;
+using SandBox;
+using SandBox.Source;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +9,12 @@ using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.SandBox.GameComponents;
 using TaleWorlds.Core;
+using TaleWorlds.Engine;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.CustomBattle;
 using TaleWorlds.MountAndBlade.CustomBattle.CustomBattle;
+using TaleWorlds.MountAndBlade.GauntletUI.Widgets.Order;
+using TaleWorlds.MountAndBlade.ViewModelCollection.Order;
 using TaleWorlds.ObjectSystem;
 
 namespace TouhouAnalepsia.BeastFunction {
@@ -21,10 +26,45 @@ namespace TouhouAnalepsia.BeastFunction {
 				if (siegeWeaponType == TouhouSiegeEngineTypes.BeastUnit) __result = TouhouSiegeEngineTypes.BeastUnit;
 			}
 		}
+		[HarmonyPatch(typeof(CampaignMissionManager), "GetSiegeWeaponType")]
+		class CampaignMissionManagerPatch1 {
+			static void Postfix(SiegeEngineType siegeWeaponType, ref Type __result) {
+				if (siegeWeaponType == TouhouSiegeEngineTypes.BeastUnit) __result = typeof(BeastUnit);
+			}
+		}
+		[HarmonyPatch(typeof(CampaignMapSiegePrefabEntityCache), "GetSiegeEngineEntity")]
+		class CampaignMapSiegePrefabEntityCachePatch1 {
+			static bool Prefix(ref SiegeEngineType type) {
+				if (type == TouhouSiegeEngineTypes.BeastUnit) {
+					type = DefaultSiegeEngineTypes.FireBallista;
+				}
+				return true;
+			}
+		}
+		[HarmonyPatch(typeof(OrderSiegeMachineVM), "GetSiegeType")]
+		class OrderSiegeMachineVMPatch1 {
+			static void Postfix(Type t, ref SiegeEngineType __result) {
+				if (t == typeof(BeastUnit)) __result = TouhouSiegeEngineTypes.BeastUnit;
+			}
+		}
 		[HarmonyPatch(typeof(BannerlordMissions), "GetSiegeWeaponType")]
 		class BannerlordMissionsPatch1 {
 			static void Postfix(SiegeEngineType siegeWeaponType, ref Type __result) {
 				if (siegeWeaponType == TouhouSiegeEngineTypes.BeastUnit) __result = typeof(BeastUnit);
+			}
+		}
+
+		[HarmonyPatch(typeof(OrderSiegeMachineItemWidget), "UpdateMachineIcon")]
+		class OrderSiegeMachineItemWidgetPatch1 {
+			static bool Prefix(OrderSiegeMachineItemWidget __instance, ref bool ____isRemainingCountVisible) {
+				if (__instance.MachineIconWidget == null) return true;
+				____isRemainingCountVisible = true;
+				string machineClass = __instance.MachineClass;
+				if (machineClass == "beast_unit") {
+					__instance.MachineIconWidget.SetState("FireBallista");
+					return false;
+				}
+				return true;
 			}
 		}
 

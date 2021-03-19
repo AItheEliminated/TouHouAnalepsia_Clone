@@ -23,7 +23,7 @@ namespace TouhouAnalepsia.BeastFunction {
 			base.OnMissionTick(dt);
 			//Logger.Log("Beast Unit: " + beast_unit + ", Selected Agent: " + sel_agent?.Name);
 			if (beast_unit != null && sel_agent != null) {
-				sel_agent.TeleportToPosition(beast_unit.Entity().GetGlobalFrame().origin);
+				//sel_agent.TeleportToPosition(beast_unit.Entity().GetGlobalFrame().origin);
 
 				//beast_unit.GameEntity.
 

@@ -1,0 +1,60 @@
+<prefabs>
+	<game_entity name="beast_unit_a_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="BeastUnitSpawner"/>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="beast_unit_a_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_ballista_a_stand" override_material="wood" mass="1.000"/>
+		<children>
+			<game_entity name="clean" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ballista_a_spawner_ghost">
+						<mesh name="ballista_a_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="wait_pos_ground" old_prefab_name="">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.567, 6.690, 0.000" rotation_euler="0.000, 0.000, 3.105"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost">
+								<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+</prefabs>
+

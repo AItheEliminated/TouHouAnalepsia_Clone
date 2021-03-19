@@ -117,5 +117,8 @@
 		<XmlNode>
 			<XmlName id="SiegeEngines" path="siegeengines"/>
 		</XmlNode>
+		<!--XmlNode>                
+			<XmlName id="Scene" path="custom_battle_scenes"/>
+		</XmlNode--> 
 	</Xmls>
 </Module>
