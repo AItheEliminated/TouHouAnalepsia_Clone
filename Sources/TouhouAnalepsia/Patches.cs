@@ -171,6 +171,13 @@ namespace TouhouAnalepsia {
 				return false;
 			}
 		}
+		[HarmonyPatch(typeof(TaleWorlds.Engine.Scene), "Read", new Type[] { typeof(string), typeof(TaleWorlds.Engine.SceneInitializationData) })]
+		class DebugPatch22 {
+			static bool Prefix(ref string sceneName) {
+				if (sceneName.Equals("Main_map")) sceneName = "gensokyo_map_development2";
+				return true;
+			}
+		}
 		[HarmonyPatch(typeof(SettlementPositionScript), "get_SettlementsDistanceCacheFilePath")]
 		class DebugPatch23 {
 			static bool Prefix(ref string __result) {
