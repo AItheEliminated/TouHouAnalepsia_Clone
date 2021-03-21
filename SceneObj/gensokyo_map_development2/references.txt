@@ -1,4 +1,13 @@
-454
+476
+flora_entity flora_reed_e
+flora_entity free_flora_green__mix_flower
+flora_entity free_valley_flower__mix
+flora_entity tree_olive__mix
+flora_entity tree_olive_a
+flora_entity tree_olive_b
+flora_entity valley_ground_rock_a
+flora_entity valley_plant_b
+flora_entity valley_plant_c
 mesh arrow_new_icon
 mesh bd_carpet_khuzait_h
 mesh bd_carpet_khuzait_i
@@ -282,6 +291,7 @@ mesh th_kinoko_g
 mesh th_kinoko_h
 mesh th_kinoko_i
 mesh th_step_i
+mesh th_torii_b
 mesh th_ylyq_taosu1
 mesh tree_high_b
 mesh village_battania_1
@@ -297,9 +307,12 @@ prefab attacker_siege_ram
 prefab attacker_siege_tower
 prefab banner_pos
 prefab bat_siege
+prefab battania_castle_keep_wood_stake_e
 prefab battania_castle_l1
 prefab battania_castle_l2
 prefab battania_castle_l3
+prefab bd_cloth_hanging_rope
+prefab bd_rope_sturgia_a
 prefab bo_castle
 prefab bo_siege_engine
 prefab bo_siege_wall
@@ -396,8 +409,16 @@ prefab map_icons_sack_a
 prefab map_icons_sack_b
 prefab map_icons_sack_c
 prefab map_icons_straw
+prefab map_icons_sturgia_house_a
 prefab map_mountain_rock_a_snw
-prefab terrain_cliff_a4
+prefab map_mountain_rock_d_snw
+prefab map_mountain_rock_f_snw
+prefab map_rock_hillside_a
+prefab map_rock_new_d
+prefab map_rock_new_e
+prefab terrain_desert_rock_a
+prefab terrain_desert_rock_c
+prefab terrain_rock_a
 prefab town_circle_decal
 prefab volume_box
 prefab volume_box_corner
@@ -405,7 +426,6 @@ prefab water_plane
 prefab waterfall_end
 texture ashes_a_n
 texture ashes_a_s
-texture black_terrain
 texture cliff_c_h
 texture cliff_c_s
 texture color_grade_empire_harsh
@@ -416,6 +436,8 @@ texture gloss_s
 texture grass_a_d
 texture ground_earth_n
 texture ground_forest_b_d_main_map
+texture ground_forest_b_h
+texture ground_forest_b_n
 texture ground_forest_b_n_main_map
 texture ground_forest_b_s
 texture ground_grass_b_d_mainmap
@@ -434,6 +456,10 @@ texture lens_dirt
 texture lens_star
 texture main_map_mountains_d
 texture main_map_outer_n_4K
+texture plowed_field_a_d
+texture plowed_field_a_h
+texture plowed_field_a_n
+texture plowed_field_a_s
 texture rock_a
 texture rock_cliff_b_n
 texture rock_f_h
@@ -448,8 +474,4 @@ texture stone_desert_a_d
 texture stone_desert_a_n
 texture sun_core2
 texture vtstt_ground_grass_soil_a_d
-texture vtstt_plowed_field_a_d
-texture vtstt_plowed_field_a_h
-texture vtstt_plowed_field_a_n
-texture vtstt_plowed_field_a_s
 texture water_ground
