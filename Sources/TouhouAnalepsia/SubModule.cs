@@ -24,6 +24,7 @@ namespace TouhouAnalepsia
 		protected override void OnSubModuleLoad()
 		{
 			base.OnSubModuleLoad();
+			Patches.Prepatch(); //For transpilers and whatnot, in case they need it.
 			HarmonyHandler.PatchAll();
 
 			Patches.DefaultPatches();
@@ -43,6 +44,12 @@ namespace TouhouAnalepsia
 						)); }, false));
 				*/
 			}
+
+			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedCameraHeight, 1000);
+			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedDistanceFromCenterPointX, 720);
+			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedDistanceFromCenterPointY, 720);
+			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointX, 360);
+			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointY, 360);
 		}
 		
 		protected override void OnBeforeInitialModuleScreenSetAsRoot()

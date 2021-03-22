@@ -86,6 +86,14 @@
 			</ItemGroup>
 		</Otherwise>
 	</Choose>
+	<PropertyGroup>
+		<!-- The root directory of MountBlade:Bannerlord -->
+		<!-- Example: D:\steamapps\common\Mount &amp; Blade II Bannerlord\ -->
+		<!-- REMEMBER YOU CANNOT INPUT AMPERSAND(&) IN XML (except the comment block). USE &amp; INSTEAD -->
+		<BannerlordDirectory>O:\Games\SteamLibrary\steamapps\common\Mount &#038; Blade II Bannerlord</BannerlordDirectory>
+		<!-- True if you want to launch the game with editor when debugging (make sure the modding tool is installed). False if without -->
+		<PreferEditor>false</PreferEditor>
+	</PropertyGroup>
 	
 	<!-- Delete the outdated assemblies -->
 	<ItemGroup>

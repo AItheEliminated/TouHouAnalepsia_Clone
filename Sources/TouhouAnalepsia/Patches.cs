@@ -14,6 +14,9 @@ using TaleWorlds.ModuleManager;
 
 namespace TouhouAnalepsia {
 	class Patches {
+		public static void Prepatch() {
+
+		}
 		public static void DefaultPatches() {
 			HarmonyHandler.patchPrefix("SandBox.View.Map.PartyVisual", "TaleWorlds.CampaignSystem.IPartyVisual.OnStartup", "TouhouAnalepsia.Patches", "DebugPatchPrefix");
 			
@@ -23,10 +26,11 @@ namespace TouhouAnalepsia {
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "InitializeTutorial", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches", "RemoveMethod");
-			
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnGameLoaded", "TouhouAnalepsia.Patches", "RemoveMethod");
+
 			//Various deletions
 			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.BackstoryCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod"); //Makes reference to certain characters who now have their information removed from the files.
-			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior", "BuildWorkshopsAtGameStart", "TouhouAnalepsia.Patches", "RemoveMethod");
+			//HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior", "BuildWorkshopsAtGameStart", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.Source.TournamentGames.TournamentCampaignBehavior", "InitializeTournamentLeaderboard", "TouhouAnalepsia.Patches", "RemoveMethod");
 
 		}
@@ -58,13 +62,14 @@ namespace TouhouAnalepsia {
 		/// <summary>
 		/// Music Patch
 		/// </summary>
+		/*
 		[HarmonyPatch(typeof(psai.net.PsaiCore), "LoadSoundtrackFromProjectFile")]
 		class MusicPatch {
 			static bool Prefix(psai.net.PsaiCore __instance, ref string pathToProjectFile) {
 				if (pathToProjectFile.Equals(BasePath.Name + "music/soundtrack.xml")) pathToProjectFile = BasePath.Name + "Modules/TouhouAnalepsia/music/soundtrack.xml";
 				return true;
 			}
-		}
+		}*/
 
 		//Debug Harmony patches
 		[HarmonyPatch(typeof(TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.UrbanCharactersCampaignBehavior), "CreateCompanion")]
@@ -169,13 +174,6 @@ namespace TouhouAnalepsia {
 			static bool Prefix(ref bool __result) {
 				__result = false;
 				return false;
-			}
-		}
-		[HarmonyPatch(typeof(TaleWorlds.Engine.Scene), "Read", new Type[] { typeof(string), typeof(TaleWorlds.Engine.SceneInitializationData) })]
-		class DebugPatch22 {
-			static bool Prefix(ref string sceneName) {
-				if (sceneName.Equals("Main_map")) sceneName = "gensokyo_map_development2";
-				return true;
 			}
 		}
 		[HarmonyPatch(typeof(SettlementPositionScript), "get_SettlementsDistanceCacheFilePath")]
