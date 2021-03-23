@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="solution">
+  <outputDirectory>..\MBModule\MBModule\</outputDirectory>
+  <XMLDirectory>..\WOTS\Modules\TouhouAnalepsia\</XMLDirectory>
+  <ModuleAssemblyDirectory>..\WOTS\bin\</ModuleAssemblyDirectory>
+  <file id="soln_physics_materials" name="ModuleData/physics_materials.xml" type="physics_material" />
+  <file id="soln_collision_infos" name="ModuleData/collision_infos.xml" type="collision_infos" />
+</base>

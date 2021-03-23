@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <!-- <string id="aran_training_bow" text="Test_Bow" /> --><!-- 
+  	<string id="aran_torch" text="Test Torch" />
+  	<string id="aran_bastard_sword" text="Test Bastard Sword" />
+  	<string id="aran_bastard_sword_2" text="Test Bastard Sword 2" />
+	
+    <string id="aran_training_bow" text="Test Bow" />
+    <string id="aran_training_bow_2" text="Test Bow 2" />
+    <string id="aran_training_bow_3" text="Test Longbow" />
+    <string id="aran_crossbow_a" text="Test Light Crossbow" />
+    <string id="aran_throwing_stone" text="Test Stone" />
+	<string id="aran_pot" text="Test Fire Pot" />
+    <string id="aran_western_javelin" text="Test Javelin" />
+	<string id="aran_western_javelin_2" text="Test Javelin 2" />
+    <string id="aran_range_arrows" text="Test Arrows" />
+	<string id="aran_ballista_projectile_burning" text="Test Ballista Arrows" />
+	<string id="aran_ballista_projectile_burning_pt" text="Test Ballista Arrows Projectile Effects Test" />
+    <string id="aran_bolt_a" text="Test Bolt" />
+	
+	<string id="aran_spear_handle" text="Test Javelin Shaft" />
+    <string id="aran_polearm_guard" text="Test Segmented Riveted Shaft Reinforcement" />
+	<string id="aran_spear_blade" text="Test Imperial Simple Spear Head" />
+	<string id="aran_spear_blade_2" text="Test Imperial Simple Spear Head 2" />
+	<string id="aran_polearm_pommel" text="Test Simple Iron Spear Pommel" />
+	<string id="aran_blade" text="Test Flat Ridged Spatha Blade" />
+	<string id="aran_blade_2" text="Test Flat Ridged Spatha Blade 2" />
+	<string id="aran_cleaver_guard" text="Test Tapered Cleaver Guard" />
+	<string id="aran_cleaver_guard_2" text="Test Tapered Cleaver Guard 2" />
+	<string id="aran_sturgian_grip" text="Test Bound Fur Two Handed Grip" />
+	<string id="aran_sturgian_pommel" text="Test Crescent Pommel" /> -->
+  </strings>
+</base>

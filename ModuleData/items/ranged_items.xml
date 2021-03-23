@@ -1,0 +1,144 @@
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+	<!-- bow mechanics:
+		 1. Ranged weapons have item_usage values set to respective weapon 
+		 2. Arrows use item_usage="arrow_right" to be notchable
+		 3. Bolts do not require this and leave item_usage empty 
+		 4. item_usage="long_bow" forces bow to be unable to be used while mounted
+		 5. Does ammo speed effect projectile speed (crossbows no)? 
+		 6. Does ammo reload effect weapon reload (crossbows no)?  
+		 7. Thrust speed (crossbow) dictates how fast it takes for the weapon to shoot, no affect on aim time or reload time.
+		 8. Speed rating (crossbow) doesn't do anything.
+		 9. For reloading (crossbow), must add in additional action sets and modify animations to change reload time. 
+		 10. Ammo limit (crossbow) is how many projectiles are loaded at once. No aiming circle after the first shot though. 
+		 11. If you set a crossbow to be a bow, the aiming circle comes back for multi-load but now if you aim too long your acc decreases. 
+		 5. Affects area spreads the damage out over an area. Can you modify this area? 
+		 5. Can add weapon flags to crafted items (see aran_spear_blade_2 as example) 
+		 5. Physics material the explosion effect
+		 5. Stone throwables require ammo limit to work -->
+	<Item id="aran_training_bow_a" 
+		  name="{=aran_training_bow_a}Test Bow Spread" 
+		  body_name="bo_composite_shotbow_b" 
+		  mesh="shortbow_b" 
+		  Type="Bow" 
+		  weight="0.3" 
+		  value="4" 
+		  culture="Culture.neutral_culture" 
+		  difficulty="0" 
+		  appearance="1" 
+		  item_category="" 
+		  AmmoOffset="0.0, 0.0, 0.0"
+		  item_holsters="bow_back_2:bow_hip:bow_hip_2:bow_back"
+          holster_position_shift="0.0, 0.0, 0.0"
+		  is_merchandise="false" >
+			<ItemComponent>
+				<Weapon weapon_class="Bow" 
+						weapon_length="106" 
+						speed_rating="87" 
+						thrust_damage="30" 
+						thrust_damage_type="Pierce" 
+						thrust_speed="92" 
+						ammo_class="Arrow" 
+						ammo_limit="1" 
+						missile_speed="84" 
+						accuracy="90" 
+						item_usage="bow" 
+						physics_material="wood_weapon" 
+						center_of_mass="0.0,0,-0.1">
+							<WeaponFlags RangedWeapon="true" 
+										 HasString="true" 
+										 StringHeldByHand="true" 
+										 NotUsableWithOneHand="true" 
+										 TwoHandIdleOnMount="true" 
+										 AutoReload="true" 
+										 UnloadWhenSheathed="true" />
+				</Weapon>
+			</ItemComponent>
+			<Flags ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<Item id="aran_training_bow_b" 
+		  name="{=aran_training_bow_b}Test Bow Burst" 
+		  body_name="bo_composite_shotbow_b" 
+		  mesh="shortbow_b" 
+		  Type="Bow" 
+		  weight="0.3" 
+		  value="4" 
+		  culture="Culture.neutral_culture" 
+		  difficulty="0" 
+		  appearance="1" 
+		  item_category="" 
+		  AmmoOffset="0.0, 0.0, 0.0"
+		  item_holsters="bow_back_2:bow_hip:bow_hip_2:bow_back"
+          holster_position_shift="0.0, 0.0, 0.0"
+		  is_merchandise="false" >
+			<ItemComponent>
+				<Weapon weapon_class="Bow" 
+						weapon_length="106" 
+						speed_rating="87" 
+						thrust_damage="30" 
+						thrust_damage_type="Pierce" 
+						thrust_speed="92" 
+						ammo_class="Arrow" 
+						ammo_limit="1" 
+						missile_speed="84" 
+						accuracy="90" 
+						item_usage="bow" 
+						physics_material="wood_weapon" 
+						center_of_mass="0.0,0,-0.1">
+							<WeaponFlags RangedWeapon="true" 
+										 HasString="true" 
+										 StringHeldByHand="true" 
+										 NotUsableWithOneHand="true" 
+										 TwoHandIdleOnMount="true" 
+										 AutoReload="true" 
+										 UnloadWhenSheathed="true" />
+				</Weapon>
+			</ItemComponent>
+			<Flags ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<Item id="aran_range_arrows" 
+		  name="{=aran_range_arrows}Test Arrows" 
+		  body_name="bo_capsule_arrow" 
+		  mesh="arrow_bl_i" 
+		  flying_mesh="arrow_bl_flying" 
+		  holster_body_name="bo_axe_short" 
+		  holster_mesh="arrow_bl_i_quiver" 
+		  holster_mesh_with_weapon="arrow_bl_i_quiver" 
+		  Type="Arrows" 
+		  weight="0.043" 
+		  value="4" 
+		  culture="Culture.neutral_culture" 
+		  difficulty="0" 
+		  appearance="1" 
+		  item_category="" 
+		  item_holsters="quiver_back_middle:quiver_bolts_2:quiver_bolts" 
+		  holster_position_shift="0.0,0.0,0.15"
+		  is_merchandise="false" >
+			<ItemComponent>
+				<Weapon weapon_class="Arrow" 
+						stack_amount="27" 
+						weapon_length="97" 
+						speed_rating="0" 
+						thrust_damage="50" 
+						thrust_damage_type="Pierce" 
+						thrust_speed="0" 
+						missile_speed="10" 
+						item_usage="arrow_right" 
+						physics_material="th_fire" 
+						passby_sound_code="event:/mission/combat/missile/passby" 
+						trail_particle_name="psys_tgw_fireball" 
+						rotation="0, -80, 25" 
+						sticking_position="0,-0.97,0" 
+						sticking_rotation="90,0,0" 
+						center_of_mass="0,0,-0.13">
+							<WeaponFlags Consumable="true" 
+										 Burning="true" 
+										 AffectsArea="true"
+										 LeavesTrail="true" />
+				</Weapon>
+			</ItemComponent>
+			<Flags />
+	</Item>
+</Items>
+
