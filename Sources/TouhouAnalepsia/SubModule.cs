@@ -29,10 +29,11 @@ namespace TouhouAnalepsia
 			Patches.DefaultPatches();
 
 			CampaignOptions.EnableCampaignTutorials = false;
-
-			if (Utilities.EditModeEnabled)
-			{
-				/* //TODO fix this, temporarily disabled completely to stop crash.
+#if DEBUG
+#else
+			if (Utilities.EditModeEnabled) {
+#endif
+				//TODO still not working, will look into it more in a bit.
 				Module.CurrentModule.AddInitialStateOption(new InitialStateOption(
 					"Playground", new TextObject("Playground"), 1,
 					() => { MBGameManager.StartNewGame(new FastSceneManager(
@@ -40,9 +41,12 @@ namespace TouhouAnalepsia
 						{
 							PlaygroundMission.OpenPlaygroundMission("scn_playground", "");
 						}
-						)); }, false));
-				*/
+						)); }, () => { return false; }));
+
+#if DEBUG
+#else
 			}
+#endif
 
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedCameraHeight, 1000);
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedDistanceFromCenterPointX, 720);
@@ -50,7 +54,7 @@ namespace TouhouAnalepsia
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointX, 360);
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointY, 360);
 		}
-  protected override void OnBeforeInitialModuleScreenSetAsRoot() {
+		protected override void OnBeforeInitialModuleScreenSetAsRoot() {
 			// skip the shit intro video while developing. I almost get smithing-phobia for it.
 #if DEBUG
 			var field = typeof(Module).GetField("_splashScreenPlayed", BindingFlags.Instance | BindingFlags.NonPublic);

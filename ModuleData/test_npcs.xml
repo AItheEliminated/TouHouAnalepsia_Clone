@@ -2,7 +2,6 @@
 <NPCCharacters>
   <NPCCharacter id="testguy"
                 level="20"
-                civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t2"
                 name="Unlucky Subject"
                 occupation="Lord"
                 culture="Culture.empire"
@@ -15,17 +14,20 @@
       <Trait id="BalancedFightingSkills" value="7" />
     </Traits>
     <Equipments>
-      <equipment slot="Item0" id="Item.empire_sword_4_t4" />
-      <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
-      <equipment slot="Item2" id="Item.composite_steppe_bow" />
-      <equipment slot="Item3" id="Item.bodkin_arrows_a" />
-      <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
-      <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
-      <equipment slot="Cape" id="Item.studded_imperial_neckguard" />
-      <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
-      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
-      <equipment slot="Horse" id="Item.aserai_horse" />
-      <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_sword_4_t4" />
+        <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item2" id="Item.composite_steppe_bow" />
+        <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+        <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+        <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Horse" id="Item.aserai_horse" />
+        <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
     </Equipments>
   </NPCCharacter>
 </NPCCharacters>
