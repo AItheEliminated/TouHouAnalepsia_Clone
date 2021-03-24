@@ -24,8 +24,8 @@
 		</SubModule>
 		<SubModule>
 			<Name value = "Bannerlord.GeneralModdingPatches"/>
-			<DLLName value = "BannerlordGeneralModdingPatches.dll"/>
-			<SubModuleClassType value = "BannerlordGeneralModdingPatches.SubModule"/>
+			<DLLName value = "Bannerlord.GeneralModdingPatches.dll"/>
+			<SubModuleClassType value = "Bannerlord.GeneralModdingPatches.SubModule"/>
 			<Tags>
 				<Tag key="DedicatedServerType" value ="none" />
 				<Tag key="IsNoRenderModeElement" value ="false" />

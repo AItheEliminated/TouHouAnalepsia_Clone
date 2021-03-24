@@ -5,7 +5,7 @@
 		<Copyright>Copyright © 2020</Copyright>
 		<PackageId>TouhouAnalepsia</PackageId>
 		<AssemblyName>TouhouAnalepsia</AssemblyName>
-		<ReferenceAssembliesVersion>1.5.4.243410</ReferenceAssembliesVersion> <!-- Bannerlord Version -->
+		<ReferenceAssembliesVersion>1.5.8.243410</ReferenceAssembliesVersion> <!-- Bannerlord Version -->
 	</PropertyGroup>
 	
 	<PropertyGroup Condition="'$(RunningOnCI)'=='true'">
@@ -86,14 +86,6 @@
 			</ItemGroup>
 		</Otherwise>
 	</Choose>
-	<PropertyGroup>
-		<!-- The root directory of MountBlade:Bannerlord -->
-		<!-- Example: D:\steamapps\common\Mount &amp; Blade II Bannerlord\ -->
-		<!-- REMEMBER YOU CANNOT INPUT AMPERSAND(&) IN XML (except the comment block). USE &amp; INSTEAD -->
-		<BannerlordDirectory>O:\Games\SteamLibrary\steamapps\common\Mount &#038; Blade II Bannerlord</BannerlordDirectory>
-		<!-- True if you want to launch the game with editor when debugging (make sure the modding tool is installed). False if without -->
-		<PreferEditor>false</PreferEditor>
-	</PropertyGroup>
 	
 	<!-- Delete the outdated assemblies -->
 	<ItemGroup>
@@ -104,13 +96,13 @@
 		<Delete Condition="'$(OutputRelease)' == 'true'" Files="@(DeleteReleaseTargets)" />
 		<Delete Condition="'$(OutputEditor)' == 'true'" Files="@(DeleteEditorTargets)" />
 	</Target>
-	
+
 	<!-- Copy the assemblies after build -->
 	<ItemGroup Condition="'$(Configuration)'=='Debug'">
-		<CopyTargets Include="$(ProjectDir)$(OutDir)$(TargetFileName);$(ProjectDir)$(OutDir)$(TargetName).pdb;$(ProjectDir)$(OutDir)0Harmony.dll" />
+		<CopyTargets Include="$(ProjectDir)$(OutDir)$(TargetFileName);$(ProjectDir)$(OutDir)$(TargetName).pdb;$(ProjectDir)$(OutDir)0Harmony.dll;..\BannerlordGeneralModdingPatches\bin\x64\Debug\net461\Bannerlord.GeneralModdingPatches.dll;..\BannerlordGeneralModdingPatches\bin\x64\Debug\net461\Bannerlord.GeneralModdingPatches.pdb" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(Configuration)'!='Debug'">
-		<CopyTargets Include="$(ProjectDir)$(OutDir)$(TargetFileName);$(ProjectDir)$(OutDir)0Harmony.dll" />
+		<CopyTargets Include="$(ProjectDir)$(OutDir)$(TargetFileName);$(ProjectDir)$(OutDir)0Harmony.dll;..\BannerlordGeneralModdingPatches\bin\x64\Debug\net461\Bannerlord.GeneralModdingPatches.dll;..\BannerlordGeneralModdingPatches\bin\x64\Debug\net461\Bannerlord.GeneralModdingPatches.pdb" />
 	</ItemGroup>
 	<Target Name="CopyAssemblies" AfterTargets="PostBuildEvent">
 		<Copy Condition="'$(OutputRelease)' == 'true'" SkipUnchangedFiles="true" SourceFiles="@(CopyTargets)" DestinationFolder="$(ProjectDir)$(ReleaseOutputDirectory)">
