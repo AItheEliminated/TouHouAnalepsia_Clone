@@ -21,8 +21,7 @@ namespace TouhouAnalepsia
 {
 	public class SubModule : MBSubModuleBase {
 
-		protected override void OnSubModuleLoad()
-		{
+		protected override void OnSubModuleLoad() {
 			base.OnSubModuleLoad();
 			Patches.Prepatch(); //For transpilers and whatnot, in case they need it.
 			HarmonyHandler.PatchAll();
@@ -51,15 +50,12 @@ namespace TouhouAnalepsia
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointX, 360);
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointY, 360);
 		}
-		
-		protected override void OnBeforeInitialModuleScreenSetAsRoot()
-		{
+  protected override void OnBeforeInitialModuleScreenSetAsRoot() {
 			// skip the shit intro video while developing. I almost get smithing-phobia for it.
-			if (Utilities.EditModeEnabled)
-			{
-				var field = typeof(Module).GetField("_splashScreenPlayed", BindingFlags.Instance | BindingFlags.NonPublic);
-				field?.SetValue(Module.CurrentModule, true);
-			}
+#if DEBUG
+			var field = typeof(Module).GetField("_splashScreenPlayed", BindingFlags.Instance | BindingFlags.NonPublic);
+			field?.SetValue(Module.CurrentModule, true);
+#endif
 		}
 
 		public override void OnMissionBehaviourInitialize(Mission mission) {
