@@ -19,7 +19,11 @@ using TaleWorlds.ModuleManager;
 
 namespace TouhouAnalepsia
 {
-	public class SubModule : MBSubModuleBase {
+	public class SubModule : MBSubModuleBase
+	{
+		public static string ModName = "TouhouAnalepsia"; // these are temporary, change to match your mod folder name
+		public static string ModNamePath = "TouhouAnalepsia";
+		public static string VersionNumber = "1.5.8";
 
 		protected override void OnSubModuleLoad()
 		{
@@ -57,6 +61,7 @@ namespace TouhouAnalepsia
 
 		public override void OnMissionBehaviourInitialize(Mission mission) {
 			mission.AddMissionBehaviour(new AbilityBattleLogic());
+			mission.AddMissionBehaviour(new DanmakuBattleLogic());
 
 			base.OnMissionBehaviourInitialize(mission);
 		}

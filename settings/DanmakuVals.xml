@@ -1,0 +1,16 @@
+<TouhouAnalepsia>
+	<Data>
+		<DanmakuVals>
+			<Id>aran_training_bow_a</Id>
+			<DanmakuNum>9</DanmakuNum> <!-- total number of shots (includes original projectile) -->
+			<DanmakuDisp>10</DanmakuDisp> <!-- full degrees of spread -->
+			<DanmakuType>spread</DanmakuType> <!-- fan out, always fires an odd number of shots (round up) -->
+		</DanmakuVals>
+		<DanmakuVals>
+			<Id>aran_training_bow_b</Id>
+			<DanmakuNum>12</DanmakuNum>
+			<DanmakuDisp>10</DanmakuDisp> <!-- vector distance from original shot -->
+			<DanmakuType>burst</DanmakuType> <!-- shotgun effect -->
+		</DanmakuVals>
+	</Data>
+</TouhouAnalepsia>
