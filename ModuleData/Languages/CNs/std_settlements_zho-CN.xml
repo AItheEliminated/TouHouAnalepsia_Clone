@@ -212,23 +212,18 @@
     <string id="Settlements.Settlement.name.village_ET1_1" text="因幡家" />
     <string id="Settlements.Settlement.name.village_ET1_2" text="山名镇" />
     <string id="Settlements.Settlement.name.village_ET1_3" text="稻羽村" />
-    <string id="Settlements.Settlement.name.village_ET1_4" text="" />
     <string id="Settlements.Settlement.name.village_ET2_1" text="千鸟集" />
     <string id="Settlements.Settlement.name.village_ET2_2" text="未汐町" />
     <string id="Settlements.Settlement.name.village_ET2_3" text="蓬莱乡" />
-    <string id="Settlements.Settlement.name.village_ET2_4" text="" />
     <string id="Settlements.Settlement.name.village_ET3_1" text="苍梧湾" />
     <string id="Settlements.Settlement.name.village_ET3_2" text="玉衡洲" />
     <string id="Settlements.Settlement.name.village_ET3_3" text="万象馆" />
-    <string id="Settlements.Settlement.name.village_ET3_4" text="TBD" />
     <string id="Settlements.Settlement.name.village_ET4_1" text="紫微垣" />
     <string id="Settlements.Settlement.name.village_ET4_2" text="太微垣" />
     <string id="Settlements.Settlement.name.village_ET4_3" text="天市垣" />
-    <string id="Settlements.Settlement.name.village_ET4_4" text="TBD" />
     <string id="Settlements.Settlement.name.village_ET5_1" text="春风岭" />
     <string id="Settlements.Settlement.name.village_ET5_2" text="秋雨集" />
     <string id="Settlements.Settlement.name.village_ET5_3" text="血之湖" />
-    <string id="Settlements.Settlement.name.village_ET5_4" text="TBD" />
     <string id="Settlements.Settlement.name.village_ET6_1" text="子安贝" />
     <string id="Settlements.Settlement.name.village_ET6_2" text="佛石钵" />
     <string id="Settlements.Settlement.name.village_ET6_3" text="玉树枝" />
@@ -255,35 +250,27 @@
     <string id="Settlements.Settlement.name.village_SE1_1" text="锦幕" />
     <string id="Settlements.Settlement.name.village_SE1_2" text="巴别塔" />
     <string id="Settlements.Settlement.name.village_SE1_3" text="禁忌书库" />
-    <string id="Settlements.Settlement.name.village_SE1_4" text="" />
     <string id="Settlements.Settlement.name.village_SE2_1" text="妖精驿站" />
     <string id="Settlements.Settlement.name.village_SE2_2" text="红滩" />
     <string id="Settlements.Settlement.name.village_SE2_3" text="碎心" />
-    <string id="Settlements.Settlement.name.village_SE2_4" text="" />
     <string id="Settlements.Settlement.name.village_SE3_1" text="唤月之地" />
     <string id="Settlements.Settlement.name.village_SE3_2" text="静谧山庄" />
     <string id="Settlements.Settlement.name.village_SE3_3" text="温柔乡" />
-    <string id="Settlements.Settlement.name.village_SE3_4" text="" />
     <string id="Settlements.Settlement.name.village_SE4_1" text="似春" />
     <string id="Settlements.Settlement.name.village_SE4_2" text="雾潮" />
     <string id="Settlements.Settlement.name.village_SE4_3" text="银布" />
-    <string id="Settlements.Settlement.name.village_SE4_4" text="" />
     <string id="Settlements.Settlement.name.village_SE5_1" text="绘乐" />
     <string id="Settlements.Settlement.name.village_SE5_2" text="响晨" />
     <string id="Settlements.Settlement.name.village_SE5_3" text="悠午" />
     <string id="Settlements.Settlement.name.village_SE5_4" text="安晚" />
     <string id="Settlements.Settlement.name.village_SE6_1" text="英雄冢" />
     <string id="Settlements.Settlement.name.village_SE6_2" text="穷途崖" />
-    <string id="Settlements.Settlement.name.village_SE6_3" text="" />
-    <string id="Settlements.Settlement.name.village_SE6_4" text="" />
     <string id="Settlements.Settlement.name.castle_village_ME1_1" text="激流堡" />
-    <string id="Settlements.Settlement.name.castle_village_ME1_2" text="" />
     <string id="Settlements.Settlement.name.castle_village_ME2_1" text="定水戟" />
     <string id="Settlements.Settlement.name.castle_village_ME2_2" text="谷堆镇" />
     <string id="Settlements.Settlement.name.castle_village_ME3_1" text="蜜饼" />
     <string id="Settlements.Settlement.name.castle_village_ME3_2" text="雪球" />
     <string id="Settlements.Settlement.name.castle_village_ME4_1" text="一支大军" />
-    <string id="Settlements.Settlement.name.castle_village_ME4_2" text="" />
     <string id="Settlements.Settlement.name.castle_village_ME5_1" text="晨曦谷" />
     <string id="Settlements.Settlement.name.castle_village_ME5_2" text="升阳坡" />
     <string id="Settlements.Settlement.name.castle_village_ME6_1" text="朝雾河" />
@@ -299,7 +286,6 @@
     <string id="Settlements.Settlement.name.village_ME2_1" text="奇香花圃" />
     <string id="Settlements.Settlement.name.village_ME2_2" text="蟹螯滩涂" />
     <string id="Settlements.Settlement.name.village_ME2_3" text="南边小树林" />
-    <string id="Settlements.Settlement.name.village_ME2_4" text="" />
     <string id="Settlements.Settlement.name.village_ME3_1" text="游雁岛" />
     <string id="Settlements.Settlement.name.village_ME3_2" text="日落不见岛" />
     <string id="Settlements.Settlement.name.village_ME3_3" text="巡航哨兵岛" />
@@ -307,11 +293,9 @@
     <string id="Settlements.Settlement.name.village_ME4_1" text="观湖高地" />
     <string id="Settlements.Settlement.name.village_ME4_2" text="怪异石堆" />
     <string id="Settlements.Settlement.name.village_ME4_3" text="绒花" />
-    <string id="Settlements.Settlement.name.village_ME4_4" text="" />
     <string id="Settlements.Settlement.name.village_ME5_1" text="木雕集" />
     <string id="Settlements.Settlement.name.village_ME5_2" text="彩衣" />
     <string id="Settlements.Settlement.name.village_ME5_3" text="硕月山丘" />
-    <string id="Settlements.Settlement.name.village_ME5_4" text="" />
     <string id="Settlements.Settlement.name.castle_village_AK1_1" text="Youkai Visiting Way 1" />
     <string id="Settlements.Settlement.name.castle_village_AK1_2" text="Youkai Visiting Way 2" />
     <string id="Settlements.Settlement.name.castle_village_AK2_1" text="Yamanashi-ken 1" />
@@ -371,15 +355,12 @@
     <string id="Settlements.Settlement.name.village_KT1_1" text="九十九山" />
     <string id="Settlements.Settlement.name.village_KT1_2" text="桃仙镇" />
     <string id="Settlements.Settlement.name.village_KT1_3" text="売豆乡" />
-    <string id="Settlements.Settlement.name.village_KT1_4" text="" />
     <string id="Settlements.Settlement.name.village_KT2_1" text="棲谷书报集" />
     <string id="Settlements.Settlement.name.village_KT2_2" text="雾中坂" />
     <string id="Settlements.Settlement.name.village_KT2_3" text="要石遗迹" />
-    <string id="Settlements.Settlement.name.village_KT2_4" text="" />
     <string id="Settlements.Settlement.name.village_KT3_1" text="白江町" />
     <string id="Settlements.Settlement.name.village_KT3_2" text="木野町" />
     <string id="Settlements.Settlement.name.village_KT3_3" text="宇见町" />
-    <string id="Settlements.Settlement.name.village_KT3_4" text="" />
     <string id="Settlements.Settlement.name.village_KT4_1" text="九天瀑布" />
     <string id="Settlements.Settlement.name.village_KT4_2" text="食月" />
     <string id="Settlements.Settlement.name.village_KT4_3" text="缠绫" />
@@ -411,11 +392,9 @@
     <string id="Settlements.Settlement.name.village_UW2_1" text="硫磺湖" />
     <string id="Settlements.Settlement.name.village_UW2_2" text="酒豪集" />
     <string id="Settlements.Settlement.name.village_UW2_3" text="大江山" />
-    <string id="Settlements.Settlement.name.village_UW2_4" text="" />
     <string id="Settlements.Settlement.name.village_UW3_1" text="炽露" />
     <string id="Settlements.Settlement.name.village_UW3_2" text="熔光矿场" />
     <string id="Settlements.Settlement.name.village_UW3_3" text="暗色岩" />
-    <string id="Settlements.Settlement.name.village_UW3_4" text="" />
     <string id="Settlements.Settlement.name.village_UW4_1" text="香果丛" />
     <string id="Settlements.Settlement.name.village_UW4_2" text="古名地领" />
     <string id="Settlements.Settlement.name.village_UW4_3" text="窥心镇" />
@@ -423,11 +402,9 @@
     <string id="Settlements.Settlement.name.village_UW5_1" text="硝花街" />
     <string id="Settlements.Settlement.name.village_UW5_2" text="小石集" />
     <string id="Settlements.Settlement.name.village_UW5_3" text="甘泉" />
-    <string id="Settlements.Settlement.name.village_UW5_4" text="" />
     <string id="Settlements.Settlement.name.village_UW6_1" text="地下暗涌" />
     <string id="Settlements.Settlement.name.village_UW6_2" text="燃料存放场" />
     <string id="Settlements.Settlement.name.village_UW6_3" text="地狱鸦巢" />
-    <string id="Settlements.Settlement.name.village_UW6_4" text="" />
     <string id="Settlements.Settlement.name.castle_village_NW1_1" text="式神聚落" />
     <string id="Settlements.Settlement.name.castle_village_NW1_2" text="隙间小镇" />
     <string id="Settlements.Settlement.name.castle_village_NW2_1" text="身形无间道" />
@@ -439,7 +416,6 @@
     <string id="Settlements.Settlement.name.castle_village_NW5_1" text="摆渡口" />
     <string id="Settlements.Settlement.name.castle_village_NW5_2" text="静渔驿" />
     <string id="Settlements.Settlement.name.castle_village_NW6_1" text="曼珠沙华" />
-    <string id="Settlements.Settlement.name.castle_village_NW6_2" text="" />
     <string id="Settlements.Settlement.name.castle_village_NW7_1" text="樱花小径" />
     <string id="Settlements.Settlement.name.castle_village_NW7_2" text="游魂回廊" />
     <string id="Settlements.Settlement.name.castle_village_NW8_1" text="云上" />
@@ -447,15 +423,12 @@
     <string id="Settlements.Settlement.name.village_NW1_1" text="神隐乡" />
     <string id="Settlements.Settlement.name.village_NW1_2" text="魂蝶村" />
     <string id="Settlements.Settlement.name.village_NW1_3" text="醒梦丘" />
-    <string id="Settlements.Settlement.name.village_NW1_4" text="" />
     <string id="Settlements.Settlement.name.village_NW2_1" text="奈何道" />
     <string id="Settlements.Settlement.name.village_NW2_2" text="百丈村" />
     <string id="Settlements.Settlement.name.village_NW2_3" text="鬼门关" />
-    <string id="Settlements.Settlement.name.village_NW2_4" text="" />
     <string id="Settlements.Settlement.name.village_NW3_1" text="断罪庭" />
     <string id="Settlements.Settlement.name.village_NW3_2" text="轮回道" />
     <string id="Settlements.Settlement.name.village_NW3_3" text="二羽渡" />
-    <string id="Settlements.Settlement.name.village_NW3_4" text="" />
     <string id="Settlements.Settlement.name.village_NW4_1" text="埴轮卫所" />
     <string id="Settlements.Settlement.name.village_NW4_2" text="劲牙堂" />
     <string id="Settlements.Settlement.name.village_NW4_3" text="鬼杰门" />
@@ -463,11 +436,9 @@
     <string id="Settlements.Settlement.name.village_NW5_1" text="火途" />
     <string id="Settlements.Settlement.name.village_NW5_2" text="血途" />
     <string id="Settlements.Settlement.name.village_NW5_3" text="刀途" />
-    <string id="Settlements.Settlement.name.village_NW5_4" text="" />
     <string id="Settlements.Settlement.name.village_NW6_1" text="樱下墓" />
     <string id="Settlements.Settlement.name.village_NW6_2" text="遗冢" />
     <string id="Settlements.Settlement.name.village_NW6_3" text="净雪町" />
-    <string id="Settlements.Settlement.name.village_NW6_4" text="" />
     <string id="Settlements.Settlement.name.castle_village_SG1_1" text="Wood Fall Gate 1" />
     <string id="Settlements.Settlement.name.castle_village_SG1_2" text="Wood Fall Gate 2" />
     <string id="Settlements.Settlement.name.castle_village_SG2_1" text="Road of Reconsideration 1" />
