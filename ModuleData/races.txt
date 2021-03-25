@@ -2,5 +2,6 @@
 <Races>
 	<Race id="human" culture="human" >
 		<TransformationPath result="youkai" reknown="100" />
+		<Ability hpStatic="10" movementSpeed="2.0" />
 	</Race>
 </Races>
