@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TouhouAnalepsia", "TouhouAn
 		{4B200E4E-F22A-48C1-AE8F-4FC9F06DBADA} = {4B200E4E-F22A-48C1-AE8F-4FC9F06DBADA}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BannerlordGeneralModdingPatches", "C:\Users\Neptune\source\repos\TouhouAnalepsia\Sources\BannerlordGeneralModdingPatches\BannerlordGeneralModdingPatches.csproj", "{4B200E4E-F22A-48C1-AE8F-4FC9F06DBADA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BannerlordGeneralModdingPatches", "BannerlordGeneralModdingPatches\BannerlordGeneralModdingPatches.csproj", "{4B200E4E-F22A-48C1-AE8F-4FC9F06DBADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
