@@ -30,21 +30,6 @@ namespace Bannerlord.GeneralModdingPatches {
 				//Debug.Print(Path.GetFullPath(MainMapFixConfig + "MainMapFix_Config.txt"));
 				string[] lines = File.ReadAllLines(ModulePath + "GeneralModdingPatches_Config.txt");
 				new_map_name = lines[0];
-
-				if(true) {
-
-				}
-
-				/*if (lines.Length >= 2) {
-					string[] split = lines[1].Split(',');
-					TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedCameraHeight, int.Parse(split[0]));
-					TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedDistanceFromCenterPointX, int.Parse(split[1]));
-					TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedDistanceFromCenterPointY, int.Parse(split[2]));
-					TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointX, int.Parse(split[3]));
-					TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointY, int.Parse(split[4]));
-				}*/
-
-
 			} else {
 				Debug.Print("There does not exist a config for GeneralModdingPatches at: " + ModulePath + "GeneralModdingPatches_Config.txt" + "\nDefaulting to modded_main_map.");
 			}
