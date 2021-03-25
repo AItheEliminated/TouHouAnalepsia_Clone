@@ -1,13 +1,4 @@
-476
-flora_entity flora_reed_e
-flora_entity free_flora_green__mix_flower
-flora_entity free_valley_flower__mix
-flora_entity tree_olive__mix
-flora_entity tree_olive_a
-flora_entity tree_olive_b
-flora_entity valley_ground_rock_a
-flora_entity valley_plant_b
-flora_entity valley_plant_c
+467
 mesh arrow_new_icon
 mesh bd_carpet_khuzait_h
 mesh bd_carpet_khuzait_i
