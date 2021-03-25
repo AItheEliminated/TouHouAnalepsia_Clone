@@ -17,6 +17,7 @@ using SandBox;
 using System.Xml;
 using TaleWorlds.ModuleManager;
 using TouhouAnalepsia.Abilities;
+using TouhouAnalepsia.CultureAndRace;
 
 namespace TouhouAnalepsia
 {
@@ -72,7 +73,9 @@ namespace TouhouAnalepsia
 		protected override void OnGameStart(Game game, IGameStarter gameStarterObject) {
 			base.OnGameStart(game, gameStarterObject);
 
+			game.ObjectManager.RegisterType<RaceObject>("Race", "Races", 60U, true);
 			game.ObjectManager.RegisterType<Ability>("Ability", "Abilities", 61U, true);
+			game.ObjectManager.LoadXML("Races");
 			game.ObjectManager.LoadXML("Abilities");
 
 			if (game.GameType is Campaign) {
@@ -81,7 +84,6 @@ namespace TouhouAnalepsia
 				TouhouModelManager.initializeTouhouModels(gameStarterObject);
 
 				loadLocalizationData((CampaignGameStarter)gameStarterObject);
-				//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
 			}
 		}
 		public override void OnCampaignStart(Game game, object starterObject) {

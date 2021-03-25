@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Races>
+	<Race id="human" culture="human" >
+		<TransformationPath result="youkai" reknown="100" />
+	</Race>
+</Races>
