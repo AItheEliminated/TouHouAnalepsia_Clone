@@ -126,5 +126,15 @@
 		<XmlNode>                
 			<XmlName id="Abilities" path="abilities"/>
 		</XmlNode>  
+		<XmlNode>                
+			<XmlName id="Races" path="races"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+				<GameType value = "TestGame"/>
+			</IncludedGameTypes>
+		</XmlNode>               
 	</Xmls>
 </Module>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Races>
+	<Race id="human" culture="human" >
+		<TransformationPath result="youkai" reknown="100">
+			<Traits requirements="Mercy AND Honor AND Valor">
+				<Trait id="Mercy" minimum="-2" maximum="0" />
+				<Trait id="Honor" minimum="-2" maximum="0" />
+				<Trait id="Valor" minimum="-2" maximum="0" />
+			</Traits>
+		</TransformationPath>
+		<Ability hpStatic="10" movementSpeed="2.0" />
+	</Race>
+	<Race id="youkai" culture="youkai" >
+		<Ability hpStatic="50" movementSpeed="4.0" />
+	</Race>
+	<Race id="fairy" culture="fairy" >
+		<Ability hpStatic="0" movementSpeed="1.0" />
+	</Race>
+</Races>
