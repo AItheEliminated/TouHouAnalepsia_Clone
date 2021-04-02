@@ -9,7 +9,8 @@ using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
 namespace TouhouAnalepsia {
-	class Ability {
+	[Obsolete]
+	class AbilityOld {
 		public double hpStatic { get; private set; }
 		public double hpScaled { get; private set; }
 		public int hpHealedPerMinute { get; private set; }
@@ -17,7 +18,7 @@ namespace TouhouAnalepsia {
 		public double damageScaled { get; private set; } //Non-working
 		public double movementSpeed { get; private set; }
 
-		public Ability() {
+		public AbilityOld() {
 			hpStatic = 0.0;
 			hpScaled = 1.0;
 			hpHealedPerMinute = 0;
@@ -27,7 +28,7 @@ namespace TouhouAnalepsia {
 
 			movementSpeed = 1.0;
 		}
-		public Ability(double hpStatic, double hpScaled, int hpHealedPerMinute, double damageStatic, double damageScaled, double movementSpeed) {
+		public AbilityOld(double hpStatic, double hpScaled, int hpHealedPerMinute, double damageStatic, double damageScaled, double movementSpeed) {
 			this.hpStatic = hpStatic;
 			this.hpScaled = hpScaled;
 			this.hpHealedPerMinute = hpHealedPerMinute;
@@ -37,18 +38,10 @@ namespace TouhouAnalepsia {
 
 			this.movementSpeed = movementSpeed;
 		}
-		public static Ability getAbilityFromNode(XmlNode node) {
-			if (node.Name != "ability") return null;//TODO Erronous input handle
-			//node.Attributes["    "].Value;
-			return null;
-		}
 
 		//Only use for simple additions, else use AbilitySet
-		public Ability add(Ability modAbility) {
-			Ability newAbility = this; //new Ability(hpStatic, hpScaled, hpHealedPerMinute, damageStatic, damageScaled, movementSpeed);
-
-			newAbility.flagEnable.AddRange(modAbility.flagEnable);
-			newAbility.flagDisable.AddRange(modAbility.flagDisable);
+		public AbilityOld add(AbilityOld modAbility) {
+			AbilityOld newAbility = this; //new Ability(hpStatic, hpScaled, hpHealedPerMinute, damageStatic, damageScaled, movementSpeed);
 
 			newAbility.hpStatic += modAbility.hpStatic;
 			newAbility.hpScaled *= modAbility.hpScaled;
@@ -61,27 +54,8 @@ namespace TouhouAnalepsia {
 			return newAbility;
 		}
 
-		private readonly List<List<string>> flagEnable = new List<List<string>>();
-		private readonly List<List<string>> flagDisable = new List<List<string>>();
-		public bool IsEnabled(List<string> effects) {
-			bool result = false;
-			if (!flagEnable.IsEmpty()) { 
-				foreach (List<string> flagset in flagEnable) {
-					if (effects.Intersect(flagset).Count() == flagset.Count()) result = true; //Checks if at least one flagEnable flagset is true
-				}
-			} else {
-				result = true; // Default to true if no enable flags
-			}
-			if(!flagDisable.IsEmpty()) {
-				foreach (List<string> flagset in flagDisable) {
-					if (effects.Intersect(flagset).Count() == flagset.Count()) result = false; //checks that no flagDisable flagset is true
-				}
-			}
-			return result;
-		}
-
-		public static Ability calculateAbility(Agent agent) {
-			Ability newAbility = new Ability();
+		public static AbilityOld calculateAbility(Agent agent) {
+			AbilityOld newAbility = new AbilityOld();
 
 			if (!agent.IsHuman) return newAbility; // Insures agent is Human, that is, not a horse. Support for non-human creatures is something to be done for the future... Maybe.
 
@@ -97,7 +71,7 @@ namespace TouhouAnalepsia {
 									   .add(abilityFromCulture(hero.Culture));
 
 				if(hero==Hero.MainHero) { //Special Bonuses for the Main Hero
-					newAbility.add(new Ability() { 
+					newAbility.add(new AbilityOld() { 
 						movementSpeed = 2.0,
 						hpScaled = 2.0
 					});
@@ -109,13 +83,13 @@ namespace TouhouAnalepsia {
 
 			return newAbility;
 		}
-		private static Ability abilityFromLevel(int level) {
-			Ability newAbility = new Ability();
+		private static AbilityOld abilityFromLevel(int level) {
+			AbilityOld newAbility = new AbilityOld();
 			newAbility.hpScaled *= Math.Max(1.0, (Math.Pow(1.07, level) - Math.Sqrt(level)/10));
 			return newAbility;
 		}
-		private static Ability abilityFromCulture(BasicCultureObject culture) {
-			Ability newAbility = new Ability();
+		private static AbilityOld abilityFromCulture(BasicCultureObject culture) {
+			AbilityOld newAbility = new AbilityOld();
 			
 			if (culture.StringId.Equals("fairy")) newAbility.hpHealedPerMinute += 10;
 

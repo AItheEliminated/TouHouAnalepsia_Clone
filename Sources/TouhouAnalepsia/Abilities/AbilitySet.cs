@@ -10,18 +10,18 @@ namespace TouhouAnalepsia {
 	//Purpose is to allow more complex enable and disable conditions for abilities. i.e. vampire during night, but weaker then normal during day
 
 	class AbilitySet {
-		private readonly List<Ability> abilities = new List<Ability>();
+		private readonly List<AbilityOld> abilities = new List<AbilityOld>();
 
-		public void addAbility(Ability ability) {
+		public void addAbility(AbilityOld ability) {
 			abilities.Add(ability);
 		}
-		public bool removeAbility(Ability ability) {
+		public bool removeAbility(AbilityOld ability) {
 			return abilities.Remove(ability);
 		}
-		public List<Ability> getEnabledAbilities(List<string> effects) {
-			List<Ability> enabledAbilities = new List<Ability>();
+		public List<AbilityOld> getEnabledAbilities(List<string> effects) {
+			List<AbilityOld> enabledAbilities = new List<AbilityOld>();
 
-			foreach (Ability ability in abilities) {
+			foreach (AbilityOld ability in abilities) {
 				if (ability.IsEnabled(effects)) enabledAbilities.Add(ability);
 			}
 
