@@ -7,7 +7,7 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
-namespace TouhouAnalepsia {
+namespace TouhouAnalepsia.Abilities {
 	class AbilityBattleLogic : MissionLogic {
 		public override void OnAgentBuild(Agent agent, Banner banner) {
 			base.OnAgentCreated(agent);
@@ -37,7 +37,7 @@ namespace TouhouAnalepsia {
 			if (tickCounter%tickRate==0) {//don't run all the time, only once in a while. (~once a second)
 				foreach (Agent agent in initializedAgents) {
 					if (DoesAgentNeedTickEvent(agent)) {
-						AbilityOld agentAbility;
+						Ability agentAbility;
 						abilities.TryGetValue(agent, out agentAbility);
 						//Handle HP regen
 						int hpRegen = agentAbility.hpHealedPerMinute;
@@ -62,13 +62,13 @@ namespace TouhouAnalepsia {
 			base.OnBehaviourInitialize();
 			tickCounter = 0;
 			initializedAgents = new List<Agent>();
-			abilities = new Dictionary<Agent, AbilityOld>();
+			abilities = new Dictionary<Agent, Ability>();
 		}
 		public override void OnClearScene() {
 			base.OnClearScene();
 			tickCounter = 0;
 			initializedAgents = new List<Agent>();
-			abilities = new Dictionary<Agent, AbilityOld>();
+			abilities = new Dictionary<Agent, Ability>();
 		}
 
 		public static void initializeAgent(Agent agent) {
@@ -78,7 +78,7 @@ namespace TouhouAnalepsia {
 			//agent.HealthLimit *= 2;
 			//agent.Health *= 2;
 
-			AbilityOld ability = AbilityOld.calculateAbility(agent);
+			Ability ability = Ability.calculateAbility(agent);
 
 			agent.HealthLimit *= (float)ability.hpScaled;
 			agent.Health = agent.HealthLimit;
@@ -92,7 +92,7 @@ namespace TouhouAnalepsia {
 		}
 
 		private static bool DoesAgentNeedTickEvent(Agent agent) {
-			AbilityOld ability;
+			Ability ability;
 			if (!abilities.TryGetValue(agent, out ability)) {
 				InformationManager.DisplayMessage(new InformationMessage("Error in DoesAgentNeedTickEvent!"));
 				return false;
@@ -105,14 +105,14 @@ namespace TouhouAnalepsia {
 		private static readonly int tickRate = 60;
 
 		//Initialized once per mission, more work may need to go into this in the future, to ensure no bugs.
-		public static Dictionary<Agent, AbilityOld> abilities = new Dictionary<Agent, AbilityOld>();
+		public static Dictionary<Agent, Ability> abilities = new Dictionary<Agent, Ability>();
 		public static List<Agent> initializedAgents = new List<Agent>();
 	}
 	class TouhouAgentStatCalculateModel : SandBox.SandboxAgentStatCalculateModel {
 		public override void UpdateAgentStats(Agent agent, AgentDrivenProperties agentDrivenProperties) {
 			base.UpdateAgentStats(agent, agentDrivenProperties);
 
-			AbilityOld ability;
+			Ability ability;
 			if (!AbilityBattleLogic.abilities.TryGetValue(agent, out ability)) {
 				AbilityBattleLogic.initializeAgent(agent);
 				if (!AbilityBattleLogic.abilities.TryGetValue(agent, out ability)) {
