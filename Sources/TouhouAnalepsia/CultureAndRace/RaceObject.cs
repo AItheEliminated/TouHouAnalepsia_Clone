@@ -10,6 +10,7 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.ObjectSystem;
+using TouhouAnalepsia.Abilities;
 
 namespace TouhouAnalepsia.CultureAndRace {
 	class RaceObject : MBObjectBase {
@@ -62,21 +63,8 @@ namespace TouhouAnalepsia.CultureAndRace {
 												expression));
 						break;
 					case "Ability":
-						double hpStatic;
-						double hpScaled;
-						double hpHealedPerMinute;
-						double damageStatic;
-						double damageScaled;
-						double movementSpeed;
-
-						if (!double.TryParse(child.Attributes["hpStatic"]?.Value, out hpStatic)) hpStatic=0.0;
-						if (!double.TryParse(child.Attributes["hpScaled"]?.Value, out hpScaled)) hpScaled=1.0;
-						if (!double.TryParse(child.Attributes["hpHealedPerMinute"]?.Value, out hpHealedPerMinute)) hpHealedPerMinute=0;
-						if (!double.TryParse(child.Attributes["damageStatic"]?.Value, out damageStatic)) damageStatic=0.0;
-						if (!double.TryParse(child.Attributes["damageScaled"]?.Value, out damageScaled)) damageScaled=1.0;
-						if (!double.TryParse(child.Attributes["movementSpeed"]?.Value, out movementSpeed)) movementSpeed=1.0;
-
-						ability.add(new Ability(hpStatic,hpScaled,(int)hpHealedPerMinute,damageStatic,damageScaled,movementSpeed));
+						ability = new Ability();
+						ability.Deserialize(objectManager, child);
 						break;
 				}
 			}
