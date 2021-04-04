@@ -36,7 +36,7 @@ namespace TouhouAnalepsia.CultureAndRace {
 							switch(subchild.Name) {
 								case "Traits":
 									foreach(XmlNode trait in subchild.ChildNodes) {
-										traitInfo.Add(new RaceTransformationTraitInfo(trait["id"].Value, trait["minimum"]?.Value, trait["maximum"]?.Value));
+										traitInfo.Add(new RaceTransformationTraitInfo(trait["id"]?.Value, trait["minimum"]?.Value, trait["maximum"]?.Value));
 									}
 									break;
 							}
@@ -49,6 +49,11 @@ namespace TouhouAnalepsia.CultureAndRace {
 
 						if (trait_requirements != null) {
 							foreach (RaceTransformationTraitInfo info in traitInfo) {
+								if (info.trait == null) {
+									Logger.Log("One of the " + Name + " race's transformation path ids was null!");
+									continue;
+								}
+
 								if (info.minimum != null) trait_requirements.Replace(info.trait, info.minimum + " < " + info.trait);
 								if (info.maximum != null) trait_requirements.Replace(info.trait, info.trait + " < " + info.maximum);
 
@@ -63,6 +68,13 @@ namespace TouhouAnalepsia.CultureAndRace {
 												expression));
 						break;
 					case "Ability":
+						XmlElement race_condition = child.OwnerDocument.CreateElement("Condition");
+
+						race_condition.SetAttribute("uses","Race");
+						race_condition.SetAttribute("condition", "Race.StringId == \"" + StringId + "\"");
+
+						child.AppendChild(race_condition);
+
 						ability = new Ability();
 						ability.Deserialize(objectManager, child);
 						break;

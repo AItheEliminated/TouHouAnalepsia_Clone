@@ -11,6 +11,7 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.ObjectSystem;
+using TouhouAnalepsia.CultureAndRace;
 
 namespace TouhouAnalepsia.Abilities {
 	class Ability : MBObjectBase {
@@ -56,6 +57,8 @@ namespace TouhouAnalepsia.Abilities {
 			BasicCultureObject culture = hero?.Culture;
 			if (culture == null) culture = agent.Origin.Troop.Culture; //TODO agent.Character.Level
 
+			RaceObject race = null;
+
 			if (hero != null) { //To allow for more potential interactions with lords and such, access to their Hero object should be useful
 				yield return abilityFromLevel(hero.Level);
 
@@ -78,7 +81,7 @@ namespace TouhouAnalepsia.Abilities {
 				//Logger.Log("Checking if ability is valid...");
 
 				if (requirements == null || requirements.IsEmpty()) {
-					yield return ability;
+					//yield return ability;
 					//Logger.Log("Added Ability effect!");
 					continue;
 				}
@@ -87,8 +90,9 @@ namespace TouhouAnalepsia.Abilities {
 					if (@delegate.Item1.ToLower().Contains("hero") && hero == null) continue;
 					if (@delegate.Item1.ToLower().Contains("agent") && agent == null) continue;
 					if (@delegate.Item1.ToLower().Contains("culture") && culture == null) continue;
+					if (@delegate.Item1.ToLower().Contains("race") && race == null) continue;
 
-					if ((bool)@delegate.Item2.DynamicInvoke(hero, agent, culture)) {
+					if ((bool)@delegate.Item2.DynamicInvoke(hero, agent, culture, race)) {
 						yield return ability;
 						//Logger.Log("Added Ability effect!");
 						break;
@@ -122,11 +126,12 @@ namespace TouhouAnalepsia.Abilities {
 					case "Condition":
 						if (child.Attributes["condition"]?.Value == null) break;
 
-						ParameterExpression x = Expression.Parameter(typeof(Hero), "Hero");
-						ParameterExpression y = Expression.Parameter(typeof(Agent), "Agent");
-						ParameterExpression z = Expression.Parameter(typeof(BasicCultureObject), "Culture");
-
-						ParameterExpression[] symbols = new[] { x, y, z };
+						ParameterExpression[] symbols = new[] {
+							Expression.Parameter(typeof(Hero), "Hero"),
+							Expression.Parameter(typeof(Agent), "Agent"),
+							Expression.Parameter(typeof(BasicCultureObject), "Culture"),
+							Expression.Parameter(typeof(RaceObject), "Race")
+						};
 
 						Expression body = new ExpressionParser(symbols, child.Attributes["condition"].Value, symbols, new ParsingConfig()).Parse(typeof(bool));
 
