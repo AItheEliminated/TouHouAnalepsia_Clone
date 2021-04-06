@@ -1,0 +1,16 @@
+<prefabs>
+	<game_entity name="NW_wall1" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mi_stu_wall_1s">
+				<mesh name="mi_stu_wall_1s.0" material="planks_6"/>
+				<mesh name="mi_stu_wall_1s.1" material="sturgia_wall_b" argument="0.000, 1.000, 0.000, 0.000"/>
+			</meta_mesh_component>
+			<meta_mesh_component name="empire_house_bridge_b_roof" position="0.000, 0.000, 0.350" rotation="0.000, 0.000, 1.600" scale="0.400, 0.400, 0.400" _index_="1">
+				<mesh name="empire_house_bridge_b_roof.0" material="planks_skinned"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+</prefabs>
+

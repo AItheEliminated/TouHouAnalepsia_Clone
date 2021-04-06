@@ -1,0 +1,1128 @@
+<prefabs>
+	<game_entity name="th_map_fullwall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.138, 0.138, 0.138"/>
+		<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="empire_keep_a_merlon_a">
+				<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+				<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+				<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+				<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+				<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+				<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+				<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="1.742, 0.006, 0.000"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-4.180, 0.005, 0.000"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="6.863, 30.926, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-28.796, 30.905, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.122, 35.966, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-27.815, -0.008, 0.000"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="34.631, 3.119, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="-1.028, 3.098, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-19.388, -0.012, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.449, 1.014, 1.014"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-8.337, 0.011, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.449, 1.014, 1.014"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="2.667, 13.617, 0.000" rotation_euler="0.000, 0.000, 1.571" scale="1.449, 1.014, 1.014"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.086, 35.151, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="2.646, 5.191, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.078, 35.660, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="2.693, 33.006, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.000, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.078, 35.660, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="2.666, 24.669, 0.000" rotation_euler="0.000, 0.000, 1.571" scale="1.449, 1.014, 1.014"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.086, 35.151, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-32.992, 13.596, 0.000" rotation_euler="0.000, 0.000, 1.571" scale="1.449, 1.014, 1.014"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-32.966, 32.985, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.000, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.000, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-32.993, 24.648, 0.000" rotation_euler="0.000, 0.000, 1.571" scale="1.449, 1.014, 1.014"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-33.013, 5.170, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.000, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-27.798, 35.956, 0.000"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-8.320, 35.975, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.449, 1.014, 1.014"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="-19.371, 35.952, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.449, 1.014, 1.014"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="2.105, 0.001, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_th_wall" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+				<transform position="0.017, 35.965, 0.000"/>
+				<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_merlon_a">
+						<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+						<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+						<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="1.743, -0.013, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+						<transform position="-4.180, 0.005, 0.000"/>
+						<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="empire_keep_a_merlon_a">
+								<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod2.1" material="tile_whitewoshing_b"/>
+								<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.0" material="th_tiled_roof"/>
+								<mesh name="empire_keep_a_merlon_a.lod4.1" material="tile_whitewoshing_b"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.001, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="empire_keep_a_merlon_a" old_prefab_name="" season_mask="255" occlusion_body_name="bo_empire_keep_a_merlon_a">
+								<transform position="2.105, 0.000, 0.000"/>
+								<physics shape="bo_empire_keep_a_merlon_a" mass="1.000"/>
+								<components>
+									<meta_mesh_component name="empire_keep_a_merlon_a">
+										<mesh name="empire_keep_a_merlon_a.0" material="th_tiled_roof"/>
+										<mesh name="empire_keep_a_merlon_a.1" material="tile_whitewoshing_b"/>
+										<mesh name="empire_keep_a_merlon_a.lod6.0" material="th_tiled_roof"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+
