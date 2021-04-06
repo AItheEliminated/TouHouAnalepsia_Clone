@@ -123,5 +123,8 @@
 				<GameType value = "CampaignStoryMode"/>
 			</IncludedGameTypes>
 		</XmlNode>               
+		<XmlNode>                
+			<XmlName id="Abilities" path="abilities"/>
+		</XmlNode>  
 	</Xmls>
 </Module>
