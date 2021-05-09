@@ -492,9 +492,9 @@ prefab waterfall_end
 texture TW_shaderdefaults_white
 texture ashes_a_n
 texture ashes_a_s
+texture cg_blue_20
 texture cliff_c_h
 texture cliff_c_s
-texture color_grade_empire_harsh
 texture forest_a_h
 texture gensokyo1new
 texture gensokyo2
@@ -522,6 +522,7 @@ texture ground_soil_b_s
 texture lens_dirt
 texture lens_star
 texture main_map_mountains_d
+texture moon
 texture plowed_field_a_d
 texture plowed_field_a_h
 texture plowed_field_a_n
@@ -529,13 +530,12 @@ texture plowed_field_a_s
 texture rock_a
 texture rock_f_h
 texture rock_f_s
-texture semi_cloudy_2
+texture sky_night
 texture snow_a_s
 texture snow_b_d
 texture snow_b_h
 texture snow_b_n
 texture stone_desert_a_d
 texture stone_desert_a_n
-texture sun_core2
 texture water_ground
 texture white
