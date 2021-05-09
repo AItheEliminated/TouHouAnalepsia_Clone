@@ -1,4 +1,4 @@
-545
+540
 flora_entity tree_olive__mix
 mesh arrow_new_icon
 mesh battania_arena_tower
@@ -370,18 +370,14 @@ prefab emp_tree_floor_a
 prefab empire_castle_l1
 prefab empire_castle_l2
 prefab empire_castle_l3
-prefab empire_village_house_d
-prefab empty_object
 prefab flora_tree_high_b
 prefab gate_position
 prefab hideout_desert_proto
 prefab hideout_forest_1
 prefab hideout_forest_proto
 prefab hideout_steppe_proto
-prefab log_tree_high_group_a
 prefab map_barrel_a
 prefab map_barrel_c
-prefab map_decal_undervillage
 prefab map_icon_castle_battania
 prefab map_icon_castle_battania_b
 prefab map_icon_castle_empire_b
@@ -488,7 +484,6 @@ prefab terrain_rock_a
 prefab th_bridge
 prefab th_map_bamboo_tree_cluster
 prefab th_map_youkai_watchtower
-prefab th_village_et
 prefab town_circle_decal
 prefab volume_box
 prefab volume_box_corner
@@ -499,7 +494,7 @@ texture ashes_a_n
 texture ashes_a_s
 texture cliff_c_h
 texture cliff_c_s
-texture filmic_color_grade
+texture color_grade_empire_harsh
 texture forest_a_h
 texture gensokyo1new
 texture gensokyo2
@@ -534,7 +529,7 @@ texture plowed_field_a_s
 texture rock_a
 texture rock_f_h
 texture rock_f_s
-texture sky_photo_clear_02
+texture semi_cloudy_2
 texture snow_a_s
 texture snow_b_d
 texture snow_b_h
