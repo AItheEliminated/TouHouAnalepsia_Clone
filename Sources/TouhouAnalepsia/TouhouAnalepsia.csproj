@@ -5,7 +5,7 @@
 		<Copyright>Copyright © 2020</Copyright>
 		<PackageId>TouhouAnalepsia</PackageId>
 		<AssemblyName>TouhouAnalepsia</AssemblyName>
-		<ReferenceAssembliesVersion>1.5.8.243410</ReferenceAssembliesVersion>
+		<ReferenceAssembliesVersion>1.5.9.243410</ReferenceAssembliesVersion>
 		<!-- Bannerlord Version -->
 	</PropertyGroup>
 
