@@ -190,5 +190,31 @@ namespace TouhouAnalepsia {
 				return false;
 			}
 		}
+		[HarmonyPatch(typeof(MobileParty), "DailyTick")]
+		class DebugPatch25 {
+			static Exception Finalizer(MobileParty __instance, Exception __exception) {
+				if (__exception?.Message == null) return __exception;
+				Logger.Log("Begin Exception Log for MobileParty.DailyTick");
+				if (__exception?.Message != null) {
+					Logger.Log(__exception.Message);
+					Logger.Log(__exception.StackTrace);
+				} else Logger.Log("No exception message");
+				Logger.Log(__instance.StringId);
+				foreach(TroopRosterElement element in __instance.MemberRoster.GetTroopRoster()) {
+					if(element.Character == null) {
+						Logger.Log("A character object is null!");
+					} else {
+						if (element.Character.Culture != null) Logger.Log(element.ToString() + ": This character's culture is " + element.Character.Culture.StringId);
+						//else Logger.Log(element.ToString() + ": This character's culture is null.");
+						else {
+							Logger.Log(element.Character?.StringId + ": This character's culture is null.");
+						}
+					}
+				}
+				Logger.Log("End Exception Log for MobileParty.DailyTick");
+
+				return __exception;
+			}
+		}
 	}
 }
