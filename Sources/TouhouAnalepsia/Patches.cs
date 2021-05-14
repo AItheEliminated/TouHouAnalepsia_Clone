@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.SandBox.GameComponents.Map;
+using TaleWorlds.CampaignSystem.SandBox.GameComponents.Party;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.ModuleManager;
@@ -19,7 +21,7 @@ namespace TouhouAnalepsia {
 		}
 		public static void DefaultPatches() {
 			HarmonyHandler.patchPrefix("SandBox.View.Map.PartyVisual", "TaleWorlds.CampaignSystem.IPartyVisual.OnStartup", "TouhouAnalepsia.Patches", "DebugPatchPrefix");
-			
+
 			//StoryMode patches
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnMainStoryLineSideChosen", "TouhouAnalepsia.Patches", "RemoveMethod");
@@ -30,7 +32,7 @@ namespace TouhouAnalepsia {
 
 			//Various deletions
 			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.BackstoryCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod"); //Makes reference to certain characters who now have their information removed from the files.
-			//HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior", "BuildWorkshopsAtGameStart", "TouhouAnalepsia.Patches", "RemoveMethod");
+																																														//HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior", "BuildWorkshopsAtGameStart", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.Source.TournamentGames.TournamentCampaignBehavior", "InitializeTournamentLeaderboard", "TouhouAnalepsia.Patches", "RemoveMethod");
 
 		}
@@ -200,8 +202,8 @@ namespace TouhouAnalepsia {
 					Logger.Log(__exception.StackTrace);
 				} else Logger.Log("No exception message");
 				Logger.Log(__instance.StringId);
-				foreach(TroopRosterElement element in __instance.MemberRoster.GetTroopRoster()) {
-					if(element.Character == null) {
+				foreach (TroopRosterElement element in __instance.MemberRoster.GetTroopRoster()) {
+					if (element.Character == null) {
 						Logger.Log("A character object is null!");
 					} else {
 						if (element.Character.Culture != null) Logger.Log(element.ToString() + ": This character's culture is " + element.Character.Culture.StringId);
@@ -212,6 +214,59 @@ namespace TouhouAnalepsia {
 					}
 				}
 				Logger.Log("End Exception Log for MobileParty.DailyTick");
+
+				return __exception;
+			}
+		}
+		[HarmonyPatch(typeof(DefaultPartyWageModel), "GetTotalWage")]
+		class DebugPatch26 {
+			static Exception Finalizer(MobileParty mobileParty, Exception __exception) {
+				if (__exception?.Message == null) return __exception;
+				Logger.Log("Begin Exception Log for DefaultPartyWageModel.GetTotalWage");
+				if (__exception?.Message != null) {
+					Logger.Log(__exception.Message);
+					Logger.Log(__exception.StackTrace);
+				} else Logger.Log("No exception message");
+				Logger.Log(mobileParty.StringId);
+				foreach (TroopRosterElement element in mobileParty.MemberRoster.GetTroopRoster()) {
+					if (element.Character == null) {
+						Logger.Log("A character object is null!");
+					} else {
+						if (element.Character.Culture != null) Logger.Log(element.ToString() + ": This character's culture is " + element.Character.Culture.StringId);
+						//else Logger.Log(element.ToString() + ": This character's culture is null.");
+						else {
+							Logger.Log(element.Character?.StringId + ": This character's culture is null.");
+						}
+					}
+				}
+				Logger.Log("End Exception Log for DefaultPartyWageModel.GetTotalWage");
+
+				return __exception;
+			}
+		}
+		[HarmonyPatch(typeof(DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(MobileParty), typeof(Settlement) })]
+		[HarmonyPatch(typeof(DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(MobileParty), typeof(MobileParty) })]
+		class DebugPatch27 {
+			static Exception Finalizer(MobileParty fromParty, Exception __exception) {
+				if (__exception?.Message == null) return __exception;
+				Logger.Log("Begin Exception Log for DefaultMapDistanceModel.GetDistance");
+				if (__exception?.Message != null) {
+					Logger.Log(__exception.Message);
+					Logger.Log(__exception.StackTrace);
+				} else Logger.Log("No exception message");
+				Logger.Log(fromParty.StringId);
+				foreach (TroopRosterElement element in fromParty.MemberRoster.GetTroopRoster()) {
+					if (element.Character == null) {
+						Logger.Log("A character object is null!");
+					} else {
+						if (element.Character.Culture != null) Logger.Log(element.ToString() + ": This character's culture is " + element.Character.Culture.StringId);
+						//else Logger.Log(element.ToString() + ": This character's culture is null.");
+						else {
+							Logger.Log(element.Character?.StringId + ": This character's culture is null.");
+						}
+					}
+				}
+				Logger.Log("End Exception Log for DefaultMapDistanceModel.GetDistance");
 
 				return __exception;
 			}

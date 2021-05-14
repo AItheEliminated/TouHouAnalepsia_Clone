@@ -185,10 +185,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="5" />
       <skill id="Throwing" value="5" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.human_tribal_warrior" />
-      <upgrade_target id="NPCCharacter.human_footman" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
@@ -230,10 +226,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="5" />
       <skill id="Throwing" value="10" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.youkai_infantryman" />
-      <upgrade_target id="NPCCharacter.youkai_archer" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.peasant_pitchfork_2_t1" />
@@ -274,10 +266,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="0" />
       <skill id="Throwing" value="5" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.fairy_tribesman" />
-      <upgrade_target id="NPCCharacter.fairy_mameluke_soldier" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.aserai_sword_2_t2" />
@@ -1316,9 +1304,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="5" />
       <skill id="Throwing" value="5" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.human_qanqli" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.cloth_tunic" />
@@ -1387,9 +1372,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="5" />
       <skill id="Throwing" value="5" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.youkai_equite" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.cloth_tunic" />
@@ -1458,9 +1440,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="5" />
       <skill id="Throwing" value="40" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.fairy_tribal_horseman" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.cloth_tunic" />
