@@ -17,7 +17,7 @@
     <string id="Settlements.Settlement.CommonAreas.Area.Backstreet" text="Backstreet" />
     <string id="Settlements.Settlement.CommonAreas.Area.Clearing" text="Clearing" />
     <string id="Settlements.Settlement.CommonAreas.Area.Waterfront" text="Waterfront" />
-    <string id="Settlements.Settlement.name.town_HS2" text="Remains of a Lost Paradise" />
+    <string id="Settlements.Settlement.name.town_HS2" text="Remains of a Sealed Paradise" />
     <string id="Settlements.Settlement.name.town_HS3" text="Hakurei Shrine" />
     <string id="Settlements.Settlement.name.town_HS4" text="Ibuki Citadel" />
     <string id="Settlements.Settlement.name.town_HS5" text="Kirisame Town" />
@@ -47,7 +47,7 @@
     <string id="Settlements.Settlement.name.castle_SE5" text="Ghost Mansion" />
     <string id="Settlements.Settlement.name.castle_SE6" text="Black Tea Castle" />
     <string id="Settlements.Settlement.name.castle_SE7" text="Castle of the Late Dawn" />
-    <string id="Settlements.Settlement.name.castle_SE8" text="Phantom Prairie " />
+    <string id="Settlements.Settlement.name.castle_SE8" text="Phantom Prairie" />
     <string id="Settlements.Settlement.name.castle_SE9" text="Château Pudding" />
     <string id="Settlements.Settlement.name.town_SE1" text="Magic Library" />
     <string id="Settlements.Settlement.name.town_SE2" text="Scarlet Devil Mansion" />
@@ -78,7 +78,7 @@
     <string id="Settlements.Settlement.name.castle_AK8" text="Mermaid Palace" />
     <string id="Settlements.Settlement.name.town_AK1" text="Tanuki Forest" />
     <string id="Settlements.Settlement.name.town_AK2" text="Thunderdrum Beat Paradise" />
-    <string id="Settlements.Settlement.name.town_AK3" text="Town of Willows" />
+    <string id="Settlements.Settlement.name.town_AK3" text="City Under the Willows" />
     <string id="Settlements.Settlement.name.town_AK4" text="Full Moon City" />
     <string id="Settlements.Settlement.name.town_AK5" text="Reverse Hierarchy City" />
     <string id="Settlements.Settlement.name.town_AK6" text="Joyful World" />

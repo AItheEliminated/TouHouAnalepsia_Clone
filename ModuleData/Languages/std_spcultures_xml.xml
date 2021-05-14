@@ -4,7 +4,7 @@
     <tag language="English" />
   </tags>
   <strings>
-    <string id="Cultures.Culture.fc_hakurei_shrine.name" text="Hakurei" />
+    <string id="Cultures.Culture.name.fc_hakurei_shrine" text="Hakurei" />
     <string id="Cultures.Culture.fc_hakurei_shrine.str_culture_rich_name" text="Hakurei Shrine" />
     <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_official" text="a shamman" />
     <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_official_f" text="a miko" />
@@ -17,19 +17,19 @@
     <string id="Cultures.Culture.fc_hakurei_shrine.str_short_term_for_faction" text="Hakurei Shrine" />
     <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_formal_name_for_culture" text="Hakurei Shrine" />
     <string id="Cultures.Culture.fc_hakurei_shrine.str_neutral_term_for_culture" text="hakurei" />
-    <string id="Cultures.Culture.fc_human_city.name" text="Metropolitian" />
+    <string id="Cultures.Culture.name.fc_human_city" text="Metropolitian" />
     <string id="Cultures.Culture.fc_human_city.str_culture_rich_name" text="Human City" />
     <string id="Cultures.Culture.fc_human_city.str_adjective_for_faction" text="metropolitan" />
     <string id="Cultures.Culture.fc_human_city.str_short_term_for_faction" text="Human City" />
     <string id="Cultures.Culture.fc_human_city.str_faction_formal_name_for_culture" text="Human City" />
     <string id="Cultures.Culture.fc_human_city.str_neutral_term_for_culture" text="humans" />
-    <string id="Cultures.Culture.fc_eientei.name" text="Lunarian" />
+    <string id="Cultures.Culture.name.fc_eientei" text="Lunarian" />
     <string id="Cultures.Culture.fc_eientei.str_culture_rich_name" text="Eientei" />
     <string id="Cultures.Culture.fc_eientei.str_adjective_for_faction" text="lunarian" />
     <string id="Cultures.Culture.fc_eientei.str_short_term_for_faction" text="Eientei" />
     <string id="Cultures.Culture.fc_eientei.str_faction_formal_name_for_culture" text="Eientei" />
     <string id="Cultures.Culture.fc_eientei.str_neutral_term_for_culture" text="lunarians" />
-    <string id="Cultures.Culture.fc_test0.name" text="Scarlet Devil" />
+    <string id="Cultures.Culture.name.fc_test0" text="Scarlet Devil" />
     <string id="Cultures.Culture.fc_test0.str_culture_rich_name" text="Scarlet Empire" />
     <string id="Cultures.Culture.fc_test0.str_faction_official" text="an archon" />
     <string id="Cultures.Culture.fc_test0.str_faction_official_f" text="an archoness" />
@@ -42,7 +42,7 @@
     <string id="Cultures.Culture.fc_test0.str_short_term_for_faction" text="Scarlet Empire" />
     <string id="Cultures.Culture.fc_test0.str_faction_formal_name_for_culture" text="Scarlet Empire" />
     <string id="Cultures.Culture.fc_test0.str_neutral_term_for_culture" text="scarlets" />
-    <string id="Cultures.Culture.fc_test1.name" text="Misty Lake" />
+    <string id="Cultures.Culture.name.fc_test1" text="Misty Lake" />
     <string id="Cultures.Culture.fc_test1.str_culture_rich_name" text="Mistylake Empire" />
     <string id="Cultures.Culture.fc_test1.str_faction_official" text="an archon" />
     <string id="Cultures.Culture.fc_test1.str_faction_official_f" text="an archoness" />
@@ -55,31 +55,31 @@
     <string id="Cultures.Culture.fc_test1.str_short_term_for_faction" text="Mistylake Empire" />
     <string id="Cultures.Culture.fc_test1.str_faction_formal_name_for_culture" text="Scarlet Empire" />
     <string id="Cultures.Culture.fc_test1.str_neutral_term_for_culture" text="mistylakes" />
-    <string id="Cultures.Culture.fc_anokuni.name" text="Amanojaku" />
+    <string id="Cultures.Culture.name.fc_anokuni" text="Amanojaku" />
     <string id="Cultures.Culture.fc_anokuni.str_culture_rich_name" text="Amanojaku no Kuni" />
     <string id="Cultures.Culture.fc_anokuni.str_adjective_for_faction" text="amanojaku" />
     <string id="Cultures.Culture.fc_anokuni.str_short_term_for_faction" text="Amanojaku no Kuni" />
     <string id="Cultures.Culture.fc_anokuni.str_faction_formal_name_for_culture" text="Amanojaku no Kuni" />
     <string id="Cultures.Culture.fc_anokuni.str_neutral_term_for_culture" text="amanojaku" />
-    <string id="Cultures.Culture.fc_kyuutaki.name" text="Tengu" />
+    <string id="Cultures.Culture.name.fc_kyuutaki" text="Tengu" />
     <string id="Cultures.Culture.fc_kyuutaki.str_culture_rich_name" text="Kyuuten no Taki" />
     <string id="Cultures.Culture.fc_kyuutaki.str_adjective_for_faction" text="tengu" />
     <string id="Cultures.Culture.fc_kyuutaki.str_short_term_for_faction" text="Kyuuten no Taki" />
     <string id="Cultures.Culture.fc_kyuutaki.str_faction_formal_name_for_culture" text="Kyuuten no Taki" />
     <string id="Cultures.Culture.fc_kyuutaki.str_neutral_term_for_culture" text="tengu" />
-    <string id="Cultures.Culture.fc_underworld.name" text="Underworld" />
+    <string id="Cultures.Culture.name.fc_underworld" text="Underworld" />
     <string id="Cultures.Culture.fc_underworld.str_culture_rich_name" text="Underworld" />
     <string id="Cultures.Culture.fc_underworld.str_adjective_for_faction" text="underworld" />
     <string id="Cultures.Culture.fc_underworld.str_short_term_for_faction" text="Underworld" />
     <string id="Cultures.Culture.fc_underworld.str_faction_formal_name_for_culture" text="Underworld" />
     <string id="Cultures.Culture.fc_underworld.str_neutral_term_for_culture" text="underworlders" />
-    <string id="Cultures.Culture.fc_netherworld.name" text="Netherworld" />
+    <string id="Cultures.Culture.name.fc_netherworld" text="Netherworld" />
     <string id="Cultures.Culture.fc_netherworld.str_culture_rich_name" text="Netherworld" />
     <string id="Cultures.Culture.fc_netherworld.str_adjective_for_faction" text="netherworld" />
     <string id="Cultures.Culture.fc_netherworld.str_short_term_for_faction" text="Netherworld" />
     <string id="Cultures.Culture.fc_netherworld.str_faction_formal_name_for_culture" text="Netherworld" />
     <string id="Cultures.Culture.fc_netherworld.str_neutral_term_for_culture" text="netherworlders" />
-    <string id="Cultures.Culture.fc_shogunate.name" text="Shogunate" />
+    <string id="Cultures.Culture.name.fc_shogunate" text="Shogunate" />
     <string id="Cultures.Culture.fc_shogunate.str_culture_rich_name" text="Shogunate of the Gods" />
     <string id="Cultures.Culture.fc_shogunate.str_faction_official" text="a kappa" />
     <string id="Cultures.Culture.fc_shogunate.str_faction_official_f" text="a kappa" />
@@ -92,7 +92,7 @@
     <string id="Cultures.Culture.fc_shogunate.str_short_term_for_faction" text="Shogunate" />
     <string id="Cultures.Culture.fc_shogunate.str_faction_formal_name_for_culture" text="Shogunate of the Gods" />
     <string id="Cultures.Culture.fc_shogunate.str_neutral_term_for_culture" text="kami" />
-    <string id="Cultures.Culture.human.name" text="Human" />
+    <string id="Cultures.Culture.name.human" text="Human" />
     <string id="Cultures.Culture.human.male_names.akihito" text="Akihito" />
     <string id="Cultures.Culture.human.male_names.akimitsu" text="Akimitsu" />
     <string id="Cultures.Culture.human.male_names.arata" text="Arata" />
@@ -119,84 +119,501 @@
     <string id="Cultures.Culture.human.male_names.yori" text="Yori" />
     <string id="Cultures.Culture.human.male_names.yoshi" text="Yoshi" />
     <string id="Cultures.Culture.human.male_names.yuki" text="Yuki" />
-    <string id="Cultures.Culture.human.female_names.airi" text="Airi" />
-    <string id="Cultures.Culture.human.female_names.akari" text="Akari" />
-    <string id="Cultures.Culture.human.female_names.ayame" text="Ayame" />
-    <string id="Cultures.Culture.human.female_names.chika" text="Chika" />
+    <string id="Cultures.Culture.human.female_names.ai" text="Ai" />
+    <string id="Cultures.Culture.human.female_names.aka" text="Aka" />
+    <string id="Cultures.Culture.human.female_names.akai" text="Akai" />
+    <string id="Cultures.Culture.human.female_names.aki" text="Aki" />
+    <string id="Cultures.Culture.human.female_names.akii" text="Akii" />
+    <string id="Cultures.Culture.human.female_names.ama" text="Ama" />
+    <string id="Cultures.Culture.human.female_names.ane" text="Ane" />
+    <string id="Cultures.Culture.human.female_names.asa" text="Asa" />
+    <string id="Cultures.Culture.human.female_names.baba" text="Baba" />
+    <string id="Cultures.Culture.human.female_names.ben" text="Ben" />
+    <string id="Cultures.Culture.human.female_names.bin" text="Bin" />
+    <string id="Cultures.Culture.human.female_names.bou" text="Bou" />
+    <string id="Cultures.Culture.human.female_names.chiki" text="Chiki" />
+    <string id="Cultures.Culture.human.female_names.chima" text="Chima" />
+    <string id="Cultures.Culture.human.female_names.chin" text="Chin" />
+    <string id="Cultures.Culture.human.female_names.chiyo" text="Chiyo" />
     <string id="Cultures.Culture.human.female_names.chou" text="Chou" />
-    <string id="Cultures.Culture.human.female_names.ema" text="Ema" />
-    <string id="Cultures.Culture.human.female_names.emi" text="Emi" />
-    <string id="Cultures.Culture.human.female_names.etsuko" text="Etsuko" />
-    <string id="Cultures.Culture.human.female_names.fuyuko" text="Fuyuko" />
-    <string id="Cultures.Culture.human.female_names.hanae" text="Hanae" />
-    <string id="Cultures.Culture.human.female_names.haruka" text="Haruka" />
-    <string id="Cultures.Culture.human.female_names.hibiki" text="Hibiki" />
-    <string id="Cultures.Culture.human.female_names.hikari" text="Hikari" />
-    <string id="Cultures.Culture.human.female_names.hina" text="Hina" />
-    <string id="Cultures.Culture.human.female_names.hitomi" text="Hitomi" />
-    <string id="Cultures.Culture.human.female_names.honoka" text="Honoka" />
-    <string id="Cultures.Culture.human.female_names.hosha" text="Hosha" />
-    <string id="Cultures.Culture.human.female_names.hotaru" text="Hotaru" />
-    <string id="Cultures.Culture.human.female_names.izumi" text="Izumi" />
-    <string id="Cultures.Culture.human.female_names.jun" text="Jun" />
-    <string id="Cultures.Culture.human.female_names.kaede" text="Kaede" />
-    <string id="Cultures.Culture.human.female_names.kanako" text="Kanako" />
-    <string id="Cultures.Culture.human.female_names.kaori" text="Kaori" />
-    <string id="Cultures.Culture.human.female_names.kasumi" text="Kasumi" />
-    <string id="Cultures.Culture.human.female_names.kei" text="Kei" />
-    <string id="Cultures.Culture.human.female_names.kimiko" text="Kimiko" />
-    <string id="Cultures.Culture.human.female_names.kyoko" text="Kyoko" />
-    <string id="Cultures.Culture.human.female_names.mai" text="Mai" />
-    <string id="Cultures.Culture.human.female_names.makoto" text="Makoto" />
-    <string id="Cultures.Culture.human.female_names.mayu" text="Mayu" />
-    <string id="Cultures.Culture.human.female_names.megumi" text="Megumi" />
-    <string id="Cultures.Culture.human.female_names.mei" text="Mei" />
-    <string id="Cultures.Culture.human.female_names.mika" text="Mika" />
-    <string id="Cultures.Culture.human.female_names.miku" text="Miku" />
-    <string id="Cultures.Culture.human.female_names.moriko" text="Moriko" />
-    <string id="Cultures.Culture.human.female_names.nanami" text="Nanami" />
-    <string id="Cultures.Culture.human.female_names.natsumi" text="Natsumi" />
-    <string id="Cultures.Culture.human.female_names.rei" text="Rei" />
+    <string id="Cultures.Culture.human.female_names.den" text="Den" />
+    <string id="Cultures.Culture.human.female_names.fude" text="Fude" />
+    <string id="Cultures.Culture.human.female_names.fuji" text="Fuji" />
+    <string id="Cultures.Culture.human.female_names.fuku" text="Fuku" />
+    <string id="Cultures.Culture.human.female_names.fume" text="Fume" />
+    <string id="Cultures.Culture.human.female_names.furi" text="Furi" />
+    <string id="Cultures.Culture.human.female_names.fusa" text="Fusa" />
+    <string id="Cultures.Culture.human.female_names.fuso" text="Fuso" />
+    <string id="Cultures.Culture.human.female_names.futsu" text="Futsu" />
+    <string id="Cultures.Culture.human.female_names.gen" text="Gen" />
+    <string id="Cultures.Culture.human.female_names.gin" text="Gin" />
+    <string id="Cultures.Culture.human.female_names.hama" text="Hama" />
+    <string id="Cultures.Culture.human.female_names.hana" text="Hana" />
+    <string id="Cultures.Culture.human.female_names.haru" text="Haru" />
+    <string id="Cultures.Culture.human.female_names.hatsu" text="Hatsu" />
+    <string id="Cultures.Culture.human.female_names.heya" text="Heya" />
+    <string id="Cultures.Culture.human.female_names.hiina" text="Hiina" />
+    <string id="Cultures.Culture.human.female_names.hiki" text="Hiki" />
+    <string id="Cultures.Culture.human.female_names.hiko" text="Hiko" />
+    <string id="Cultures.Culture.human.female_names.hime" text="Hime" />
+    <string id="Cultures.Culture.human.female_names.hin" text="Hin" />
+    <string id="Cultures.Culture.human.female_names.hinu" text="Hinu" />
+    <string id="Cultures.Culture.human.female_names.hisa" text="Hisa" />
+    <string id="Cultures.Culture.human.female_names.hitsu" text="Hitsu" />
+    <string id="Cultures.Culture.human.female_names.hiwa" text="Hiwa" />
+    <string id="Cultures.Culture.human.female_names.hoso" text="Hoso" />
+    <string id="Cultures.Culture.human.female_names.hotsu" text="Hotsu" />
+    <string id="Cultures.Culture.human.female_names.ichi" text="Ichi" />
+    <string id="Cultures.Culture.human.female_names.iku" text="Iku" />
+    <string id="Cultures.Culture.human.female_names.ima" text="Ima" />
+    <string id="Cultures.Culture.human.female_names.ina" text="Ina" />
+    <string id="Cultures.Culture.human.female_names.ine" text="Ine" />
+    <string id="Cultures.Culture.human.female_names.ino" text="Ino" />
+    <string id="Cultures.Culture.human.female_names.inu" text="Inu" />
+    <string id="Cultures.Culture.human.female_names.iri" text="Iri" />
+    <string id="Cultures.Culture.human.female_names.isa" text="Isa" />
+    <string id="Cultures.Culture.human.female_names.ise" text="Ise" />
+    <string id="Cultures.Culture.human.female_names.ishi" text="Ishi" />
+    <string id="Cultures.Culture.human.female_names.iso" text="Iso" />
+    <string id="Cultures.Culture.human.female_names.ito" text="Ito" />
+    <string id="Cultures.Culture.human.female_names.iwa" text="Iwa" />
+    <string id="Cultures.Culture.human.female_names.jou" text="Jou" />
+    <string id="Cultures.Culture.human.female_names.kachi" text="Kachi" />
+    <string id="Cultures.Culture.human.female_names.kaku" text="Kaku" />
+    <string id="Cultures.Culture.human.female_names.kama" text="Kama" />
+    <string id="Cultures.Culture.human.female_names.kame" text="Kame" />
+    <string id="Cultures.Culture.human.female_names.kan" text="Kan" />
+    <string id="Cultures.Culture.human.female_names.kana" text="Kana" />
+    <string id="Cultures.Culture.human.female_names.kane" text="Kane" />
+    <string id="Cultures.Culture.human.female_names.karu" text="Karu" />
+    <string id="Cultures.Culture.human.female_names.kase" text="Kase" />
+    <string id="Cultures.Culture.human.female_names.katsu" text="Katsu" />
+    <string id="Cultures.Culture.human.female_names.kawa" text="Kawa" />
+    <string id="Cultures.Culture.human.female_names.kaya" text="Kaya" />
+    <string id="Cultures.Culture.human.female_names.kayo" text="Kayo" />
+    <string id="Cultures.Culture.human.female_names.kesa" text="Kesa" />
+    <string id="Cultures.Culture.human.female_names.kesai" text="Kesai" />
+    <string id="Cultures.Culture.human.female_names.kichi" text="Kichi" />
+    <string id="Cultures.Culture.human.female_names.kiku" text="Kiku" />
+    <string id="Cultures.Culture.human.female_names.kin" text="Kin" />
+    <string id="Cultures.Culture.human.female_names.kina" text="Kina" />
+    <string id="Cultures.Culture.human.female_names.kinu" text="Kinu" />
+    <string id="Cultures.Culture.human.female_names.kiri" text="Kiri" />
+    <string id="Cultures.Culture.human.female_names.kisa" text="Kisa" />
+    <string id="Cultures.Culture.human.female_names.kitsu" text="Kitsu" />
+    <string id="Cultures.Culture.human.female_names.kiyo" text="Kiyo" />
+    <string id="Cultures.Culture.human.female_names.kogou" text="Kogou" />
+    <string id="Cultures.Culture.human.female_names.koku" text="Koku" />
+    <string id="Cultures.Culture.human.female_names.koma" text="Koma" />
+    <string id="Cultures.Culture.human.female_names.kome" text="Kome" />
+    <string id="Cultures.Culture.human.female_names.kona" text="Kona" />
+    <string id="Cultures.Culture.human.female_names.koro" text="Koro" />
+    <string id="Cultures.Culture.human.female_names.koya" text="Koya" />
+    <string id="Cultures.Culture.human.female_names.koyo" text="Koyo" />
+    <string id="Cultures.Culture.human.female_names.kuchi" text="Kuchi" />
+    <string id="Cultures.Culture.human.female_names.kuma" text="Kuma" />
+    <string id="Cultures.Culture.human.female_names.kume" text="Kume" />
+    <string id="Cultures.Culture.human.female_names.kuni" text="Kuni" />
+    <string id="Cultures.Culture.human.female_names.kura" text="Kura" />
+    <string id="Cultures.Culture.human.female_names.kuri" text="Kuri" />
+    <string id="Cultures.Culture.human.female_names.kuro" text="Kuro" />
+    <string id="Cultures.Culture.human.female_names.kusu" text="Kusu" />
+    <string id="Cultures.Culture.human.female_names.kuu" text="Kuu" />
+    <string id="Cultures.Culture.human.female_names.kuwa" text="Kuwa" />
+    <string id="Cultures.Culture.human.female_names.kuyo" text="Kuyo" />
+    <string id="Cultures.Culture.human.female_names.machi" text="Machi" />
+    <string id="Cultures.Culture.human.female_names.magi" text="Magi" />
+    <string id="Cultures.Culture.human.female_names.maki" text="Maki" />
+    <string id="Cultures.Culture.human.female_names.mako" text="Mako" />
+    <string id="Cultures.Culture.human.female_names.man" text="Man" />
+    <string id="Cultures.Culture.human.female_names.mane" text="Mane" />
+    <string id="Cultures.Culture.human.female_names.mare" text="Mare" />
+    <string id="Cultures.Culture.human.female_names.mari" text="Mari" />
+    <string id="Cultures.Culture.human.female_names.masa" text="Masa" />
+    <string id="Cultures.Culture.human.female_names.mashi" text="Mashi" />
+    <string id="Cultures.Culture.human.female_names.mata" text="Mata" />
+    <string id="Cultures.Culture.human.female_names.mate" text="Mate" />
+    <string id="Cultures.Culture.human.female_names.matsu" text="Matsu" />
+    <string id="Cultures.Culture.human.female_names.mego" text="Mego" />
+    <string id="Cultures.Culture.human.female_names.mimi" text="Mimi" />
+    <string id="Cultures.Culture.human.female_names.mina" text="Mina" />
+    <string id="Cultures.Culture.human.female_names.mine" text="Mine" />
+    <string id="Cultures.Culture.human.female_names.mino" text="Mino" />
+    <string id="Cultures.Culture.human.female_names.mitsu" text="Mitsu" />
+    <string id="Cultures.Culture.human.female_names.miya" text="Miya" />
+    <string id="Cultures.Culture.human.female_names.mochi" text="Mochi" />
+    <string id="Cultures.Culture.human.female_names.moku" text="Moku" />
+    <string id="Cultures.Culture.human.female_names.momo" text="Momo" />
+    <string id="Cultures.Culture.human.female_names.muma" text="Muma" />
+    <string id="Cultures.Culture.human.female_names.mume" text="Mume" />
+    <string id="Cultures.Culture.human.female_names.musu" text="Musu" />
+    <string id="Cultures.Culture.human.female_names.mutsu" text="Mutsu" />
+    <string id="Cultures.Culture.human.female_names.nabe" text="Nabe" />
+    <string id="Cultures.Culture.human.female_names.nagu" text="Nagu" />
+    <string id="Cultures.Culture.human.female_names.nai" text="Nai" />
+    <string id="Cultures.Culture.human.female_names.naka" text="Naka" />
+    <string id="Cultures.Culture.human.female_names.nana" text="Nana" />
+    <string id="Cultures.Culture.human.female_names.natsu" text="Natsu" />
+    <string id="Cultures.Culture.human.female_names.nei" text="Nei" />
+    <string id="Cultures.Culture.human.female_names.neko" text="Neko" />
+    <string id="Cultures.Culture.human.female_names.nene" text="Nene" />
+    <string id="Cultures.Culture.human.female_names.niga" text="Niga" />
+    <string id="Cultures.Culture.human.female_names.niku" text="Niku" />
+    <string id="Cultures.Culture.human.female_names.nino" text="Nino" />
+    <string id="Cultures.Culture.human.female_names.niwa" text="Niwa" />
+    <string id="Cultures.Culture.human.female_names.oma" text="Oma" />
+    <string id="Cultures.Culture.human.female_names.ona" text="Ona" />
+    <string id="Cultures.Culture.human.female_names.osa" text="Osa" />
+    <string id="Cultures.Culture.human.female_names.oshi" text="Oshi" />
+    <string id="Cultures.Culture.human.female_names.ota" text="Ota" />
+    <string id="Cultures.Culture.human.female_names.oto" text="Oto" />
     <string id="Cultures.Culture.human.female_names.rin" text="Rin" />
-    <string id="Cultures.Culture.human.female_names.sachie" text="Sachie" />
+    <string id="Cultures.Culture.human.female_names.riyo" text="Riyo" />
+    <string id="Cultures.Culture.human.female_names.roku" text="Roku" />
+    <string id="Cultures.Culture.human.female_names.run" text="Run" />
+    <string id="Cultures.Culture.human.female_names.rusu" text="Rusu" />
+    <string id="Cultures.Culture.human.female_names.sago" text="Sago" />
+    <string id="Cultures.Culture.human.female_names.sai" text="Sai" />
+    <string id="Cultures.Culture.human.female_names.saka" text="Saka" />
     <string id="Cultures.Culture.human.female_names.saki" text="Saki" />
-    <string id="Cultures.Culture.human.female_names.sakura" text="Sakura" />
-    <string id="Cultures.Culture.human.female_names.saori" text="Saori" />
-    <string id="Cultures.Culture.human.female_names.shion" text="Shion" />
-    <string id="Cultures.Culture.human.female_names.sumiko" text="Sumiko" />
-    <string id="Cultures.Culture.human.female_names.takara" text="Takara" />
-    <string id="Cultures.Culture.human.female_names.tokomo" text="Tokomo" />
-    <string id="Cultures.Culture.human.female_names.tsubasa" text="Tsubasa" />
-    <string id="Cultures.Culture.human.female_names.wakana" text="Wakana" />
+    <string id="Cultures.Culture.human.female_names.sako" text="Sako" />
+    <string id="Cultures.Culture.human.female_names.saku" text="Saku" />
+    <string id="Cultures.Culture.human.female_names.sama" text="Sama" />
+    <string id="Cultures.Culture.human.female_names.same" text="Same" />
+    <string id="Cultures.Culture.human.female_names.san" text="San" />
+    <string id="Cultures.Culture.human.female_names.sana" text="Sana" />
+    <string id="Cultures.Culture.human.female_names.sani" text="Sani" />
+    <string id="Cultures.Culture.human.female_names.saru" text="Saru" />
+    <string id="Cultures.Culture.human.female_names.satsu" text="Satsu" />
+    <string id="Cultures.Culture.human.female_names.sawa" text="Sawa" />
+    <string id="Cultures.Culture.human.female_names.saya" text="Saya" />
+    <string id="Cultures.Culture.human.female_names.sechi" text="Sechi" />
+    <string id="Cultures.Culture.human.female_names.seki" text="Seki" />
+    <string id="Cultures.Culture.human.female_names.sen" text="Sen" />
+    <string id="Cultures.Culture.human.female_names.senu" text="Senu" />
+    <string id="Cultures.Culture.human.female_names.shige" text="Shige" />
+    <string id="Cultures.Culture.human.female_names.shima" text="Shima" />
+    <string id="Cultures.Culture.human.female_names.shime" text="Shime" />
+    <string id="Cultures.Culture.human.female_names.shimo" text="Shimo" />
+    <string id="Cultures.Culture.human.female_names.shina" text="Shina" />
+    <string id="Cultures.Culture.human.female_names.shino" text="Shino" />
+    <string id="Cultures.Culture.human.female_names.shio" text="Shio" />
+    <string id="Cultures.Culture.human.female_names.shou" text="Shou" />
+    <string id="Cultures.Culture.human.female_names.shuu" text="Shuu" />
+    <string id="Cultures.Culture.human.female_names.some" text="Some" />
+    <string id="Cultures.Culture.human.female_names.sue" text="Sue" />
+    <string id="Cultures.Culture.human.female_names.sugi" text="Sugi" />
+    <string id="Cultures.Culture.human.female_names.suka" text="Suka" />
+    <string id="Cultures.Culture.human.female_names.suke" text="Suke" />
+    <string id="Cultures.Culture.human.female_names.suki" text="Suki" />
+    <string id="Cultures.Culture.human.female_names.suko" text="Suko" />
+    <string id="Cultures.Culture.human.female_names.suma" text="Suma" />
+    <string id="Cultures.Culture.human.female_names.sumi" text="Sumi" />
+    <string id="Cultures.Culture.human.female_names.suna" text="Suna" />
+    <string id="Cultures.Culture.human.female_names.suo" text="Suo" />
+    <string id="Cultures.Culture.human.female_names.sute" text="Sute" />
+    <string id="Cultures.Culture.human.female_names.take" text="Take" />
+    <string id="Cultures.Culture.human.female_names.tama" text="Tama" />
+    <string id="Cultures.Culture.human.female_names.tan" text="Tan" />
+    <string id="Cultures.Culture.human.female_names.tane" text="Tane" />
+    <string id="Cultures.Culture.human.female_names.tatsu" text="Tatsu" />
+    <string id="Cultures.Culture.human.female_names.ten" text="Ten" />
+    <string id="Cultures.Culture.human.female_names.toku" text="Toku" />
+    <string id="Cultures.Culture.human.female_names.toma" text="Toma" />
+    <string id="Cultures.Culture.human.female_names.tome" text="Tome" />
+    <string id="Cultures.Culture.human.female_names.tone" text="Tone" />
+    <string id="Cultures.Culture.human.female_names.tora" text="Tora" />
+    <string id="Cultures.Culture.human.female_names.tori" text="Tori" />
+    <string id="Cultures.Culture.human.female_names.totsu" text="Totsu" />
+    <string id="Cultures.Culture.human.female_names.towa" text="Towa" />
+    <string id="Cultures.Culture.human.female_names.toyo" text="Toyo" />
+    <string id="Cultures.Culture.human.female_names.tsubo" text="Tsubo" />
+    <string id="Cultures.Culture.human.female_names.tsuchi" text="Tsuchi" />
+    <string id="Cultures.Culture.human.female_names.tsuji" text="Tsuji" />
+    <string id="Cultures.Culture.human.female_names.tsuka" text="Tsuka" />
+    <string id="Cultures.Culture.human.female_names.tsuma" text="Tsuma" />
+    <string id="Cultures.Culture.human.female_names.tsuna" text="Tsuna" />
+    <string id="Cultures.Culture.human.female_names.tsune" text="Tsune" />
+    <string id="Cultures.Culture.human.female_names.tsuru" text="Tsuru" />
+    <string id="Cultures.Culture.human.female_names.tsushi" text="Tsushi" />
+    <string id="Cultures.Culture.human.female_names.tsuta" text="Tsuta" />
+    <string id="Cultures.Culture.human.female_names.tsuya" text="Tsuya" />
+    <string id="Cultures.Culture.human.female_names.uba" text="Uba" />
+    <string id="Cultures.Culture.human.female_names.uma" text="Uma" />
+    <string id="Cultures.Culture.human.female_names.ume" text="Ume" />
+    <string id="Cultures.Culture.human.female_names.uno" text="Uno" />
+    <string id="Cultures.Culture.human.female_names.ushi" text="Ushi" />
+    <string id="Cultures.Culture.human.female_names._uta" text=" Uta" />
+    <string id="Cultures.Culture.human.female_names.yama" text="Yama" />
+    <string id="Cultures.Culture.human.female_names.yasu" text="Yasu" />
+    <string id="Cultures.Culture.human.female_names.yaya" text="Yaya" />
+    <string id="Cultures.Culture.human.female_names.yen" text="Yen" />
+    <string id="Cultures.Culture.human.female_names.yome" text="Yome" />
+    <string id="Cultures.Culture.human.female_names.yone" text="Yone" />
+    <string id="Cultures.Culture.human.female_names.yono" text="Yono" />
     <string id="Cultures.Culture.human.female_names.yoshi" text="Yoshi" />
-    <string id="Cultures.Culture.human.female_names.youko" text="Youko" />
-    <string id="Cultures.Culture.human.female_names.yui" text="Yui" />
-    <string id="Cultures.Culture.human.female_names.yuka" text="Yuka" />
+    <string id="Cultures.Culture.human.female_names.yoso" text="Yoso" />
+    <string id="Cultures.Culture.human.female_names.yote" text="Yote" />
     <string id="Cultures.Culture.human.female_names.yuki" text="Yuki" />
-    <string id="Cultures.Culture.human.female_names.yumi" text="Yumi" />
+    <string id="Cultures.Culture.human.female_names.yura" text="Yura" />
     <string id="Cultures.Culture.human.female_names.yuri" text="Yuri" />
-    <string id="Cultures.Culture.human.female_names.yuzuki" text="Yuzuki" />
-    <string id="Culture.Culture.human.clan_names.nagai" text="Nagai" />
-    <string id="Culture.Culture.human.clan_names.sato" text="Sato" />
-    <string id="Culture.Culture.human.clan_names.suzuki" text="Suzuki" />
-    <string id="Culture.Culture.human.clan_names.takahashi" text="Takahashi" />
-    <string id="Culture.Culture.human.clan_names.tanaka" text="Tanaka" />
-    <string id="Culture.Culture.human.clan_names.watanabe" text="Watanabe" />
-    <string id="Culture.Culture.human.clan_names.ito" text="Ito" />
-    <string id="Culture.Culture.human.clan_names.yamamoto" text="Yamamoto" />
-    <string id="Culture.Culture.human.clan_names.nakamura" text="Nakamura" />
-    <string id="Culture.Culture.human.clan_names.kobayashi" text="Kobayashi" />
-    <string id="Culture.Culture.human.clan_names.kato" text="Kato" />
-    <string id="Culture.Culture.human.clan_names.yoshida" text="Yoshida" />
-    <string id="Culture.Culture.human.clan_names.yamada" text="Yamada" />
-    <string id="Culture.Culture.human.clan_names.sasaki" text="Sasaki" />
-    <string id="Culture.Culture.human.clan_names.yamaguchi" text="Yamaguchi" />
-    <string id="Culture.Culture.human.clan_names.saito" text="Saito" />
-    <string id="Culture.Culture.human.clan_names.matsumoto" text="Matsumoto" />
-    <string id="Culture.Culture.human.clan_names.inoue" text="Inoue" />
-    <string id="Culture.Culture.human.clan_names.kimura" text="Kimura" />
-    <string id="Culture.Culture.human.clan_names.hayashi" text="Hayashi" />
-    <string id="Culture.Culture.human.clan_names.shimizu" text="Shimizu" />
+    <string id="Cultures.Culture.human.female_names.yuwa" text="Yuwa" />
+    <string id="Cultures.Culture.human.clan_names.abe" text="Abe" />
+    <string id="Cultures.Culture.human.clan_names.adachi" text="Adachi" />
+    <string id="Cultures.Culture.human.clan_names.akabashi" text="Akabashi" />
+    <string id="Cultures.Culture.human.clan_names.akamatsu" text="Akamatsu" />
+    <string id="Cultures.Culture.human.clan_names.akechi" text="Akechi" />
+    <string id="Cultures.Culture.human.clan_names.akimoto" text="Akimoto" />
+    <string id="Cultures.Culture.human.clan_names.akita" text="Akita" />
+    <string id="Cultures.Culture.human.clan_names.akizuki" text="Akizuki" />
+    <string id="Cultures.Culture.human.clan_names.amago" text="Amago" />
+    <string id="Cultures.Culture.human.clan_names.amano" text="Amano" />
+    <string id="Cultures.Culture.human.clan_names.andou" text="Andou" />
+    <string id="Cultures.Culture.human.clan_names.aoki" text="Aoki" />
+    <string id="Cultures.Culture.human.clan_names.aoyama" text="Aoyama" />
+    <string id="Cultures.Culture.human.clan_names.arai" text="Arai" />
+    <string id="Cultures.Culture.human.clan_names.arima" text="Arima" />
+    <string id="Cultures.Culture.human.clan_names.asai" text="Asai" />
+    <string id="Cultures.Culture.human.clan_names.asakura" text="Asakura" />
+    <string id="Cultures.Culture.human.clan_names.asano" text="Asano" />
+    <string id="Cultures.Culture.human.clan_names.ashikaga" text="Ashikaga" />
+    <string id="Cultures.Culture.human.clan_names.ashina" text="Ashina" />
+    <string id="Cultures.Culture.human.clan_names.aso" text="Aso" />
+    <string id="Cultures.Culture.human.clan_names.baba" text="Baba" />
+    <string id="Cultures.Culture.human.clan_names.besshou" text="Besshou" />
+    <string id="Cultures.Culture.human.clan_names.chiba" text="Chiba" />
+    <string id="Cultures.Culture.human.clan_names.daidouji" text="Daidouji" />
+    <string id="Cultures.Culture.human.clan_names.doi" text="Doi" />
+    <string id="Cultures.Culture.human.clan_names.endou" text="Endou" />
+    <string id="Cultures.Culture.human.clan_names.enomoto" text="Enomoto" />
+    <string id="Cultures.Culture.human.clan_names.enya" text="Enya" />
+    <string id="Cultures.Culture.human.clan_names.fujioka" text="Fujioka" />
+    <string id="Cultures.Culture.human.clan_names.fujita" text="Fujita" />
+    <string id="Cultures.Culture.human.clan_names.fukui" text="Fukui" />
+    <string id="Cultures.Culture.human.clan_names.furuta" text="Furuta" />
+    <string id="Cultures.Culture.human.clan_names.gamou" text="Gamou" />
+    <string id="Cultures.Culture.human.clan_names.gou" text="Gou" />
+    <string id="Cultures.Culture.human.clan_names.gotou" text="Gotou" />
+    <string id="Cultures.Culture.human.clan_names.hachisuka" text="Hachisuka" />
+    <string id="Cultures.Culture.human.clan_names.hara" text="Hara" />
+    <string id="Cultures.Culture.human.clan_names.harada" text="Harada" />
+    <string id="Cultures.Culture.human.clan_names.hasebe" text="Hasebe" />
+    <string id="Cultures.Culture.human.clan_names.hasegawa" text="Hasegawa" />
+    <string id="Cultures.Culture.human.clan_names.hatakeyama" text="Hatakeyama" />
+    <string id="Cultures.Culture.human.clan_names.hatano" text="Hatano" />
+    <string id="Cultures.Culture.human.clan_names.hayashi" text="Hayashi" />
+    <string id="Cultures.Culture.human.clan_names.hijikata" text="Hijikata" />
+    <string id="Cultures.Culture.human.clan_names.hieda" text="Hieda" />
+    <string id="Cultures.Culture.human.clan_names.hineno" text="Hineno" />
+    <string id="Cultures.Culture.human.clan_names.hiraga" text="Hiraga" />
+    <string id="Cultures.Culture.human.clan_names.hitotsuyanagi" text="Hitotsuyanagi" />
+    <string id="Cultures.Culture.human.clan_names.houjouyan" text="Houjouyan" />
+    <string id="Cultures.Culture.human.clan_names.honda" text="Honda" />
+    <string id="Cultures.Culture.human.clan_names.hondou" text="Hondou" />
+    <string id="Cultures.Culture.human.clan_names.honjou" text="Honjou" />
+    <string id="Cultures.Culture.human.clan_names.hori" text="Hori" />
+    <string id="Cultures.Culture.human.clan_names.horio" text="Horio" />
+    <string id="Cultures.Culture.human.clan_names.hoshina" text="Hoshina" />
+    <string id="Cultures.Culture.human.clan_names.hosokawa" text="Hosokawa" />
+    <string id="Cultures.Culture.human.clan_names.hotta" text="Hotta" />
+    <string id="Cultures.Culture.human.clan_names.ichibashi" text="Ichibashi" />
+    <string id="Cultures.Culture.human.clan_names.ii" text="Ii" />
+    <string id="Cultures.Culture.human.clan_names.ikeda" text="Ikeda" />
+    <string id="Cultures.Culture.human.clan_names.ikoma" text="Ikoma" />
+    <string id="Cultures.Culture.human.clan_names.imagawa" text="Imagawa" />
+    <string id="Cultures.Culture.human.clan_names.imai" text="Imai" />
+    <string id="Cultures.Culture.human.clan_names.ina" text="Ina" />
+    <string id="Cultures.Culture.human.clan_names.inagaki" text="Inagaki" />
+    <string id="Cultures.Culture.human.clan_names.inoue" text="Inoue" />
+    <string id="Cultures.Culture.human.clan_names.ise" text="Ise" />
+    <string id="Cultures.Culture.human.clan_names.ishibashi" text="Ishibashi" />
+    <string id="Cultures.Culture.human.clan_names.ishida" text="Ishida" />
+    <string id="Cultures.Culture.human.clan_names.ishidou" text="Ishidou" />
+    <string id="Cultures.Culture.human.clan_names.ishikawa" text="Ishikawa" />
+    <string id="Cultures.Culture.human.clan_names.isshiki" text="Isshiki" />
+    <string id="Cultures.Culture.human.clan_names.itagaki" text="Itagaki" />
+    <string id="Cultures.Culture.human.clan_names.itakura" text="Itakura" />
+    <string id="Cultures.Culture.human.clan_names.itami" text="Itami" />
+    <string id="Cultures.Culture.human.clan_names.itou" text="Itou" />
+    <string id="Cultures.Culture.human.clan_names.iwaki" text="Iwaki" />
+    <string id="Cultures.Culture.human.clan_names.iwakura" text="Iwakura" />
+    <string id="Cultures.Culture.human.clan_names.iwamura" text="Iwamura" />
+    <string id="Cultures.Culture.human.clan_names.iwasaki" text="Iwasaki" />
+    <string id="Cultures.Culture.human.clan_names.iwashita" text="Iwashita" />
+    <string id="Cultures.Culture.human.clan_names.izumi" text="Izumi" />
+    <string id="Cultures.Culture.human.clan_names.jou" text="Jou" />
+    <string id="Cultures.Culture.human.clan_names.kagae" text="Kagae" />
+    <string id="Cultures.Culture.human.clan_names.kagami" text="Kagami" />
+    <string id="Cultures.Culture.human.clan_names.kajiwara" text="Kajiwara" />
+    <string id="Cultures.Culture.human.clan_names.kamei" text="Kamei" />
+    <string id="Cultures.Culture.human.clan_names.kanamori" text="Kanamori" />
+    <string id="Cultures.Culture.human.clan_names.kaneko" text="Kaneko" />
+    <string id="Cultures.Culture.human.clan_names.kanou" text="Kanou" />
+    <string id="Cultures.Culture.human.clan_names.katakura" text="Katakura" />
+    <string id="Cultures.Culture.human.clan_names.kataoka" text="Kataoka" />
+    <string id="Cultures.Culture.human.clan_names.katou" text="Katou" />
+    <string id="Cultures.Culture.human.clan_names.katsura" text="Katsura" />
+    <string id="Cultures.Culture.human.clan_names.kawabe" text="Kawabe" />
+    <string id="Cultures.Culture.human.clan_names.kawada" text="Kawada" />
+    <string id="Cultures.Culture.human.clan_names.kawguchi" text="Kawguchi" />
+    <string id="Cultures.Culture.human.clan_names.kawamura" text="Kawamura" />
+    <string id="Cultures.Culture.human.clan_names.kikkawa" text="Kikkawa" />
+    <string id="Cultures.Culture.human.clan_names.kikuchi" text="Kikuchi" />
+    <string id="Cultures.Culture.human.clan_names.kimura" text="Kimura" />
+    <string id="Cultures.Culture.human.clan_names.kinoshita" text="Kinoshita" />
+    <string id="Cultures.Culture.human.clan_names.kira" text="Kira" />
+    <string id="Cultures.Culture.human.clan_names.kitabatake" text="Kitabatake" />
+    <string id="Cultures.Culture.human.clan_names.kitagaki" text="Kitagaki" />
+    <string id="Cultures.Culture.human.clan_names.kiyooka" text="Kiyooka" />
+    <string id="Cultures.Culture.human.clan_names.kiyowara" text="Kiyowara" />
+    <string id="Cultures.Culture.human.clan_names.kou" text="Kou" />
+    <string id="Cultures.Culture.human.clan_names.kobayakawa" text="Kobayakawa" />
+    <string id="Cultures.Culture.human.clan_names.koide" text="Koide" />
+    <string id="Cultures.Culture.human.clan_names.komatsu" text="Komatsu" />
+    <string id="Cultures.Culture.human.clan_names.konishi" text="Konishi" />
+    <string id="Cultures.Culture.human.clan_names.kouno" text="Kouno" />
+    <string id="Cultures.Culture.human.clan_names.kouriki" text="Kouriki" />
+    <string id="Cultures.Culture.human.clan_names.kuchiki" text="Kuchiki" />
+    <string id="Cultures.Culture.human.clan_names.kuki" text="Kuki" />
+    <string id="Cultures.Culture.human.clan_names.kumagaya" text="Kumagaya" />
+    <string id="Cultures.Culture.human.clan_names.kuroda" text="Kuroda" />
+    <string id="Cultures.Culture.human.clan_names.kuroki" text="Kuroki" />
+    <string id="Cultures.Culture.human.clan_names.kusunoki" text="Kusunoki" />
+    <string id="Cultures.Culture.human.clan_names.kyougoku" text="Kyougoku" />
+    <string id="Cultures.Culture.human.clan_names.maeda" text="Maeda" />
+    <string id="Cultures.Culture.human.clan_names.makino" text="Makino" />
+    <string id="Cultures.Culture.human.clan_names.matsudaira" text="Matsudaira" />
+    <string id="Cultures.Culture.human.clan_names.matsui" text="Matsui" />
+    <string id="Cultures.Culture.human.clan_names.matsukura" text="Matsukura" />
+    <string id="Cultures.Culture.human.clan_names.matsumae" text="Matsumae" />
+    <string id="Cultures.Culture.human.clan_names.matsushita" text="Matsushita" />
+    <string id="Cultures.Culture.human.clan_names.matsuura" text="Matsuura" />
+    <string id="Cultures.Culture.human.clan_names.minagawa" text="Minagawa" />
+    <string id="Cultures.Culture.human.clan_names.minamoto" text="Minamoto" />
+    <string id="Cultures.Culture.human.clan_names.miura" text="Miura" />
+    <string id="Cultures.Culture.human.clan_names.miyabe" text="Miyabe" />
+    <string id="Cultures.Culture.human.clan_names.miyake" text="Miyake" />
+    <string id="Cultures.Culture.human.clan_names.miyoshi" text="Miyoshi" />
+    <string id="Cultures.Culture.human.clan_names.mizoguchi" text="Mizoguchi" />
+    <string id="Cultures.Culture.human.clan_names.mizuno" text="Mizuno" />
+    <string id="Cultures.Culture.human.clan_names.mobeutani" text="Mobeutani" />
+    <string id="Cultures.Culture.human.clan_names.mogonami" text="Mogonami" />
+    <string id="Cultures.Culture.human.clan_names.momono" text="Momono" />
+    <string id="Cultures.Culture.human.clan_names.morikawa" text="Morikawa" />
+    <string id="Cultures.Culture.human.clan_names.morioka" text="Morioka" />
+    <string id="Cultures.Culture.human.clan_names.munakata" text="Munakata" />
+    <string id="Cultures.Culture.human.clan_names.murakami" text="Murakami" />
+    <string id="Cultures.Culture.human.clan_names.murata" text="Murata" />
+    <string id="Cultures.Culture.human.clan_names.nabeshima" text="Nabeshima" />
+    <string id="Cultures.Culture.human.clan_names.nagai" text="Nagai" />
+    <string id="Cultures.Culture.human.clan_names.nagao" text="Nagao" />
+    <string id="Cultures.Culture.human.clan_names.nagasaki" text="Nagasaki" />
+    <string id="Cultures.Culture.human.clan_names.naitou" text="Naitou" />
+    <string id="Cultures.Culture.human.clan_names.nakagawa" text="Nakagawa" />
+    <string id="Cultures.Culture.human.clan_names.nakajima" text="Nakajima" />
+    <string id="Cultures.Culture.human.clan_names.nakamura" text="Nakamura" />
+    <string id="Cultures.Culture.human.clan_names.nakatomi" text="Nakatomi" />
+    <string id="Cultures.Culture.human.clan_names.nakayama" text="Nakayama" />
+    <string id="Cultures.Culture.human.clan_names.nanbu" text="Nanbu" />
+    <string id="Cultures.Culture.human.clan_names.naruse" text="Naruse" />
+    <string id="Cultures.Culture.human.clan_names.nasu" text="Nasu" />
+    <string id="Cultures.Culture.human.clan_names.nawa" text="Nawa" />
+    <string id="Cultures.Culture.human.clan_names.nikaidou" text="Nikaidou" />
+    <string id="Cultures.Culture.human.clan_names.nikki" text="Nikki" />
+    <string id="Cultures.Culture.human.clan_names.nishi" text="Nishi" />
+    <string id="Cultures.Culture.human.clan_names.nishina" text="Nishina" />
+    <string id="Cultures.Culture.human.clan_names.nishio" text="Nishio" />
+    <string id="Cultures.Culture.human.clan_names.niwa" text="Niwa" />
+    <string id="Cultures.Culture.human.clan_names.ouba" text="Ouba" />
+    <string id="Cultures.Culture.human.clan_names.oue" text="Oue" />
+    <string id="Cultures.Culture.human.clan_names.ogasawara" text="Ogasawara" />
+    <string id="Cultures.Culture.human.clan_names.ogawa" text="Ogawa" />
+    <string id="Cultures.Culture.human.clan_names.okabe" text="Okabe" />
+    <string id="Cultures.Culture.human.clan_names.oku" text="Oku" />
+    <string id="Cultures.Culture.human.clan_names.oukubo" text="Oukubo" />
+    <string id="Cultures.Culture.human.clan_names.okuda" text="Okuda" />
+    <string id="Cultures.Culture.human.clan_names.okudaira" text="Okudaira" />
+    <string id="Cultures.Culture.human.clan_names.oukuma" text="Oukuma" />
+    <string id="Cultures.Culture.human.clan_names.oumura" text="Oumura" />
+    <string id="Cultures.Culture.human.clan_names.ouoka" text="Ouoka" />
+    <string id="Cultures.Culture.human.clan_names.ouseki" text="Ouseki" />
+    <string id="Cultures.Culture.human.clan_names.oushima" text="Oushima" />
+    <string id="Cultures.Culture.human.clan_names.outa" text="Outa" />
+    <string id="Cultures.Culture.human.clan_names.outani" text="Outani" />
+    <string id="Cultures.Culture.human.clan_names.outawara" text="Outawara" />
+    <string id="Cultures.Culture.human.clan_names.outera" text="Outera" />
+    <string id="Cultures.Culture.human.clan_names.outomo" text="Outomo" />
+    <string id="Cultures.Culture.human.clan_names.ouuchi" text="Ouuchi" />
+    <string id="Cultures.Culture.human.clan_names.oyama" text="Oyama" />
+    <string id="Cultures.Culture.human.clan_names.rokkaku" text="Rokkaku" />
+    <string id="Cultures.Culture.human.clan_names.ryuzouji" text="Ryuzouji" />
+    <string id="Cultures.Culture.human.clan_names.saigou" text="Saigou" />
+    <string id="Cultures.Culture.human.clan_names.saitou" text="Saitou" />
+    <string id="Cultures.Culture.human.clan_names.sakai" text="Sakai" />
+    <string id="Cultures.Culture.human.clan_names.sakakibara" text="Sakakibara" />
+    <string id="Cultures.Culture.human.clan_names.sakuma" text="Sakuma" />
+    <string id="Cultures.Culture.human.clan_names.sakurai" text="Sakurai" />
+    <string id="Cultures.Culture.human.clan_names.sanada" text="Sanada" />
+    <string id="Cultures.Culture.human.clan_names.sano" text="Sano" />
+    <string id="Cultures.Culture.human.clan_names.sasaki" text="Sasaki" />
+    <string id="Cultures.Culture.human.clan_names.satake" text="Satake" />
+    <string id="Cultures.Culture.human.clan_names.satou" text="Satou" />
+    <string id="Cultures.Culture.human.clan_names.satomi" text="Satomi" />
+    <string id="Cultures.Culture.human.clan_names.seki" text="Seki" />
+    <string id="Cultures.Culture.human.clan_names.sengoku" text="Sengoku" />
+    <string id="Cultures.Culture.human.clan_names.sen" text="Sen" />
+    <string id="Cultures.Culture.human.clan_names.shibata" text="Shibata" />
+    <string id="Cultures.Culture.human.clan_names.shibukawa" text="Shibukawa" />
+    <string id="Cultures.Culture.human.clan_names.shimazu" text="Shimazu" />
+    <string id="Cultures.Culture.human.clan_names.shimokoube" text="Shimokoube" />
+    <string id="Cultures.Culture.human.clan_names.shinjou" text="Shinjou" />
+    <string id="Cultures.Culture.human.clan_names.shouni" text="Shouni" />
+    <string id="Cultures.Culture.human.clan_names.sou" text="Sou" />
+    <string id="Cultures.Culture.human.clan_names.soejima" text="Soejima" />
+    <string id="Cultures.Culture.human.clan_names.soga" text="Soga" />
+    <string id="Cultures.Culture.human.clan_names.souma" text="Souma" />
+    <string id="Cultures.Culture.human.clan_names.sonoda" text="Sonoda" />
+    <string id="Cultures.Culture.human.clan_names.suganuma" text="Suganuma" />
+    <string id="Cultures.Culture.human.clan_names.sugawara" text="Sugawara" />
+    <string id="Cultures.Culture.human.clan_names.sugihara" text="Sugihara" />
+    <string id="Cultures.Culture.human.clan_names.suwa" text="Suwa" />
+    <string id="Cultures.Culture.human.clan_names.suzuki" text="Suzuki" />
+    <string id="Cultures.Culture.human.clan_names.tachibana" text="Tachibana" />
+    <string id="Cultures.Culture.human.clan_names.taguchi" text="Taguchi" />
+    <string id="Cultures.Culture.human.clan_names.takahashi" text="Takahashi" />
+    <string id="Cultures.Culture.human.clan_names.takayama" text="Takayama" />
+    <string id="Cultures.Culture.human.clan_names.takenaka" text="Takenaka" />
+    <string id="Cultures.Culture.human.clan_names.tamura" text="Tamura" />
+    <string id="Cultures.Culture.human.clan_names.tani" text="Tani" />
+    <string id="Cultures.Culture.human.clan_names.tanuma" text="Tanuma" />
+    <string id="Cultures.Culture.human.clan_names.terazawa" text="Terazawa" />
+    <string id="Cultures.Culture.human.clan_names.toda" text="Toda" />
+    <string id="Cultures.Culture.human.clan_names.toudou" text="Toudou" />
+    <string id="Cultures.Culture.human.clan_names.togashi" text="Togashi" />
+    <string id="Cultures.Culture.human.clan_names.togawa" text="Togawa" />
+    <string id="Cultures.Culture.human.clan_names.toki" text="Toki" />
+    <string id="Cultures.Culture.human.clan_names.torii" text="Torii" />
+    <string id="Cultures.Culture.human.clan_names.tozawa" text="Tozawa" />
+    <string id="Cultures.Culture.human.clan_names.tsugaru" text="Tsugaru" />
+    <string id="Cultures.Culture.human.clan_names.tsukushi" text="Tsukushi" />
+    <string id="Cultures.Culture.human.clan_names.tsutsui" text="Tsutsui" />
+    <string id="Cultures.Culture.human.clan_names.ujie" text="Ujie" />
+    <string id="Cultures.Culture.human.clan_names.ukita" text="Ukita" />
+    <string id="Cultures.Culture.human.clan_names.umewaka" text="Umewaka" />
+    <string id="Cultures.Culture.human.clan_names.urakami" text="Urakami" />
+    <string id="Cultures.Culture.human.clan_names.usami" text="Usami" />
+    <string id="Cultures.Culture.human.clan_names.utsunomiya" text="Utsunomiya" />
+    <string id="Cultures.Culture.human.clan_names.wada" text="Wada" />
+    <string id="Cultures.Culture.human.clan_names.wakizaka" text="Wakizaka" />
+    <string id="Cultures.Culture.human.clan_names.yagyu" text="Yagyu" />
+    <string id="Cultures.Culture.human.clan_names.yamagata" text="Yamagata" />
+    <string id="Cultures.Culture.human.clan_names.yamaguchi" text="Yamaguchi" />
+    <string id="Cultures.Culture.human.clan_names.yamana" text="Yamana" />
+    <string id="Cultures.Culture.human.clan_names.yamashi" text="Yamashi" />
+    <string id="Cultures.Culture.human.clan_names.yanagiza" text="Yanagiza" />
+    <string id="Cultures.Culture.human.clan_names.ya_yonezu" text="Ya Yonezu" />
+    <string id="Cultures.Culture.human.clan_names.yoshii" text="Yoshii" />
+    <string id="Cultures.Culture.human.clan_names.yuki" text="Yuki" />
     <string id="Cultures.Culture.human.str_culture_rich_name" text="Human Faction" />
     <string id="Cultures.Culture.human.str_faction_official" text="a human" />
     <string id="Cultures.Culture.human.str_faction_official_f" text="a human" />
@@ -209,7 +626,7 @@
     <string id="Cultures.Culture.human.str_short_term_for_faction" text="Human Faction" />
     <string id="Cultures.Culture.human.str_faction_formal_name_for_culture" text="Human Faction" />
     <string id="Cultures.Culture.human.str_neutral_term_for_culture" text="humans" />
-    <string id="Cultures.Culture.youkai.name" text="Youkai" />
+    <string id="Cultures.Culture.name.youkai" text="Youkai" />
     <string id="Cultures.Culture.youkai.male_names.akihito" text="Akihito" />
     <string id="Cultures.Culture.youkai.male_names.akimitsu" text="Akimitsu" />
     <string id="Cultures.Culture.youkai.male_names.arata" text="Arata" />
@@ -293,27 +710,27 @@
     <string id="Cultures.Culture.youkai.female_names.yumi" text="Yumi" />
     <string id="Cultures.Culture.youkai.female_names.yuri" text="Yuri" />
     <string id="Cultures.Culture.youkai.female_names.yuzuki" text="Yuzuki" />
-    <string id="Culture.Culture.youkai.clan_names.nagai" text="Nagai" />
-    <string id="Culture.Culture.youkai.clan_names.sato" text="Sato" />
-    <string id="Culture.Culture.youkai.clan_names.suzuki" text="Suzuki" />
-    <string id="Culture.Culture.youkai.clan_names.takahashi" text="Takahashi" />
-    <string id="Culture.Culture.youkai.clan_names.tanaka" text="Tanaka" />
-    <string id="Culture.Culture.youkai.clan_names.watanabe" text="Watanabe" />
-    <string id="Culture.Culture.youkai.clan_names.ito" text="Ito" />
-    <string id="Culture.Culture.youkai.clan_names.yamamoto" text="Yamamoto" />
-    <string id="Culture.Culture.youkai.clan_names.nakamura" text="Nakamura" />
-    <string id="Culture.Culture.youkai.clan_names.kobayashi" text="Kobayashi" />
-    <string id="Culture.Culture.youkai.clan_names.kato" text="Kato" />
-    <string id="Culture.Culture.youkai.clan_names.yoshida" text="Yoshida" />
-    <string id="Culture.Culture.youkai.clan_names.yamada" text="Yamada" />
-    <string id="Culture.Culture.youkai.clan_names.sasaki" text="Sasaki" />
-    <string id="Culture.Culture.youkai.clan_names.yamaguchi" text="Yamaguchi" />
-    <string id="Culture.Culture.youkai.clan_names.saito" text="Saito" />
-    <string id="Culture.Culture.youkai.clan_names.matsumoto" text="Matsumoto" />
-    <string id="Culture.Culture.youkai.clan_names.inoue" text="Inoue" />
-    <string id="Culture.Culture.youkai.clan_names.kimura" text="Kimura" />
-    <string id="Culture.Culture.youkai.clan_names.hayashi" text="Hayashi" />
-    <string id="Culture.Culture.youkai.clan_names.shimizu" text="Shimizu" />
+    <string id="Cultures.Culture.youkai.clan_names.nagai" text="Nagai" />
+    <string id="Cultures.Culture.youkai.clan_names.sato" text="Sato" />
+    <string id="Cultures.Culture.youkai.clan_names.suzuki" text="Suzuki" />
+    <string id="Cultures.Culture.youkai.clan_names.takahashi" text="Takahashi" />
+    <string id="Cultures.Culture.youkai.clan_names.tanaka" text="Tanaka" />
+    <string id="Cultures.Culture.youkai.clan_names.watanabe" text="Watanabe" />
+    <string id="Cultures.Culture.youkai.clan_names.ito" text="Ito" />
+    <string id="Cultures.Culture.youkai.clan_names.yamamoto" text="Yamamoto" />
+    <string id="Cultures.Culture.youkai.clan_names.nakamura" text="Nakamura" />
+    <string id="Cultures.Culture.youkai.clan_names.kobayashi" text="Kobayashi" />
+    <string id="Cultures.Culture.youkai.clan_names.kato" text="Kato" />
+    <string id="Cultures.Culture.youkai.clan_names.yoshida" text="Yoshida" />
+    <string id="Cultures.Culture.youkai.clan_names.yamada" text="Yamada" />
+    <string id="Cultures.Culture.youkai.clan_names.sasaki" text="Sasaki" />
+    <string id="Cultures.Culture.youkai.clan_names.yamaguchi" text="Yamaguchi" />
+    <string id="Cultures.Culture.youkai.clan_names.saito" text="Saito" />
+    <string id="Cultures.Culture.youkai.clan_names.matsumoto" text="Matsumoto" />
+    <string id="Cultures.Culture.youkai.clan_names.inoue" text="Inoue" />
+    <string id="Cultures.Culture.youkai.clan_names.kimura" text="Kimura" />
+    <string id="Cultures.Culture.youkai.clan_names.hayashi" text="Hayashi" />
+    <string id="Cultures.Culture.youkai.clan_names.shimizu" text="Shimizu" />
     <string id="Cultures.Culture.youkai.str_culture_rich_name" text="Youkai Faction" />
     <string id="Cultures.Culture.youkai.str_faction_official" text="a greater youkai" />
     <string id="Cultures.Culture.youkai.str_faction_official_f" text="a greater youkai" />
@@ -324,7 +741,7 @@
     <string id="Cultures.Culture.youkai.str_short_term_for_faction" text="Youkai Faction" />
     <string id="Cultures.Culture.youkai.str_faction_formal_name_for_culture" text="Youkai League" />
     <string id="Cultures.Culture.youkai.str_neutral_term_for_culture" text="youkai" />
-    <string id="Cultures.Culture.fairy.name" text="Fairy" />
+    <string id="Cultures.Culture.name.fairy" text="Fairy" />
     <string id="Cultures.Culture.fairy.male_names.akihito" text="Akihito" />
     <string id="Cultures.Culture.fairy.male_names.akimitsu" text="Akimitsu" />
     <string id="Cultures.Culture.fairy.male_names.arata" text="Arata" />
@@ -408,27 +825,27 @@
     <string id="Cultures.Culture.fairy.female_names.yumi" text="Yumi" />
     <string id="Cultures.Culture.fairy.female_names.yuri" text="Yuri" />
     <string id="Cultures.Culture.fairy.female_names.yuzuki" text="Yuzuki" />
-    <string id="Culture.Culture.fairy.clan_names.nagai" text="Nagai" />
-    <string id="Culture.Culture.fairy.clan_names.sato" text="Sato" />
-    <string id="Culture.Culture.fairy.clan_names.suzuki" text="Suzuki" />
-    <string id="Culture.Culture.fairy.clan_names.takahashi" text="Takahashi" />
-    <string id="Culture.Culture.fairy.clan_names.tanaka" text="Tanaka" />
-    <string id="Culture.Culture.fairy.clan_names.watanabe" text="Watanabe" />
-    <string id="Culture.Culture.fairy.clan_names.ito" text="Ito" />
-    <string id="Culture.Culture.fairy.clan_names.yamamoto" text="Yamamoto" />
-    <string id="Culture.Culture.fairy.clan_names.nakamura" text="Nakamura" />
-    <string id="Culture.Culture.fairy.clan_names.kobayashi" text="Kobayashi" />
-    <string id="Culture.Culture.fairy.clan_names.kato" text="Kato" />
-    <string id="Culture.Culture.fairy.clan_names.yoshida" text="Yoshida" />
-    <string id="Culture.Culture.fairy.clan_names.yamada" text="Yamada" />
-    <string id="Culture.Culture.fairy.clan_names.sasaki" text="Sasaki" />
-    <string id="Culture.Culture.fairy.clan_names.yamaguchi" text="Yamaguchi" />
-    <string id="Culture.Culture.fairy.clan_names.saito" text="Saito" />
-    <string id="Culture.Culture.fairy.clan_names.matsumoto" text="Matsumoto" />
-    <string id="Culture.Culture.fairy.clan_names.inoue" text="Inoue" />
-    <string id="Culture.Culture.fairy.clan_names.kimura" text="Kimura" />
-    <string id="Culture.Culture.fairy.clan_names.hayashi" text="Hayashi" />
-    <string id="Culture.Culture.fairy.clan_names.shimizu" text="Shimizu" />
+    <string id="Cultures.Culture.fairy.clan_names.nagai" text="Nagai" />
+    <string id="Cultures.Culture.fairy.clan_names.sato" text="Sato" />
+    <string id="Cultures.Culture.fairy.clan_names.suzuki" text="Suzuki" />
+    <string id="Cultures.Culture.fairy.clan_names.takahashi" text="Takahashi" />
+    <string id="Cultures.Culture.fairy.clan_names.tanaka" text="Tanaka" />
+    <string id="Cultures.Culture.fairy.clan_names.watanabe" text="Watanabe" />
+    <string id="Cultures.Culture.fairy.clan_names.ito" text="Ito" />
+    <string id="Cultures.Culture.fairy.clan_names.yamamoto" text="Yamamoto" />
+    <string id="Cultures.Culture.fairy.clan_names.nakamura" text="Nakamura" />
+    <string id="Cultures.Culture.fairy.clan_names.kobayashi" text="Kobayashi" />
+    <string id="Cultures.Culture.fairy.clan_names.kato" text="Kato" />
+    <string id="Cultures.Culture.fairy.clan_names.yoshida" text="Yoshida" />
+    <string id="Cultures.Culture.fairy.clan_names.yamada" text="Yamada" />
+    <string id="Cultures.Culture.fairy.clan_names.sasaki" text="Sasaki" />
+    <string id="Cultures.Culture.fairy.clan_names.yamaguchi" text="Yamaguchi" />
+    <string id="Cultures.Culture.fairy.clan_names.saito" text="Saito" />
+    <string id="Cultures.Culture.fairy.clan_names.matsumoto" text="Matsumoto" />
+    <string id="Cultures.Culture.fairy.clan_names.inoue" text="Inoue" />
+    <string id="Cultures.Culture.fairy.clan_names.kimura" text="Kimura" />
+    <string id="Cultures.Culture.fairy.clan_names.hayashi" text="Hayashi" />
+    <string id="Cultures.Culture.fairy.clan_names.shimizu" text="Shimizu" />
     <string id="Cultures.Culture.fairy.str_culture_rich_name" text="Fairy Faction" />
     <string id="Cultures.Culture.fairy.str_faction_official" text="a strong fairy" />
     <string id="Cultures.Culture.fairy.str_faction_official_f" text="a strong fairy" />
