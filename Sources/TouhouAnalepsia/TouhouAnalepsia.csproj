@@ -5,7 +5,7 @@
 		<Copyright>Copyright © 2020</Copyright>
 		<PackageId>TouhouAnalepsia</PackageId>
 		<AssemblyName>TouhouAnalepsia</AssemblyName>
-		<ReferenceAssembliesVersion>1.5.4.243410</ReferenceAssembliesVersion> <!-- Bannerlord Version -->
+		<ReferenceAssembliesVersion>1.5.9.268958</ReferenceAssembliesVersion> <!-- Bannerlord Version -->
 	</PropertyGroup>
 	
 	<PropertyGroup Condition="'$(RunningOnCI)'=='true'">
@@ -56,7 +56,7 @@
 				<BannerlordExePath>$(BannerlordBinPath)\Bannerlord.exe</BannerlordExePath>
 			</PropertyGroup>
 			<ItemGroup>
-				<Reference Include="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.*.dll" Exclude="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.Starter.DotNetCore.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.TwoDimension.SpriteSheetGenerator.Library.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.TwoDimension.Standalone.dll" />
+				<Reference Include="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.*.dll" Exclude="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.Starter.DotNetCore.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.TwoDimension.SpriteSheetGenerator.Library.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.TwoDimension.Standalone.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.Native.dll" />
 				<Reference Include="$(BannerlordDirectory)\Modules\Native\bin\$(BinDirName)\*.dll" />
 				<Reference Include="$(BannerlordDirectory)\Modules\SandBoxCore\bin\$(BinDirName)\*.dll" />
 				<Reference Include="$(BannerlordDirectory)\Modules\SandBox\bin\$(BinDirName)\*.dll" />
