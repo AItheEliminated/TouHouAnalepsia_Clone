@@ -20,7 +20,7 @@ namespace TouhouAnalepsia {
 
 		}
 		public static void DefaultPatches() {
-			HarmonyHandler.patchPrefix("SandBox.View.Map.PartyVisual", "TaleWorlds.CampaignSystem.IPartyVisual.OnStartup", "TouhouAnalepsia.Patches", "DebugPatchPrefix");
+			//HarmonyHandler.patchPrefix("SandBox.View.Map.PartyVisual", "TaleWorlds.CampaignSystem.IPartyVisual.OnStartup", "TouhouAnalepsia.Patches", "DebugPatchPrefix");
 
 			//StoryMode patches
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod");
@@ -35,6 +35,35 @@ namespace TouhouAnalepsia {
 																																														//HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior", "BuildWorkshopsAtGameStart", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.Source.TournamentGames.TournamentCampaignBehavior", "InitializeTournamentLeaderboard", "TouhouAnalepsia.Patches", "RemoveMethod");
 
+			HarmonyHandler.patchFinalizer("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Finalizer");
+			HarmonyHandler.patchPrefix("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Prefix");
+
+		}
+		static Exception Finalizer(UIntPtr scenePointer, int navMeshFace, ref Vec3 centerPos, Exception __exception) {
+			//if (__exception?.Message == null) return __exception;
+			Logger.Log("Begin Exception Log for ManagedCallbacks.ScriptingInterfaceOfIScene.GetNavMeshFaceCenterPosition");
+			if (__exception?.Message != null) {
+				Logger.Log(__exception.Message);
+				Logger.Log(__exception.StackTrace);
+			} else Logger.Log("No exception message");
+
+			Logger.Log(Convert.ToString(navMeshFace));
+			Logger.Log(Convert.ToString(centerPos));
+
+			Logger.Log("End Exception Log for ManagedCallbacks.ScriptingInterfaceOfIScene.GetNavMeshFaceCenterPosition");
+
+			return __exception;
+		}
+		static bool Prefix(UIntPtr scenePointer, int navMeshFace, ref Vec3 centerPos) {
+			if (navMeshFace>=0) return true;
+			Logger.Log("Begin Log for ManagedCallbacks.ScriptingInterfaceOfIScene.GetNavMeshFaceCenterPosition");
+
+			Logger.Log(Convert.ToString(navMeshFace));
+			Logger.Log(Convert.ToString(centerPos));
+
+			Logger.Log("End Log for ManagedCallbacks.ScriptingInterfaceOfIScene.GetNavMeshFaceCenterPosition");
+
+			return true;
 		}
 		public static bool DebugPatchPrefix(ref PartyBase party) {
 			//Logger.Log(party.Name.GetID() + ": " + party.Name.ToString());
@@ -269,6 +298,20 @@ namespace TouhouAnalepsia {
 				Logger.Log("End Exception Log for DefaultMapDistanceModel.GetDistance");
 
 				return __exception;
+			}
+		}
+		[HarmonyPatch(typeof(SiegeEvent))]
+		[HarmonyPatch(MethodType.Constructor)]
+		[HarmonyPatch(new Type[] { typeof(Settlement), typeof(MobileParty) })]
+		class DebugPatch28 {
+			static bool Prefix(Settlement settlement, MobileParty besiegerParty) {
+				Logger.Log("Begin Log for SiegeEvent");
+
+				Logger.Log(settlement?.StringId);
+				Logger.Log(besiegerParty?.StringId);
+
+				Logger.Log("End Log for SiegeEvent");
+				return true;
 			}
 		}
 	}
