@@ -1,0 +1,197 @@
+<prefabs>
+	<game_entity name="th_map_bamboo_tree_cluster" old_prefab_name="" season_mask="255">
+		<flags>
+			<flag name="lod" value="2"/>
+			<flag name="align_to_terrain" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.400, 0.400, 0.210"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="s_bamboo_h01">
+				<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+				<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+				<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+				<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="2.214, -0.566, 0.040" rotation_euler="0.000, 0.000, 0.377" scale="0.967, 0.967, 0.967"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="0.246, -3.370, 0.183" rotation_euler="0.000, 0.000, -0.555" scale="1.011, 1.011, 1.011"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="0.508, -1.275, 0.040" rotation_euler="0.000, 0.000, 0.512" scale="0.982, 0.982, 0.982"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="1.817, 0.196, 0.040" rotation_euler="0.000, 0.000, 0.969" scale="0.946, 0.946, 0.946"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="1.135, -2.333, 0.077" rotation_euler="0.000, 0.000, 0.490" scale="1.070, 1.070, 1.070"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="0.847, 0.032, 0.036" rotation_euler="0.000, 0.000, 2.559" scale="1.087, 1.087, 1.087"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="-0.559, -1.978, 0.040" rotation_euler="0.000, 0.000, 2.282" scale="0.909, 0.909, 0.909"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="1.349, -1.568, 0.040" rotation_euler="0.000, 0.000, 2.282" scale="0.909, 0.909, 0.909"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="0.405, -2.512, 0.102" rotation_euler="0.000, 0.000, 2.282" scale="0.909, 0.909, 0.909"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="1.197, -0.649, 0.040" rotation_euler="0.000, 0.000, 2.282" scale="0.909, 0.909, 0.909"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bamboo_tree" old_prefab_name="" season_mask="255">
+				<flags>
+					<flag name="lod" value="2"/>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<transform position="-0.437, -1.017, 0.040" rotation_euler="0.000, 0.000, 2.282" scale="0.886, 0.886, 0.886"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="s_bamboo_h01">
+						<mesh name="s_bamboo_h01.lod0" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod1" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod2" argument="0.600, 0.000, 0.000, 0.000"/>
+						<mesh name="s_bamboo_h01.lod3" argument="0.600, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

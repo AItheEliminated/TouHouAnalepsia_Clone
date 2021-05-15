@@ -11,6 +11,7 @@ using TaleWorlds.Localization;
 using Helpers;
 using TaleWorlds.CampaignSystem.SandBox.GameComponents;
 using TaleWorlds.CampaignSystem.SandBox.GameComponents.Map;
+using TouhouAnalepsia.Abilities;
 
 namespace TouhouAnalepsia {
 	public class TouhouModelManager {

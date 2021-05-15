@@ -7,7 +7,7 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
-namespace TouhouAnalepsia {
+namespace TouhouAnalepsia.Abilities {
 	class AbilityBattleLogic : MissionLogic {
 		public override void OnAgentBuild(Agent agent, Banner banner) {
 			base.OnAgentCreated(agent);

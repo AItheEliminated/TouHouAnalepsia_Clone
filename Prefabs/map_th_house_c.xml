@@ -1,0 +1,13 @@
+<prefabs>
+	<game_entity name="map_th_house_c" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_empire_house_fake_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.035, 0.035, 0.035"/>
+		<physics shape="bo_empire_house_fake_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="empire_house_fake_c">
+				<mesh name="empire_house_fake_c.0" material="plank_floor_a"/>
+				<mesh name="empire_house_fake_c.1" material="th_tiled_roof" factor="4282988156"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+</prefabs>
+

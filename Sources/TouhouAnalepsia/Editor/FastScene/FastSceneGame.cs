@@ -59,21 +59,23 @@ namespace TouhouAnalepsia.Editor.FastScene
 			gameTextManager.LoadGameTexts(BasePath.Name + "Modules/Native/ModuleData/native_strings.xml");
 		}
 
-		private void LoadCustomGameXmls()
-		{
-			var gameType = "Campaign";
-			this.ObjectManager.LoadXML("Monsters", false, gameType);
-			this.ObjectManager.LoadXML("SkeletonScales", false, gameType);
-			this.ObjectManager.LoadXML("ItemModifiers", false, gameType);
-			this.ObjectManager.LoadXML("ItemModifierGroups", false, gameType);
-			this.ObjectManager.LoadXML("CraftingPieces", false, gameType);
-			this.ObjectManager.LoadXML("CraftingTemplates", false, gameType);
-			this.ObjectManager.LoadXML("Items", false, gameType);
-			this.ObjectManager.LoadXML("NPCCharacters", false, gameType);
-			this.ObjectManager.LoadXML("SPCultures", false, gameType);
+		public override bool IsDevelopment {
+			get {
+				return true;
+			}
+		}
 
-			var testGameType = "TestGame";
-			this.ObjectManager.LoadXML("NPCCharacters", false, testGameType);
+		private void LoadCustomGameXmls() {
+			ObjectManager.LoadXML("SPCultures");
+			ObjectManager.LoadXML("Monsters");
+			ObjectManager.LoadXML("SkeletonScales");
+			ObjectManager.LoadXML("ItemModifiers");
+			ObjectManager.LoadXML("ItemModifierGroups");
+			ObjectManager.LoadXML("CraftingPieces");
+			ObjectManager.LoadXML("CraftingTemplates");
+			ObjectManager.LoadXML("Items");
+			ObjectManager.LoadXML("EquipmentRosters");
+			ObjectManager.LoadXML("NPCCharacters");
 		}
 
 		public override void OnDestroy()
