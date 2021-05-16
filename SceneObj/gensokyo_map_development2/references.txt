@@ -1,4 +1,4 @@
-541
+540
 flora_entity tree_olive__mix
 mesh arrow_new_icon
 mesh battania_arena_tower
@@ -138,7 +138,6 @@ mesh mi_clay_mine_d
 mesh mi_crate_a
 mesh mi_date_a
 mesh mi_date_c
-mesh mi_date_d
 mesh mi_dock_props_a
 mesh mi_docks_a
 mesh mi_docks_b
@@ -495,7 +494,7 @@ texture ashes_a_n
 texture ashes_a_s
 texture cliff_c_h
 texture cliff_c_s
-texture filmic_color_grade
+texture color_grade_empire_harsh
 texture forest_a_h
 texture gensokyo1new
 texture gensokyo2
@@ -530,7 +529,7 @@ texture plowed_field_a_s
 texture rock_a
 texture rock_f_h
 texture rock_f_s
-texture sky_photo_clear_02
+texture semi_cloudy_2
 texture snow_a_s
 texture snow_b_d
 texture snow_b_h
