@@ -1,16 +1,53 @@
-pipeline:
-  build:
-    image: mcr.microsoft.com/dotnet/sdk:5.0
-    commands:
-      - apt-get update -q
-      - apt-get dist-upgrade -y -q
-      - apt-get install -y -q wget curl tar zip
-      - cd Sources
-      - dotnet restore -nowarn:NU1701
-      - dotnet build /nowarn:NU1701,MSB3274,MSB3277 /p:RunningOnCI=true --verbosity:minimal --framework netstandard2.0 --configuration=Release TouhouAnalepsia.sln
-      - cd ../bin/
-      - printf "$(sha1sum Win64_Shipping_Client/TouhouAnalepsia.dll)\n$(sha1sum Win64_Shipping_wEditor/TouhouAnalepsia.dll)\n" > manifest.txt
-      - zip -r artifacts.zip Win64_Shipping_Client Win64_Shipping_wEditor
-      - curl -F scene=touhouanalepsia -F path=./touhouanalepsia/${DRONE_BRANCH} -F file=@manifest.txt http://fastdfs:8080/upload
-      - curl -F scene=touhouanalepsia -F path=./touhouanalepsia/${DRONE_BRANCH} -F file=@artifacts.zip http://fastdfs:8080/upload
-      
+kind: pipeline
+type: docker
+name: BinaryOnly
+trigger:
+  branch:
+    exclude:
+    - master
+    - release*
+environment:
+  GIT_LFS_SKIP_SMUDGE: "1"
+steps:
+- name: build
+  image: mcr.microsoft.com/dotnet/sdk:5.0
+  commands:
+    - apt-get update -q
+    - apt-get dist-upgrade -y -q
+    - apt-get install -y -q wget curl tar zip
+    - cd Sources
+    - dotnet restore -nowarn:NU1701
+    - dotnet build /nowarn:NU1701,MSB3274,MSB3277 /p:RunningOnCI=true --verbosity:minimal --framework netstandard2.0 --configuration=Release TouhouAnalepsia.sln
+    - cd ../bin/
+    - printf "$(sha1sum Win64_Shipping_Client/TouhouAnalepsia.dll)\n$(sha1sum Win64_Shipping_wEditor/TouhouAnalepsia.dll)\n" > manifest.txt
+    - zip -r artifacts.zip Win64_Shipping_Client Win64_Shipping_wEditor
+    - curl -F scene=touhouanalepsia -F path=./touhouanalepsia/${DRONE_BRANCH} -F file=@manifest.txt http://fastdfs:8080/upload
+    - curl -F scene=touhouanalepsia -F path=./touhouanalepsia/${DRONE_BRANCH} -F file=@artifacts.zip http://fastdfs:8080/upload
+
+---   
+   
+kind: pipeline
+type: docker
+name: FullRelease
+trigger:
+  branch:
+    include:
+    - master
+    - release*
+steps:
+- name: build
+  image: mcr.microsoft.com/dotnet/sdk:5.0
+  commands:
+    - apt-get update -q
+    - apt-get dist-upgrade -y -q
+    - apt-get install -y -q wget curl tar zip
+    - cd Sources
+    - dotnet restore -nowarn:NU1701
+    - dotnet build /nowarn:NU1701,MSB3274,MSB3277 /p:RunningOnCI=true --verbosity:minimal --framework netstandard2.0 --configuration=Release TouhouAnalepsia.sln
+    - cd ../bin/
+    - printf "$(sha1sum Win64_Shipping_Client/TouhouAnalepsia.dll)\n$(sha1sum Win64_Shipping_wEditor/TouhouAnalepsia.dll)\n" > manifest.txt
+    - zip -r artifacts.zip Win64_Shipping_Client Win64_Shipping_wEditor
+    - curl -F scene=touhouanalepsia -F path=./touhouanalepsia/${DRONE_BRANCH} -F file=@manifest.txt http://fastdfs:8080/upload
+    - curl -F scene=touhouanalepsia -F path=./touhouanalepsia/${DRONE_BRANCH} -F file=@artifacts.zip http://fastdfs:8080/upload
+    # TODO: pack the game lol
+    
