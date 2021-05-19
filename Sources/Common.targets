@@ -29,8 +29,8 @@
 	<!-- Fill the properties with default values if no user settings found -->
 	<PropertyGroup>
 		<PreferEditor Condition="'$(PreferEditor)' == ''">false</PreferEditor>
-		<ReleaseOutputDirectory Condition="'$(ReleaseOutputDirectory)' == ''">..\bin\Win64_Shipping_Client\</ReleaseOutputDirectory>
-		<EditorOutputDirectory Condition="'$(EditorOutputDirectory)' == ''">..\bin\Win64_Shipping_wEditor\</EditorOutputDirectory>
+		<ReleaseOutputDirectory Condition="'$(ReleaseOutputDirectory)' == ''">..\..\bin\Win64_Shipping_Client\</ReleaseOutputDirectory>
+		<EditorOutputDirectory Condition="'$(EditorOutputDirectory)' == ''">..\..\bin\Win64_Shipping_wEditor\</EditorOutputDirectory>
 		<OutputRelease Condition="'$(OutputRelease)' == ''">true</OutputRelease>
 		<OutputEditor Condition="'$(OutputEditor)' == ''">true</OutputEditor>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
