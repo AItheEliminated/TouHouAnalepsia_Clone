@@ -82,6 +82,8 @@ namespace TouhouAnalepsia
 
 				loadLocalizationData((CampaignGameStarter)gameStarterObject);
 				//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
+				CampaignGameStarter campaignGameStarter = (CampaignGameStarter) gameStarterObject;
+   				campaignGameStarter.AddBehavior(new MyCampainBehavior());
 			}
 		}
 		public override void OnCampaignStart(Game game, object starterObject) {
