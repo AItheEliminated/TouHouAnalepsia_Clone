@@ -17,8 +17,11 @@ namespace TouhouAnalepsia.Editor.Playground
 				ViewCreator.CreateOptionsUIHandler(),
 				ViewCreator.CreateMissionAgentStatusUIHandler(mission),
 				ViewCreator.CreateMissionMainAgentEquipmentController(mission),
-				ViewCreator.CreateMissionMainAgentCheerControllerView(mission),
-				ViewCreator.CreateSingleplayerMissionKillNotificationUIHandler()
+				//ViewCreator.CreateMissionMainAgentCheerControllerView(mission), // 1.5.9
+				ViewCreator.CreateMissionMainAgentCheerBarkControllerView(mission), // 1.5.10
+				ViewCreator.CreateSingleplayerMissionKillNotificationUIHandler(),
+				ViewCreator.CreateMissionAgentLockVisualizerView(mission),
+				ViewCreator.CreatePhotoModeView()
 			}.ToArray();
 		}
 	}
