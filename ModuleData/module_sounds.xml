@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      type="module_sounds">
+  <module_sounds>
+	<module_sound name="tha/voice/dummy" sound_category="mission_voice" path="voices/dummy.ogg" />
+	<module_sound name="tha/combat/artillery_fire_a" sound_category="mission_combat" path="weapons/artillery_fire_a.ogg" />
+	<module_sound name="tha/combat/artillery_fire_b" sound_category="mission_combat" path="weapons/artillery_fire_b.ogg" />
+	<module_sound name="tha/combat/artillery_fire_c" sound_category="mission_combat" path="weapons/artillery_fire_c.ogg" />
+	<module_sound name="tha/combat/carbine_fire_a" sound_category="mission_combat" path="weapons/carbine_fire_a.ogg" />
+	<module_sound name="tha/combat/carbine_fire_b" sound_category="mission_combat" path="weapons/carbine_fire_b.ogg" />
+	<module_sound name="tha/combat/explosion_a" sound_category="mission_siege_loud" path="weapons/explosion_a.ogg" />
+	<module_sound name="tha/combat/explosion_b" sound_category="mission_siege_loud" path="weapons/explosion_b.ogg" />
+	<module_sound name="tha/combat/machinegun_fire_a" sound_category="mission_combat" path="weapons/machinegun_fire_a.ogg" />
+	<module_sound name="tha/combat/machinegun_fire_b" sound_category="mission_combat" path="weapons/machinegun_fire_b.ogg" />
+	<module_sound name="tha/combat/pistol_fire_a" sound_category="mission_combat" path="weapons/pistol_fire_a.ogg" />
+	<module_sound name="tha/combat/pistol_fire_b" sound_category="mission_combat" path="weapons/pistol_fire_b.ogg" />
+	<module_sound name="tha/combat/pistol_fire_c" sound_category="mission_combat" path="weapons/pistol_fire_c.ogg" />
+	<module_sound name="tha/combat/rifle_fire_a" sound_category="mission_combat" path="weapons/rifle_fire_a.ogg" />
+	<module_sound name="tha/combat/rifle_fire_b" sound_category="mission_combat" path="weapons/rifle_fire_b.ogg" />
+	<module_sound name="tha/combat/rifle_pull_a" sound_category="mission_combat_trivial" path="weapons/rifle_pull_a.ogg" />
+	<module_sound name="tha/combat/rifle_pull_b" sound_category="mission_combat_trivial" path="weapons/rifle_pull_b.ogg" />
+	<module_sound name="tha/combat/rifle_reload_clip_a" sound_category="mission_combat_trivial" path="weapons/rifle_reload_clip_a.ogg" />
+	<module_sound name="tha/combat/rifle_reload_clip_b" sound_category="mission_combat_trivial" path="weapons/rifle_reload_clip_b.ogg" />
+	<module_sound name="tha/combat/rifle_reload_mag_a" sound_category="mission_combat_trivial" path="weapons/rifle_reload_mag_a.ogg" />
+	<module_sound name="tha/combat/rifle_reload_mag_b" sound_category="mission_combat_trivial" path="weapons/rifle_reload_mag_b.ogg" />
+	<module_sound name="tha/combat/shotgun_fire_a" sound_category="mission_combat" path="weapons/shotgun_fire_a.ogg" />
+	<module_sound name="tha/combat/snipergun_fire_a" sound_category="mission_combat" path="weapons/snipergun_fire_a.ogg" />
+	<module_sound name="tha/combat/snipergun_fire_b" sound_category="mission_combat" path="weapons/snipergun_fire_b.ogg" />
+  </module_sounds>
+</base>
