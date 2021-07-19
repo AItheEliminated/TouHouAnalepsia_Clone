@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
+using TaleWorlds.Engine;
 using TaleWorlds.Library;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
@@ -32,8 +33,7 @@ namespace TouhouAnalepsia
 			InitManager.OnSubModuleLoad();
 
 			//CampaignOptions.EnableCampaignTutorials = false; // 1.5.9
-#if DEBUG
-#else
+#if !DEBUG
 			if (Utilities.EditModeEnabled) {
 #endif
 			//TODO still not working, will look into it more in a bit.
@@ -60,8 +60,7 @@ namespace TouhouAnalepsia
 					));
 				}, () => (false, TextObject.Empty)));*/
 
-#if DEBUG
-#else
+#if !DEBUG
 			}
 #endif
 

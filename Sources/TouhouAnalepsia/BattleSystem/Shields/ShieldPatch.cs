@@ -16,8 +16,8 @@ namespace TouhouAnalepsia.BattleSystem.Shields
 		{
 			static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
 			{
-				var labelIfShield = generator.DefineLabel();
-				var labelIfNoShield = generator.DefineLabel();
+				dynamic labelIfShield = generator.DefineLabel();
+				dynamic labelIfNoShield = generator.DefineLabel();
 				var isColliderAgentHitCount = 0;
 				var missileHasPhysicsHitCount = 0;
 				foreach (var code in instructions)
@@ -43,7 +43,10 @@ namespace TouhouAnalepsia.BattleSystem.Shields
 						yield return new CodeInstruction(OpCodes.Ldc_I4_0);
 						yield return new CodeInstruction(OpCodes.Stind_I4);
 						yield return new CodeInstruction(OpCodes.Br_S, labelIfShield); // jump out
-						yield return new CodeInstruction(OpCodes.Ldarg_2).WithLabels(labelIfNoShield);
+						dynamic jumpTarget1 = new CodeInstruction(OpCodes.Ldarg_2); // hack for .netstandard2.0
+						jumpTarget1.labels.Add(labelIfNoShield);
+						yield return jumpTarget1;
+						//yield return new CodeInstruction(OpCodes.Ldarg_2).WithLabels(labelIfNoShield);
 						yield return code;
 					}
 					else if (code.opcode == OpCodes.Call &&
@@ -51,7 +54,10 @@ namespace TouhouAnalepsia.BattleSystem.Shields
 					         (++missileHasPhysicsHitCount) == 2)
 					{
 						yield return new CodeInstruction(OpCodes.Pop);
-						yield return new CodeInstruction(OpCodes.Ldarg_2).WithLabels(labelIfShield);
+						dynamic jumpTarget2 = new CodeInstruction(OpCodes.Ldarg_2); // ditto
+						jumpTarget2.labels.Add(labelIfShield);
+						yield return jumpTarget2;
+						//yield return new CodeInstruction(OpCodes.Ldarg_2).WithLabels(labelIfShield);
 						yield return code;
 					}
 					else

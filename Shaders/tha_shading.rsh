@@ -5,7 +5,7 @@
 
 void discard_covered_part(inout RGL_VS_INPUT In, inout Per_vertex_modifiable_variables pv_modifiable, inout Vertex_shader_output_type output)
 {
-	if (!any(g_mesh_vector_argument))
+	if (any(g_mesh_vector_argument))
 	{
 		float3 shouldDiscard = g_mesh_vector_argument.rgb - get_vertex_color(In.color).rgb;
 		if (any(shouldDiscard >= float3(0, 0, 0)))
