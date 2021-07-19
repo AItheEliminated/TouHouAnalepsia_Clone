@@ -1,0 +1,45 @@
+<Brushes>
+  <Brush Name="FaceGenTextTabButtonBrush" FontColor="#FAF4DEFF" TransitionDuration="0">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="CharacterCreation\character_creation_panel_extension_button" />
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FAF4DEFF">
+        <BrushLayer Name="Default" ColorFactor="1.0" />
+      </Style>
+      <Style Name="Hovered" AnimationToPlayOnBegin="HoverAnimation">
+        <BrushLayer Name="Default" ColorFactor="2.0" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+	  <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.5" />
+      </Style>
+      <Style Name="Disabled" FontColor="#FAF4DEAA">
+        <BrushLayer Name="Default" ColorFactor="0.50" />
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="HoverAnimation" Duration="20.0" Loop="true">
+        <AnimationProperty LayerName="Default" PropertyName="ColorFactor">
+          <KeyFrame Time="0" Value="1.25" />
+        </AnimationProperty>
+        <AnimationProperty LayerName="Default" PropertyName="OverlayXOffset">
+          <KeyFrame Time="0" Value="0" />
+          <KeyFrame Time="10" Value="512" />
+          <KeyFrame Time="20" Value="1024" />
+        </AnimationProperty>
+        <AnimationProperty LayerName="Default" PropertyName="OverlayYOffset">
+          <KeyFrame Time="0" Value="0" />
+          <KeyFrame Time="20" Value="512" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+	<SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="tab" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+</Brushes>

@@ -1,0 +1,11 @@
+<base>
+  <physics_materials>
+    <physics_material id="missile_bullet"
+                      static_friction="0.700"
+                      dynamic_friction="0.300"
+                      restitution="0.020"
+                      linear_damping="0.020"
+                      angular_damping="0.010"
+                      display_color="255, 79, 53, 189" />
+  </physics_materials>
+</base>

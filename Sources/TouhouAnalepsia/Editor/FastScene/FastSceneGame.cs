@@ -5,6 +5,7 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.ObjectSystem;
+using TouhouAnalepsia.BattleSystem.Models;
 
 namespace TouhouAnalepsia.Editor.FastScene
 {
@@ -44,7 +45,7 @@ namespace TouhouAnalepsia.Editor.FastScene
 			basicGameStarter.AddModel(new CustomBattleAgentStatCalculateModel());
 			basicGameStarter.AddModel(new CustomBattleApplyWeatherEffectsModel());
 			basicGameStarter.AddModel(new SandboxAutoBlockModel());
-			basicGameStarter.AddModel(new MultiplayerAgentApplyDamageModel());
+			basicGameStarter.AddModel(new TouhouAgentApplyDamageModel());
 			basicGameStarter.AddModel(new DefaultRidingModel());
 			basicGameStarter.AddModel(new DefaultStrikeMagnitudeModel());
 			basicGameStarter.AddModel(new DefaultSkillList());

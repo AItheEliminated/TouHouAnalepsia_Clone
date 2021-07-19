@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item multiplayer_item="true"
+        id="kedama"
+        name="Kedama"
+        mesh="kedama"
+        subtype="horse"
+        item_category="sumpter_horse"
+        is_merchandise="false"
+        weight="400"
+        difficulty="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.kedama"
+             maneuver="62"
+             speed="43"
+             charge_damage="5"
+             body_length="104"
+             is_mountable="true"
+             extra_health="0">
+        <Materials>
+          <Material name="kedama_a">
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
+        id="kedama_harness"
+        name="Kedama Harness"
+        mesh=""
+        culture="Culture.neutral_culture"
+        value="999"
+        is_merchandise="false"
+        weight="30"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="0"
+             mane_cover_type="none"
+             maneuver_bonus="0"
+             speed_bonus="0"
+             charge_bonus="0"
+             family_type="1"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <!-- #endregion -->
+</Items>

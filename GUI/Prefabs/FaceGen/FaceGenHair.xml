@@ -1,0 +1,49 @@
+<Window>
+  <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" LayoutImp.LayoutMethod="VerticalBottomToTop">
+    <Children>
+	  
+	  <ListPanel WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="550" SuggestedHeight="60" HorizontalAlignment="Center" MarginRight="15" MarginTop="5" LayoutImp.LayoutMethod="HorizontalSpaced">
+        <Children>
+          <TabToggleWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="100" SuggestedHeight="45" VerticalAlignment="Center" Brush="FaceGenTextTabButtonBrush" Command.Click="" CommandParameter.Click="0" TabControlWidget="..\..\HairPropertyTab" TabName="HairColorProperties">
+		    <Children>
+              <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Popup.Button.Text" MarginTop="10" Text="Color" />
+            </Children>
+		  </TabToggleWidget>
+          <TabToggleWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="100" SuggestedHeight="45" VerticalAlignment="Center" Brush="FaceGenTextTabButtonBrush" Command.Click="" CommandParameter.Click="1" TabControlWidget="..\..\HairPropertyTab" TabName="HairFrontProperties">
+		    <Children>
+              <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Popup.Button.Text" MarginTop="10" Text="Front" />
+            </Children>
+		  </TabToggleWidget>
+		  <TabToggleWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="100" SuggestedHeight="45" VerticalAlignment="Center" Brush="FaceGenTextTabButtonBrush" Command.Click="" CommandParameter.Click="2" TabControlWidget="..\..\HairPropertyTab" TabName="HairBackProperties">
+		    <Children>
+              <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Popup.Button.Text" MarginTop="10" Text="Back" />
+            </Children>
+		  </TabToggleWidget>
+		  <TabToggleWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="100" SuggestedHeight="45" VerticalAlignment="Center" Brush="FaceGenTextTabButtonBrush" Command.Click="" CommandParameter.Click="3" TabControlWidget="..\..\HairPropertyTab" TabName="HairSideProperties">
+		    <Children>
+              <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Popup.Button.Text" MarginTop="10" Text="Side" />
+            </Children>
+		  </TabToggleWidget>
+		  <TabToggleWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="100" SuggestedHeight="45" VerticalAlignment="Center" Brush="FaceGenTextTabButtonBrush" Command.Click="" CommandParameter.Click="4" TabControlWidget="..\..\HairPropertyTab" TabName="HairPinProperties">
+		    <Children>
+              <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Popup.Button.Text" MarginTop="10" Text="Pin" />
+            </Children>
+		  </TabToggleWidget>
+        </Children>
+      </ListPanel>
+	  
+	  <Widget WidthSizePolicy="Fixed" SuggestedWidth="581" HeightSizePolicy="Fixed" SuggestedHeight="14" HorizontalAlignment="Center" Sprite="CharacterCreation\stone_divider" />
+
+	  <TabControl Id="HairPropertyTab" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="580" SuggestedHeight="685" HorizontalAlignment="Center" MarginTop="0" MarginRight="3" SelectedIndex="0">
+        <Children>
+          <FaceGenHairColor IsEnabled="@IsBodyEnabled" Id="HairColorProperties" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" />
+          <FaceGenHairFront IsEnabled="@IsFaceEnabled" Id="HairFrontProperties" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" />
+          <FaceGenHairFront IsEnabled="@IsEyesEnabled" Id="HairBackProperties" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" />
+          <FaceGenHairFront IsEnabled="@IsEyesEnabled" Id="HairSideProperties" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" />
+          <FaceGenHairFront IsEnabled="@IsEyesEnabled" Id="HairPinProperties" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" />
+        </Children>
+      </TabControl>
+
+    </Children>
+  </ListPanel>
+</Window>

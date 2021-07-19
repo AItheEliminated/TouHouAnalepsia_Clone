@@ -1,0 +1,7 @@
+<Window>
+  <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" LayoutImp.LayoutMethod="VerticalBottomToTop">
+    <Children>
+      <FaceGenGrid WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginRight="3" Parameter.GridDataSource="{TaintTypes}" />
+    </Children>
+  </ListPanel>
+</Window>
