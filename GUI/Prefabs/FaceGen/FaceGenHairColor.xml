@@ -1,0 +1,26 @@
+<Window>
+  <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" LayoutImp.LayoutMethod="VerticalBottomToTop">
+    <Children>
+      <FaceGenColorSelector DataSource="{HairColorSelector}" MarginTop="10" />
+	  
+      <Widget WidthSizePolicy="Fixed" SuggestedWidth="580" HeightSizePolicy="Fixed" SuggestedHeight="11" HorizontalAlignment="Center" Sprite="CharacterCreation\stone_divider_thin" MarginTop="15" ExtendTop="19" ExtendBottom="20" />
+	  
+	  <ButtonWidget Command.Click="ExecuteChangeHairGradientColor" IsSelected="@IsHairGradientColor" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedWidth="36" SuggestedHeight="36" MarginLeft="30" MarginTop="10" HorizontalAlignment="Left" VerticalAlignment="Center" ToggleIndicator="Button\ToggleIndicator" ButtonType="Toggle">
+        <Children>
+          <ImageWidget Id="Button" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="36" SuggestedHeight="36" Brush="MPLobby.CustomServer.FilterToggle">
+            <Children>
+              <Widget Id="ToggleIndicator" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="StdAssets\filters_checkbox_full" IsDisabled="true"/>
+            </Children>
+          </ImageWidget>
+          <TextWidget Text="Gradient Color" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="150" SuggestedHeight="36" HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="50" PositionYOffset="2" Brush="MPLobby.CustomServer.FiltersPanel.ToggleText" />
+        </Children>
+      </ButtonWidget>
+	  
+	  <FaceGenProperty HorizontalAlignment="Right" MarginTop="14" Name="Gradient Begin"/>
+	  
+	  <FaceGenProperty HorizontalAlignment="Right" MarginTop="14" Name="Gradient End"/>
+	  
+	  <FaceGenColorSelector DataSource="{HairColorSelector}" MarginTop="25" />
+    </Children>
+  </ListPanel>
+</Window>

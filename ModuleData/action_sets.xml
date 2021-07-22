@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action_sets>
+  <action_set id="as_human_warrior" skeleton="human_skeleton" movement_system="bipedal">
+    <action type="act_rider_stand_musket_pace_0" animation="rider_walk_crossbow" />
+    <action type="act_rider_stand_musket_pace_1" animation="rider_stand_crossbow" />
+    <action type="act_rider_stand_musket_pace_2" animation="rider_walk_crossbow" />
+    <action type="act_rider_stand_musket_pace_3" animation="rider_trot_crossbow" />
+    <action type="act_rider_stand_musket_pace_4" animation="rider_canter_crossbow" />
+    <action type="act_rider_stand_musket_pace_5" animation="rider_gallop_crossbow" />
+	<action type="act_camel_rider_stand_musket_pace_0" animation="camel_rider_with_crossbow_walk_backwards" />
+    <action type="act_camel_rider_stand_musket_pace_1" animation="camel_rider_with_crossbow_stand" />
+    <action type="act_camel_rider_stand_musket_pace_2" animation="camel_rider_with_crossbow_walk_forward" />
+    <action type="act_camel_rider_stand_musket_pace_3" animation="camel_rider_with_crossbow_trot" />
+    <action type="act_camel_rider_stand_musket_pace_4" animation="camel_rider_with_crossbow_canter" />
+    <action type="act_camel_rider_stand_musket_pace_5" animation="camel_rider_with_crossbow_gallop" />
+	
+	<!-- CROSSBOW RUN ANIMATIONS - BEGIN /-->
+    <action type="act_run_idle_musket" animation="stand_crossbow" />
+    <action type="act_run_forward_musket" animation="run_forward_crossbow" />
+    <action type="act_run_right_musket" animation="run_right_crossbow" />
+    <action type="act_run_left_musket" animation="run_left_crossbow" />
+    <action type="act_run_backward_musket" animation="run_backward_crossbow" />
+    <action type="act_run_right_back_musket" animation="run_right_back_crossbow" />
+    <action type="act_run_left_back_musket" animation="run_left_back_crossbow" />
+    <action type="act_run_right_to_left_musket" animation="run_right_to_left_crossbow" />
+    <action type="act_run_left_to_right_musket" animation="run_left_to_right_crossbow" />
+    <!-- TURN ANIMATIONS /-->
+    <action type="act_turn_musket" animation="turn_crossbow" />
+    <!-- LEFT STANCE /-->
+    <action type="act_run_idle_musket_left_stance" animation="stand_crossbow" />
+    <action type="act_run_forward_musket_left_stance" animation="run_forward_crossbow" />
+    <action type="act_run_right_musket_left_stance" animation="run_right_crossbow" />
+    <action type="act_run_left_musket_left_stance" animation="run_left_crossbow" />
+    <action type="act_run_backward_musket_left_stance" animation="run_backward_crossbow" />
+    <action type="act_run_right_back_musket_left_stance" animation="run_right_back_crossbow" />
+    <action type="act_run_left_back_musket_left_stance" animation="run_left_back_crossbow" />
+    <action type="act_run_right_to_left_musket_left_stance" animation="run_right_to_left_crossbow" />
+    <action type="act_run_left_to_right_musket_left_stance" animation="run_left_to_right_crossbow" />
+    <!-- TURN ANIMATIONS /-->
+    <action type="act_turn_musket_left_stance" animation="turn_unarmed" />
+	
+	<!-- CROSSBOW WALK ANIMATIONS - BEGIN /-->
+    <action type="act_walk_idle_musket" animation="stand_crossbow" />
+    <action type="act_walk_forward_musket" animation="walk_forward_crossbow" />
+    <action type="act_walk_right_musket" animation="walk_right_crossbow" />
+    <action type="act_walk_left_musket" animation="walk_left_crossbow" />
+    <action type="act_walk_backward_musket" animation="walk_backward_crossbow" />
+    <action type="act_walk_right_back_musket" animation="walk_right_back_crossbow" />
+    <action type="act_walk_left_back_musket" animation="walk_left_back_crossbow" />
+    <action type="act_walk_right_to_left_musket" animation="walk_right_to_left_crossbow" />
+    <action type="act_walk_left_to_right_musket" animation="walk_left_to_right_crossbow" />
+    <!-- LEFT STANCE /-->
+    <action type="act_walk_idle_musket_left_stance" animation="stand_crossbow" />
+    <action type="act_walk_forward_musket_left_stance" animation="walk_forward_crossbow" />
+    <action type="act_walk_right_musket_left_stance" animation="walk_right_crossbow" />
+    <action type="act_walk_left_musket_left_stance" animation="walk_left_crossbow" />
+    <action type="act_walk_backward_musket_left_stance" animation="walk_backward_crossbow" />
+    <action type="act_walk_right_back_musket_left_stance" animation="walk_right_back_crossbow" />
+    <action type="act_walk_left_back_musket_left_stance" animation="walk_left_back_crossbow" />
+    <action type="act_walk_right_to_left_musket_left_stance" animation="walk_right_to_left_crossbow" />
+    <action type="act_walk_left_to_right_musket_left_stance" animation="walk_left_to_right_crossbow" />
+	
+	<!-- CROSSBOW CROUCH WALK ANIMATIONS - BEGIN /-->
+    <action type="act_crouch_walk_idle_musket" animation="crouch_stand_crossbow" />
+    <action type="act_crouch_walk_forward_musket" animation="crouch_walk_forward_staff" />
+    <action type="act_crouch_walk_right_musket" animation="crouch_walk_right_staff" />
+    <action type="act_crouch_walk_left_musket" animation="crouch_walk_left_staff" />
+    <action type="act_crouch_walk_backward_musket" animation="crouch_walk_backward_staff" />
+    <action type="act_crouch_walk_right_back_musket" animation="crouch_walk_right_back_staff" />
+    <action type="act_crouch_walk_left_back_musket" animation="crouch_walk_left_back_staff" />
+    <action type="act_crouch_walk_right_to_left_musket" animation="crouch_walk_right_to_left_staff" />
+    <action type="act_crouch_walk_left_to_right_musket" animation="crouch_walk_left_to_right_staff" />
+    <!-- LEFT STANCE /-->
+    <action type="act_crouch_walk_idle_musket_left_stance" animation="crouch_stand_crossbow" />
+    <action type="act_crouch_walk_forward_musket_left_stance" animation="crouch_walk_forward_staff" />
+    <action type="act_crouch_walk_right_musket_left_stance" animation="crouch_walk_right_staff" />
+    <action type="act_crouch_walk_left_musket_left_stance" animation="crouch_walk_left_staff" />
+    <action type="act_crouch_walk_backward_musket_left_stance" animation="crouch_walk_backward_staff" />
+    <action type="act_crouch_walk_right_back_musket_left_stance" animation="crouch_walk_right_back_staff" />
+    <action type="act_crouch_walk_left_back_musket_left_stance" animation="crouch_walk_left_back_staff" />
+    <action type="act_crouch_walk_right_to_left_musket_left_stance" animation="crouch_walk_right_to_left_staff" />
+    <action type="act_crouch_walk_left_to_right_musket_left_stance" animation="crouch_walk_left_to_right_staff" />
+	
+	<!-- CROSSBOW CROUCH RUN ANIMATIONS - BEGIN /-->
+    <action type="act_crouch_run_idle_musket" animation="crouch_stand_crossbow" />
+    <action type="act_crouch_run_forward_musket" animation="crouch_run_forward_staff" />
+    <action type="act_crouch_run_right_musket" animation="crouch_run_right_staff" />
+    <action type="act_crouch_run_left_musket" animation="crouch_run_left_staff" />
+    <action type="act_crouch_run_backward_musket" animation="crouch_run_backward_staff" />
+    <action type="act_crouch_run_right_back_musket" animation="crouch_run_right_back_staff" />
+    <action type="act_crouch_run_left_back_musket" animation="crouch_run_left_back_staff" />
+    <action type="act_crouch_run_right_to_left_musket" animation="crouch_run_right_to_left_staff" />
+    <action type="act_crouch_run_left_to_right_musket" animation="crouch_run_left_to_right_staff" />
+    <!-- TURN ANIMATIONS /-->
+    <action type="act_crouch_turn_musket" animation="turn_crouch_unarmed" />
+    <!-- LEFT STANCE /-->
+    <action type="act_crouch_run_idle_musket_left_stance" animation="crouch_stand_crossbow" />
+    <action type="act_crouch_run_forward_musket_left_stance" animation="crouch_run_forward_staff" />
+    <action type="act_crouch_run_right_musket_left_stance" animation="crouch_run_right_staff" />
+    <action type="act_crouch_run_left_musket_left_stance" animation="crouch_run_left_staff" />
+    <action type="act_crouch_run_backward_musket_left_stance" animation="crouch_run_backward_staff" />
+    <action type="act_crouch_run_right_back_musket_left_stance" animation="crouch_run_right_back_staff" />
+    <action type="act_crouch_run_left_back_musket_left_stance" animation="crouch_run_left_back_staff" />
+    <action type="act_crouch_run_right_to_left_musket_left_stance" animation="crouch_run_right_to_left_staff" />
+    <action type="act_crouch_run_left_to_right_musket_left_stance" animation="crouch_run_left_to_right_staff" />
+    <!-- TURN ANIMATIONS /-->
+    <action type="act_crouch_turn_musket_left_stance" animation="turn_crouch_unarmed" />
+	
+	<action type="act_idle_musket_1" animation="troop_stand_crossbow_1" alternative_group="idle_musket" />
+    <action type="act_idle_musket_2" animation="troop_stand_crossbow_2" alternative_group="idle_musket" />
+    <action type="act_idle_musket_3" animation="troop_stand_crossbow_3" alternative_group="idle_musket" />
+	
+	<action type="act_rider_idle_musket_1" animation="rider_idle_crossbow_1" />
+    <action type="act_rider_idle_musket_2" animation="rider_idle_crossbow_2" />
+    <action type="act_rider_idle_musket_3" animation="rider_idle_crossbow_3" />
+    <action type="act_rider_idle_musket_4" animation="rider_idle_crossbow_4" />
+	
+	<action type="act_camel_rider_stand_musket_1" animation="camel_rider_stand_crossbow_1" />
+    <action type="act_camel_rider_stand_musket_2" animation="camel_rider_stand_crossbow_2" />
+    <action type="act_camel_rider_stand_musket_3" animation="camel_rider_stand_crossbow_3" />
+    <action type="act_camel_rider_stand_musket_4" animation="camel_rider_stand_crossbow_4" />
+	
+	<action type="act_camel_rider_idle_musket_1" animation="camel_rider_idle_crossbow_1" />
+    <action type="act_camel_rider_idle_musket_2" animation="camel_rider_idle_crossbow_2" />
+    <action type="act_camel_rider_idle_musket_3" animation="camel_rider_idle_crossbow_3" />
+    <action type="act_camel_rider_idle_musket_4" animation="camel_rider_idle_crossbow_4" />
+	
+	<action type="act_equip_musket" animation="equip_crossbow" />
+    <action type="act_equip_musket_left_stance" animation="equip_crossbow_left_stance" />
+    <action type="act_unequip_musket" animation="unequip_crossbow" />
+    <action type="act_unequip_musket_left_stance" animation="unequip_crossbow_left_stance" />
+	
+	<action type="act_ready_musket" animation="ready_musket" />
+    <action type="act_release_musket" animation="release_musket" />
+    <action type="act_ready_continue_musket" animation="ready_continue_musket" />
+    <action type="act_reload_musket" animation="reload_musket" />
+    <action type="act_reload_musket_continue" animation="reload_musket_continue" />
+    <action type="act_reload_musket_horseback" animation="reload_musket_horseback" />
+    <action type="act_reload_musket_continue_horseback" animation="reload_musket_continue_horseback" />
+	
+	<action type="act_pose_archer_musket" animation="pose_archer_crossbow" />
+  </action_set>
+  
+  <action_set id="as_kedama" skeleton="kedama_skeleton" movement_system="quadrupedal">
+    <action type="act_horse_stand_for_movement_data" animation="kedama_idle_1" />
+    <action type="act_horse_stand_1" animation="kedama_idle_1" alternative_group="horse_stand_alternative_group" />
+    <action type="act_horse_stand_2" animation="kedama_idle_1" alternative_group="horse_stand_alternative_group" />
+    <action type="act_horse_stand_3" animation="kedama_idle_1" alternative_group="horse_stand_alternative_group" />
+    <action type="act_horse_stand_4" animation="kedama_idle_1" alternative_group="horse_stand_alternative_group" />
+    <!--       <action type="act_horse_stand_2" animation="kedama_idle_1" alternative_group="horse_stand_alternative_group" />
+    <action type="act_horse_stand_5" animation="kedama_idle_1" alternative_group="horse_stand_alternative_group" />
+	<action type="act_horse_stand_7" animation="kedama_idle_1" alternative_group="horse_stand_alternative_group" />
+    <action type="act_horse_stand_8" animation="kedama_idle_1" alternative_group="horse_stand_alternative_group" /> -->
+
+    <action type="act_horse_idle_1" animation="kedama_idle_2" alternative_group="idle_horse" />
+    <action type="act_horse_idle_2" animation="kedama_idle_2" alternative_group="idle_horse" />
+    <action type="act_horse_idle_3" animation="kedama_idle_2" alternative_group="idle_horse" />
+    <action type="act_horse_idle_4" animation="kedama_idle_2" alternative_group="idle_horse" />
+
+    <action type="act_hero_mount_idle_horse" animation="kedama_idle_1" />
+
+    <action type="act_horse_forward_walk_stand" animation="kedama_forward" />
+    <action type="act_horse_forward_walk" animation="kedama_forward" />
+    <action type="act_horse_forward_walk_strafe_right" animation="kedama_forward" />
+    <action type="act_horse_forward_walk_strafe_left" animation="kedama_forward" />
+    <!--<action type="act_horse_forward_trot_slow" animation="kedama_idle_1" />
+    <action type="act_horse_forward_trot_slow_right" animation="kedama_idle_1" />
+    <action type="act_horse_forward_trot_slow_left" animation="kedama_idle_1" />-->
+    <action type="act_horse_forward_trot_stand" animation="kedama_forward" />
+    <action type="act_horse_forward_trot" animation="kedama_forward" />
+    <action type="act_horse_forward_trot_strafe_right" animation="kedama_forward" />
+    <action type="act_horse_forward_trot_strafe_left" animation="kedama_forward" />
+    <action type="act_horse_forward_canter_stand" animation="kedama_forward" />
+    <action type="act_horse_forward_canter" animation="kedama_forward" />
+    <action type="act_horse_forward_canter_strafe_right" animation="kedama_forward" />
+    <action type="act_horse_forward_canter_strafe_left" animation="kedama_forward" />
+    <!--<action type="act_horse_forward_gallop_right_slow" animation="kedama_idle_1" />
+    <action type="act_horse_forward_gallop_right_slow_right" animation="kedama_idle_1" />
+    <action type="act_horse_forward_gallop_right_slow_left" animation="kedama_idle_1" />-->
+    <!--<action type="act_horse_forward_gallop_right_foot_stand" animation="kedama_idle_1" />-->
+    <action type="act_horse_forward_gallop_right_foot_stand" animation="kedama_forward" />
+    <action type="act_horse_forward_gallop_right_foot" animation="kedama_forward" />
+    <action type="act_horse_forward_gallop_right_foot_strafe_right" animation="kedama_forward" />
+    <action type="act_horse_forward_gallop_right_foot_strafe_left" animation="kedama_forward" />
+    <!--<action type="act_horse_forward_gallop_left_slow" animation="kedama_idle_1" />
+    <action type="act_horse_forward_gallop_left_slow_right" animation="kedama_idle_1" />
+    <action type="act_horse_forward_gallop_left_slow_left" animation="kedama_idle_1" />-->
+    <!--<action type="act_horse_forward_gallop_left_foot_stand" animation="kedama_idle_1" />-->
+    <action type="act_horse_forward_gallop_left_foot_stand" animation="kedama_forward" />
+    <action type="act_horse_forward_gallop_left_foot" animation="kedama_forward" />
+    <action type="act_horse_forward_gallop_left_foot_strafe_right" animation="kedama_forward" />
+    <action type="act_horse_forward_gallop_left_foot_strafe_left" animation="kedama_forward" />
+    <!--<action type="act_horse_backward_walk_slow" animation="kedama_idle_1" />
+    <action type="act_horse_backward_walk_slow_right" animation="kedama_idle_1" />
+    <action type="act_horse_backward_walk_slow_left" animation="kedama_idle_1" />-->
+    <action type="act_horse_backward_walk_stand" animation="kedama_idle_1" />
+    <action type="act_horse_backward_walk" animation="kedama_idle_1" />
+    <action type="act_horse_backward_walk_strafe_right" animation="kedama_idle_1" />
+    <action type="act_horse_backward_walk_strafe_left" animation="kedama_idle_1" />
+    <action type="act_horse_rear" animation="kedama_idle_1" />
+    <action type="act_horse_rear_damaged" animation="kedama_idle_1" />
+    <action type="act_horse_kick" animation="kedama_idle_1" />
+    <action type="act_horse_jump_start" animation="kedama_idle_1" />
+    <action type="act_horse_dash" animation="kedama_forward" />
+    <action type="act_horse_quick_stop" animation="kedama_idle_1" />
+    <action type="act_horse_quick_stop_when_fast" animation="kedama_idle_1" />
+    <action type="act_horse_hit_object" animation="kedama_idle_1" />
+    <action type="act_horse_hit_object_while_falling" animation="kedama_idle_1" />
+    <action type="act_horse_jump_high" animation="kedama_idle_1" />
+    <action type="act_horse_jump_high_loop" animation="kedama_idle_1" />
+    <action type="act_horse_jump_high_end" animation="kedama_idle_1" />
+    <action type="act_horse_jump_high_end_hard" animation="kedama_idle_1" />
+    <action type="act_horse_jump_forward" animation="kedama_idle_1" />
+    <action type="act_horse_jump_forward_loop" animation="kedama_idle_1" />
+    <action type="act_horse_jump_forward_end" animation="kedama_idle_1" />
+    <action type="act_horse_jump_forward_end_hard" animation="kedama_idle_1" />
+    <action type="act_horse_turn_right" animation="kedama_forward" />
+    <action type="act_horse_turn_left" animation="kedama_forward" />
+    <action type="act_horse_strafe_right" animation="kedama_forward" />
+    <action type="act_horse_strafe_left" animation="kedama_forward" />
+
+    <action type="act_horse_turn_right_head" animation="kedama_forward" />
+    <action type="act_horse_turn_left_head" animation="kedama_forward" />
+    <action type="act_horse_walk_turn_right_head" animation="kedama_forward" />
+    <action type="act_horse_walk_turn_left_head" animation="kedama_forward" />
+    <action type="act_horse_trot_turn_right_head" animation="kedama_forward" />
+    <action type="act_horse_trot_turn_left_head" animation="kedama_forward" />
+    <action type="act_horse_canter_turn_right_head" animation="kedama_forward" />
+    <action type="act_horse_canter_turn_left_head" animation="kedama_forward" />
+    <action type="act_horse_gallop_turn_right_head" animation="kedama_forward" />
+    <action type="act_horse_gallop_turn_left_head" animation="kedama_forward" />
+
+    <action type="act_horse_gallop_acceleration_head" animation="kedama_forward" />
+    <action type="act_horse_strike_back" animation="kedama_idle_1" />
+    <action type="act_horse_strike_front" animation="kedama_idle_1" />
+    <action type="act_mount_strike_back_while_moving" animation="kedama_idle_1" />
+    <action type="act_mount_strike_front_while_moving" animation="kedama_idle_1" />
+    <!-- <action type="act_horse_slow" animation="kedama_idle_1" /> -->
+    <!--       <action type="act_horse_fall_right" animation="kedama_idle_1" /> -->
+    <action type="act_horse_fall_right" animation="kedama_idle_1" />
+    <action type="act_horse_fall_left" animation="kedama_idle_1" />
+    <action type="act_horse_fall_right_continue" animation="kedama_idle_1" />
+    <action type="act_horse_fall_left_continue" animation="kedama_idle_1" />
+    <!--       <action type="act_horse_fall_right_continue" animation="kedama_idle_1" /> -->
+    <action type="act_horse_fall_roll" animation="kedama_idle_1" />
+    <action type="act_horse_fall_roll_continue" animation="kedama_idle_1" />
+    <action type="act_horse_fall_backwards" animation="kedama_idle_1" />
+    <!--<action type="act_horse_fall_jump_roll" animation="kedama_idle_1" alternative_group="horse_death_fall_front_alternative_group" />
+    <action type="act_horse_fall_jump_roll_continue" animation="kedama_idle_1" />-->
+    <action type="act_horse_fall_slow_right" animation="kedama_idle_1" />
+    <action type="act_horse_fall_slow_right_continue" animation="kedama_idle_1" />
+    <action type="act_horse_fall_slow_left" animation="kedama_idle_1" />
+    <action type="act_horse_fall_slow_left_continue" animation="kedama_idle_1" />
+    <action type="act_horse_conversation_start" animation="kedama_idle_1" />
+    <action type="act_inventory_idle_start" animation="kedama_idle_1" />
+    <action type="act_inventory_idle" animation="kedama_idle_1" />
+
+    <action type="act_horse_story_background_1" animation="kedama_idle_1" />
+    <action type="act_horse_story_background_2" animation="kedama_idle_1" />
+    <action type="act_horse_story_background_3" animation="kedama_idle_1" />
+    <action type="act_horse_story_background_4" animation="kedama_idle_1" />
+    <action type="act_horse_story_background_5" animation="kedama_idle_1" />
+    <action type="act_horse_story_background_6" animation="kedama_idle_1" />
+
+    <action type="act_aserai_mp_beduin_mount_idle" animation="kedama_idle_1" />
+    <action type="act_aserai_mp_mamluke_mount_idle" animation="kedama_idle_1" />
+    <action type="act_battania_mp_mounted_warrior_mount_idle" animation="kedama_idle_1" />
+    <action type="act_battania_mp_mounted_warrior_mount_idle_perks" animation="kedama_idle_1" />
+    <action type="act_vlandia_mp_vanguard_mount_idle" animation="kedama_idle_1" />
+    <action type="act_vlandia_mp_vanguard_mount_idle_smallshieldperk" animation="kedama_idle_1" />
+    <action type="act_vlandia_mp_knight_mount_idle" animation="kedama_idle_1" />
+    <action type="act_empire_mp_courser_mount_idle" animation="kedama_idle_1" />
+    <action type="act_empire_mp_courser_mount_smallshieldperk_idle" animation="kedama_idle_1" />
+    <action type="act_empire_mp_cataphract_mount_idle" animation="kedama_idle_1" />
+    <action type="act_khuzait_mp_lancer_mount_idle" animation="kedama_idle_1" />
+    <action type="act_khuzait_mp_lancer_mount_idle_shieldperk" animation="kedama_idle_1" />
+    <action type="act_khuzait_mp_nomad_mount_idle" animation="kedama_idle_1" />
+    <action type="act_khuzait_mp_nomad_mount_idle_maceperk" animation="kedama_idle_1" />
+    <action type="act_khuzait_mp_mounted_archer_mount_idle" animation="kedama_idle_1" />
+    <action type="act_sturgia_mp_raider_mount_idle" animation="kedama_idle_1" />
+    <action type="act_sturgia_mp_raider_mount_shieldperk_idle" animation="kedama_idle_1" />
+    <action type="act_sturgia_mp_druzhina_mount_idle" animation="kedama_idle_1" />
+    <action type="act_sturgia_mp_druzhina_idle_largeshieldperk" animation="kedama_idle_1" />
+  </action_set>
+</action_sets>

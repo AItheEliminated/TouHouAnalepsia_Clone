@@ -91,6 +91,13 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		<XmlNode>                
+			<XmlName id="Items" path="test_items"/>
+			<IncludedGameTypes>
+				<GameType value = "TestGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>   
 		<XmlNode>
 			<XmlName id="partyTemplates" path="partyTemplates"/>
 			<IncludedGameTypes>

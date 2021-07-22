@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item id="reimu_clothes" name="Reimu Clothes" mesh="reimu_clothes" culture="Culture.empire" weight="1.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="10" arm_armor="10" has_gender_variations="false" covers_body="false" modifier_group="cloth_unarmoured" material_type="Cloth" />
+    </ItemComponent>
+  </Item>
+  <Item id="reimu_shoes" name="Reimu Shoe" mesh="reimu_shoes" culture="Culture.empire" weight="0.8" appearance="1" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="cloth_unarmoured" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="reimu_head" name="Reimu Head" mesh="reimu_head" culture="Culture.empire" weight="0.5" appearance="1" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10" has_gender_variations="false" hair_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="oonusa" name="Oonusa" is_merchandise="false" body_name="bo_mace_a" recalculate_body="true" mesh="oonusa" culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+    <ItemComponent>
+      <Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_speed="100" speed_rating="100" missile_speed="0" weapon_length="80" thrust_damage="200" thrust_damage_type="Blunt" swing_damage="200" swing_damage_type="Blunt" item_usage="onehanded_block_shield_swing" physics_material="metal_weapon">
+        <WeaponFlags MeleeWeapon="true" />
+      </Weapon>
+    </ItemComponent>
+  </Item>
+  <Item id="yumi" name="Yumi" body_name="bo_composite_longbow_a" mesh="yumi" culture="Culture.empire" subtype="bow" weight="0.5" difficulty="1" appearance="0.4" Type="Bow" item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+    <ItemComponent>
+      <Weapon weapon_class="Bow" ammo_class="Arrow" ammo_limit="1" thrust_speed="70" speed_rating="80" missile_speed="80" weapon_length="120" accuracy="100" thrust_damage="200" thrust_damage_type="Pierce" item_usage="long_bow" physics_material="wood_weapon" center_of_mass="0.15,0,0" item_modifier_group="bow">
+        <WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="true" />
+  </Item>
+  
+  <Item id="kappa_tech_armor_a" name="Kappa Battle Technician Armor" mesh="kappa_tech_armor_a" item_script="KappaTechBackpack" item_script_param="kappa_tech_backpack_b" culture="Culture.empire" weight="1.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="25" leg_armor="5" arm_armor="15" body_cover_type="type3" arm_cover_type="type3" hide_underwear_top="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="kappa_tech_armor_b" name="Kappa Battle Technician Armor" mesh="kappa_tech_armor_b" item_script="KappaTechBackpack" item_script_param="kappa_tech_backpack_a" culture="Culture.empire" weight="1.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="15" leg_armor="5" arm_armor="10" body_cover_type="type3" arm_cover_type="type3" hide_underwear_top="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="kappa_tech_boots_a" name="Kappa Battle Technician Boots" mesh="kappa_tech_boots_a" culture="Culture.empire" weight="1.0" appearance="1" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="10" leg_cover_type="type2" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="kappa_tech_boots_b" name="Kappa Battle Technician Boots" mesh="kappa_tech_boots_b" culture="Culture.empire" weight="1.0" appearance="1" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="5" leg_cover_type="type2" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="kappa_helmet_a" name="Kappa Technician Cap" mesh="kappa_helmet_a" culture="Culture.empire" weight="0.5" appearance="1" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" hair_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth" beard_cover_type="type3" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="kappa_helmet_b" name="Kappa Technician Cap" mesh="kappa_helmet_b" culture="Culture.empire" weight="0.5" appearance="1" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" hair_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth" beard_cover_type="type3" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="rabbit_infantry_armor_a" name="Rabbit Infantry Armor" mesh="rabbit_infantry_armor_a" culture="Culture.empire" weight="1.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="15" leg_armor="5" arm_armor="10" body_cover_type="type3" hide_underwear_top="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="rabbit_infantry_armor_b" name="Rabbit Infantry Armor with Cape" mesh="rabbit_infantry_armor_b" culture="Culture.empire" weight="1.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="15" leg_armor="5" arm_armor="10" body_cover_type="type3" hide_underwear_top="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="rabbit_infantry_boots_a" name="Rabbit Infantry Boots" mesh="rabbit_infantry_boots_a" culture="Culture.empire" weight="1.0" appearance="1" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="5" leg_cover_type="type3" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="rabbit_infantry_helmet_a" name="Rabbit Infantry Helmet" mesh="rabbit_infantry_helmet_a" culture="Culture.empire" weight="0.5" appearance="1" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3" />
+    </ItemComponent>
+  </Item>
+  
+  <Item id="sg_sword_a" name="Kappa Heat-Sword" is_merchandise="false" body_name="bo_mace_a" recalculate_body="true" mesh="sg_sword_a" culture="Culture.empire" value="4" weight="9.5" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+    <ItemComponent>
+      <Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_damage="600" thrust_speed="80" swing_damage="600" swing_speed="90" speed_rating="90" missile_speed="0" weapon_length="110" thrust_damage_type="Blunt" swing_damage_type="Cut" item_usage="onehanded_shield_swing" physics_material="metal_weapon">
+        <WeaponFlags MeleeWeapon="true" />
+      </Weapon>
+    </ItemComponent>
+  </Item>
+  
+  <Item id="sg_shield_a"
+        name="Kappa Heavy Shield"
+        body_cap_name="bo_cap_sg_shield_a"
+        shield_body_name="bo_sg_shield_a"
+        recalculate_body="false"
+        mesh="sg_shield_a"
+        using_tableau="true"
+        weight="3"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="0.0,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="5"
+              thrust_speed="62"
+              thrust_damage_type="Blunt"
+              speed_rating="62"
+              physics_material="metal_shield"
+              item_usage="hand_shield"
+              position="0.04, -0.01, 0.0"
+              rotation="254.50,-62.10,8.70"
+              weapon_length="140"
+              center_of_mass="0.0,0.065,0.05"
+              hit_points="200"
+              item_modifier_group="shield_wood">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true" />
+  </Item>
+  
+  <Item id="et_rifle_a"
+        name="Rifle"
+        body_name="bo_mace_a"
+        mesh="et_rifle_a"
+        culture="Culture.neutral_culture"
+        value="100"
+        is_merchandise="false"
+        weight="8.5"
+        difficulty="0"
+        Type="Musket"
+        AmmoOffset="0.0, 0.00031, 0.22650"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+    <ItemComponent>
+      <Weapon weapon_class="Musket"
+              ammo_class="Cartridge"
+			  firearm_trigger="Bolt"
+			  clip_capacity="5"
+			  muzzle_position="0.0, -0.036902, 0.793723"
+			  gunshot_flash="ps_gunfire"
+			  gunshot_sound="tha/combat/rifle_fire_a"
+              missile_speed="150"
+              accuracy="95"
+              thrust_damage="60"
+              thrust_speed="110"
+              speed_rating="95"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0.4">
+        <WeaponFlags RangedWeapon="true"
+                     AutoReload="true"
+                     NotUsableWithOneHand="true" />
+      </Weapon>
+	  <!--Weapon weapon_class="TwoHandedPolearm"
+              weapon_balance="100"
+              thrust_speed="87"
+              speed_rating="80"
+              physics_material="wood_weapon"
+              weapon_length="200"
+              swing_damage="5"
+              thrust_damage="2"
+              swing_damage_type="Blunt"
+              thrust_damage_type="Blunt"
+              item_usage="polearm_block_thrust">
+        <WeaponFlags MeleeWeapon="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     WideGrip="true" />
+      </Weapon-->
+    </ItemComponent>
+  </Item>
+  
+  <Item id="et_firearm_ammo_a"
+        name="Rifle Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="empty_mesh"
+        holster_mesh="empty_mesh"
+        holster_mesh_with_weapon="empty_mesh"
+        flying_mesh="bullet_yellowtracer"
+        weight="0.01"
+        appearance="0.5"
+        Type="Bullets"
+        item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+    <ItemComponent>
+      <Weapon weapon_class="Cartridge"
+              thrust_damage_type="Pierce"
+              thrust_damage="80"
+              stack_amount="100"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="150"
+              weapon_length="37"
+              item_usage=""
+              passby_sound_code="event:/mission/combat/missile/passby"
+			  trail_particle_name="ps_bullet_yellow"
+              rotation="180, 0, 0"
+              physics_material="missile_bullet"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags AttachAmmoToVisual="false"
+                     Consumable="true"
+					 FirearmAmmo="true"
+					 LeavesTrail="true"
+                     AmmoBreaksOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="false" />
+  </Item>
+  
+  <Item id="et_rifle_a_melee"
+        name="Rifle"
+        is_merchandise="false"
+        body_name="bo_push_fork"
+        recalculate_body="true"
+        mesh="et_rifle_a"
+        subtype="two_handed_wpn"
+        weight="8.5"
+        difficulty="0"
+        appearance="0.1"
+        Type="Polearm"
+        item_holsters="polearm_back:polearm_back_2">
+    <ItemComponent>
+      <Weapon weapon_class="TwoHandedPolearm"
+              weapon_balance="100"
+              thrust_speed="100"
+              speed_rating="100"
+              physics_material="wood_weapon"
+              weapon_length="120"
+              swing_damage="40"
+              thrust_damage="150"
+              swing_damage_type="Cut"
+              thrust_damage_type="Pierce"
+              item_usage="polearm_block_thrust">
+        <WeaponFlags MeleeWeapon="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     WideGrip="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           DoNotScaleBodyAccordingToWeaponLength="true" />
+  </Item>
+  
+  <Item id="sg_rifle_a"
+        name="Carbine"
+        body_name="bo_mace_a"
+        mesh="sg_rifle_a"
+        culture="Culture.neutral_culture"
+        value="100"
+        is_merchandise="false"
+        weight="4.5"
+        difficulty="0"
+        Type="Musket"
+        AmmoOffset="0.0, 0.00031, 0.22650"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+    <ItemComponent>
+      <Weapon weapon_class="Musket"
+              ammo_class="Cartridge"
+			  firearm_trigger="Semi"
+			  clip_capacity="5"
+			  muzzle_position="0.0, -0.036902, 0.693723"
+			  gunshot_flash="ps_gunfire"
+			  gunshot_sound="tha/combat/carbine_fire_b"
+              missile_speed="150"
+              accuracy="80"
+              thrust_damage="300"
+              thrust_speed="110"
+              speed_rating="95"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0.4">
+        <WeaponFlags RangedWeapon="true"
+                     NotUsableWithOneHand="true" />
+      </Weapon>
+	  <!--Weapon weapon_class="TwoHandedPolearm"
+              weapon_balance="100"
+              thrust_speed="87"
+              speed_rating="80"
+              physics_material="wood_weapon"
+              weapon_length="200"
+              swing_damage="5"
+              thrust_damage="2"
+              swing_damage_type="Blunt"
+              thrust_damage_type="Blunt"
+              item_usage="polearm_block_thrust">
+        <WeaponFlags MeleeWeapon="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     WideGrip="true" />
+      </Weapon-->
+    </ItemComponent>
+  </Item>
+  
+  <Item id="sg_firearm_ammo_a"
+        name="Carbine Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="empty_mesh"
+        holster_mesh="empty_mesh"
+        holster_mesh_with_weapon="empty_mesh"
+        flying_mesh="bullet_greentracer"
+        weight="0.01"
+        appearance="0.5"
+        Type="Bullets"
+        item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+    <ItemComponent>
+      <Weapon weapon_class="Cartridge"
+              thrust_damage_type="Pierce"
+              thrust_damage="80"
+              stack_amount="100"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="150"
+              weapon_length="37"
+              item_usage=""
+              passby_sound_code="event:/mission/combat/missile/passby"
+			  trail_particle_name="ps_bullet_green"
+              rotation="180, 0, 0"
+              physics_material="missile_bullet"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags AttachAmmoToVisual="false"
+                     Consumable="true"
+					 FirearmAmmo="true"
+					 LeavesTrail="true"
+                     AmmoBreaksOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="false" />
+  </Item>
+</Items>

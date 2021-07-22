@@ -7,5 +7,6 @@
     <managed_core_parameter id="CampaignMapMaxAllowedDistanceFromCenterPointX" value="720"/>
     <managed_core_parameter id="CampaignMapMaxAllowedDistanceFromCenterPointY" value="720"/>
     <managed_core_parameter id="CampaignMapMaxAllowedCameraHeight" value="1000"/>
+	<managed_core_parameter id="AirFrictionBullet" value="0.001"/>
   </managed_core_parameters>
 </base>

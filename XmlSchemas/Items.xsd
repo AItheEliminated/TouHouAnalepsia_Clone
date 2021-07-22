@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This schema is not necessary. The game will only left a harmless warning in the log if without it.-->
+<xs:schema id="Items" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Items" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Item">
+          <xs:complexType>
+            <xs:sequence>
+			  <xs:attribute name="item_script" type="xs:string" use="optional" />
+			  <xs:attribute name="item_script_param" type="xs:string" use="optional" />
+			  <xs:attribute name="item_script_params" type="xs:string" use="optional" />
+			  <xs:attribute name="vector_argument_1" type="xs:string" use="optional" />
+			  <xs:attribute name="vector_argument_2" type="xs:string" use="optional" />
+              <xs:element name="ItemComponent" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+				    <xs:element name="Weapon" minOccurs="0" maxOccurs="unbounded">
+					  <xs:complexType>
+					    <xs:attribute name="firearm_trigger" type="xs:string" use="optional" />
+						<xs:attribute name="clip_capacity" type="xs:int" use="optional" />
+						<xs:attribute name="muzzle_position" type="xs:string" use="optional" />
+						<xs:attribute name="gunshot_flash" type="xs:string" use="optional" />
+						<xs:attribute name="gunshot_sound" type="xs:string" use="optional" />
+					  </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Armor" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="body_cover_type" type="xs:string" use="optional" />
+                        <xs:attribute name="arm_cover_type" type="xs:string" use="optional" />
+                        <xs:attribute name="foot_horizontal_cover_type" type="xs:string" use="optional" />
+                        <xs:attribute name="foot_vertical_cover_type" type="xs:string" use="optional" />
+						<xs:attribute name="leg_cover_type" type="xs:string" use="optional" />
+						<xs:attribute name="higher_foot" type="xs:boolean" use="optional" />
+						<xs:attribute name="hide_underwear_top" type="xs:boolean" use="optional" />
+						<xs:attribute name="hide_underwear_bottom" type="xs:boolean" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -4,9 +4,9 @@ using StoryMode;
 using StoryMode.Behaviors;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
+using System.Reflection.Emit;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.SandBox.GameComponents.Map;
 using TaleWorlds.CampaignSystem.SandBox.GameComponents.Party;
@@ -318,6 +318,22 @@ namespace TouhouAnalepsia {
 				Logger.Log("End Log for SiegeEvent");
 				return true;
 			}
+		}
+
+#if !NETFRAMEWORK
+		private static FieldInfo fieldCodeInstructionLabels = AccessTools.Field(typeof(CodeInstruction), "labels");
+		private static MethodInfo methodListAdd = AccessTools.Method(typeof(List<Label>), "Add");
+#endif
+
+		public static CodeInstruction CreateCodeInstructionWithLabel(OpCode opcode, object operand, Label label)
+		{
+			var code = new CodeInstruction(opcode, operand);
+#if NETFRAMEWORK
+			code = code.WithLabels(label);
+#else
+			methodListAdd.Invoke(fieldCodeInstructionLabels.GetValue(code), new object[] {label});
+#endif
+			return code;
 		}
 	}
 }

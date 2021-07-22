@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      type="skin">
+  <skins>
+    <skin id="skin_default_id"
+          gender="1"
+          name="woman"
+          mesh_maturity_type ="adult"
+          morph_key="0"
+          uses_stitching="false"
+          body_mesh_suffix="_fem"
+          min_scale ="1.06"
+          skeleton="human_skeleton"
+          body_meta_mesh="body_female_th"
+          body_meta_mesh_shoulders="body_female_th"
+          body_meta_mesh_upperbody="box_a"
+          legs_mesh="feet_female_th"
+          hands_mesh="hands_female_th"
+          face_meta_mesh="head_female_th"
+          underwear_bottom_mesh="underwear_bottom_th_a"
+          underwear_top_mesh="underwear_top_th_a" >
+      <hair_meshes group_id="7">
+        <hair_mesh>
+          <style_tags>
+            <style_tag name ="Bald"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="LongOvershoulder"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="TiedLongOverShoulder"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="AboveShoulderLength"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="TiedInBack"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="BraidedInBack"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="ShoulderLengthTied"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="Short"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="Cornrows"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="CornrowMohawk"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="BraidedAboveEars"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="Ukrainian"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="VeryShort"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="RestingOnShoulders"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="Bobbed"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="Native Braids"/>
+          </style_tags>
+        </hair_mesh>
+		<hair_mesh>
+          <style_tags>
+            <style_tag name ="High Ponytail"/>
+          </style_tags>
+        </hair_mesh>
+      </hair_meshes>
+      <eyebrow_meshes >
+        <eyebrow_mesh name="female_eyebrow_th_1" />
+      </eyebrow_meshes>
+
+      <beard_meshes>
+        <beard_mesh />
+      </beard_meshes>
+
+      <tattoo_materials group_id="8"
+                        zero_probability="100">
+
+
+        <tattoo_material name="tattoo_female_a_mat"
+                         tags="tattoo1" >
+          <style_tags>
+            <style_tag name ="eastern"/>
+          </style_tags>
+        </tattoo_material>
+        <tattoo_material name="tattoo_female_b_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_c_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_d_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_e_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_f_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_g_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_h_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_i_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_j_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_k_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_l_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_m_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_n_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_o_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_p_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_q_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_r_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_s_mat"
+                         tags="tattoo1" />
+        <tattoo_material name="tattoo_female_t_mat"
+                         tags="tattoo1" />
+
+						 
+						 
+						 
+        <tattoo_material name="scar_male_a"
+                         tags="scar" />
+        <tattoo_material name="scar_male_b"
+                         tags="scar" />
+        <tattoo_material name="scar_male_c"
+                         tags="scar,blindrighteye" />
+        <tattoo_material name="scar_male_d"
+                         tags="scar" />
+        <tattoo_material name="scar_male_e"
+                         tags="scar" />
+        <!-- <tattoo_material name="scar_male_f" tags="scar" /> -->
+        <tattoo_material name="scar_male_g"
+                         tags="scar,blindrighteye" />
+        <tattoo_material name="scar_male_h"
+                         tags="scar" />
+        <tattoo_material name="scar_male_i"
+                         tags="scar,blindrighteye" />
+        <tattoo_material name="scar_male_j"
+                         tags="scar,blindlefteye" />
+        <tattoo_material name="scar_male_k"
+                         tags="scar" />
+        <tattoo_material name="scar_male_l"
+                         tags="scar" />
+        <tattoo_material name="scar_male_m"
+                         tags="scar,blindlefteye" />
+        <tattoo_material name="scar_male_n"
+                         tags="scar" />
+
+
+      </tattoo_materials>
+      <tattoo_color_gradient_points>
+        <tattoo_color_gradient_point point="0.33, 0.00, 0.00" />	  
+        <tattoo_color_gradient_point point="0.50, 0.05, 0.00" />
+        <tattoo_color_gradient_point point="0.66, 0.40, 0.00" />
+        <tattoo_color_gradient_point point="0.66, 0.66, 0.00" />	
+        <tattoo_color_gradient_point point="0.10, 0.50, 0.00" />
+        <tattoo_color_gradient_point point="0.40, 0.55, 0.66" />		
+        <tattoo_color_gradient_point point="0.00, 0.30, 0.50" />
+        <tattoo_color_gradient_point point="0.30, 0.20, 0.60" />
+        <tattoo_color_gradient_point point="0.80, 0.30, 0.40" />	
+        <tattoo_color_gradient_point point="1.00, 1.00, 1.00" />
+        <tattoo_color_gradient_point point="0.33, 0.33, 0.33" />
+        <tattoo_color_gradient_point point="0.05, 0.05, 0.05" />		
+      </tattoo_color_gradient_points> 		
+	  
+      <hair_color_gradient_points>
+	    <!-- Dummy colors. The actual colors will be read from skin_hair_colors -->
+	    <hair_color_gradient_point color_to_point="#131313ff" />
+	    <hair_color_gradient_point color_to_point="#1b1b1bff" />
+      </hair_color_gradient_points>
+	  
+      <skin_color_gradient_points>
+        <skin_color_gradient_point point="1.0, 1.0, 1.0" />		
+        <skin_color_gradient_point point="0.90, 0.80, 0.72" />	
+        <skin_color_gradient_point point="0.87, 0.76, 0.70" />
+        <skin_color_gradient_point point="0.76, 0.64, 0.60" />		
+		
+        <skin_color_gradient_point point="0.85, 0.82, 0.65" />		
+        <skin_color_gradient_point point="0.76, 0.70, 0.55" />
+        <skin_color_gradient_point point="0.68, 0.60, 0.45" />
+        <skin_color_gradient_point point="0.60, 0.52, 0.36" />		
+
+        <skin_color_gradient_point point="0.82, 0.70, 0.45" />	
+        <skin_color_gradient_point point="0.71, 0.59, 0.38" />		
+        <skin_color_gradient_point point="0.60, 0.48, 0.29" />		
+        <skin_color_gradient_point point="0.49, 0.37, 0.22" />	
+	
+        <skin_color_gradient_point point="0.50, 0.40, 0.30" />	
+        <skin_color_gradient_point point="0.43, 0.33, 0.25" />		
+        <skin_color_gradient_point point="0.36, 0.27, 0.20" />		
+        <skin_color_gradient_point point="0.33, 0.25, 0.17" />	
+		
+        <skin_color_gradient_point point="0.35, 0.25, 0.21" />	
+        <skin_color_gradient_point point="0.30, 0.21, 0.18" />		
+        <skin_color_gradient_point point="0.25, 0.15, 0.12" />		
+        <skin_color_gradient_point point="0.20, 0.12, 0.09" />			
+		
+        <skin_color_gradient_point point="0.22, 0.20, 0.16" />			
+        <skin_color_gradient_point point="0.17, 0.17, 0.15" />		
+        <skin_color_gradient_point point="0.13, 0.11, 0.09" />
+        <skin_color_gradient_point point="0.09, 0.08, 0.04" />
+      </skin_color_gradient_points>
+	  
+      <eye_color_gradient_points>
+		<!-- Dummy colors. The actual colors will be read from skin_eye_colors -->
+        <eye_color_gradient_point point="0.6, 0.7, 0.8" />
+        <eye_color_gradient_point point="0.02, 0.01, 0.01" />
+      </eye_color_gradient_points>
+	  
+      <face_textures>
+        <face_texture name="head_female_th"
+                      lod_material="head_female_th"
+                      color="0xFFCAD3E0"
+                      tags="face_texture2,face_texture3,face_texture4">
+        </face_texture>
+      </face_textures>
+	  
+      <mouth_textures group_id="4">
+        <mouth_texture name="eye_th_1"
+                       lod_material="eye_th_1"
+                       color="0xFFFFFFFF"
+                       tags="mouth_texture1,mouth_texture2,mouth_texture3,mouth_texture4,mouth_texture5,mouth_texture6,mouth_texture7,mouth_texture8">
+        </mouth_texture>
+      </mouth_textures>
+	  
+      <voice_types>
+        <voice_type name="female_01" />
+        <voice_type name="female_02" />
+        <voice_type name="female_03" />
+		<voice_type name="female_04" />
+		<voice_type name="female_05" />
+      </voice_types>
+
+      <constraints>
+        <constraint proportional_negative_and_positive="1.0" >
+          <term coefficient="1.0"
+                key_id="height" />
+          <term coefficient="1.0"
+                key_id="head_scaling" />
+        </constraint>
+        <constraint proportional_negative_and_positive="1.0" >
+          <term coefficient="1.0"
+                key_id="age" />
+          <term coefficient="1.0"
+                key_id="kid_face" />
+        </constraint>
+      </constraints>
+	  
+	  <deform_keys>
+        <deform_key id="face_width"
+                    key_time_point="1"
+                    name="Face Width"
+                    group_id="1" >
+			<bone_scales>
+            <bone_scale bone_type="biped_head"
+                        axis="x"
+                        key_min="0.9"
+                        key_max="1.1" />
+            <bone_scale bone_type="biped_head"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_head"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+          </bone_scales>
+		</deform_key>
+        <deform_key id="face_height"
+                    key_time_point="2"
+                    name="Face Height"
+                    group_id="1" >
+			<bone_scales>
+            <bone_scale bone_type="biped_head"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_head"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_head"
+                        axis="z"
+                        key_min="0.9"
+                        key_max="1.1" />
+          </bone_scales>
+		</deform_key>
+        <deform_key id="eye_position"
+                    key_time_point="3"
+                    key_min="-0.2"
+                    key_max="1.0"
+                    name="Eye Position"
+                    group_id="1" />
+        <deform_key id="eye_to_eye_distance"
+                    key_time_point="4"
+                    key_min="-0.2"
+                    key_max="1"
+                    name="Eye To Eye Distance"
+                    group_id="1" />
+        <deform_key id="eye_width"
+                    key_time_point="5"
+                    key_min="-0.5"
+                    key_max="1.0"
+                    name="Eye Width"
+                    group_id="1" />
+		<deform_key id="eye_depth"
+                    key_time_point="6"
+                    key_min="-0.5"
+                    key_max="1.0"
+                    name="Eye Depth"
+                    group_id="1" />
+        <deform_key id="face_sharpness"
+                    key_time_point="7"
+                    key_min="0.0"
+                    key_max="1.0"
+                    name="Face Sharpness"
+                    group_id="1" />
+		<deform_key id="mouth_width"
+                    key_time_point="8"
+                    key_min="0.0"
+                    key_max="1.0"
+                    name="Mount Width"
+                    group_id="1" />
+		<deform_key id="left_cuspids"
+                    key_time_point="9"
+                    key_min="0.0"
+                    key_max="1.0"
+                    name="Left Cuspids"
+                    group_id="1" />
+		<deform_key id="right_cuspids"
+                    key_time_point="10"
+                    key_min="0.0"
+                    key_max="1.0"
+                    name="Right Cuspids"
+                    group_id="1" />
+		<deform_key id="ear_shape"
+                    key_time_point="11"
+                    key_min="0.0"
+                    key_max="1.0"
+                    name="Ear Shape"
+                    group_id="1" />
+		<deform_key id="face_reserve_1"
+                    key_time_point="12"
+                    name="Face Reserve 1"
+                    group_id="-1" />
+		<deform_key id="face_reserve_2"
+                    key_time_point="13"
+                    name="Face Reserve 2"
+                    group_id="-1" />
+		<deform_key id="face_reserve_3"
+                    key_time_point="14"
+                    name="Face Reserve 3"
+                    group_id="-1" />
+		<deform_key id="face_reserve_4"
+                    key_time_point="15"
+                    name="Face Reserve 4"
+                    group_id="-1" />
+		<deform_key id="eye_shape"
+                    key_time_point="16"
+                    name="Eye Shape"
+                    group_id="1" />
+		<deform_key id="neck_length"
+                    key_time_point="17"
+                    name="Neck Length"
+                    group_id="2" >
+			<bone_scales>
+            <bone_scale bone_type="biped_neck"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_neck"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_neck"
+                        axis="z"
+                        key_min="0.8"
+                        key_max="1.2" />
+          </bone_scales>
+		</deform_key>
+		<deform_key id="head_scaling"
+                    key_time_point="55"
+                    name="Head Scaling"
+                    group_id="-1" >
+			<bone_scales>
+            <bone_scale bone_type="biped_head"
+                        axis="x"
+                        key_min="0.95"
+                        key_max="1.05" />
+            <bone_scale bone_type="biped_head"
+                        axis="y"
+                        key_min="0.95"
+                        key_max="1.05" />
+            <bone_scale bone_type="biped_head"
+                        axis="z"
+                        key_min="0.95"
+                        key_max="1.05" />
+          </bone_scales>
+		</deform_key>
+        <deform_key id="hide_ears"
+                    key_time_point="56"
+                    key_min="0"
+                    key_max="1.5"
+                    name="Hide Ears"
+                    group_id="-1"
+                    auto_activate_when_ears_are_hidden="true" />
+        <deform_key id="old_face"
+                    key_time_point="57"
+                    key_min="-0.25"
+                    key_max="1.25"
+                    name="Old face"
+                    group_id="-1" />					
+        <deform_key id="kid_face"
+                    key_time_point="58"
+                    key_min="0.0"
+                    key_max="-0.15"
+                    name="kid face"
+                    group_id="-1" />
+        <deform_key id="eyebump"
+                    key_time_point="59"
+                    key_min="1"
+                    key_max="1"
+                    name="eyebump"
+                    group_id="-1" />
+					
+        <deform_key id="weight"
+                    key_time_point="60"
+                    name="Weight"
+                    group_id="0">
+          <bone_scales>
+            <bone_scale bone_type="biped_abdomen"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_abdomen"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_abdomen"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_thigh_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thigh_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thigh_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_calf_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_calf_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_calf_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_thigh_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thigh_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thigh_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_calf_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_calf_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_calf_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_spine_2"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_2"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_2"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_1"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_1"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_1"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_thorax"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thorax"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thorax"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_neck"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_neck"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_neck"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_head"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_head"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_head"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+
+
+            <bone_scale bone_type="biped_shoulder_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_shoulder_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_shoulder_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_upperarm_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_forearm_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_forearm_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_forearm_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_hand_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_hand_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_hand_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_shoulder_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_shoulder_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_shoulder_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_upperarm_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_forearm_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_forearm_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_forearm_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_hand_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_hand_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_hand_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+          </bone_scales>
+        </deform_key>
+
+
+        <deform_key id="build"
+                    key_time_point="61"
+                    name="Build"
+                    group_id="0">
+          <bone_scales>
+            <bone_scale bone_type="biped_abdomen"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_abdomen"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_abdomen"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_thigh_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thigh_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thigh_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_upperarm_twist1_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_twist1_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_twist1_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+
+
+            <bone_scale bone_type="biped_upperarm_twist1_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_twist1_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_twist1_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_calf_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_calf_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_calf_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_foot_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_thigh_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thigh_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thigh_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_calf_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_calf_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_calf_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_foot_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_foot_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_spine_1"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_1"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_1"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_2"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_2"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_spine_2"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_thorax"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thorax"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_thorax"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_neck"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_neck"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_neck"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_head"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_head"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_shoulder_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_shoulder_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_shoulder_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_upperarm_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_forearm_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_forearm_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_forearm_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_hand_l"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_hand_l"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_hand_l"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_shoulder_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1"/>
+            <bone_scale bone_type="biped_shoulder_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_shoulder_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_upperarm_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_upperarm_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_forearm_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_forearm_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_forearm_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+
+            <bone_scale bone_type="biped_hand_r"
+                        axis="x"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_hand_r"
+                        axis="y"
+                        key_min="1"
+                        key_max="1" />
+            <bone_scale bone_type="biped_hand_r"
+                        axis="z"
+                        key_min="1"
+                        key_max="1" />
+          </bone_scales>
+        </deform_key>
+
+        <deform_key id="height"
+                    key_time_point="62"
+                    name="Height Multiplier"
+                    group_id="0" />
+        <deform_key id="age"
+                    key_time_point="63"
+                    name="Age"
+                    group_id="0" />
+
+        <!-- the last key is used from the application for post modifications, do not delete the entry 
+      <deform_key id="skinkey_post_edit" key_time_point="10" key_min="0" key_max="1" name="Post-Edit" group_id="4" />-->
+      </deform_keys>
+    </skin>
+  </skins>
+</base>

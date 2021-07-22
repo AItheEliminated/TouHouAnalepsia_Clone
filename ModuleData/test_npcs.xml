@@ -5,29 +5,126 @@
                 name="Unlucky Subject"
                 occupation="Lord"
                 culture="Culture.empire"
-				skill_template="NPCCharacter.custombattle_commander_1_template_skills"
+				skill_template="SkillSet.ranged_skirmisher_highestlevel_template_skills"
+				is_female="true"
 				is_hero="true">
     <face>
-      <BodyProperties version="4" age="20.00" weight="0.5" build="0.5" key="0011EC0B50BC300A2066863557753595A1777484498A96249AE82FB67BAAAFF7000556550530B285000000000000000000000000000000000000000000F41040" />
+      <BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="0005B8000000000D7C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000083AF40003"/>
     </face>
     <Traits>
-      <Trait id="BalancedFightingSkills" value="7" />
     </Traits>
     <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.empire_sword_4_t4" />
-        <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
-        <equipment slot="Item2" id="Item.composite_steppe_bow" />
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.oonusa" />
+        <equipment slot="Item2" id="Item.yumi" />
         <equipment slot="Item3" id="Item.bodkin_arrows_a" />
-        <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
-        <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
-        <equipment slot="Cape" id="Item.studded_imperial_neckguard" />
-        <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
-        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
-        <equipment slot="Horse" id="Item.aserai_horse" />
-        <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
-      </EquipmentRoster>
-      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+		<equipment slot="Body" id="Item.reimu_clothes" />
+        <equipment slot="Leg" id="Item.reimu_shoes" />
+        <equipment slot="Head" id="Item.reimu_head" />
+        <!--equipment slot="Horse" id="Item.aserai_horse" />
+        <equipment slot="HorseHarness" id="Item.imperial_scale_barding" /-->
+	  </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="sg_kappa_1"
+                level="20"
+                name="Kappa Battle Technician"
+                occupation="Soldier"
+				default_group="Ranged"
+                culture="Culture.empire"
+				skill_template="SkillSet.infantry_heavyinfantry_highestlevel_template_skills"
+				is_female="true">
+    <face>
+      <BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="0005B8000000000D7C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000083AF40003"/>
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+	  <EquipmentRoster>
+		<equipment slot="Item0" id="Item.sg_sword_a" />
+		<equipment slot="Item1" id="Item.sg_shield_a" />
+		<equipment slot="Body" id="Item.kappa_tech_armor_a" />
+        <equipment slot="Leg" id="Item.kappa_tech_boots_a" />
+        <equipment slot="Head" id="Item.kappa_helmet_a" />
+        <!--equipment slot="Horse" id="Item.aserai_horse" />
+        <equipment slot="HorseHarness" id="Item.imperial_scale_barding" /-->
+	  </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="sg_kappa_2"
+                level="20"
+                name="Kappa Battle Technician"
+                occupation="Soldier"
+				default_group="Ranged"
+                culture="Culture.empire"
+				skill_template="SkillSet.ranged_skirmisher_highestlevel_template_skills"
+				is_female="true">
+    <face>
+      <BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="0005B8000000000D7C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000083AF40003"/>
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sg_rifle_a" />
+        <equipment slot="Item1" id="Item.sg_firearm_ammo_a" />
+		<equipment slot="Item2" id="Item.sg_sword_a" />
+		<equipment slot="Body" id="Item.kappa_tech_armor_b" />
+        <equipment slot="Leg" id="Item.kappa_tech_boots_b" />
+        <equipment slot="Head" id="Item.kappa_helmet_a" />
+        <!--equipment slot="Horse" id="Item.aserai_horse" />
+        <equipment slot="HorseHarness" id="Item.imperial_scale_barding" /-->
+	  </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="sg_kappa_trailer"
+                level="20"
+                name="Kappa Trailer Hacker"
+                occupation="Soldier"
+				default_group="Ranged"
+                culture="Culture.empire"
+				skill_template="SkillSet.ranged_skirmisher_highestlevel_template_skills"
+				is_female="true">
+    <face>
+      <BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="0005B8000000000D7C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000083AF40003"/>
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sg_sword_a" />
+		<equipment slot="Item1" id="Item.sg_shield_a" />
+		<equipment slot="Body" id="Item.kappa_tech_armor_b" />
+        <equipment slot="Leg" id="Item.kappa_tech_boots_b" />
+        <equipment slot="Head" id="Item.kappa_helmet_a" />
+        <!--equipment slot="Horse" id="Item.aserai_horse" />
+        <equipment slot="HorseHarness" id="Item.imperial_scale_barding" /-->
+	  </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="et_rabbit_1"
+                level="20"
+                name="Eientei Riflerabbit"
+                occupation="Soldier"
+				default_group="Ranged"
+                culture="Culture.empire"
+				skill_template="SkillSet.ranged_skirmisher_highestlevel_template_skills"
+				is_female="true">
+    <face>
+      <BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="0005B8000000000D7C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000083AF40003"/>
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.et_rifle_a" />
+        <equipment slot="Item1" id="Item.et_firearm_ammo_a" />
+		<equipment slot="Body" id="Item.rabbit_infantry_armor_b" />
+        <equipment slot="Leg" id="Item.rabbit_infantry_boots_a" />
+        <equipment slot="Head" id="Item.rabbit_infantry_helmet_a" />
+        <!--equipment slot="Horse" id="Item.aserai_horse" />
+        <equipment slot="HorseHarness" id="Item.imperial_scale_barding" /-->
+	  </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
 </NPCCharacters>

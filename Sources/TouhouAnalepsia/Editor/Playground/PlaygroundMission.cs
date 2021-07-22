@@ -1,9 +1,13 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using TaleWorlds.Core;
 using TaleWorlds.Engine;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.Source.Missions;
+using TouhouAnalepsia.Utils;
+using TouhouAnalepsia.Visuals;
 
 namespace TouhouAnalepsia.Editor.Playground
 {
@@ -56,11 +60,19 @@ namespace TouhouAnalepsia.Editor.Playground
 
 			public override void AfterStart()
 			{
-				BasicCharacterObject player = this._game.ObjectManager.GetObject<BasicCharacterObject>("testguy");
+				BasicCharacterObject player = this._game.ObjectManager.GetObject<BasicCharacterObject>("et_rabbit_1");
 				MatrixFrame identity = GetPlayerSideSpawnFrameInSettlement(true);
 				AgentBuildData agentBuildData = new AgentBuildData(player);
 				agentBuildData.InitialFrame(identity).Controller(Agent.ControllerType.Player);
 				Mission.SpawnAgent(agentBuildData, false, 0).WieldInitialWeapons(Agent.WeaponWieldActionType.InstantAfterPickUp);
+
+				BasicCharacterObject npc = this._game.ObjectManager.GetObject<BasicCharacterObject>("testguy");
+				agentBuildData = new AgentBuildData(npc);
+				agentBuildData.InitialFrame(identity).Controller(Agent.ControllerType.AI);
+				Mission.SpawnAgent(agentBuildData, false, 0).WieldInitialWeapons(Agent.WeaponWieldActionType.InstantAfterPickUp);
+				Mission.SpawnAgent(agentBuildData, false, 0).WieldInitialWeapons(Agent.WeaponWieldActionType.InstantAfterPickUp);
+
+				Mission.CombatType = Mission.MissionCombatType.Combat;
 			}
 
 			public override bool MissionEnded(ref MissionResult missionResult)
