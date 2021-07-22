@@ -43,6 +43,11 @@ namespace TouhouAnalepsia.Editor.Cinema
 			MetaMesh frontHair = null, backHair = null;
 			uint hairColor = 0;
 			var agentVisuals = agent.AgentVisuals;
+			if (agentVisuals == null || agent.Character == null || 
+			    false == (agent.Character.GetName()?.ToString() != null))
+			{
+				return;
+			}
 			if (agent.Character.GetName().ToString().ToLower().Contains("rabbit"))
 			{
 				agentVisuals.GetHeadMetaMeshOfVisuals(out var head,

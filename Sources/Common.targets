@@ -1,279 +1,140 @@
 <Project>
-
 	<PropertyGroup>
-
 		<ReferenceAssembliesVersion>1.6.0.273005</ReferenceAssembliesVersion> <!-- Bannerlord Version -->
-
 	</PropertyGroup>
-
-
 
 	<!-- Import the user settings -->
-
 	<Import Project="UserSettings.props" Condition="exists('UserSettings.props')" />
 
-
-
 	<PropertyGroup Condition="'$(RunningOnCI)'=='true' Or '$(VSCode)'=='true'">
-
 		<TargetFramework>netstandard2.0</TargetFramework>
-
 		<!-- Disable warning about mismatched target frameworks between project and library -->
-
 		<NoWarn>NU1701;MSB3274</NoWarn>
-
 		<!-- Disable warning MSB3270 for VSCode. However, this project should always be built with AMD64 -->
-
 		<ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
-
 	</PropertyGroup>
-
-
 
 	<PropertyGroup Condition="'$(RunningOnCI)'!='true' And '$(VSCode)'!='true'">
-
 		<TargetFramework>net461</TargetFramework>
-
 	</PropertyGroup>
-
-
 
 	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
-
 		<Optimize>false</Optimize>
-
 		<DebugSymbols>true</DebugSymbols>
-
 		<DefineConstants>DEBUG</DefineConstants>
-
 	</PropertyGroup>
-
-
 
 	<PropertyGroup Condition="'$(Configuration)'=='Debug' And '$(VSCode)'=='true'">
-
 		<DebugType>portable</DebugType>
-
 	</PropertyGroup>
-
-
 
 	<PropertyGroup Condition="'$(Configuration)'=='Debug' And '$(VSCode)'!='true'">
-
 		<DebugType>full</DebugType>
-
 	</PropertyGroup>
-
-
 
 	<PropertyGroup Condition="'$(Configuration)'=='Release'">
-
 		<Optimize>true</Optimize>
-
 		<DebugType>none</DebugType>
-
 		<DebugSymbols>false</DebugSymbols>
-
 	</PropertyGroup>
-
-
 
 	<!-- Fill the properties with default values if no user settings found -->
-
 	<PropertyGroup>
-
 		<PreferEditor Condition="'$(PreferEditor)' == ''">false</PreferEditor>
-
 		<ReleaseOutputDirectory Condition="'$(ReleaseOutputDirectory)' == ''">..\..\bin\Win64_Shipping_Client\</ReleaseOutputDirectory>
-
 		<EditorOutputDirectory Condition="'$(EditorOutputDirectory)' == ''">..\..\bin\Win64_Shipping_wEditor\</EditorOutputDirectory>
-
 		<OutputRelease Condition="'$(OutputRelease)' == ''">true</OutputRelease>
-
 		<OutputEditor Condition="'$(OutputEditor)' == ''">true</OutputEditor>
-
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-
 	</PropertyGroup>
 
-
-
 	<!-- Import the references -->
-
 	<Choose>
-
 		<When Condition="'$(BannerlordDirectory)'!=''">
-
 			<PropertyGroup>
-
 				<BinDirName Condition="'$(PreferEditor)' == 'false'">Win64_Shipping_Client</BinDirName>
-
 				<BinDirName Condition="'$(PreferEditor)' == 'true'">Win64_Shipping_wEditor</BinDirName>
-
 				<BannerlordDirectory>$([System.IO.Path]::GetFullPath('$(BannerlordDirectory)'))</BannerlordDirectory>
-
 				<BannerlordBinPath>$(BannerlordDirectory)\bin\$(BinDirName)</BannerlordBinPath>
-
 				<BannerlordExePath>$(BannerlordBinPath)\Bannerlord.exe</BannerlordExePath>
-
 			</PropertyGroup>
-
 			<ItemGroup>
-
 				<Reference Include="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.*.dll" Exclude="$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.Starter.DotNetCore.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.TwoDimension.SpriteSheetGenerator.Library.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.TwoDimension.Standalone.dll;$(BannerlordDirectory)\bin\$(BinDirName)\TaleWorlds.Native.dll" />
-
 				<Reference Include="$(BannerlordDirectory)\Modules\Native\bin\$(BinDirName)\*.dll" />
-
 				<Reference Include="$(BannerlordDirectory)\Modules\SandBoxCore\bin\$(BinDirName)\*.dll" />
-
 				<Reference Include="$(BannerlordDirectory)\Modules\SandBox\bin\$(BinDirName)\*.dll" />
-
 				<Reference Include="$(BannerlordDirectory)\Modules\CustomBattle\bin\$(BinDirName)\*.dll" />
-
 				<Reference Include="$(BannerlordDirectory)\Modules\StoryMode\bin\$(BinDirName)\*.dll" />
-
 			</ItemGroup>
-
 		</When>
-
 		<!-- I can't believe that you didn't set the user settings. You are either a badass who never give the readme a fuck, or a simple CI server. 
-
 		In this situation I will add some reference-only assemblies to make sure you can barely compile this project. -->
-
 		<Otherwise>
-
 			<ItemGroup>
-
 				<!-- Here is a shit anyway. Those packages target .net472 but we are using either .netstandard2 or .net461. Need some hack here. -->
-
 				<!-- Step1: Download and unzip them but don't add them to the dependency -->
-
 				<PackageReference Include="Bannerlord.ReferenceAssemblies.EarlyAccess" IncludeAssets="none" Version="$(ReferenceAssembliesVersion)" />
-
 				<PackageReference Include="Bannerlord.ReferenceAssemblies.Native.EarlyAccess" IncludeAssets="none" Version="$(ReferenceAssembliesVersion)" />
-
 				<PackageReference Include="Bannerlord.ReferenceAssemblies.Core.EarlyAccess" IncludeAssets="none" Version="$(ReferenceAssembliesVersion)" />
-
 				<PackageReference Include="Bannerlord.ReferenceAssemblies.SandBox.EarlyAccess" IncludeAssets="none" Version="$(ReferenceAssembliesVersion)" />
-
 				<PackageReference Include="Bannerlord.ReferenceAssemblies.CustomBattle.EarlyAccess" IncludeAssets="none" Version="$(ReferenceAssembliesVersion)" />
-
 				<PackageReference Include="Bannerlord.ReferenceAssemblies.StoryMode.EarlyAccess" IncludeAssets="none" Version="$(ReferenceAssembliesVersion)" />
-
 				<!-- Step2: Add the libraries directly. Skip the platform checking of nuget -->
-
 				<Reference Include="$(NuGetPackageRoot)\bannerlord.referenceassemblies.core.earlyaccess\$(ReferenceAssembliesVersion)\ref\net472\*.dll" />
-
 				<Reference Include="$(NuGetPackageRoot)\bannerlord.referenceassemblies.custombattle.earlyaccess\$(ReferenceAssembliesVersion)\ref\net472\*.dll" />
-
 				<Reference Include="$(NuGetPackageRoot)\bannerlord.referenceassemblies.earlyaccess\$(ReferenceAssembliesVersion)\ref\net472\*.dll" />
-
 				<Reference Include="$(NuGetPackageRoot)\bannerlord.referenceassemblies.native.earlyaccess\$(ReferenceAssembliesVersion)\ref\net472\*.dll" />
-
 				<Reference Include="$(NuGetPackageRoot)\bannerlord.referenceassemblies.sandbox.earlyaccess\$(ReferenceAssembliesVersion)\ref\net472\*.dll" />
-
 				<Reference Include="$(NuGetPackageRoot)\bannerlord.referenceassemblies.storymode.earlyaccess\$(ReferenceAssembliesVersion)\ref\net472\*.dll" />
-
 			</ItemGroup>
-
 		</Otherwise>
-
 	</Choose>
-
 	
-
 	<ItemGroup> <!-- Magic. see https://stackoverflow.com/questions/46534099/ -->
-
 		<_TmpCopyAfterBuild Include="@(CopyAfterBuild)" />
-
 		<CopyAfterBuild Remove="@(_TmpCopyAfterBuild)" />
-
 		<CopyAfterBuild Include="@(_TmpCopyAfterBuild->'$(ProjectDir)$(OutDir)%(Identity)')" />
-
 	</ItemGroup>
-
-
 
 	<!-- Delete the outdated assemblies -->
-
 	<ItemGroup>
-
 		<DeleteReleaseTargets Include="$(ProjectDir)$(ReleaseOutputDirectory)\*.pdb;$(ProjectDir)$(ReleaseOutputDirectory)\*.dll" />
-
 		<DeleteEditorTargets Include="$(ProjectDir)$(EditorOutputDirectory)\*.pdb;$(ProjectDir)$(EditorOutputDirectory)\*.dll" />
-
 	</ItemGroup>
-
 	<Target Name="DeleteOutdatedFile" Condition="Exists('$(IntermediateOutputPath)$(MSBuildProjectFile).CustomClean.txt')" AfterTargets="BeforeClean">
-
 		<ReadLinesFromFile
-
 			File="$(IntermediateOutputPath)$(MSBuildProjectFile).CustomClean.txt" >
-
 			<Output
-
 				TaskParameter="Lines"
-
 				ItemName="ItemsFromFile"/>
-
 		</ReadLinesFromFile>
-
 		<Delete Files="@(ItemsFromFile)" />
-
 	</Target>
-
-
 
 	<!-- Copy the assemblies after build -->
-
 	<ItemGroup Condition="'$(Configuration)'=='Debug'">
-
 		<CopyTargets Include="$(ProjectDir)$(OutDir)$(TargetName).pdb" />
-
 	</ItemGroup>
-
 	<ItemGroup>
-
 		<CopyTargets Include="$(ProjectDir)$(OutDir)$(TargetFileName);@(CopyAfterBuild)" />
-
 	</ItemGroup>
-
 	<Target Name="WriteCleanRecord" AfterTargets="PreBuildEvent">
-
 		<ItemGroup>
-
 			<FileWrites Include="@(FileWrites);$(IntermediateOutputPath)$(MSBuildProjectFile).CustomClean.txt" />
-
 		</ItemGroup>
-
 		<!-- Message Text="$(FileWrites)" Importance="high"/ -->
-
 	</Target>
-
 	<Target Name="CopyAssemblies" AfterTargets="PostBuildEvent">
-
 		<Copy Condition="'$(OutputRelease)' == 'true'" SkipUnchangedFiles="true" SourceFiles="@(CopyTargets)" DestinationFolder="$(ProjectDir)$(ReleaseOutputDirectory)">
-
 			<Output TaskParameter="CopiedFiles" ItemName="SuccessfullyCopiedReleaseFiles" />
-
 		</Copy>
-
 		<Copy Condition="'$(OutputEditor)' == 'true'" SkipUnchangedFiles="true" SourceFiles="@(CopyTargets)" DestinationFolder="$(ProjectDir)$(EditorOutputDirectory)">
-
 			<Output TaskParameter="CopiedFiles" ItemName="SuccessfullyCopiedEditorFiles" />
-
 		</Copy>
-
 		<WriteLinesToFile
-
 			File="$(IntermediateOutputPath)$(MSBuildProjectFile).CustomClean.txt"
-
 			Lines="@(SuccessfullyCopiedReleaseFiles);@(SuccessfullyCopiedEditorFiles)"
-
 			Overwrite="true"
-
 			Encoding="Unicode"/>
-
 	</Target>
-
 </Project>
