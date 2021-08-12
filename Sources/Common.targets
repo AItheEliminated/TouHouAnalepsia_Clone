@@ -1,6 +1,6 @@
 <Project>
 	<PropertyGroup>
-		<ReferenceAssembliesVersion>1.5.10.271913</ReferenceAssembliesVersion> <!-- Bannerlord Version -->
+		<ReferenceAssembliesVersion>1.6.0.273005</ReferenceAssembliesVersion> <!-- Bannerlord Version -->
 	</PropertyGroup>
 
 	<!-- Import the user settings -->

@@ -73,7 +73,7 @@ namespace TouhouAnalepsia
 
 				TouhouModelManager.initializeTouhouModels(gameStarterObject);
 
-				loadLocalizationData((CampaignGameStarter)gameStarterObject);
+				LoadLocalizationData((CampaignGameStarter)gameStarterObject);
 				//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
 				CampaignGameStarter campaignGameStarter = (CampaignGameStarter) gameStarterObject;
    				campaignGameStarter.AddBehavior(new MyCampainBehavior());
@@ -91,7 +91,7 @@ namespace TouhouAnalepsia
 			base.OnCampaignStart(game, starterObject);
 		}
 
-		private void loadLocalizationData(CampaignGameStarter gameStarter) {
+		private void LoadLocalizationData(CampaignGameStarter gameStarter) {
 			gameStarter.LoadGameTexts(BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/module_strings.xml");
 		}
 	}

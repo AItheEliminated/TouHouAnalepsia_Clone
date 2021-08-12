@@ -13,12 +13,11 @@ namespace TouhouAnalepsia.Editor.Playground
 		{
 			return new List<MissionView>
 			{
-				ViewCreator.CreateMissionSingleplayerEscapeMenu(),
+				ViewCreator.CreateMissionSingleplayerEscapeMenu(false),
 				ViewCreator.CreateOptionsUIHandler(),
 				ViewCreator.CreateMissionAgentStatusUIHandler(mission),
 				ViewCreator.CreateMissionMainAgentEquipmentController(mission),
-				//ViewCreator.CreateMissionMainAgentCheerControllerView(mission), // 1.5.9
-				ViewCreator.CreateMissionMainAgentCheerBarkControllerView(mission), // 1.5.10
+				ViewCreator.CreateMissionMainAgentCheerBarkControllerView(mission),
 				ViewCreator.CreateSingleplayerMissionKillNotificationUIHandler(),
 				ViewCreator.CreateMissionAgentLockVisualizerView(mission),
 				ViewCreator.CreatePhotoModeView()

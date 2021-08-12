@@ -4,6 +4,7 @@ using TaleWorlds.CampaignSystem.SandBox.GameComponents.Map;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
+using TaleWorlds.MountAndBlade.CustomBattle;
 using TaleWorlds.ObjectSystem;
 
 namespace TouhouAnalepsia.Editor.FastScene
@@ -14,6 +15,7 @@ namespace TouhouAnalepsia.Editor.FastScene
 
 		protected override void OnInitialize()
 		{
+
 			Game currentGame = base.CurrentGame;
 			currentGame.FirstInitialize(false);
 			GameTextManager gameTextManager = currentGame.GameTextManager;
@@ -26,12 +28,11 @@ namespace TouhouAnalepsia.Editor.FastScene
 			currentGame.CreateGameManager();
 			base.GameManager.BeginGameStart(base.CurrentGame);
 			base.CurrentGame.ThirdInitialize();
-			currentGame.CreateObjects();
 			currentGame.InitializeDefaultGameObjects();
+			currentGame.LoadBasicFiles(false);
 			this.LoadCustomGameXmls();
 			objectManager.ClearEmptyObjects();
 			currentGame.SetDefaultEquipments(new Dictionary<string, Equipment>());
-			currentGame.CreateLists();
 			objectManager.ClearEmptyObjects();
 			base.GameManager.OnCampaignStart(base.CurrentGame, null);
 			base.GameManager.OnAfterCampaignStart(base.CurrentGame);
@@ -42,13 +43,14 @@ namespace TouhouAnalepsia.Editor.FastScene
 		{
 			basicGameStarter.AddModel(new MultiplayerAgentDecideKilledOrUnconsciousModel());
 			basicGameStarter.AddModel(new CustomBattleAgentStatCalculateModel());
+			basicGameStarter.AddModel(new DefaultMissionDifficultyModel());
 			basicGameStarter.AddModel(new CustomBattleApplyWeatherEffectsModel());
-			basicGameStarter.AddModel(new SandboxAutoBlockModel());
+			basicGameStarter.AddModel(new CustomBattleAutoBlockModel());
 			basicGameStarter.AddModel(new MultiplayerAgentApplyDamageModel());
 			basicGameStarter.AddModel(new DefaultRidingModel());
 			basicGameStarter.AddModel(new DefaultStrikeMagnitudeModel());
-			basicGameStarter.AddModel(new DefaultSkillList());
 			basicGameStarter.AddModel(new CustomBattleMoraleModel());
+			basicGameStarter.AddModel(new CustomBattleInitializationModel());
 		}
 
 		private void InitializeGameTexts(GameTextManager gameTextManager)
@@ -67,12 +69,12 @@ namespace TouhouAnalepsia.Editor.FastScene
 
 		private void LoadCustomGameXmls() {
 			ObjectManager.LoadXML("SPCultures");
-			ObjectManager.LoadXML("Monsters");
-			ObjectManager.LoadXML("SkeletonScales");
-			ObjectManager.LoadXML("ItemModifiers");
-			ObjectManager.LoadXML("ItemModifierGroups");
-			ObjectManager.LoadXML("CraftingPieces");
-			ObjectManager.LoadXML("CraftingTemplates");
+			//ObjectManager.LoadXML("Monsters");
+			//ObjectManager.LoadXML("SkeletonScales");
+			//ObjectManager.LoadXML("ItemModifiers");
+			//ObjectManager.LoadXML("ItemModifierGroups");
+			//ObjectManager.LoadXML("CraftingPieces");
+			//ObjectManager.LoadXML("CraftingTemplates");
 			ObjectManager.LoadXML("Items");
 			ObjectManager.LoadXML("EquipmentRosters");
 			ObjectManager.LoadXML("NPCCharacters");
