@@ -164,7 +164,8 @@ namespace TouhouAnalepsia.Editor.Cinema
 					CheckEntity(entity, reports);
 				}*/
 
-				Mission.SetCameraFrame(new MatrixFrame(Mat3.Identity, new Vec3(0, 0, 1000, 1)), 1.0f);
+				var mat = new MatrixFrame(Mat3.Identity, new Vec3(0, 0, 1000, 1));
+				Mission.SetCameraFrame(ref mat, 1.0f);
 			}
 
 			private void CheckEntity(GameEntity entity, HashSet<GameEntity> reports)

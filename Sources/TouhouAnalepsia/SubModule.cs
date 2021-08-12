@@ -1,4 +1,34 @@
-﻿using System.Reflection;
+using System.Reflection;
+
+using TaleWorlds.CampaignSystem;
+
+using TaleWorlds.Core;
+
+using TaleWorlds.Engine;
+
+using TaleWorlds.Library;
+
+using TaleWorlds.Localization;
+
+using TaleWorlds.MountAndBlade;
+
+using TouhouAnalepsia.Abilities;
+
+using TouhouAnalepsia.BattleSystem.Firearms;
+
+using TouhouAnalepsia.BattleSystem.Shields;
+
+using TouhouAnalepsia.CampaignSystem.Behaviors;
+
+using TouhouAnalepsia.Editor.Cinema;
+
+using TouhouAnalepsia.Editor.FastScene;
+
+using TouhouAnalepsia.Editor.Playground;
+
+using TouhouAnalepsia.Utils.Inits;
+
+using System.Reflection;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Engine;

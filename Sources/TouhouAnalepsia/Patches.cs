@@ -29,6 +29,7 @@ namespace TouhouAnalepsia {
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "InitializeTutorial", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnGameLoaded", "TouhouAnalepsia.Patches", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "RegisterEvents", "TouhouAnalepsia.Patches", "RemoveMethod");
 
 			//Various deletions
 			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.BackstoryCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod"); //Makes reference to certain characters who now have their information removed from the files.
@@ -247,7 +248,10 @@ namespace TouhouAnalepsia {
 				return __exception;
 			}
 		}
-		[HarmonyPatch(typeof(DefaultPartyWageModel), "GetTotalWage")]
+
+		// sz: I disabled this for bannerlord 1.6.0 will read a localized text from GameTexts
+		// while it's still not initialized yet, and a NRE will happen.
+		/*[HarmonyPatch(typeof(DefaultPartyWageModel), "GetTotalWage")]
 		class DebugPatch26 {
 			static Exception Finalizer(MobileParty mobileParty, Exception __exception) {
 				if (__exception?.Message == null) return __exception;
@@ -272,7 +276,8 @@ namespace TouhouAnalepsia {
 
 				return __exception;
 			}
-		}
+		}*/
+
 		[HarmonyPatch(typeof(DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(MobileParty), typeof(Settlement) })]
 		[HarmonyPatch(typeof(DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(MobileParty), typeof(MobileParty) })]
 		class DebugPatch27 {
