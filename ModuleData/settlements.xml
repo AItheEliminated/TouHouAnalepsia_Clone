@@ -1526,7 +1526,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="town_NW1" name="{=Settlements.Settlement.name.town_NW1}Slumbering Dimension" owner="Faction.clan_netherworld_yakumo0" posX="320.9449" posY="798.1636" culture="Culture.youkai" gate_posX="323.0956" gate_posY="795.4987">
+  <Settlement id="town_NW1" name="{=Settlements.Settlement.name.town_NW1}Slumbering Dimension" owner="Faction.clan_netherworld_yakumo0" posX="320.945" posY="798.164" culture="Culture.youkai" gate_posX="323.0956" gate_posY="795.4991">
     <Components>
       <Town id="town_comp_NW1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -3419,7 +3419,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <Area type="Bog" name="{=Settlements.Settlement.CommonAreas.Area.Bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_SE6_2" name="{=Settlements.Settlement.name.village_SE6_2}Cliffside of Hopelessness" posX="446.347" posY="381.544" culture="Culture.youkai" text="{=Settlements.Settlement.text.village_SE6_2}Cliffside of Hopelessness">
+  <Settlement id="village_SE6_2" name="{=Settlements.Settlement.name.village_SE6_2}Cliffside of Hopelessness" posX="445.0784" posY="372.0744" culture="Culture.youkai" text="{=Settlements.Settlement.text.village_SE6_2}Cliffside of Hopelessness">
     <Components>
       <Village id="village_comp_SE6_2" village_type="VillageType.clay_mine" hearth="300" trade_bound="Settlement.town_SE6" bound="Settlement.town_SE6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
     </Components>
@@ -4420,7 +4420,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <Area type="Bog" name="{=Settlements.Settlement.CommonAreas.Area.Bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_KT6_2" name="{=Settlements.Settlement.name.castle_village_KT6_2}Glacier" posX="689.25" posY="485.94" culture="Culture.youkai" text="{=Settlements.Settlement.text.castle_village_KT6_2}Night Ridge">
+  <Settlement id="castle_village_KT6_2" name="{=Settlements.Settlement.name.castle_village_KT6_2}Glacier" posX="688.7687" posY="485.6346" culture="Culture.youkai" text="{=Settlements.Settlement.text.castle_village_KT6_2}Night Ridge">
     <Components>
       <Village id="castle_village_comp_KT6_2" village_type="VillageType.silk_plant" hearth="300" trade_bound="Settlement.castle_KT6" bound="Settlement.castle_KT6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
     </Components>
@@ -4524,7 +4524,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <Area type="Bog" name="{=Settlements.Settlement.CommonAreas.Area.Bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_KT2_1" name="{=Settlements.Settlement.name.village_KT2_1}House in the Clouds" posX="814.2384" posY="396.4107" culture="Culture.youkai" text="{=Settlements.Settlement.text.village_KT2_1}Tengu Newspaper Agency">
+  <Settlement id="village_KT2_1" name="{=Settlements.Settlement.name.village_KT2_1}House in the Clouds" posX="814.238" posY="396.411" culture="Culture.youkai" text="{=Settlements.Settlement.text.village_KT2_1}Tengu Newspaper Agency">
     <Components>
       <Village id="village_comp_KT2_1" village_type="VillageType.camel_ranch" hearth="300" trade_bound="Settlement.town_KT2" bound="Settlement.town_KT2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" castle_background_mesh="gui_bg_castle_empire" wait_mesh="wait_empire_village" />
     </Components>
