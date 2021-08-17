@@ -55,7 +55,6 @@ namespace TouhouAnalepsia {
 			harmony.PatchAll();
 		}
 
-		/*
 		public static void patchTranspiler(string locationOriginal, string methodOriginal, string locationNew, string methodNew) {
 			Type to = AccessTools.TypeByName(locationOriginal);
 			MethodInfo mOriginal = AccessTools.Method(to, methodOriginal);
@@ -63,9 +62,17 @@ namespace TouhouAnalepsia {
 			Type tn = AccessTools.TypeByName(locationNew);
 			MethodInfo mNew = AccessTools.Method(tn, methodNew);
 
+			if (mOriginal == null) {
+				Logger.Log(to + "." + mOriginal + " null!");
+				return;
+			}
+			if (mNew == null) {
+				Logger.Log(tn + "." + mNew + " null!");
+				return;
+			}
+
 			harmony.Patch(mOriginal, null, null, new HarmonyMethod(mNew));
 		}
-		*/
 		public static void patchFinalizer(string locationOriginal, string methodOriginal, string locationNew, string methodNew) {
 			Type to = AccessTools.TypeByName(locationOriginal);
 			MethodInfo mOriginal = AccessTools.Method(to, methodOriginal);

@@ -5,6 +5,7 @@ using StoryMode.Behaviors;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
@@ -36,8 +37,9 @@ namespace TouhouAnalepsia {
 																																														//HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior", "BuildWorkshopsAtGameStart", "TouhouAnalepsia.Patches", "RemoveMethod");
 			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.Source.TournamentGames.TournamentCampaignBehavior", "InitializeTournamentLeaderboard", "TouhouAnalepsia.Patches", "RemoveMethod");
 
-			HarmonyHandler.patchFinalizer("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Finalizer");
+			//HarmonyHandler.patchFinalizer("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Finalizer");
 			HarmonyHandler.patchPrefix("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Prefix");
+			//HarmonyHandler.patchTranspiler("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Transpiler");
 
 		}
 		static Exception Finalizer(UIntPtr scenePointer, int navMeshFace, ref Vec3 centerPos, Exception __exception) {
@@ -64,8 +66,43 @@ namespace TouhouAnalepsia {
 
 			Logger.Log("End Log for ManagedCallbacks.ScriptingInterfaceOfIScene.GetNavMeshFaceCenterPosition");
 
+			throw new Exception("Something is present on an invalid navmesh face.");
+
 			return true;
 		}
+
+		[HarmonyPatch(typeof(DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(MobileParty), typeof(MobileParty) })]
+		class DebugPatch29 {
+			public static bool Prefix(MobileParty fromParty, MobileParty toParty) {
+				if(fromParty.CurrentNavigationFace.FaceIndex < 0) {
+					Logger.Log("fromParty: " + fromParty.Name.ToString() + " is on an invalid navmesh face.\nThe Current location is at " + fromParty.GetPosition());
+				}
+				if (toParty.CurrentNavigationFace.FaceIndex < 0) {
+					Logger.Log("toParty: " + toParty.Name.ToString() + " is on an invalid navmesh face.\nThe Current location is at " + toParty.GetPosition());
+				}
+				return true;
+			}
+		}
+
+		/*
+		static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
+			bool initial = false;
+			foreach (CodeInstruction instruction in instructions) {
+				if(!initial && instruction.opcode == OpCodes.Nop) {
+					initial = true;
+					yield return instruction;
+					yield return new CodeInstruction(OpCodes.Ldarg_0);
+					yield return new CodeInstruction(OpCodes.Ldarg_1);
+
+					//Do Stuff Here
+
+					yield return new CodeInstruction(OpCodes.Brfalse_S, "IL_000D");
+				} else {
+					yield return instruction;
+				}
+			}
+		}
+		*/
 		public static bool DebugPatchPrefix(ref PartyBase party) {
 			//Logger.Log(party.Name.GetID() + ": " + party.Name.ToString());
 
