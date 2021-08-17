@@ -1,11 +1,13 @@
-541
-flora_entity tree_olive__mix
+548
+mesh arabian_house_new_detail_window_b
 mesh arrow_new_icon
 mesh battania_arena_tower
 mesh battania_stone_c
 mesh bd_carpet_khuzait_h
 mesh bd_carpet_khuzait_i
 mesh bd_carpet_khuzait_l
+mesh bd_lantern_sturgia_d
+mesh bd_planks_a
 mesh bd_table_b
 mesh bd_table_c
 mesh bd_table_d
@@ -55,6 +57,7 @@ mesh map_rock_a
 mesh map_rock_b
 mesh map_rock_big_a
 mesh map_rock_big_b
+mesh map_rock_c_snow
 mesh map_rock_d
 mesh map_rock_groups_a
 mesh map_rock_hillside_a
@@ -136,9 +139,9 @@ mesh mi_cattle_farm_b
 mesh mi_clay_mine_c
 mesh mi_clay_mine_d
 mesh mi_crate_a
+mesh mi_crate_b
 mesh mi_date_a
 mesh mi_date_c
-mesh mi_date_d
 mesh mi_dock_props_a
 mesh mi_docks_a
 mesh mi_docks_b
@@ -230,6 +233,7 @@ mesh mi_saddle_horse_c
 mesh mi_saddle_horse_d
 mesh mi_salt_mine_a
 mesh mi_salt_mine_b
+mesh mi_saltpool_a
 mesh mi_sheep_a
 mesh mi_sheep_b
 mesh mi_sheep_c
@@ -309,6 +313,8 @@ mesh plane_8x8
 mesh rock_desert_cliff_d
 mesh roman_house_big_a
 mesh s_bamboo_h01
+mesh shop_prop_merchantwinery_c
+mesh shop_sign_merchantbeer
 mesh sign_tavern
 mesh stonewall_2a1
 mesh th_gekokujo_bridge_24m
@@ -329,6 +335,7 @@ mesh tree_high_b
 mesh village_battania_1
 mesh village_battania_2
 mesh village_battania_3
+mesh vlandia_grandbazaar_shop_door_a
 mesh volume_box
 mesh waterfall_a
 mesh waterfall_rock_b
@@ -366,6 +373,7 @@ prefab defender_ranged_l1
 prefab defender_ranged_l2
 prefab defender_ranged_l3
 prefab editor_cylinder
+prefab editor_plane
 prefab emp_siege
 prefab emp_tree_floor_a
 prefab empire_castle_l1
@@ -495,7 +503,7 @@ texture ashes_a_n
 texture ashes_a_s
 texture cliff_c_h
 texture cliff_c_s
-texture filmic_color_grade
+texture color_grade_empire_harsh
 texture forest_a_h
 texture gensokyo1new
 texture gensokyo2
@@ -523,19 +531,18 @@ texture ground_soil_b_s
 texture lens_dirt
 texture lens_star
 texture main_map_mountains_d
+texture pict_floor_stone_h
+texture pict_floor_stone_n
+texture pict_floor_stone_s
 texture plowed_field_a_d
 texture plowed_field_a_h
 texture plowed_field_a_n
 texture plowed_field_a_s
-texture rock_a
-texture rock_f_h
-texture rock_f_s
-texture sky_photo_clear_02
+texture semi_cloudy_2
 texture snow_a_s
 texture snow_b_d
 texture snow_b_h
 texture snow_b_n
-texture stone_desert_a_d
 texture stone_desert_a_n
 texture sun_core2
 texture water_ground

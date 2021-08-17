@@ -7,6 +7,8 @@
 		<BannerlordDirectory></BannerlordDirectory>
 		<!-- True if you want to launch the game with editor when debugging (make sure the modding tool is installed). False if without -->
 		<PreferEditor>false</PreferEditor>
+		<!-- True if you are using Visual Studio Code -->
+		<VSCode>false</VSCode>
 	</PropertyGroup>
 	<!-- Some unimportant properties -->
 	<PropertyGroup>

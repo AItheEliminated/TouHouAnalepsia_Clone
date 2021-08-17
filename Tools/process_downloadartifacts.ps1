@@ -1,6 +1,4 @@
 $ErrorActionPreference = "Stop"
-$download_manifest = "https://fs.hinageshi.org/touhouanalepsia/manifest.txt" + "?nocache=" + [String][DateTime]::Now.Ticks.ToString()
-$download_archive = "https://fs.hinageshi.org/touhouanalepsia/artifacts.zip" + "?nocache=" + [String][DateTime]::Now.Ticks.ToString()
 $noPause = $false
 if ($args[0] -eq "NOPAUSE") {
 	$noPause = $true
@@ -12,14 +10,14 @@ if (Test-Path -Path ".\ModuleData") {
 		Write-Host "Creating bin folder..." -ForegroundColor Yellow
 		New-Item -ItemType Directory -Path ".\bin"
 	}
-	cd -Path "bin"
+	#cd -Path "bin"
 } # if the script is running in the sub-folder of mod
 elseif (Test-Path -Path ".\..\ModuleData") {
 	if ((Test-Path -Path ".\..\bin") -eq $false) {
 		Write-Host "Creating bin folder..." -ForegroundColor Yellow
 		New-Item -ItemType Directory -Path ".\..\bin"
 	}
-	cd -Path "..\bin"
+	cd -Path ".."
 } else {
 	Write-Host "Wrong work directory. This script should be either running in the root folder of mod, or 'Tools' folder." -ForegroundColor Red
 	if ($noPause -eq $false) {
@@ -28,8 +26,24 @@ elseif (Test-Path -Path ".\..\ModuleData") {
 	return
 }
 
+$branch = "develop"
+if (Test-Path -Path ".git") {
+	$result = Get-Content -Path ".git\HEAD" | Select-String -Pattern 'ref: refs\/heads\/(.+)'
+	if ($result.Matches.Success) {
+		$branch = $result.Matches.Groups[1].Value
+		Write-Host "Branch: $branch" -ForegroundColor Yellow
+	} else {
+		Write-Host "Cannot decide current branch. Use develop branch" -ForegroundColor Magenta
+	}
+} else {
+	Write-Host "Cannot find .git folder. Use develop branch" -ForegroundColor Magenta
+}
+
+cd -Path "bin"
 $location = Get-Location
 $update = $false
+$download_manifest = "https://fs.hinageshi.org/touhouanalepsia/" + $branch + "/manifest.txt" + "?nocache=" + [String][DateTime]::Now.Ticks.ToString()
+$download_archive = "https://fs.hinageshi.org/touhouanalepsia/" + $branch + "/artifacts.zip" + "?nocache=" + [String][DateTime]::Now.Ticks.ToString()
 
 try
 {

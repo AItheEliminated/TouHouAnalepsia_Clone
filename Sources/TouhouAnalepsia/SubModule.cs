@@ -1,26 +1,21 @@
-﻿using TaleWorlds.Core;
+﻿using System.Reflection;
+using TaleWorlds.CampaignSystem;
+using TaleWorlds.Core;
+using TaleWorlds.Engine;
+using TaleWorlds.Library;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
-using TaleWorlds.CampaignSystem;
-using TaleWorlds.Library;
-using TaleWorlds.Engine;
-using System.Reflection;
-using Module = TaleWorlds.MountAndBlade.Module;
+using TouhouAnalepsia.Abilities;
+using TouhouAnalepsia.CampaignSystem.Behaviors;
 using TouhouAnalepsia.Editor.FastScene;
 using TouhouAnalepsia.Editor.Playground;
-using HarmonyLib;
-using System.Collections.Generic;
-using System.Linq;
-using System;
-using StoryMode.Behaviors;
-using SandBox;
-using System.Xml;
-using TaleWorlds.ModuleManager;
-using TouhouAnalepsia.Abilities;
+using Module = TaleWorlds.MountAndBlade.Module;
 
 namespace TouhouAnalepsia
 {
-	public class SubModule : MBSubModuleBase {
+	public class SubModule : MBSubModuleBase
+	{
+		public const string MODULE_ID = "TouhouAnalepsia";
 
 		protected override void OnSubModuleLoad() {
 			base.OnSubModuleLoad();
@@ -29,9 +24,8 @@ namespace TouhouAnalepsia
 
 			Patches.DefaultPatches();
 
-			CampaignOptions.EnableCampaignTutorials = false;
-#if DEBUG
-#else
+			//CampaignOptions.EnableCampaignTutorials = false;
+#if !DEBUG
 			if (Utilities.EditModeEnabled) {
 #endif
 				//TODO still not working, will look into it more in a bit.
@@ -42,10 +36,9 @@ namespace TouhouAnalepsia
 						{
 							PlaygroundMission.OpenPlaygroundMission("scn_playground", "");
 						}
-						)); }, () => { return false; }));
-
-#if DEBUG
-#else
+						));
+					}, () => (false, TextObject.Empty)));
+#if !DEBUG
 			}
 #endif
 
@@ -80,13 +73,15 @@ namespace TouhouAnalepsia
 
 				TouhouModelManager.initializeTouhouModels(gameStarterObject);
 
-				loadLocalizationData((CampaignGameStarter)gameStarterObject);
+				LoadLocalizationData((CampaignGameStarter)gameStarterObject);
 				//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
+				CampaignGameStarter campaignGameStarter = (CampaignGameStarter) gameStarterObject;
+   				campaignGameStarter.AddBehavior(new MyCampainBehavior());
 			}
 		}
 		public override void OnCampaignStart(Game game, object starterObject) {
 			if (game.GameType is Campaign) {
-				CampaignOptions.EnableCampaignTutorials = false;
+				//CampaignOptions.EnableCampaignTutorials = false;
 
 				CampaignGameStarter campaignGameStarter = (CampaignGameStarter)starterObject;
 
@@ -96,7 +91,7 @@ namespace TouhouAnalepsia
 			base.OnCampaignStart(game, starterObject);
 		}
 
-		private void loadLocalizationData(CampaignGameStarter gameStarter) {
+		private void LoadLocalizationData(CampaignGameStarter gameStarter) {
 			gameStarter.LoadGameTexts(BasePath.Name + "Modules/TouhouAnalepsia/ModuleData/module_strings.xml");
 		}
 	}

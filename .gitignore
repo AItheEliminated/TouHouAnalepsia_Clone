@@ -6,7 +6,8 @@
 [Ee]mAssetPackages/
 [Dd]sAssetPackages/
 [Rr]untimeDataCache/
-[Ss]ceneEditData/
+[Ss]ceneEditData/Backups/
+[Ss]ceneEditData/temp_mission_scene/
 [Ss]hader[Cc]ache/
 [Ss]ceneObj/Backups/
 [Ss]ceneObj/temp_mission_scene/

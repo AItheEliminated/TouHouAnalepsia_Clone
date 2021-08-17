@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Bannerlord",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "FILL IN THE PATH OF BANNERLORD.EXE HERE. e.g. D:/steamapps/common/Mount & Blade II Bannerlord/bin/Win64_Shipping_wEditor/Bannerlord.exe",
+            "args": ["/singleplayer", "_MODULES_*Native*SandBoxCore*Sandbox*CustomBattle*StoryMode*TouhouAnalepsia*_MODULES_"],
+            "cwd": "FILL IN THE PATH OF EXECUTABLE FILE DIRECTORY HERE. e.g. D:/steamapps/common/Mount & Blade II Bannerlord/bin/Win64_Shipping_wEditor",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Attach",
+            "type": "clr",
+            "request": "attach"
+        }
+    ]
+}
