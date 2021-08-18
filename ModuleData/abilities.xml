@@ -7,10 +7,10 @@
 	<Ability id="fairy" hpScaled="0.9" hpHealedPerMinute="20" damageScaled="0.9" movementSpeed="1.1">
 		<Condition uses="Culture" condition='Culture.StringId == "fairy"' />
 	</Ability>
-	<Ability id="human" hpScaled="10" hpHealedPerMinute="20" damageScaled="10" movementSpeed="10">
+	<Ability id="human" hpScaled="1.0" damageScaled="1.05" movementSpeed="1.0">
 		<Condition uses="Culture" condition='Culture.StringId == "human"' />
 	</Ability>
-	<Ability id="youkai" hpScaled="0.1" hpHealedPerMinute="20" damageScaled="10" movementSpeed="10">
+	<Ability id="youkai" hpScaled="1.2" damageScaled="1.2" movementSpeed="1.25">
 		<Condition uses="Culture" condition='Culture.StringId == "youkai"' />
 	</Ability>
 </Abilities>
