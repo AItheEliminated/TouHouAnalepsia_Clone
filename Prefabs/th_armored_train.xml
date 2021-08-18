@@ -1,9 +1,0 @@
-<prefabs>
-	<game_entity name="th_armored_train" old_prefab_name="">
-		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="2.497, 2.497, 2.497"/>
-		<components>
-			<meta_mesh_component name="armored_train"/>
-		</components>
-	</game_entity>
-</prefabs>
-

@@ -1,9 +1,0 @@
-<prefabs>
-	<game_entity name="th_flower_a" old_prefab_name="">
-		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="3.000, 3.000, 3.000"/>
-		<components>
-			<meta_mesh_component name="th_s_flower_a"/>
-		</components>
-	</game_entity>
-</prefabs>
-
