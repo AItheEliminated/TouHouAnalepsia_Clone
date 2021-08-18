@@ -1,0 +1,10 @@
+<prefabs>
+	<game_entity name="th_fairy_s_window1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="13.508, 13.508, 13.508"/>
+		<physics shape="bo_fairy_s_window1"/>
+		<components>
+			<meta_mesh_component name="fairy_s_window1"/>
+		</components>
+	</game_entity>
+</prefabs>
+
