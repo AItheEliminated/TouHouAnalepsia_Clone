@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using StoryMode.StoryModePhases;
+using System.Reflection;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Engine;
@@ -82,6 +83,11 @@ namespace TouhouAnalepsia
 		public override void OnCampaignStart(Game game, object starterObject) {
 			if (game.GameType is Campaign) {
 				//CampaignOptions.EnableCampaignTutorials = false;
+				TutorialPhase tutorialPhase = TutorialPhase.Instance;
+				
+				if(tutorialPhase != null) {
+					tutorialPhase.CompleteTutorial(true);
+				}
 
 				CampaignGameStarter campaignGameStarter = (CampaignGameStarter)starterObject;
 

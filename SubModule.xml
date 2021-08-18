@@ -7,10 +7,10 @@
 	<SingleplayerModule value="true"/>
     <Official value="false" />
     <DependedModules>
-		<DependedModule Id="Native" DependentVersion="e1.5.9"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="e1.5.9"/>
-		<DependedModule Id="Sandbox" DependentVersion="e1.5.9"/>
-		<DependedModule Id="StoryMode" DependentVersion="e1.5.9"/>
+		<DependedModule Id="Native" DependentVersion="e1.6.0"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="e1.6.0"/>
+		<DependedModule Id="Sandbox" DependentVersion="e1.6.0"/>
+		<DependedModule Id="StoryMode" DependentVersion="e1.6.0"/>
 	</DependedModules>
 	<SubModules>
 		<SubModule>
