@@ -5,93 +5,135 @@
   </tags>
   <strings>
     <string id="Cultures.Culture.name.fc_hakurei_shrine" text="Hakurei" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_culture_rich_name" text="Hakurei Shrine" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_official" text="a shamman" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_official_f" text="a miko" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_ruler" text="head shamman" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_ruler_f" text="shrine maiden" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_ruler_term_in_speech" text="{?RULER.GENDER}the Shrine Maiden{?}the Head Shamman{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_ruler_name_with_title" text="{?RULER.GENDER}Shrine Maiden{?}Head Shamman{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_noble_name_with_title" text="{?RULER.GENDER}Miko{?}Shamman{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_adjective_for_faction" text="hakurei" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_short_term_for_faction" text="Hakurei Shrine" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_faction_formal_name_for_culture" text="Hakurei Shrine" />
-    <string id="Cultures.Culture.fc_hakurei_shrine.str_neutral_term_for_culture" text="hakurei" />
+    <string id="str_culture_rich_name.fc_hakurei_shrine" text="Hakurei Shrine" />
+    <string id="str_faction_official.fc_hakurei_shrine" text="a shaman" />
+    <string id="str_faction_official.fc_hakurei_shrine_f" text="a miko" />
+    <string id="str_faction_ruler.fc_hakurei_shrine" text="head shaman" />
+    <string id="str_faction_ruler.fc_hakurei_shrine_f" text="head shrine maiden" />
+    <string id="str_faction_ruler_term_in_speech.fc_hakurei_shrine" text="{?RULER.GENDER}the Shrine Maiden{?}the Head Shamman{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_hakurei_shrine" text="{?RULER.GENDER}Shrine Maiden{?}Head Shamman{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_hakurei_shrine" text="{?RULER.GENDER}Miko{?}Shamman{\?} {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_hakurei_shrine" text="hakurei" />
+    <string id="str_short_term_for_faction.fc_hakurei_shrine" text="Hakurei Shrine" />
+    <string id="str_faction_formal_name_for_culture.fc_hakurei_shrine" text="Hakurei Shrine" />
+    <string id="str_neutral_term_for_culture.fc_hakurei_shrine" text="hakurei" />
     <string id="Cultures.Culture.name.fc_human_city" text="Metropolitian" />
-    <string id="Cultures.Culture.fc_human_city.str_culture_rich_name" text="Human City" />
-    <string id="Cultures.Culture.fc_human_city.str_adjective_for_faction" text="metropolitan" />
-    <string id="Cultures.Culture.fc_human_city.str_short_term_for_faction" text="Human City" />
-    <string id="Cultures.Culture.fc_human_city.str_faction_formal_name_for_culture" text="Human City" />
-    <string id="Cultures.Culture.fc_human_city.str_neutral_term_for_culture" text="humans" />
+    <string id="str_culture_rich_name.fc_human_city" text="Human City" />
+    <string id="str_faction_official.fc_human_city" text="an administrator" />
+    <string id="str_faction_official.fc_human_city_f" text="an administrator" />
+    <string id="str_faction_ruler.fc_human_city" text="head administrator" />
+    <string id="str_faction_ruler.fc_human_city_f" text="head administrator" />
+    <string id="str_faction_ruler_term_in_speech.fc_human_city" text="the Head Administrator {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_human_city" text="Head Administrator {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_human_city" text="Administrator {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_human_city" text="metropolitan" />
+    <string id="str_short_term_for_faction.fc_human_city" text="Human City" />
+    <string id="str_faction_formal_name_for_culture.fc_human_city" text="Human City" />
+    <string id="str_neutral_term_for_culture.fc_human_city" text="humans" />
     <string id="Cultures.Culture.name.fc_eientei" text="Lunarian" />
-    <string id="Cultures.Culture.fc_eientei.str_culture_rich_name" text="Eientei" />
-    <string id="Cultures.Culture.fc_eientei.str_adjective_for_faction" text="lunarian" />
-    <string id="Cultures.Culture.fc_eientei.str_short_term_for_faction" text="Eientei" />
-    <string id="Cultures.Culture.fc_eientei.str_faction_formal_name_for_culture" text="Eientei" />
-    <string id="Cultures.Culture.fc_eientei.str_neutral_term_for_culture" text="lunarians" />
+    <string id="str_culture_rich_name.fc_eientei" text="Eientei" />
+    <string id="str_faction_official.fc_eientei" text="a governor" />
+    <string id="str_faction_official.fc_eientei_f" text="a governor" />
+    <string id="str_faction_ruler.fc_eientei" text="prince" />
+    <string id="str_faction_ruler.fc_eientei_f" text="princess" />
+    <string id="str_faction_ruler_term_in_speech.fc_eientei" text="{?RULER.GENDER}the Princess{?}the Prince{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_eientei" text="{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_eientei" text="Governor {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_eientei" text="lunarian" />
+    <string id="str_short_term_for_faction.fc_eientei" text="Eientei" />
+    <string id="str_faction_formal_name_for_culture.fc_eientei" text="Eientei" />
+    <string id="str_neutral_term_for_culture.fc_eientei" text="lunarians" />
     <string id="Cultures.Culture.name.fc_test0" text="Scarlet Devil" />
-    <string id="Cultures.Culture.fc_test0.str_culture_rich_name" text="Scarlet Empire" />
-    <string id="Cultures.Culture.fc_test0.str_faction_official" text="an archon" />
-    <string id="Cultures.Culture.fc_test0.str_faction_official_f" text="an archoness" />
-    <string id="Cultures.Culture.fc_test0.str_faction_ruler" text="emperor" />
-    <string id="Cultures.Culture.fc_test0.str_faction_ruler_f" text="empress" />
-    <string id="Cultures.Culture.fc_test0.str_faction_ruler_term_in_speech" text="{?RULER.GENDER}the Empress{?}the Emperor{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_test0.str_faction_ruler_name_with_title" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_test0.str_faction_noble_name_with_title" text="{?RULER.GENDER}Archoness{?}Archon{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_test0.str_adjective_for_faction" text="scarlet imperial" />
-    <string id="Cultures.Culture.fc_test0.str_short_term_for_faction" text="Scarlet Empire" />
-    <string id="Cultures.Culture.fc_test0.str_faction_formal_name_for_culture" text="Scarlet Empire" />
-    <string id="Cultures.Culture.fc_test0.str_neutral_term_for_culture" text="scarlets" />
+    <string id="str_culture_rich_name.fc_test0" text="Scarlet Empire" />
+    <string id="str_faction_official.fc_test0" text="a servant" />
+    <string id="str_faction_official.fc_test0_f" text="a servant" />
+    <string id="str_faction_ruler.fc_test0" text="emperor" />
+    <string id="str_faction_ruler.fc_test0_f" text="empress" />
+    <string id="str_faction_ruler_term_in_speech.fc_test0" text="{?RULER.GENDER}the Empress{?}the Emperor{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_test0" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_test0" text="Servant {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_test0" text="scarlet imperial" />
+    <string id="str_short_term_for_faction.fc_test0" text="Scarlet Empire" />
+    <string id="str_faction_formal_name_for_culture.fc_test0" text="Scarlet Empire" />
+    <string id="str_neutral_term_for_culture.fc_test0" text="scarlets" />
     <string id="Cultures.Culture.name.fc_test1" text="Misty Lake" />
-    <string id="Cultures.Culture.fc_test1.str_culture_rich_name" text="Mistylake Empire" />
-    <string id="Cultures.Culture.fc_test1.str_faction_official" text="an archon" />
-    <string id="Cultures.Culture.fc_test1.str_faction_official_f" text="an archoness" />
-    <string id="Cultures.Culture.fc_test1.str_faction_ruler" text="emperor" />
-    <string id="Cultures.Culture.fc_test1.str_faction_ruler_f" text="empress" />
-    <string id="Cultures.Culture.fc_test1.str_faction_ruler_term_in_speech" text="{?RULER.GENDER}the Empress{?}the Emperor{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_test1.str_faction_ruler_name_with_title" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_test1.str_faction_noble_name_with_title" text="{?RULER.GENDER}Archoness{?}Archon{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_test1.str_adjective_for_faction" text="mistylake imperial" />
-    <string id="Cultures.Culture.fc_test1.str_short_term_for_faction" text="Mistylake Empire" />
-    <string id="Cultures.Culture.fc_test1.str_faction_formal_name_for_culture" text="Scarlet Empire" />
-    <string id="Cultures.Culture.fc_test1.str_neutral_term_for_culture" text="mistylakes" />
+    <string id="str_culture_rich_name.fc_test1" text="Mistylake Empire" />
+    <string id="str_faction_official.fc_test1" text="a big fairy" />
+    <string id="str_faction_official.fc_test1_f" text="a big fairy" />
+    <string id="str_faction_ruler.fc_test1" text="emperor" />
+    <string id="str_faction_ruler.fc_test1_f" text="empress" />
+    <string id="str_faction_ruler_term_in_speech.fc_test1" text="{?RULER.GENDER}the Empress{?}the Emperor{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_test1" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_test1" text="Big Fairy {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_test1" text="mistylake imperial" />
+    <string id="str_short_term_for_faction.fc_test1" text="Mistylake Empire" />
+    <string id="str_faction_formal_name_for_culture.fc_test1" text="Scarlet Empire" />
+    <string id="str_neutral_term_for_culture.fc_test1" text="mistylakes" />
     <string id="Cultures.Culture.name.fc_anokuni" text="Amanojaku" />
-    <string id="Cultures.Culture.fc_anokuni.str_culture_rich_name" text="Amanojaku no Kuni" />
-    <string id="Cultures.Culture.fc_anokuni.str_adjective_for_faction" text="amanojaku" />
-    <string id="Cultures.Culture.fc_anokuni.str_short_term_for_faction" text="Amanojaku no Kuni" />
-    <string id="Cultures.Culture.fc_anokuni.str_faction_formal_name_for_culture" text="Amanojaku no Kuni" />
-    <string id="Cultures.Culture.fc_anokuni.str_neutral_term_for_culture" text="amanojaku" />
+    <string id="str_culture_rich_name.fc_anokuni" text="Amanojaku no Kuni" />
+    <string id="str_faction_official.fc_anokuni" text="a brother" />
+    <string id="str_faction_official.fc_anokuni_f" text="a sister" />
+    <string id="str_faction_ruler.fc_anokuni" text="tyrant" />
+    <string id="str_faction_ruler.fc_anokuni_f" text="tyrant" />
+    <string id="str_faction_ruler_term_in_speech.fc_anokuni" text="the Tyrant {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_anokuni" text="the Tyrant {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_anokuni" text="{?RULER.GENDER}Sister{?}Brother{\?} {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_anokuni" text="amanojaku" />
+    <string id="str_short_term_for_faction.fc_anokuni" text="Amanojaku no Kuni" />
+    <string id="str_faction_formal_name_for_culture.fc_anokuni" text="Amanojaku no Kuni" />
+    <string id="str_neutral_term_for_culture.fc_anokuni" text="amanojaku" />
     <string id="Cultures.Culture.name.fc_kyuutaki" text="Tengu" />
-    <string id="Cultures.Culture.fc_kyuutaki.str_culture_rich_name" text="Kyuuten no Taki" />
-    <string id="Cultures.Culture.fc_kyuutaki.str_adjective_for_faction" text="tengu" />
-    <string id="Cultures.Culture.fc_kyuutaki.str_short_term_for_faction" text="Kyuuten no Taki" />
-    <string id="Cultures.Culture.fc_kyuutaki.str_faction_formal_name_for_culture" text="Kyuuten no Taki" />
-    <string id="Cultures.Culture.fc_kyuutaki.str_neutral_term_for_culture" text="tengu" />
+    <string id="str_culture_rich_name.fc_kyuutaki" text="Kyuuten no Taki" />
+    <string id="str_faction_official.fc_kyuutaki" text="a daitengu" />
+    <string id="str_faction_official.fc_kyuutaki_f" text="a daitengu" />
+    <string id="str_faction_ruler.fc_kyuutaki" text="boss" />
+    <string id="str_faction_ruler.fc_kyuutaki_f" text="boss" />
+    <string id="str_faction_ruler_term_in_speech.fc_kyuutaki" text="the Boss {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_kyuutaki" text="Boss {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_kyuutaki" text="Daitengu {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_kyuutaki" text="tengu" />
+    <string id="str_short_term_for_faction.fc_kyuutaki" text="Kyuuten no Taki" />
+    <string id="str_faction_formal_name_for_culture.fc_kyuutaki" text="Kyuuten no Taki" />
+    <string id="str_neutral_term_for_culture.fc_kyuutaki" text="tengu" />
     <string id="Cultures.Culture.name.fc_underworld" text="Underworld" />
-    <string id="Cultures.Culture.fc_underworld.str_culture_rich_name" text="Underworld" />
-    <string id="Cultures.Culture.fc_underworld.str_adjective_for_faction" text="underworld" />
-    <string id="Cultures.Culture.fc_underworld.str_short_term_for_faction" text="Underworld" />
-    <string id="Cultures.Culture.fc_underworld.str_faction_formal_name_for_culture" text="Underworld" />
-    <string id="Cultures.Culture.fc_underworld.str_neutral_term_for_culture" text="underworlders" />
+    <string id="str_culture_rich_name.fc_underworld" text="Underworld" />
+    <string id="str_faction_official.fc_underworld" text="a chief" />
+    <string id="str_faction_official.fc_underworld_f" text="a chief" />
+    <string id="str_faction_ruler.fc_underworld" text="master" />
+    <string id="str_faction_ruler.fc_underworld_f" text="mistress" />
+    <string id="str_faction_ruler_term_in_speech.fc_underworld" text="{?RULER.GENDER}the Mistress{?}the Master{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_underworld" text="{?RULER.GENDER}Mistress{?}Master{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_underworld" text="Chief {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_underworld" text="underworld" />
+    <string id="str_short_term_for_faction.fc_underworld" text="Underworld" />
+    <string id="str_faction_formal_name_for_culture.fc_underworld" text="Underworld" />
+    <string id="str_neutral_term_for_culture.fc_underworld" text="underworlders" />
     <string id="Cultures.Culture.name.fc_netherworld" text="Netherworld" />
-    <string id="Cultures.Culture.fc_netherworld.str_culture_rich_name" text="Netherworld" />
-    <string id="Cultures.Culture.fc_netherworld.str_adjective_for_faction" text="netherworld" />
-    <string id="Cultures.Culture.fc_netherworld.str_short_term_for_faction" text="Netherworld" />
-    <string id="Cultures.Culture.fc_netherworld.str_faction_formal_name_for_culture" text="Netherworld" />
-    <string id="Cultures.Culture.fc_netherworld.str_neutral_term_for_culture" text="netherworlders" />
+    <string id="str_culture_rich_name.fc_netherworld" text="Netherworld" />
+    <string id="str_faction_official.fc_netherworld" text="a lord" />
+    <string id="str_faction_official.fc_netherworld_f" text="a lady" />
+    <string id="str_faction_ruler.fc_netherworld" text="master" />
+    <string id="str_faction_ruler.fc_netherworld_f" text="mistress" />
+    <string id="str_faction_ruler_term_in_speech.fc_netherworld" text="{?RULER.GENDER}the Mistress{?}the Master{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_netherworld" text="{?RULER.GENDER}Mistress{?}Master{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_netherworld" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_netherworld" text="netherworld" />
+    <string id="str_short_term_for_faction.fc_netherworld" text="Netherworld" />
+    <string id="str_faction_formal_name_for_culture.fc_netherworld" text="Netherworld" />
+    <string id="str_neutral_term_for_culture.fc_netherworld" text="netherworlders" />
     <string id="Cultures.Culture.name.fc_shogunate" text="Shogunate" />
-    <string id="Cultures.Culture.fc_shogunate.str_culture_rich_name" text="Shogunate of the Gods" />
-    <string id="Cultures.Culture.fc_shogunate.str_faction_official" text="a kappa" />
-    <string id="Cultures.Culture.fc_shogunate.str_faction_official_f" text="a kappa" />
-    <string id="Cultures.Culture.fc_shogunate.str_faction_ruler" text="kami" />
-    <string id="Cultures.Culture.fc_shogunate.str_faction_ruler_f" text="kami" />
-    <string id="Cultures.Culture.fc_shogunate.str_faction_ruler_term_in_speech" text="the Kami {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_shogunate.str_faction_ruler_name_with_title" text="Kami {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_shogunate.str_faction_noble_name_with_title" text="Kappa {RULER.NAME}" />
-    <string id="Cultures.Culture.fc_shogunate.str_adjective_for_faction" text="shougunate" />
-    <string id="Cultures.Culture.fc_shogunate.str_short_term_for_faction" text="Shogunate" />
-    <string id="Cultures.Culture.fc_shogunate.str_faction_formal_name_for_culture" text="Shogunate of the Gods" />
-    <string id="Cultures.Culture.fc_shogunate.str_neutral_term_for_culture" text="kami" />
+    <string id="str_culture_rich_name.fc_shogunate" text="Shogunate of the Gods" />
+    <string id="str_faction_official.fc_shogunate" text="a lord" />
+    <string id="str_faction_official.fc_shogunate_f" text="a lady" />
+    <string id="str_faction_ruler.fc_shogunate" text="kami" />
+    <string id="str_faction_ruler.fc_shogunate_f" text="goddess" />
+    <string id="str_faction_ruler_term_in_speech.fc_shogunate" text="{?RULER.GENDER}the Goddess{?}the God{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.fc_shogunate" text="{?RULER.GENDER}Goddess{?}God{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.fc_shogunate" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fc_shogunate" text="shougunate" />
+    <string id="str_short_term_for_faction.fc_shogunate" text="Shogunate" />
+    <string id="str_faction_formal_name_for_culture.fc_shogunate" text="Shogunate of the Gods" />
+    <string id="str_neutral_term_for_culture.fc_shogunate" text="kami" />
     <string id="Cultures.Culture.name.human" text="Human" />
     <string id="Cultures.Culture.human.male_names.akihito" text="Akihito" />
     <string id="Cultures.Culture.human.male_names.akimitsu" text="Akimitsu" />
@@ -614,18 +656,18 @@
     <string id="Cultures.Culture.human.clan_names.ya_yonezu" text="Ya Yonezu" />
     <string id="Cultures.Culture.human.clan_names.yoshii" text="Yoshii" />
     <string id="Cultures.Culture.human.clan_names.yuki" text="Yuki" />
-    <string id="Cultures.Culture.human.str_culture_rich_name" text="Human Faction" />
-    <string id="Cultures.Culture.human.str_faction_official" text="a human" />
-    <string id="Cultures.Culture.human.str_faction_official_f" text="a human" />
-    <string id="Cultures.Culture.human.str_faction_ruler" text="king" />
-    <string id="Cultures.Culture.human.str_faction_ruler_f" text="queen" />
-    <string id="Cultures.Culture.human.str_faction_ruler_term_in_speech" text="{?RULER.GENDER}the Queen{?}the King{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.human.str_faction_ruler_name_with_title" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-    <string id="Cultures.Culture.human.str_faction_noble_name_with_title" text="Human {RULER.NAME}" />
-    <string id="Cultures.Culture.human.str_adjective_for_faction" text="human" />
-    <string id="Cultures.Culture.human.str_short_term_for_faction" text="Human Faction" />
-    <string id="Cultures.Culture.human.str_faction_formal_name_for_culture" text="Human Faction" />
-    <string id="Cultures.Culture.human.str_neutral_term_for_culture" text="humans" />
+    <string id="str_culture_rich_name.human" text="Human Faction" />
+    <string id="str_faction_official.human" text="a human" />
+    <string id="str_faction_official.human_f" text="a human" />
+    <string id="str_faction_ruler.human" text="king" />
+    <string id="str_faction_ruler.human_f" text="queen" />
+    <string id="str_faction_ruler_term_in_speech.human" text="{?RULER.GENDER}the Queen{?}the King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.human" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.human" text="Human {RULER.NAME}" />
+    <string id="str_adjective_for_faction.human" text="human" />
+    <string id="str_short_term_for_faction.human" text="Human Faction" />
+    <string id="str_faction_formal_name_for_culture.human" text="Human Faction" />
+    <string id="str_neutral_term_for_culture.human" text="humans" />
     <string id="Cultures.Culture.name.youkai" text="Youkai" />
     <string id="Cultures.Culture.youkai.male_names.akihito" text="Akihito" />
     <string id="Cultures.Culture.youkai.male_names.akimitsu" text="Akimitsu" />
@@ -731,16 +773,16 @@
     <string id="Cultures.Culture.youkai.clan_names.kimura" text="Kimura" />
     <string id="Cultures.Culture.youkai.clan_names.hayashi" text="Hayashi" />
     <string id="Cultures.Culture.youkai.clan_names.shimizu" text="Shimizu" />
-    <string id="Cultures.Culture.youkai.str_culture_rich_name" text="Youkai Faction" />
-    <string id="Cultures.Culture.youkai.str_faction_official" text="a greater youkai" />
-    <string id="Cultures.Culture.youkai.str_faction_official_f" text="a greater youkai" />
-    <string id="Cultures.Culture.youkai.str_faction_ruler" text="great youkai" />
-    <string id="Cultures.Culture.youkai.str_faction_ruler_f" text="great youkai" />
-    <string id="Cultures.Culture.youkai.str_faction_noble_name_with_title" text="Youkai {RULER.NAME}" />
-    <string id="Cultures.Culture.youkai.str_adjective_for_faction" text="youkai" />
-    <string id="Cultures.Culture.youkai.str_short_term_for_faction" text="Youkai Faction" />
-    <string id="Cultures.Culture.youkai.str_faction_formal_name_for_culture" text="Youkai League" />
-    <string id="Cultures.Culture.youkai.str_neutral_term_for_culture" text="youkai" />
+    <string id="str_culture_rich_name.youkai" text="Youkai Faction" />
+    <string id="str_faction_official.youkai" text="a greater youkai" />
+    <string id="str_faction_official.youkai_f" text="a greater youkai" />
+    <string id="str_faction_ruler.youkai" text="great youkai" />
+    <string id="str_faction_ruler.youkai_f" text="great youkai" />
+    <string id="str_faction_noble_name_with_title.youkai" text="Youkai {RULER.NAME}" />
+    <string id="str_adjective_for_faction.youkai" text="youkai" />
+    <string id="str_short_term_for_faction.youkai" text="Youkai Faction" />
+    <string id="str_faction_formal_name_for_culture.youkai" text="Youkai League" />
+    <string id="str_neutral_term_for_culture.youkai" text="youkai" />
     <string id="Cultures.Culture.name.fairy" text="Fairy" />
     <string id="Cultures.Culture.fairy.male_names.akihito" text="Akihito" />
     <string id="Cultures.Culture.fairy.male_names.akimitsu" text="Akimitsu" />
@@ -846,15 +888,15 @@
     <string id="Cultures.Culture.fairy.clan_names.kimura" text="Kimura" />
     <string id="Cultures.Culture.fairy.clan_names.hayashi" text="Hayashi" />
     <string id="Cultures.Culture.fairy.clan_names.shimizu" text="Shimizu" />
-    <string id="Cultures.Culture.fairy.str_culture_rich_name" text="Fairy Faction" />
-    <string id="Cultures.Culture.fairy.str_faction_official" text="a strong fairy" />
-    <string id="Cultures.Culture.fairy.str_faction_official_f" text="a strong fairy" />
-    <string id="Cultures.Culture.fairy.str_faction_ruler" text="strongest fairy" />
-    <string id="Cultures.Culture.fairy.str_faction_ruler_f" text="strongest fairy" />
-    <string id="Cultures.Culture.fairy.str_faction_noble_name_with_title" text="Fairy {RULER.NAME}" />
-    <string id="Cultures.Culture.fairy.str_adjective_for_faction" text="fairy" />
-    <string id="Cultures.Culture.fairy.str_short_term_for_faction" text="Fairy Faction" />
-    <string id="Cultures.Culture.fairy.str_faction_formal_name_for_culture" text="Fairy Faction" />
-    <string id="Cultures.Culture.fairy.str_neutral_term_for_culture" text="fairies" />
+    <string id="str_culture_rich_name.fairy" text="Fairy Faction" />
+    <string id="str_faction_official.fairy" text="a strong fairy" />
+    <string id="str_faction_official.fairy_f" text="a strong fairy" />
+    <string id="str_faction_ruler.fairy" text="strongest fairy" />
+    <string id="str_faction_ruler.fairy_f" text="strongest fairy" />
+    <string id="str_faction_noble_name_with_title.fairy" text="Fairy {RULER.NAME}" />
+    <string id="str_adjective_for_faction.fairy" text="fairy" />
+    <string id="str_short_term_for_faction.fairy" text="Fairy Faction" />
+    <string id="str_faction_formal_name_for_culture.fairy" text="Fairy Faction" />
+    <string id="str_neutral_term_for_culture.fairy" text="fairies" />
   </strings>
 </base>
