@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using StoryMode;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Engine;
@@ -76,7 +77,11 @@ namespace TouhouAnalepsia
 				LoadLocalizationData((CampaignGameStarter)gameStarterObject);
 				//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
 				CampaignGameStarter campaignGameStarter = (CampaignGameStarter) gameStarterObject;
-   				campaignGameStarter.AddBehavior(new MyCampainBehavior());
+				if (game.GameType is CampaignStoryMode)
+				{
+					campaignGameStarter.AddBehavior(new MyCampainBehavior());
+				}
+				campaignGameStarter.AddBehavior(new CompanionBehavior());
 			}
 		}
 		public override void OnCampaignStart(Game game, object starterObject) {
