@@ -68,7 +68,7 @@ namespace TouhouAnalepsia {
 
 			throw new Exception("Something is present on an invalid navmesh face.");
 
-			return true;
+			//return true;
 		}
 
 		[HarmonyPatch(typeof(DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(MobileParty), typeof(MobileParty) })]
@@ -80,6 +80,20 @@ namespace TouhouAnalepsia {
 				if (toParty.CurrentNavigationFace.FaceIndex < 0) {
 					Logger.Log("toParty: " + toParty.Name.ToString() + " is on an invalid navmesh face.\nThe Current location is at " + toParty.GetPosition());
 				}
+				return true;
+			}
+		}
+		[HarmonyPatch(typeof(ConversationManager), "StartNew")]
+		class DebugPatch30 {
+			public static bool Prefix() {
+				Logger.Log("~~ At ConversationManager.StartNew ~~");
+
+				MobileParty playerParty = MobileParty.MainParty;
+
+				Logger.Log("The current navmesh ID is " + playerParty.CurrentNavigationFace.FaceIndex + "."); 
+				Logger.Log("It is located at " + Campaign.Current.MapSceneWrapper.GetNavigationMeshCenterPosition(playerParty.CurrentNavigationFace));
+				Logger.Log("Who has the terrain type " + Campaign.Current.MapSceneWrapper.GetFaceTerrainType(playerParty.CurrentNavigationFace) + ".");
+
 				return true;
 			}
 		}
