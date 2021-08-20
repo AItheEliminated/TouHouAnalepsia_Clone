@@ -7,6 +7,8 @@ using TaleWorlds.Library;
 using System.Reflection;
 using System.IO;
 using TaleWorlds.Core;
+using System;
+using TaleWorlds.ModuleManager;
 
 namespace Bannerlord.GeneralModdingPatches {
 	public class SubModule : MBSubModuleBase {
@@ -39,7 +41,36 @@ namespace Bannerlord.GeneralModdingPatches {
 				music_patch = true;
 			}
 
-			new Harmony("GeneralModdingPatches").PatchAll();
+			Harmony.DEBUG = true;
+			Harmony harmony = new Harmony("GeneralModdingPatches");
+			
+			Type to = AccessTools.TypeByName("psai.net.Logik");
+			MethodInfo mOriginal = to.GetMethod("LoadSoundtrackFromProjectFile", BindingFlags.Instance | BindingFlags.NonPublic);
+			
+			Type tn = AccessTools.TypeByName("Bannerlord.GeneralModdingPatches.SubModule");
+			MethodInfo mNew = AccessTools.Method(tn, "MusicPatch");
+
+			harmony.Patch(mOriginal, null, null, new HarmonyMethod(mNew));
+			Harmony.GetPatchInfo(mOriginal);
+			
+			harmony.PatchAll();
+		}
+
+		/*
+		static bool MusicPatch(ref string pathToProjectFile) {
+			pathToProjectFile = BasePath.Name + "Modules/TouhouAnalepsia/" + "music" + Path.DirectorySeparatorChar + "soundtrack.xml";
+			Debug.Print("ABCDEFG");
+			return true;
+		}
+		*/
+		static IEnumerable<CodeInstruction> MusicPatch(IEnumerable<CodeInstruction> instructions) {
+			foreach (CodeInstruction instruction in instructions) {
+				if(instruction.opcode.Equals(OpCodes.Ldarg_1)) {
+					instruction.opcode = OpCodes.Ldstr;
+					instruction.operand = ModulePath + "music/soundtrack.xml";
+				}
+				yield return instruction;
+			}
 		}
 
 		[HarmonyPatch(typeof(MapScene), "Load")]
@@ -68,14 +99,6 @@ namespace Bannerlord.GeneralModdingPatches {
 					}
 					yield return instruction;
 				}
-			}
-		}
-
-		[HarmonyPatch(typeof(psai.net.PsaiCore), "LoadSoundtrackFromProjectFile")]
-		class MusicPatch {
-			static bool Prefix(psai.net.PsaiCore __instance, ref string pathToProjectFile) {
-				if (music_patch && pathToProjectFile.Equals(BasePath.Name + "music/soundtrack.xml")) pathToProjectFile = ModulePath + "music" + Path.DirectorySeparatorChar + "soundtrack.xml";
-				return true;
 			}
 		}
 
