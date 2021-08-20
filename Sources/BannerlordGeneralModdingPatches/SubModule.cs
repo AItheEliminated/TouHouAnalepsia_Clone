@@ -16,8 +16,6 @@ namespace Bannerlord.GeneralModdingPatches {
 
 		private static string new_map_name = "modded_main_map";
 
-		private static bool music_patch = false;
-
 		public override void OnGameInitializationFinished(Game game) {
 			base.OnGameInitializationFinished(game);
 			if (File.Exists(ModulePath + "ModuleData" + Path.DirectorySeparatorChar + "managed_modded_parameters.xml")) {
@@ -27,42 +25,27 @@ namespace Bannerlord.GeneralModdingPatches {
 
 		protected override void OnSubModuleLoad() {
 			base.OnSubModuleLoad();
-			
+
 			if (File.Exists(ModulePath + "GeneralModdingPatches_Config.txt")) {
-				//Debug.Print(Path.GetFullPath(MainMapFixConfig + "MainMapFix_Config.txt"));
 				string[] lines = File.ReadAllLines(ModulePath + "GeneralModdingPatches_Config.txt");
 				new_map_name = lines[0];
 			} else {
 				Debug.Print("There does not exist a config for GeneralModdingPatches at: " + ModulePath + "GeneralModdingPatches_Config.txt" + "\nDefaulting to modded_main_map.");
 			}
 
-
-			if(File.Exists(ModulePath + "music" + Path.DirectorySeparatorChar + "soundtrack.xml")) {
-				music_patch = true;
-			}
-
-			Harmony.DEBUG = true;
 			Harmony harmony = new Harmony("GeneralModdingPatches");
-			
+
 			Type to = AccessTools.TypeByName("psai.net.Logik");
 			MethodInfo mOriginal = to.GetMethod("LoadSoundtrackFromProjectFile", BindingFlags.Instance | BindingFlags.NonPublic);
-			
+
 			Type tn = AccessTools.TypeByName("Bannerlord.GeneralModdingPatches.SubModule");
 			MethodInfo mNew = AccessTools.Method(tn, "MusicPatch");
 
 			harmony.Patch(mOriginal, null, null, new HarmonyMethod(mNew));
-			Harmony.GetPatchInfo(mOriginal);
-			
+			MBMusicManager.Create(); //This potentially may cause a memory leak, ideally in the future we can get rid of this, however at the present moment this method is run after music is loaded into the game.
+
 			harmony.PatchAll();
 		}
-
-		/*
-		static bool MusicPatch(ref string pathToProjectFile) {
-			pathToProjectFile = BasePath.Name + "Modules/TouhouAnalepsia/" + "music" + Path.DirectorySeparatorChar + "soundtrack.xml";
-			Debug.Print("ABCDEFG");
-			return true;
-		}
-		*/
 		static IEnumerable<CodeInstruction> MusicPatch(IEnumerable<CodeInstruction> instructions) {
 			foreach (CodeInstruction instruction in instructions) {
 				if(instruction.opcode.Equals(OpCodes.Ldarg_1)) {
@@ -101,49 +84,5 @@ namespace Bannerlord.GeneralModdingPatches {
 				}
 			}
 		}
-
-		/*
-		[HarmonyPatch(typeof(MBMusicManager), MethodType.Constructor)]
-		public static class MusicPatch {
-			static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
-				bool flag = false;
-				foreach (CodeInstruction instruction in instructions) {
-					if (!music_patch) yield return instruction;
-
-					if(flag) {
-						yield return new CodeInstruction(OpCodes.Ldstr, ModulePath + "music" + Path.DirectorySeparatorChar + "soundtrack.xml");
-						flag = false;
-						continue;
-					}
-
-					if (instruction.opcode == OpCodes.Ldstr && instruction.OperandIs("music/soundtrack.xml")) {
-						flag = true;
-					}
-					yield return instruction;
-				}
-			}
-		}
-
-		[HarmonyPatch(typeof(MBMusicManagerOld), "Initialize")]
-		public static class MusicPatchOld {
-			static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
-				bool flag = false;
-				foreach (CodeInstruction instruction in instructions) {
-					if (!music_patch) yield return instruction;
-
-					if (flag) {
-						yield return new CodeInstruction(OpCodes.Ldstr, ModulePath + "music" + Path.DirectorySeparatorChar + "soundtrack.xml");
-						flag = false;
-						continue;
-					}
-
-					if (instruction.opcode == OpCodes.Ldstr && instruction.OperandIs("music/soundtrack.xml")) {
-						flag = true;
-					}
-					yield return instruction;
-				}
-			}
-		}
-		*/
 	}
 }
