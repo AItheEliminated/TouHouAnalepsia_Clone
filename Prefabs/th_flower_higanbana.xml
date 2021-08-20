@@ -1,0 +1,9 @@
+<prefabs>
+	<game_entity name="th_flower_higanbana" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.102, 0.102, 0.102"/>
+		<components>
+			<meta_mesh_component name="cylinder"/>
+		</components>
+	</game_entity>
+</prefabs>
+
