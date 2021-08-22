@@ -59,7 +59,9 @@ namespace TouhouAnalepsia.Editor.Playground
 				BasicCharacterObject player = this._game.ObjectManager.GetObject<BasicCharacterObject>("testguy");
 				MatrixFrame identity = GetPlayerSideSpawnFrameInSettlement(true);
 				AgentBuildData agentBuildData = new AgentBuildData(player);
-				agentBuildData.InitialFrame(identity).Controller(Agent.ControllerType.Player);
+				agentBuildData.InitialPosition(identity.origin);
+				agentBuildData.InitialDirection(identity.rotation.f.AsVec2.Normalized());
+				agentBuildData.Controller(Agent.ControllerType.Player);
 				Mission.SpawnAgent(agentBuildData, false, 0).WieldInitialWeapons(Agent.WeaponWieldActionType.InstantAfterPickUp);
 			}
 

@@ -33,9 +33,9 @@ namespace TouhouAnalepsia {
 			return factionCulture.acceptedCultures.Contains(cultureObject);
 		}
 
-		public static CultureObject getCultureWithID(string id) {
-			List<CultureObject> allCultures = new List<CultureObject>();
-			Game.Current.ObjectManager.GetAllInstancesOfObjectType<CultureObject>(ref allCultures);
+		public static CultureObject getCultureWithID(string id)
+		{
+			List<CultureObject> allCultures = Game.Current.ObjectManager.GetObjectTypeList<CultureObject>().ToList();
 
 			return (from x in allCultures
 					where x.StringId.Equals(id)
