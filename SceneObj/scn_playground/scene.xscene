@@ -41,13 +41,38 @@
 		</out_of_bounds_effects_properties>
 	</environment_properties>
 	<entities>
-		<game_entity name="envmap_probe" old_prefab_name="" mobility="1" season_mask="255">
+		<game_entity prefab="bd_sack_heap_a">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="68.275, 71.184, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity name="spawnpoint" old_prefab_name="">
+			<tags>
+				<tag name="spawnpoint_player"/>
+			</tags>
+			<transform position="50.119, 44.960, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_e" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="58.677, 54.255, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="editor_cube">
+			<transform position="95.058, 85.145, 4.001" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 1.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="editor_cube" argument="1.000, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
 			<visibility_masks>
 				<visibility_mask name="no_shadow" value="true"/>
 				<visibility_mask name="visible_only_when_editing" value="true"/>
 			</visibility_masks>
 			<transform position="50.423, 36.368, 5.000" rotation_euler="0.000, 0.000, -0.090"/>
-			<physics mass="1.000"/>
 			<scripts>
 				<script name="ReflectionCapturer">
 					<variables>
@@ -60,12 +85,158 @@
 				</script>
 			</scripts>
 		</game_entity>
-		<game_entity name="spawnpoint" old_prefab_name="" season_mask="255">
-			<tags>
-				<tag name="spawnpoint_player"/>
-			</tags>
-			<transform position="50.119, 44.960, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
-			<physics mass="1.000"/>
+		<game_entity prefab="bd_cartbroken_b" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="65.456, 59.141, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_bucket_b" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="63.859, 53.696, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="bd_bucket_b.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+					<mesh name="bd_bucket_b.lod1.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+					<mesh name="bd_bucket_b.lod2.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+					<mesh name="bd_bucket_b.lod3.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="bd_barrel_b" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="53.475, 54.153, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_a" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="60.665, 58.994, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_a" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="67.801, 66.567, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_c_dark" visible="false">
+			<transform position="78.316, 75.746, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cloth_a" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="48.434, 66.496, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_f" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="60.363, 54.064, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_d" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="74.620, 57.826, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_b_dark" visible="false">
+			<transform position="67.679, 77.204, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_a" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="52.435, 54.133, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_c" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="55.314, 54.189, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_d" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="57.146, 54.376, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_hay_cart_b" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="61.070, 67.548, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="foods_basket_apple" visible="false">
+			<transform position="78.942, 66.137, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_a" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="61.781, 53.944, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="barn_fence_c" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="48.988, 53.016, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a" visible="false">
+			<transform position="52.562, 75.805, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a_dark" visible="false">
+			<transform position="82.006, 71.377, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_fabric_b" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="52.074, 67.118, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_hay_cart_a" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="56.662, 67.283, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="foods_basket_a" visible="false">
+			<transform position="76.897, 66.123, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_c" visible="false">
+			<transform position="72.715, 77.341, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_e">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="65.212, 67.172, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<meta_mesh_component>
+							<mesh name="bd_washtub_b.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+							<mesh name="bd_washtub_b.lod2.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+							<mesh name="bd_washtub_b.lod3.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+							<mesh name="bd_washtub_b.lod4.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity _index_="1">
+					<components>
+						<meta_mesh_component>
+							<mesh name="bd_bucket_b.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+							<mesh name="bd_bucket_b.lod1.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+							<mesh name="bd_bucket_b.lod2.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+							<mesh name="bd_bucket_b.lod3.1" argument="0.250, 0.030, 1.000, 2.000" argument2="155.000, 30.000, 0.180, 4.000"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+			</children>
 		</game_entity>
 		<game_entity prefab="manual_test_prefab_entity">
 			<transform position="85.577, 78.007, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
@@ -111,13 +282,69 @@
 				</game_entity>
 			</children>
 		</game_entity>
-		<game_entity prefab="editor_cube">
-			<transform position="95.058, 85.145, 4.001" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 1.000"/>
-			<components>
-				<meta_mesh_component>
-					<mesh name="editor_cube" argument="1.000, 0.000, 0.000, 0.000"/>
-				</meta_mesh_component>
-			</components>
+		<game_entity prefab="bd_straw_a_dark" visible="false">
+			<transform position="58.214, 75.391, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_hanged_d" visible="false">
+			<transform position="47.973, 71.664, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_a">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="51.793, 59.418, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_bucket_a" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="62.895, 53.748, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="71.311, 66.043, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_b" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="69.513, 66.437, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_b" visible="false">
+			<transform position="63.097, 76.603, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_c" visible="false">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="68.633, 58.025, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_c">
+			<transform position="74.480, 70.701, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity visible="false" _index_="0"/>
+				<game_entity visible="false" _index_="1"/>
+				<game_entity visible="false" _index_="2"/>
+				<game_entity visible="false" _index_="3"/>
+				<game_entity visible="false" _index_="4"/>
+				<game_entity visible="false" _index_="5"/>
+				<game_entity visible="false" _index_="6"/>
+				<game_entity visible="false" _index_="7"/>
+				<game_entity visible="false" _index_="8"/>
+				<game_entity visible="false" _index_="9"/>
+				<game_entity visible="false" _index_="10"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_b">
+			<transform position="70.642, 71.587, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<flags>
+				<flag name="force_as_static" value="true"/>
+			</flags>
+			<transform position="56.177, 59.284, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 	</entities>
 	<terrain enabled="true" node_dimension_x="4" node_dimension_y="4" node_size="25.000" lod_multiplier="1.000" min_height="0.000" max_height="0.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="-1" ao_intensity="4.000">
@@ -576,7 +803,7 @@
 		<scene_bake_data sample_count_index="1" number_of_interreflections="4" subdivision_length="4.000"/>
 		<probe_bake_data visibility_find_quality="1" active_probe_find_quality="1" grid_width="1.500" grid_height="2.500"/>
 	</prt_batch_data>
-	<editor_data editor_camera_position="35.425, 60.154, 15.316" editor_camera_elevation="-0.959" editor_camera_bearing="-5.740" editor_camera_forward="0.794, 0.211, -0.570" author="" comment=""/>
+	<editor_data editor_camera_position="62.595, 52.447, 28.385" editor_camera_elevation="-0.200" editor_camera_bearing="0.000" editor_camera_forward="0.004, 0.441, -0.897" author="" comment=""/>
 	<camera_data near_plane="0.100" far_plane="100000.000"/>
 	<Paths/>
 </scene>
