@@ -7,9 +7,11 @@ using TaleWorlds.Library;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
 using TouhouAnalepsia.Abilities;
+using TouhouAnalepsia.Behaviors;
 using TouhouAnalepsia.CampaignSystem.Behaviors;
 using TouhouAnalepsia.Editor.FastScene;
 using TouhouAnalepsia.Editor.Playground;
+using TouhouAnalepsia.Patches;
 using Module = TaleWorlds.MountAndBlade.Module;
 
 namespace TouhouAnalepsia
@@ -20,10 +22,9 @@ namespace TouhouAnalepsia
 
 		protected override void OnSubModuleLoad() {
 			base.OnSubModuleLoad();
-			Patches.Prepatch(); //For transpilers and whatnot, in case they need it.
+			PatchManager.Prepatch(); //For transpilers and whatnot, in case they need it.
 			HarmonyHandler.PatchAll();
-
-			Patches.DefaultPatches();
+			PatchManager.DefaultPatches();
 
 			//CampaignOptions.EnableCampaignTutorials = false;
 #if !DEBUG
@@ -78,6 +79,7 @@ namespace TouhouAnalepsia
 				//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
 				CampaignGameStarter campaignGameStarter = (CampaignGameStarter) gameStarterObject;
    				campaignGameStarter.AddBehavior(new MyCampainBehavior());
+				campaignGameStarter.AddBehavior(new InitialRelationsCampaignBehavior());
 			}
 		}
 		public override void OnCampaignStart(Game game, object starterObject) {

@@ -21,12 +21,19 @@ namespace TouhouAnalepsia {
 				List<CultureObject> allCultures = new List<CultureObject>();
 				Game.Current.ObjectManager.GetAllInstancesOfObjectType<CultureObject>(ref allCultures);
 				foreach (FactionCulture factionCulture in factionCultures) {
-					if (factionCulture.culture==allCultures.First()) return factionCulture;
+					if (factionCulture.culture == allCultures.First()) return factionCulture;
 				}
 
 				return new FactionCulture(allCultures.First(), allCultures);
 			}
 			return getFactionCultureByID("fc_human");
+		}
+		public static bool IsFactionCulture(string id) {
+			return id.StartsWith("fc_");
+		}
+
+		public bool IsAcceptedCulture(CultureObject culture) {
+			return acceptedCultures.Contains(culture);
 		}
 
 		public FactionCulture(CultureObject factionCultureObject, List<CultureObject> acceptedCultures) {
