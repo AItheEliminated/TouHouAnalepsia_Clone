@@ -7,14 +7,14 @@ using TaleWorlds.Library;
 using System.Reflection;
 using System.IO;
 using TaleWorlds.Core;
+using System;
+using TaleWorlds.ModuleManager;
 
 namespace Bannerlord.GeneralModdingPatches {
 	public class SubModule : MBSubModuleBase {
 		protected static string ModulePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase.Remove(0, 8)) + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar;
 
 		private static string new_map_name = "modded_main_map";
-
-		private static bool music_patch = false;
 
 		public override void OnGameInitializationFinished(Game game) {
 			base.OnGameInitializationFinished(game);
@@ -25,21 +25,35 @@ namespace Bannerlord.GeneralModdingPatches {
 
 		protected override void OnSubModuleLoad() {
 			base.OnSubModuleLoad();
-			
+
 			if (File.Exists(ModulePath + "GeneralModdingPatches_Config.txt")) {
-				//Debug.Print(Path.GetFullPath(MainMapFixConfig + "MainMapFix_Config.txt"));
 				string[] lines = File.ReadAllLines(ModulePath + "GeneralModdingPatches_Config.txt");
 				new_map_name = lines[0];
 			} else {
 				Debug.Print("There does not exist a config for GeneralModdingPatches at: " + ModulePath + "GeneralModdingPatches_Config.txt" + "\nDefaulting to modded_main_map.");
 			}
 
+			Harmony harmony = new Harmony("GeneralModdingPatches");
 
-			if(File.Exists(ModulePath + "music" + Path.DirectorySeparatorChar + "soundtrack.xml")) {
-				music_patch = true;
+			Type to = AccessTools.TypeByName("psai.net.Logik");
+			MethodInfo mOriginal = to.GetMethod("LoadSoundtrackFromProjectFile", BindingFlags.Instance | BindingFlags.NonPublic);
+
+			Type tn = AccessTools.TypeByName("Bannerlord.GeneralModdingPatches.SubModule");
+			MethodInfo mNew = AccessTools.Method(tn, "MusicPatch");
+
+			harmony.Patch(mOriginal, null, null, new HarmonyMethod(mNew));
+			MBMusicManager.Create(); //This potentially may cause a memory leak, ideally in the future we can get rid of this, however at the present moment this method is run after music is loaded into the game.
+
+			harmony.PatchAll();
+		}
+		static IEnumerable<CodeInstruction> MusicPatch(IEnumerable<CodeInstruction> instructions) {
+			foreach (CodeInstruction instruction in instructions) {
+				if(instruction.opcode.Equals(OpCodes.Ldarg_1)) {
+					instruction.opcode = OpCodes.Ldstr;
+					instruction.operand = ModulePath + "music/soundtrack.xml";
+				}
+				yield return instruction;
 			}
-
-			new Harmony("GeneralModdingPatches").PatchAll();
 		}
 
 		[HarmonyPatch(typeof(MapScene), "Load")]
@@ -70,57 +84,5 @@ namespace Bannerlord.GeneralModdingPatches {
 				}
 			}
 		}
-
-		[HarmonyPatch(typeof(psai.net.PsaiCore), "LoadSoundtrackFromProjectFile")]
-		class MusicPatch {
-			static bool Prefix(psai.net.PsaiCore __instance, ref string pathToProjectFile) {
-				if (music_patch && pathToProjectFile.Equals(BasePath.Name + "music/soundtrack.xml")) pathToProjectFile = ModulePath + "music" + Path.DirectorySeparatorChar + "soundtrack.xml";
-				return true;
-			}
-		}
-
-		/*
-		[HarmonyPatch(typeof(MBMusicManager), MethodType.Constructor)]
-		public static class MusicPatch {
-			static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
-				bool flag = false;
-				foreach (CodeInstruction instruction in instructions) {
-					if (!music_patch) yield return instruction;
-
-					if(flag) {
-						yield return new CodeInstruction(OpCodes.Ldstr, ModulePath + "music" + Path.DirectorySeparatorChar + "soundtrack.xml");
-						flag = false;
-						continue;
-					}
-
-					if (instruction.opcode == OpCodes.Ldstr && instruction.OperandIs("music/soundtrack.xml")) {
-						flag = true;
-					}
-					yield return instruction;
-				}
-			}
-		}
-
-		[HarmonyPatch(typeof(MBMusicManagerOld), "Initialize")]
-		public static class MusicPatchOld {
-			static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
-				bool flag = false;
-				foreach (CodeInstruction instruction in instructions) {
-					if (!music_patch) yield return instruction;
-
-					if (flag) {
-						yield return new CodeInstruction(OpCodes.Ldstr, ModulePath + "music" + Path.DirectorySeparatorChar + "soundtrack.xml");
-						flag = false;
-						continue;
-					}
-
-					if (instruction.opcode == OpCodes.Ldstr && instruction.OperandIs("music/soundtrack.xml")) {
-						flag = true;
-					}
-					yield return instruction;
-				}
-			}
-		}
-		*/
 	}
 }

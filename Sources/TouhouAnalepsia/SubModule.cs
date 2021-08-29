@@ -1,5 +1,6 @@
 ﻿using StoryMode.StoryModePhases;
 using System.Reflection;
+using StoryMode;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Engine;
@@ -66,19 +67,23 @@ namespace TouhouAnalepsia
 
 		protected override void OnGameStart(Game game, IGameStarter gameStarterObject) {
 			base.OnGameStart(game, gameStarterObject);
+			CampaignGameStarter campaignGameStarter = (CampaignGameStarter)gameStarterObject;
 
 			game.ObjectManager.RegisterType<Ability>("Ability", "Abilities", 61U, true);
 			game.ObjectManager.LoadXML("Abilities");
+			
+			//game.ObjectManager.RegisterType<Race>("Race", "Races", 62U, true);
+			//game.ObjectManager.LoadXML("Races");
 
 			if (game.GameType is Campaign) {
 				FactionCulture.initializeFactionCultures();
 
 				TouhouModelManager.initializeTouhouModels(gameStarterObject);
 
-				LoadLocalizationData((CampaignGameStarter)gameStarterObject);
-				//game.ObjectManager.RegisterType<Race>("Race", "Races", 50U, true);
-				CampaignGameStarter campaignGameStarter = (CampaignGameStarter) gameStarterObject;
-   				campaignGameStarter.AddBehavior(new MyCampainBehavior());
+				LoadLocalizationData(campaignGameStarter);
+   				
+				//campaignGameStarter.AddBehavior(new MyCampainBehavior()); //Disabled temporarily - this sort of addition should go through a pull request first.
+																			//	Plus I'm pretty sure this was moreso experimentation than a proper feature.
 				campaignGameStarter.AddBehavior(new InitialRelationsCampaignBehavior());
 			}
 		}

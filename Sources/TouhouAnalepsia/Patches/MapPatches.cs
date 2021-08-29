@@ -56,6 +56,21 @@ namespace TouhouAnalepsia.Patches {
 			}
 		}
 
+		[HarmonyPatch(typeof(ConversationManager), "StartNew")]
+		class DebugPatch30 {
+			public static bool Prefix() {
+				Logger.Log("~~ At ConversationManager.StartNew ~~");
+
+				MobileParty playerParty = MobileParty.MainParty;
+
+				Logger.Log("The current navmesh ID is " + playerParty.CurrentNavigationFace.FaceIndex + ".");
+				Logger.Log("It is located at " + Campaign.Current.MapSceneWrapper.GetNavigationMeshCenterPosition(playerParty.CurrentNavigationFace));
+				Logger.Log("Who has the terrain type " + Campaign.Current.MapSceneWrapper.GetFaceTerrainType(playerParty.CurrentNavigationFace) + ".");
+
+				return true;
+			}
+		}
+
 		/*
 		[HarmonyPatch(typeof(DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(MobileParty), typeof(Settlement) })]
 		[HarmonyPatch(typeof(DefaultMapDistanceModel), "GetDistance", new Type[] { typeof(MobileParty), typeof(MobileParty) })]
