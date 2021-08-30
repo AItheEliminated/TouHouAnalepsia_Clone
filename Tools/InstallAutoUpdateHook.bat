@@ -8,9 +8,17 @@ pause
 exit
 
 :INSTALL_HOOK
+
 echo #!/bin/sh > "./post-merge"
 echo Powershell.exe -executionpolicy unrestricted -File ./Tools/process_downloadartifacts.ps1 NOPAUSE >> "./post-merge"
 echo git lfs post-merge "$@" >> "./post-merge"
 move /Y "./post-merge" "./../.git/hooks/"
+
+echo #!/bin/sh > "./post-checkout"
+echo Powershell.exe -executionpolicy unrestricted -File ./Tools/process_downloadartifacts.ps1 NOPAUSE >> "./post-checkout"
+echo command -v git-lfs ^>/dev/null 2^>^&1 ^|^| { echo ^>^&2 "\nThis repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting .git/hooks/post-checkout.\n"; exit 2; } >> "./post-checkout"
+echo git lfs post-checkout "$@" >> "./post-checkout"
+move /Y "./post-checkout" "./../.git/hooks/"
+
 echo Install done
 pause

@@ -6,7 +6,7 @@ Feel free to check out our own project at https://forums.taleworlds.com/index.ph
 and join our discord at https://discord.gg/PUqYrGZ 
 
 If you want to use this tool yourself for you own project, you can find it at https://github.com/RomanResistance/XmlTool-->
-  <NPCCharacter id="spc_wanderer_human_0" default_group="Infantry" age="29" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_0} the Knowing" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_0" default_group="Infantry" age="29" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_0}{HERO.FIRSTNAME} the Magician" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -22,7 +22,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_1" default_group="Infantry" age="27" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_1} the Hawk" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_1" default_group="Infantry" age="27" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_1}{HERO.FIRSTNAME} the Maid" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -38,7 +38,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_2" default_group="Infantry" age="22" voice="earnest" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_2} the Fatherless" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_2" default_group="Infantry" age="22" voice="earnest" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_2}{HERO.FIRSTNAME} of the Lost" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -55,7 +55,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_3" default_group="Infantry" age="32" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_3} Ironeye" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_3" default_group="Infantry" age="32" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_3}{HERO.FIRSTNAME} the Human" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -72,7 +72,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_4" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_4} the Outcast" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_4" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_4}{HERO.FIRSTNAME} of the Shrine" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -88,7 +88,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_5" default_group="Infantry" age="21" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_5} the Mad" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_5" default_group="Infantry" age="21" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_5}{HERO.FIRSTNAME} the Disciple" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -104,7 +104,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_6" default_group="Infantry" age="20" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_6} the Grey Falcon" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_6" default_group="Infantry" age="20" voice="curt" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_6}{HERO.FIRSTNAME} the Priestess" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -120,7 +120,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_7" default_group="Infantry" age="28" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_7} the She-Wolf" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_7" default_group="Infantry" age="28" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_7}{HERO.FIRSTNAME} the Maiden" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_human" />
     </face>
@@ -137,7 +137,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_8" default_group="Infantry" age="29" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_8} the Alone" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_8" default_group="Infantry" age="29" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_8}{HERO.FIRSTNAME} the Youkai Exterminator" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_human" />
     </face>
@@ -154,7 +154,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_9" default_group="Infantry" age="21" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_9} the Swift" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_9" default_group="Infantry" age="21" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_9}{HERO.FIRSTNAME} the Drunk" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_human" />
     </face>
@@ -171,7 +171,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_human_10" default_group="Infantry" voice="earnest" is_hero="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_10} the Ragged" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_human_10" default_group="Infantry" voice="earnest" is_hero="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_human_10}{HERO.FIRSTNAME} of the Human Village" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -193,7 +193,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_0" default_group="Infantry" age="29" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_0} the Scholar" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_0" default_group="Infantry" age="29" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_0}{HERO.FIRSTNAME} the Beast" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -210,7 +210,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_1" default_group="Infantry" age="29" voice="earnest" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_1} the Bull" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_1" default_group="Infantry" age="29" voice="earnest" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_1}{HERO.FIRSTNAME} the Hermit" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -228,7 +228,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_2" default_group="Infantry" age="26" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_2} the Silent" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_2" default_group="Infantry" age="26" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_2}{HERO.FIRSTNAME} the Horned" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -246,7 +246,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_3" default_group="Infantry" age="40" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_3} the Boar" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_3" default_group="Infantry" age="40" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_3}{HERO.FIRSTNAME} the Phantom" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -264,7 +264,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_4" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_4} the Robber" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_4" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_4}{HERO.FIRSTNAME} the Horror" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -282,7 +282,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_5" default_group="Infantry" age="30" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_5} the Butcher" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_5" default_group="Infantry" age="30" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_5}{HERO.FIRSTNAME} of Hell" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -300,7 +300,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_6" default_group="Infantry" age="22" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_6} of the Hills" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_6" default_group="Infantry" age="22" voice="curt" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_6}{HERO.FIRSTNAME} the Soldier" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -319,7 +319,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_7" default_group="Infantry" age="24" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_7} the Wanderer" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_7" default_group="Infantry" age="24" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_7}{HERO.FIRSTNAME} Man-Eater" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_youkai" />
     </face>
@@ -335,7 +335,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_8" default_group="Infantry" age="23" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_8} the Wronged" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_8" default_group="Infantry" age="23" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_8}{HERO.FIRSTNAME} the Hidden" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_youkai" />
     </face>
@@ -352,7 +352,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_9" default_group="Infantry" age="21" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_9} the Black" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_9" default_group="Infantry" age="21" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_9}{HERO.FIRSTNAME} the Inhuman" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_youkai" />
     </face>
@@ -369,7 +369,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_10" default_group="Infantry" age="31" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_10} the Surgeon" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_10" default_group="Infantry" age="31" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_10}{HERO.FIRSTNAME} the Animal" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -388,7 +388,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_youkai_11" default_group="Infantry" age="28" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_11} the Wronged" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_youkai_11" default_group="Infantry" age="28" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_11}{HERO.FIRSTNAME} the Gatekeeper" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_youkai" />
     </face>
@@ -403,7 +403,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_empire" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_0" default_group="Infantry" age="26" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_0} the Scholar" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_0" default_group="Infantry" age="26" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_0}{HERO.FIRSTNAME} Moon" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -419,7 +419,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_1" default_group="Infantry" age="23" voice="earnest" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_1} the Golden" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_1" default_group="Infantry" age="23" voice="earnest" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_1}{HERO.FIRSTNAME} Ruby" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -435,7 +435,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_2" default_group="Infantry" age="25" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_2} the Falcon" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_2" default_group="Infantry" age="25" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_2}{HERO.FIRSTNAME} Emerald" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -451,7 +451,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_3" default_group="Infantry" age="33" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_3} the Swordsman" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_3" default_group="Infantry" age="33" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_3}{HERO.FIRSTNAME} Dazzle" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -467,7 +467,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_4" default_group="Infantry" age="25" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_4} the Prince" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_4" default_group="Infantry" age="25" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_4}{HERO.FIRSTNAME} Twinkle" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -484,7 +484,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_5" default_group="Infantry" age="27" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_5} the Hyena" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_5" default_group="Infantry" age="27" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_5}{HERO.FIRSTNAME} Joy" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -501,7 +501,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_6" default_group="Infantry" age="31" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_6} of the Wastes" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_6" default_group="Infantry" age="31" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_6}{HERO.FIRSTNAME} Midsummer" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -517,7 +517,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_7" default_group="Infantry" age="25" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_7} the Wanderer" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_7" default_group="Infantry" age="25" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_7}{HERO.FIRSTNAME} Spring" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_fairy" />
     </face>
@@ -534,7 +534,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_8" default_group="Infantry" age="28" voice="softspoken" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_8} the Spicevendor" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_8" default_group="Infantry" age="28" voice="softspoken" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_8}{HERO.FIRSTNAME}" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_fairy" />
     </face>
@@ -550,7 +550,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_9" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_9} the Leopardess" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_9" default_group="Infantry" age="22" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_9}{HERO.FIRSTNAME} Dew" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.townswoman_fairy" />
     </face>
@@ -566,7 +566,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_companion_equipment_template_aserai" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_fairy_10" default_group="Infantry" age="26" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_10} the Engineer" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_fairy_10" default_group="Infantry" age="26" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_10}{HERO.FIRSTNAME} Breeze" occupation="Wanderer">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>
@@ -597,7 +597,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_human_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_0b} the Broker" occupation="Merchant" skill_template="NPCCharacter.spc_notable_human_0b">
+  <NPCCharacter id="spc_notable_human_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_0b}{HERO.FIRSTNAME} the Curio Seller" occupation="Merchant" skill_template="NPCCharacter.spc_notable_human_0b">
     <face>
       <face_key_template value="NPCCharacter.villager_human" />
     </face>
@@ -612,7 +612,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_khuzait_0b" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_human_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1} the Dyer" occupation="Merchant">
+  <NPCCharacter id="spc_notable_human_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1}{HERO.FIRSTNAME} the Dyer" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_human" />
     </face>
@@ -627,7 +627,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_khuzait_1" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_human_1b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1b} the Horsetrader" occupation="Merchant">
+  <NPCCharacter id="spc_notable_human_1b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1b}{HERO.FIRSTNAME} the Horsetrader" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_human" />
     </face>
@@ -643,7 +643,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_khuzait_1b" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_human_1c" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1c} the Wineseller" occupation="Merchant">
+  <NPCCharacter id="spc_notable_human_1c" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_1c}{HERO.FIRSTNAME} the Wineseller" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_human" />
     </face>
@@ -659,7 +659,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_khuzait_1c" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_human_2" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_2} the Freedwoman" occupation="Merchant">
+  <NPCCharacter id="spc_notable_human_2" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_2}{HERO.FIRSTNAME} the Pharmacist" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.townswoman_human" />
     </face>
@@ -673,7 +673,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_khuzait_2" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_human_2b" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_2b} the Silkseller" occupation="Merchant">
+  <NPCCharacter id="spc_notable_human_2b" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_notable_human_2b}{HERO.FIRSTNAME} the Silkseller" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.townswoman_human" />
     </face>
@@ -913,7 +913,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_youkai_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_0b} the Vintner" occupation="Merchant">
+  <NPCCharacter id="spc_notable_youkai_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_0b}{HERO.FIRSTNAME} the Vintner" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_youkai" />
     </face>
@@ -960,7 +960,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_youkai_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_2} the Saltpanner" occupation="Merchant">
+  <NPCCharacter id="spc_notable_youkai_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_notable_youkai_2}{HERO.FIRSTNAME} the Saltpanner" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_youkai" />
     </face>
@@ -1321,7 +1321,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_fairy_0" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_0} the Dateseller" occupation="Merchant">
+  <NPCCharacter id="spc_notable_fairy_0" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_0}{HERO.FIRSTNAME} the Dateseller" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>
@@ -1336,7 +1336,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_aserai_0" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_fairy_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_0b} the Minter" occupation="Merchant">
+  <NPCCharacter id="spc_notable_fairy_0b" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_0b}{HERO.FIRSTNAME} the Minter" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>
@@ -1352,7 +1352,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_aserai_0b" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_fairy_1" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_1} the Coppermonger" occupation="Merchant">
+  <NPCCharacter id="spc_notable_fairy_1" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_1}{HERO.FIRSTNAME} the Coppermonger" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>
@@ -1368,7 +1368,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_aserai_1" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_fairy_1b" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_1b} the Incensemonger" occupation="Merchant">
+  <NPCCharacter id="spc_notable_fairy_1b" default_group="Infantry" voice="curt" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_1b}{HERO.FIRSTNAME} the Incensemonger" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>
@@ -1385,7 +1385,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_aserai_1b" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_fairy_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_2} the Woolseller" occupation="Merchant">
+  <NPCCharacter id="spc_notable_fairy_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_2}{HERO.FIRSTNAME} the Woolseller" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>
@@ -1400,7 +1400,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_aserai_2" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_fairy_2b" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_2b} the Appraiser" occupation="Merchant">
+  <NPCCharacter id="spc_notable_fairy_2b" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_2b}{HERO.FIRSTNAME} the Appraiser" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>
@@ -1416,7 +1416,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_aserai_2b" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_fairy_3" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_3} the Caravanser" occupation="Merchant">
+  <NPCCharacter id="spc_notable_fairy_3" default_group="Infantry" voice="ironic" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_3}{HERO.FIRSTNAME} the Caravanser" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.townswoman_fairy" />
     </face>
@@ -1431,7 +1431,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="spc_notable_aserai_3" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_fairy_3b" default_group="Infantry" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_3b} the Benefactor" occupation="Merchant">
+  <NPCCharacter id="spc_notable_fairy_3b" default_group="Infantry" voice="curt" is_hero="false" is_female="true" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_notable_fairy_3b}{HERO.FIRSTNAME} the Benefactor" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.townswoman_fairy" />
     </face>

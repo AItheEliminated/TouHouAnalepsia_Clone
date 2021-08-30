@@ -4,13 +4,13 @@
     <tag language="English" />
   </tags>
   <strings>
-    <string id="NPCCharacters.NPCCharacter.kokoro.name" text="Kokoro" />
-    <string id="NPCCharacters.NPCCharacter.sumireko.name" text="Sumireko" />
-    <string id="NPCCharacters.NPCCharacter.joon.name" text="Joon" />
-    <string id="NPCCharacters.NPCCharacter.shion.name" text="Shion" />
-    <string id="NPCCharacters.NPCCharacter.joutouguu.name" text="Joutouguu" />
-    <string id="NPCCharacters.NPCCharacter.keiki.name" text="Keiki" />
-    <string id="NPCCharacters.NPCCharacter.clownpiece.name" text="Clownpiece" />
-    <string id="NPCCharacters.NPCCharacter.junko.name" text="Junko" />
+    <string id="NPCCharacters.NPCCharacter.name.lord_kokoro" text="Kokoro" />
+    <string id="NPCCharacters.NPCCharacter.name.lord_sumireko" text="Sumireko" />
+    <string id="NPCCharacters.NPCCharacter.name.lord_joon" text="Joon" />
+    <string id="NPCCharacters.NPCCharacter.name.lord_shion" text="Shion" />
+    <string id="NPCCharacters.NPCCharacter.name.lord_joutouguu" text="Joutouguu" />
+    <string id="NPCCharacters.NPCCharacter.name.lord_keiki" text="Keiki" />
+    <string id="NPCCharacters.NPCCharacter.name.lord_clownpiece" text="Clownpiece" />
+    <string id="NPCCharacters.NPCCharacter.name.lord_junko" text="Junko" />
   </strings>
 </base>

@@ -4,176 +4,174 @@
     <tag language="English" />
   </tags>
   <strings>
-    <string id="Factions.Faction.clan_hakurei_shrine_hakurei.name" text="Hakurei" />
-    <string id="Factions.Faction.clan_hakurei_shrine_hakurei.text" text="Human" />
-    <string id="Factions.Faction.clan_hakurei_shrine_ibuki.name" text="Ibuki" />
-    <string id="Factions.Faction.clan_hakurei_shrine_ibuki.text" text="Oni" />
-    <string id="Factions.Faction.clan_hakurei_shrine_mokou.name" text="Mokou" />
-    <string id="Factions.Faction.clan_hakurei_shrine_mokou.text" text="Human" />
-    <string id="Factions.Faction.clan_hakurei_shrine_kirisame.name" text="Kirisame" />
-    <string id="Factions.Faction.clan_hakurei_shrine_kirisame.text" text="Human (Magician)" />
-    <string id="Factions.Faction.clan_hakurei_shrine_margatroid0.name" text="Margatroid" />
-    <string id="Factions.Faction.clan_hakurei_shrine_margatroid0.text" text="Magician (Human)" />
-    <string id="Factions.Faction.clan_hakurei_shrine_margatroid1.name" text="Margatroid" />
-    <string id="Factions.Faction.clan_hakurei_shrine_margatroid1.text" text="Doll" />
-    <string id="Factions.Faction.clan_hakurei_shrine_shinmyoumaru.name" text="Shinmyoumaru" />
-    <string id="Factions.Faction.clan_hakurei_shrine_shinmyoumaru.text" text="Inchling" />
-    <string id="Factions.Faction.clan_hakurei_shrine_mima.name" text="Mima" />
-    <string id="Factions.Faction.clan_hakurei_shrine_mima.text" text="Vengeful spirit" />
-    <string id="Factions.Faction.clan_hakurei_shrine_komano.name" text="Komano" />
-    <string id="Factions.Faction.clan_hakurei_shrine_komano.text" text="Komainu" />
-    <string id="Factions.Faction.clan_hakurei_shrine_yatadera.name" text="Yatadera" />
-    <string id="Factions.Faction.clan_hakurei_shrine_yatadera.text" text="Magician (animated Jizo statue)" />
-    <string id="Factions.Faction.clan_human_city_hieda.name" text="Hieda" />
-    <string id="Factions.Faction.clan_human_city_hieda.text" text="Human" />
-    <string id="Factions.Faction.clan_human_city_icefairy.name" text="Icefairy" />
-    <string id="Factions.Faction.clan_human_city_icefairy.text" text="Fairy" />
-    <string id="Factions.Faction.clan_human_city_hinanawi.name" text="Hinanawi" />
-    <string id="Factions.Faction.clan_human_city_hinanawi.text" text="Celestial" />
-    <string id="Factions.Faction.clan_eientei_kazami.name" text="Kazami" />
-    <string id="Factions.Faction.clan_eientei_kazami.text" text="Youkai" />
-    <string id="Factions.Faction.clan_eientei_yagokoro.name" text="Yagokoro" />
-    <string id="Factions.Faction.clan_eientei_yagokoro.text" text="Lunarian (God)" />
-    <string id="Factions.Faction.clan_eientei_houraisan.name" text="Houraisan" />
-    <string id="Factions.Faction.clan_eientei_houraisan.text" text="Lunarian" />
-    <string id="Factions.Faction.clan_eientei_kurumi.name" text="Kurumi" />
-    <string id="Factions.Faction.clan_eientei_kurumi.text" text="Vampire" />
-    <string id="Factions.Faction.clan_eientei_inaba0.name" text="Inaba" />
-    <string id="Factions.Faction.clan_eientei_inaba0.text" text="Youkai Rabbit" />
-    <string id="Factions.Faction.clan_eientei_inaba1.name" text="Inaba" />
-    <string id="Factions.Faction.clan_eientei_inaba1.text" text="Earth Rabbit" />
-    <string id="Factions.Faction.clan_eientei_elly.name" text="Elly" />
-    <string id="Factions.Faction.clan_eientei_elly.text" text="???" />
-    <string id="Factions.Faction.clan_eientei_melancholy.name" text="Melancholy" />
-    <string id="Factions.Faction.clan_eientei_melancholy.text" text="Doll -&gt; Youkai" />
-    <string id="Factions.Faction.clan_eientei_nightbug.name" text="Nightbug" />
-    <string id="Factions.Faction.clan_eientei_nightbug.text" text="Firefly Youkai" />
-    <string id="Factions.Faction.clan_scarlet_empire_scarlet.name" text="Scarlet" />
-    <string id="Factions.Faction.clan_scarlet_empire_scarlet.text" text="Vampire" />
-    <string id="Factions.Faction.clan_scarlet_empire_prismriver0.name" text="Prismriver" />
-    <string id="Factions.Faction.clan_scarlet_empire_prismriver0.text" text="Poltergeist" />
-    <string id="Factions.Faction.clan_scarlet_empire_knowledge.name" text="Knowledge" />
-    <string id="Factions.Faction.clan_scarlet_empire_knowledge.text" text="Magician (Witch)" />
-    <string id="Factions.Faction.clan_scarlet_empire_izayoi.name" text="Izayoi" />
-    <string id="Factions.Faction.clan_scarlet_empire_izayoi.text" text="Human" />
-    <string id="Factions.Faction.clan_scarlet_empire_devil.name" text="Devil" />
-    <string id="Factions.Faction.clan_scarlet_empire_devil.text" text="Devil" />
-    <string id="Factions.Faction.clan_scarlet_empire_meiling.name" text="Meiling" />
-    <string id="Factions.Faction.clan_scarlet_empire_meiling.text" text="Youkai" />
-    <string id="Factions.Faction.clan_scarlet_empire_prismriver1.name" text="Prismriver" />
-    <string id="Factions.Faction.clan_scarlet_empire_prismriver1.text" text="Poltergeist" />
-    <string id="Factions.Faction.clan_scarlet_empire_prismriver2.name" text="Prismriver" />
-    <string id="Factions.Faction.clan_scarlet_empire_prismriver2.text" text="Poltergeist" />
-    <string id="Factions.Faction.clan_misty_empire_scarlet.name" text="Scarlet" />
-    <string id="Factions.Faction.clan_misty_empire_scarlet.text" text="Vampire" />
-    <string id="Factions.Faction.clan_misty_empire_larva.name" text="Larva" />
-    <string id="Factions.Faction.clan_misty_empire_larva.text" text="Fairy" />
-    <string id="Factions.Faction.clan_misty_empire_saphire.name" text="Saphire" />
-    <string id="Factions.Faction.clan_misty_empire_saphire.text" text="Fairy" />
-    <string id="Factions.Faction.clan_misty_empire_child.name" text="Child" />
-    <string id="Factions.Faction.clan_misty_empire_child.text" text="Fairy" />
-    <string id="Factions.Faction.clan_misty_empire_milk.name" text="Milk" />
-    <string id="Factions.Faction.clan_misty_empire_milk.text" text="Fairy" />
-    <string id="Factions.Faction.clan_misty_empire_whiterock.name" text="Whiterock" />
-    <string id="Factions.Faction.clan_misty_empire_whiterock.text" text="Youkai (Yuki-onna)" />
-    <string id="Factions.Faction.clan_misty_empire_black.name" text="Black" />
-    <string id="Factions.Faction.clan_misty_empire_black.text" text="Fairy" />
-    <string id="Factions.Faction.clan_misty_empire_white.name" text="White" />
-    <string id="Factions.Faction.clan_misty_empire_white.text" text="Fairy" />
-    <string id="Factions.Faction.clan_anokuni_kijin.name" text="Kijin" />
-    <string id="Factions.Faction.clan_anokuni_kijin.text" text="Amanojaku" />
-    <string id="Factions.Faction.clan_anokuni_horikawa.name" text="Horikawa" />
-    <string id="Factions.Faction.clan_anokuni_horikawa.text" text="Tsukumogami" />
-    <string id="Factions.Faction.clan_anokuni_imaizumi.name" text="Imaizumi" />
-    <string id="Factions.Faction.clan_anokuni_imaizumi.text" text="Werewolf" />
-    <string id="Factions.Faction.clan_anokuni_tsukumo0.name" text="Tsukumo" />
-    <string id="Factions.Faction.clan_anokuni_tsukumo0.text" text="Tsukumogami" />
-    <string id="Factions.Faction.clan_anokuni_sekibanki.name" text="Sekibanki" />
-    <string id="Factions.Faction.clan_anokuni_sekibanki.text" text="Youkai" />
-    <string id="Factions.Faction.clan_anokuni_houjuu.name" text="Houjuu" />
-    <string id="Factions.Faction.clan_anokuni_houjuu.text" text="Nue" />
-    <string id="Factions.Faction.clan_anokuni_wakasagihime.name" text="Wakasagihime" />
-    <string id="Factions.Faction.clan_anokuni_wakasagihime.text" text="Mermaid" />
-    <string id="Factions.Faction.clan_anokuni_tsukumo1.name" text="Tsukumo" />
-    <string id="Factions.Faction.clan_anokuni_tsukumo1.text" text="Tsukumogami" />
-    <string id="Factions.Faction.clan_kyuutaki_tenma.name" text="Tenma" />
-    <string id="Factions.Faction.clan_kyuutaki_tenma.text" text="Tengu" />
-    <string id="Factions.Faction.clan_kyuutaki_great_tengu.name" text="Tengu" />
-    <string id="Factions.Faction.clan_kyuutaki_great_tengu.text" text="Tengu" />
-    <string id="Factions.Faction.clan_kyuutaki_himekaidou.name" text="Himekaidou" />
-    <string id="Factions.Faction.clan_kyuutaki_himekaidou.text" text="Crow Tengu" />
-    <string id="Factions.Faction.clan_kyuutaki_inubashiri.name" text="Inubashiri" />
-    <string id="Factions.Faction.clan_kyuutaki_inubashiri.text" text="White Wolf Tengu" />
-    <string id="Factions.Faction.clan_kyuutaki_shameimaru.name" text="Shameimaru" />
-    <string id="Factions.Faction.clan_kyuutaki_shameimaru.text" text="Crow Tengu" />
-    <string id="Factions.Faction.clan_kyuutaki_rumia.name" text="Rumia" />
-    <string id="Factions.Faction.clan_kyuutaki_rumia.text" text="Youkai" />
-    <string id="Factions.Faction.clan_kyuutaki_mugetsu.name" text="Mugetsu" />
-    <string id="Factions.Faction.clan_kyuutaki_mugetsu.text" text="Demon" />
-    <string id="Factions.Faction.clan_kyuutaki_gengetsu.name" text="Gengetsu" />
-    <string id="Factions.Faction.clan_kyuutaki_gengetsu.text" text="Demon" />
-    <string id="Factions.Faction.clan_kyuutaki_kitcho.name" text="Kitcho" />
-    <string id="Factions.Faction.clan_kyuutaki_kitcho.text" text="Jidao" />
-    <string id="Factions.Faction.clan_underworld_hoshiguma.name" text="Hoshiguma" />
-    <string id="Factions.Faction.clan_underworld_hoshiguma.text" text="Oni" />
-    <string id="Factions.Faction.clan_underworld_konngara.name" text="Konngara" />
-    <string id="Factions.Faction.clan_underworld_konngara.text" text="Astral Knight" />
-    <string id="Factions.Faction.clan_underworld_komeiji0.name" text="Komeiji" />
-    <string id="Factions.Faction.clan_underworld_komeiji0.text" text="Satori" />
-    <string id="Factions.Faction.clan_underworld_reiuji.name" text="Reiuji" />
-    <string id="Factions.Faction.clan_underworld_reiuji.text" text="Hell Raven" />
-    <string id="Factions.Faction.clan_underworld_komeiji1.name" text="Komeiji" />
-    <string id="Factions.Faction.clan_underworld_komeiji1.text" text="Satori" />
-    <string id="Factions.Faction.clan_underworld_kurodani.name" text="Kurodani" />
-    <string id="Factions.Faction.clan_underworld_kurodani.text" text="Tsuchigumo (Earth Spider)" />
-    <string id="Factions.Faction.clan_underworld_kaenbyou.name" text="Kaenbyou" />
-    <string id="Factions.Faction.clan_underworld_kaenbyou.text" text="Demon (Cat)" />
-    <string id="Factions.Faction.clan_underworld_ebisu.name" text="Ebisu" />
-    <string id="Factions.Faction.clan_underworld_ebisu.text" text="Soul (Stillborn child and god)" />
-    <string id="Factions.Faction.clan_underworld_mizuhashi.name" text="Mizuhashi" />
-    <string id="Factions.Faction.clan_underworld_mizuhashi.text" text="Hashihime (Youkai)" />
-    <string id="Factions.Faction.clan_underworld_kisume.name" text="Kisume" />
-    <string id="Factions.Faction.clan_underworld_kisume.text" text="Bucket Dropper" />
-    <string id="Factions.Faction.clan_netherworld_saigyouji.name" text="Saigyouji" />
-    <string id="Factions.Faction.clan_netherworld_saigyouji.text" text="Ghost" />
-    <string id="Factions.Faction.clan_netherworld_onozuka.name" text="Onozuka" />
-    <string id="Factions.Faction.clan_netherworld_onozuka.text" text="Shinigami" />
-    <string id="Factions.Faction.clan_netherworld_shikieki.name" text="Shikieki" />
-    <string id="Factions.Faction.clan_netherworld_shikieki.text" text="Yama" />
-    <string id="Factions.Faction.clan_netherworld_niwatari.name" text="Niwatari" />
-    <string id="Factions.Faction.clan_netherworld_niwatari.text" text="God (of Chickens)" />
-    <string id="Factions.Faction.clan_netherworld_yakumo0.name" text="Yakumo" />
-    <string id="Factions.Faction.clan_netherworld_yakumo0.text" text="Youkai" />
-    <string id="Factions.Faction.clan_netherworld_yakumo1.name" text="Yakumo" />
-    <string id="Factions.Faction.clan_netherworld_yakumo1.text" text="Youkai Fox" />
-    <string id="Factions.Faction.clan_netherworld_konpaku.name" text="Konpaku" />
-    <string id="Factions.Faction.clan_netherworld_konpaku.text" text="Human-Phantom" />
-    <string id="Factions.Faction.clan_netherworld_chen.name" text="Chen" />
-    <string id="Factions.Faction.clan_netherworld_chen.text" text="Bakeneko" />
-    <string id="Factions.Faction.clan_shogunate_yasaka.name" text="Yasaka" />
-    <string id="Factions.Faction.clan_shogunate_yasaka.text" text="Goddess of wind and rain" />
-    <string id="Factions.Faction.clan_shogunate_aki0.name" text="Aki" />
-    <string id="Factions.Faction.clan_shogunate_aki0.text" text="Harvest Goddess" />
-    <string id="Factions.Faction.clan_shogunate_moriya.name" text="Moriya" />
-    <string id="Factions.Faction.clan_shogunate_moriya.text" text="God of mountains" />
-    <string id="Factions.Faction.clan_shogunate_kawasiro.name" text="Kawashiro" />
-    <string id="Factions.Faction.clan_shogunate_kawasiro.text" text="Kappa" />
-    <string id="Factions.Faction.clan_shogunate_ushizaki.name" text="Ushizaki" />
-    <string id="Factions.Faction.clan_shogunate_ushizaki.text" text="Bull Oni" />
-    <string id="Factions.Faction.clan_shogunate_kochiya.name" text="Kochiya" />
-    <string id="Factions.Faction.clan_shogunate_kochiya.text" text="Human" />
-    <string id="Factions.Faction.clan_shogunate_aki1.name" text="Aki" />
-    <string id="Factions.Faction.clan_shogunate_aki1.text" text="Goddess of Autumn Leaves" />
-    <string id="Factions.Faction.clan_shogunate_sakata.name" text="Sakata" />
-    <string id="Factions.Faction.clan_shogunate_sakata.text" text="Mountain Hag" />
-    <string id="Factions.Faction.clan_shogunate_kagiyama.name" text="Kagiyama" />
-    <string id="Factions.Faction.clan_shogunate_kagiyama.text" text="Pestilence God" />
-    <string id="Factions.Faction.clan_companion_hata.name" text="Hata" />
-    <string id="Factions.Faction.clan_companion_usami.name" text="Usami" />
-    <string id="Factions.Faction.clan_companion_yorigami.name" text="Yorigami" />
-    <string id="Factions.Faction.clan_companion_mayumi.name" text="Mayumi" />
-    <string id="Factions.Faction.clan_companion_haniyasushin.name" text="Haniyasushin" />
-    <string id="Factions.Faction.clan_companion_clownpiece.name" text="Clownpiece" />
-    <string id="Factions.Faction.clan_companion_junko.name" text="Junko" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_hakurei" text="Hakurei" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_hakurei" text="Human" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_ibuki" text="Ibuki" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_ibuki" text="Oni" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_mokou" text="Mokou" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_mokou" text="Human" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_kirisame" text="Kirisame" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_kirisame" text="Human (Magician)" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_margatroid0" text="Margatroid" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_margatroid0" text="Magician (Human)" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_margatroid1" text="Margatroid" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_margatroid1" text="Doll" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_shinmyoumaru" text="Shinmyoumaru" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_shinmyoumaru" text="Inchling" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_mima" text="Mima" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_mima" text="Vengeful spirit" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_komano" text="Komano" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_komano" text="Komainu" />
+    <string id="Factions.Faction.name.clan_hakurei_shrine_yatadera" text="Yatadera" />
+    <string id="Factions.Faction.text.clan_hakurei_shrine_yatadera" text="Magician (animated Jizo statue)" />
+    <string id="Factions.Faction.name.clan_human_city_hieda" text="Hieda" />
+    <string id="Factions.Faction.text.clan_human_city_hieda" text="Human" />
+    <string id="Factions.Faction.name.clan_human_city_icefairy" text="Icefairy" />
+    <string id="Factions.Faction.text.clan_human_city_icefairy" text="Fairy" />
+    <string id="Factions.Faction.name.clan_human_city_hinanawi" text="Hinanawi" />
+    <string id="Factions.Faction.text.clan_human_city_hinanawi" text="Celestial" />
+    <string id="Factions.Faction.name.clan_eientei_kazami" text="Kazami" />
+    <string id="Factions.Faction.text.clan_eientei_kazami" text="Youkai" />
+    <string id="Factions.Faction.name.clan_eientei_yagokoro" text="Yagokoro" />
+    <string id="Factions.Faction.text.clan_eientei_yagokoro" text="Lunarian (God)" />
+    <string id="Factions.Faction.name.clan_eientei_houraisan" text="Houraisan" />
+    <string id="Factions.Faction.text.clan_eientei_houraisan" text="Lunarian" />
+    <string id="Factions.Faction.name.clan_eientei_kurumi" text="Kurumi" />
+    <string id="Factions.Faction.text.clan_eientei_kurumi" text="Vampire" />
+    <string id="Factions.Faction.name.clan_eientei_inaba0" text="Inaba" />
+    <string id="Factions.Faction.text.clan_eientei_inaba0" text="Youkai Rabbit" />
+    <string id="Factions.Faction.name.clan_eientei_inaba1" text="Inaba" />
+    <string id="Factions.Faction.text.clan_eientei_inaba1" text="Earth Rabbit" />
+    <string id="Factions.Faction.name.clan_eientei_elly" text="Elly" />
+    <string id="Factions.Faction.text.clan_eientei_elly" text="???" />
+    <string id="Factions.Faction.name.clan_eientei_melancholy" text="Melancholy" />
+    <string id="Factions.Faction.text.clan_eientei_melancholy" text="Doll -&gt; Youkai" />
+    <string id="Factions.Faction.name.clan_eientei_nightbug" text="Nightbug" />
+    <string id="Factions.Faction.text.clan_eientei_nightbug" text="Firefly Youkai" />
+    <string id="Factions.Faction.name.clan_scarlet_empire_scarlet" text="Scarlet" />
+    <string id="Factions.Faction.text.clan_scarlet_empire_scarlet" text="Vampire" />
+    <string id="Factions.Faction.name.clan_scarlet_empire_prismriver0" text="Prismriver" />
+    <string id="Factions.Faction.text.clan_scarlet_empire_prismriver0" text="Poltergeist" />
+    <string id="Factions.Faction.name.clan_scarlet_empire_knowledge" text="Knowledge" />
+    <string id="Factions.Faction.text.clan_scarlet_empire_knowledge" text="Magician (Witch)" />
+    <string id="Factions.Faction.name.clan_scarlet_empire_izayoi" text="Izayoi" />
+    <string id="Factions.Faction.text.clan_scarlet_empire_izayoi" text="Human" />
+    <string id="Factions.Faction.name.clan_scarlet_empire_devil" text="Devil" />
+    <string id="Factions.Faction.text.clan_scarlet_empire_devil" text="Devil" />
+    <string id="Factions.Faction.name.clan_scarlet_empire_meiling" text="Meiling" />
+    <string id="Factions.Faction.text.clan_scarlet_empire_meiling" text="Youkai" />
+    <string id="Factions.Faction.name.clan_scarlet_empire_prismriver1" text="Prismriver" />
+    <string id="Factions.Faction.text.clan_scarlet_empire_prismriver1" text="Poltergeist" />
+    <string id="Factions.Faction.name.clan_scarlet_empire_prismriver2" text="Prismriver" />
+    <string id="Factions.Faction.text.clan_scarlet_empire_prismriver2" text="Poltergeist" />
+    <string id="Factions.Faction.name.clan_misty_empire_scarlet" text="Scarlet" />
+    <string id="Factions.Faction.text.clan_misty_empire_scarlet" text="Vampire" />
+    <string id="Factions.Faction.name.clan_misty_empire_larva" text="Larva" />
+    <string id="Factions.Faction.text.clan_misty_empire_larva" text="Fairy" />
+    <string id="Factions.Faction.name.clan_misty_empire_saphire" text="Saphire" />
+    <string id="Factions.Faction.text.clan_misty_empire_saphire" text="Fairy" />
+    <string id="Factions.Faction.name.clan_misty_empire_child" text="Child" />
+    <string id="Factions.Faction.text.clan_misty_empire_child" text="Fairy" />
+    <string id="Factions.Faction.name.clan_misty_empire_milk" text="Milk" />
+    <string id="Factions.Faction.text.clan_misty_empire_milk" text="Fairy" />
+    <string id="Factions.Faction.name.clan_misty_empire_whiterock" text="Whiterock" />
+    <string id="Factions.Faction.text.clan_misty_empire_whiterock" text="Youkai (Yuki-onna)" />
+    <string id="Factions.Faction.name.clan_misty_empire_black" text="Black" />
+    <string id="Factions.Faction.text.clan_misty_empire_black" text="Fairy" />
+    <string id="Factions.Faction.name.clan_misty_empire_white" text="White" />
+    <string id="Factions.Faction.text.clan_misty_empire_white" text="Fairy" />
+    <string id="Factions.Faction.name.clan_anokuni_kijin" text="Kijin" />
+    <string id="Factions.Faction.text.clan_anokuni_kijin" text="Amanojaku" />
+    <string id="Factions.Faction.name.clan_anokuni_horikawa" text="Horikawa" />
+    <string id="Factions.Faction.text.clan_anokuni_horikawa" text="Tsukumogami" />
+    <string id="Factions.Faction.name.clan_anokuni_imaizumi" text="Imaizumi" />
+    <string id="Factions.Faction.text.clan_anokuni_imaizumi" text="Werewolf" />
+    <string id="Factions.Faction.name.clan_anokuni_tsukumo0" text="Tsukumo" />
+    <string id="Factions.Faction.text.clan_anokuni_tsukumo0" text="Tsukumogami" />
+    <string id="Factions.Faction.name.clan_anokuni_sekibanki" text="Sekibanki" />
+    <string id="Factions.Faction.text.clan_anokuni_sekibanki" text="Youkai" />
+    <string id="Factions.Faction.name.clan_anokuni_houjuu" text="Houjuu" />
+    <string id="Factions.Faction.text.clan_anokuni_houjuu" text="Nue" />
+    <string id="Factions.Faction.name.clan_anokuni_wakasagihime" text="Wakasagihime" />
+    <string id="Factions.Faction.text.clan_anokuni_wakasagihime" text="Mermaid" />
+    <string id="Factions.Faction.name.clan_anokuni_tsukumo1" text="Tsukumo" />
+    <string id="Factions.Faction.text.clan_anokuni_tsukumo1" text="Tsukumogami" />
+    <string id="Factions.Faction.name.clan_kyuutaki_tenma" text="Tenma" />
+    <string id="Factions.Faction.text.clan_kyuutaki_tenma" text="Tengu" />
+    <string id="Factions.Faction.name.clan_kyuutaki_great_tengu" text="Tengu" />
+    <string id="Factions.Faction.text.clan_kyuutaki_great_tengu" text="Tengu" />
+    <string id="Factions.Faction.name.clan_kyuutaki_himekaidou" text="Himekaidou" />
+    <string id="Factions.Faction.text.clan_kyuutaki_himekaidou" text="Crow Tengu" />
+    <string id="Factions.Faction.name.clan_kyuutaki_inubashiri" text="Inubashiri" />
+    <string id="Factions.Faction.text.clan_kyuutaki_inubashiri" text="White Wolf Tengu" />
+    <string id="Factions.Faction.name.clan_kyuutaki_shameimaru" text="Shameimaru" />
+    <string id="Factions.Faction.text.clan_kyuutaki_shameimaru" text="Crow Tengu" />
+    <string id="Factions.Faction.name.clan_kyuutaki_rumia" text="Rumia" />
+    <string id="Factions.Faction.text.clan_kyuutaki_rumia" text="Youkai" />
+    <string id="Factions.Faction.name.clan_kyuutaki_mugetsu" text="Mugetsu" />
+    <string id="Factions.Faction.text.clan_kyuutaki_mugetsu" text="Demon" />
+    <string id="Factions.Faction.name.clan_kyuutaki_gengetsu" text="Gengetsu" />
+    <string id="Factions.Faction.text.clan_kyuutaki_gengetsu" text="Demon" />
+    <string id="Factions.Faction.name.clan_kyuutaki_kitcho" text="Kitcho" />
+    <string id="Factions.Faction.text.clan_kyuutaki_kitcho" text="Jidao" />
+    <string id="Factions.Faction.name.clan_underworld_hoshiguma" text="Hoshiguma" />
+    <string id="Factions.Faction.text.clan_underworld_hoshiguma" text="Oni" />
+    <string id="Factions.Faction.name.clan_underworld_konngara" text="Konngara" />
+    <string id="Factions.Faction.text.clan_underworld_konngara" text="Astral Knight" />
+    <string id="Factions.Faction.name.clan_underworld_komeiji0" text="Komeiji" />
+    <string id="Factions.Faction.text.clan_underworld_komeiji0" text="Satori" />
+    <string id="Factions.Faction.name.clan_underworld_reiuji" text="Reiuji" />
+    <string id="Factions.Faction.text.clan_underworld_reiuji" text="Hell Raven" />
+    <string id="Factions.Faction.name.clan_underworld_komeiji1" text="Komeiji" />
+    <string id="Factions.Faction.text.clan_underworld_komeiji1" text="Satori" />
+    <string id="Factions.Faction.name.clan_underworld_kurodani" text="Kurodani" />
+    <string id="Factions.Faction.text.clan_underworld_kurodani" text="Tsuchigumo (Earth Spider)" />
+    <string id="Factions.Faction.name.clan_underworld_kaenbyou" text="Kaenbyou" />
+    <string id="Factions.Faction.text.clan_underworld_kaenbyou" text="Demon (Cat)" />
+    <string id="Factions.Faction.name.clan_underworld_ebisu" text="Ebisu" />
+    <string id="Factions.Faction.text.clan_underworld_ebisu" text="Soul (Stillborn child and god)" />
+    <string id="Factions.Faction.name.clan_underworld_mizuhashi" text="Mizuhashi" />
+    <string id="Factions.Faction.text.clan_underworld_mizuhashi" text="Hashihime (Youkai)" />
+    <string id="Factions.Faction.name.clan_underworld_kisume" text="Kisume" />
+    <string id="Factions.Faction.text.clan_underworld_kisume" text="Bucket Dropper" />
+    <string id="Factions.Faction.name.clan_netherworld_saigyouji" text="Saigyouji" />
+    <string id="Factions.Faction.text.clan_netherworld_saigyouji" text="Ghost" />
+    <string id="Factions.Faction.name.clan_netherworld_onozuka" text="Onozuka" />
+    <string id="Factions.Faction.text.clan_netherworld_onozuka" text="Shinigami" />
+    <string id="Factions.Faction.name.clan_netherworld_shikieki" text="Shikieki" />
+    <string id="Factions.Faction.text.clan_netherworld_shikieki" text="Yama" />
+    <string id="Factions.Faction.name.clan_netherworld_niwatari" text="Niwatari" />
+    <string id="Factions.Faction.text.clan_netherworld_niwatari" text="God (of Chickens)" />
+    <string id="Factions.Faction.name.clan_netherworld_yakumo0" text="Yakumo" />
+    <string id="Factions.Faction.text.clan_netherworld_yakumo0" text="Youkai" />
+    <string id="Factions.Faction.name.clan_netherworld_yakumo1" text="Yakumo" />
+    <string id="Factions.Faction.text.clan_netherworld_yakumo1" text="Youkai Fox" />
+    <string id="Factions.Faction.name.clan_netherworld_konpaku" text="Konpaku" />
+    <string id="Factions.Faction.text.clan_netherworld_konpaku" text="Human-Phantom" />
+    <string id="Factions.Faction.name.clan_netherworld_chen" text="Chen" />
+    <string id="Factions.Faction.text.clan_netherworld_chen" text="Bakeneko" />
+    <string id="Factions.Faction.name.clan_shogunate_yasaka" text="Yasaka" />
+    <string id="Factions.Faction.text.clan_shogunate_yasaka" text="Goddess of wind and rain" />
+    <string id="Factions.Faction.name.clan_shogunate_aki0" text="Aki" />
+    <string id="Factions.Faction.text.clan_shogunate_aki0" text="Harvest Goddess" />
+    <string id="Factions.Faction.name.clan_shogunate_moriya" text="Moriya" />
+    <string id="Factions.Faction.text.clan_shogunate_moriya" text="God of mountains" />
+    <string id="Factions.Faction.name.clan_shogunate_kawasiro" text="Kawashiro" />
+    <string id="Factions.Faction.text.clan_shogunate_kawasiro" text="Kappa" />
+    <string id="Factions.Faction.name.clan_shogunate_ushizaki" text="Ushizaki" />
+    <string id="Factions.Faction.text.clan_shogunate_ushizaki" text="Bull Oni" />
+    <string id="Factions.Faction.name.clan_shogunate_kochiya" text="Kochiya" />
+    <string id="Factions.Faction.text.clan_shogunate_kochiya" text="Human" />
+    <string id="Factions.Faction.name.clan_shogunate_aki1" text="Aki" />
+    <string id="Factions.Faction.text.clan_shogunate_aki1" text="Goddess of Autumn Leaves" />
+    <string id="Factions.Faction.name.clan_shogunate_sakata" text="Sakata" />
+    <string id="Factions.Faction.text.clan_shogunate_sakata" text="Mountain Hag" />
+    <string id="Factions.Faction.name.clan_shogunate_kagiyama" text="Kagiyama" />
+    <string id="Factions.Faction.text.clan_shogunate_kagiyama" text="Pestilence God" />
+    <string id="Factions.Faction.name.clan_companion_hata" text="Hata" />
+    <string id="Factions.Faction.name.clan_companion_usami" text="Usami" />
+    <string id="Factions.Faction.name.clan_companion_yorigami" text="Yorigami" />
+    <string id="Factions.Faction.name.clan_companion_haniyasushin" text="Haniyasushin" />
+    <string id="Factions.Faction.name.clan_companion_junko" text="Junko" />
   </strings>
 </base>

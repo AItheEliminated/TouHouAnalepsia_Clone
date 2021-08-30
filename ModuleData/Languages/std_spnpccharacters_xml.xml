@@ -121,5 +121,59 @@
     <string id="NPCCharacters.NPCCharacter.name.townsman_human" text="Townsman" />
     <string id="NPCCharacters.NPCCharacter.name.townsman_youkai" text="Townsman" />
     <string id="NPCCharacters.NPCCharacter.name.townsman_fairy" text="Townsman" />
+    <string id="NPCCharacters.NPCCharacter.name.human_noble_son" text="Human Noble's Son" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_vigla_recruit" text="Youkai Vigla Recruit" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_youth" text="Fairy Youth" />
+    <string id="NPCCharacters.NPCCharacter.name.human_militia_archer" text="Human Militia Archer" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_militia_archer" text="Youkai Militia Archer" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_militia_archer" text="Fairy Militia Archer" />
+    <string id="NPCCharacters.NPCCharacter.name.human_militia_veteran_archer" text="Human Militia Veteran Archer" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_militia_veteran_archer" text="Youkai Militia Veteran Archer" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_militia_veteran_archer" text="Fairy Militia Veteran Archer" />
+    <string id="NPCCharacters.NPCCharacter.name.human_militia_spearman" text="Human Militia Spearman" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_militia_spearman" text="Youkai Militia Spearman" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_militia_spearman" text="Fairy Militia Spearman" />
+    <string id="NPCCharacters.NPCCharacter.name.human_militia_veteran_spearman" text="Human Militia Veteran Spearman" />
+    <string id="NPCCharacters.NPCCharacter.name.youkai_militia_veteran_spearman" text="Youkai Militia Veteran Spearman" />
+    <string id="NPCCharacters.NPCCharacter.name.fairy_militia_veteran_spearman" text="Fairy Militia Veteran Spearman" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_infant_human" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_infant_youkai" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_infant_fairy" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_child_human" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_child_youkai" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_child_fairy" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_teenager_human" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_teenager_youkai" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.townswoman_teenager_fairy" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_infant_human" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_infant_youkai" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_infant_fairy" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_child_human" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_child_youkai" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_child_fairy" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_teenager_human" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_teenager_youkai" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.townsman_teenager_fairy" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_infant_human" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_infant_youkai" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_infant_fairy" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_child_human" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_child_youkai" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_child_fairy" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_teenager_human" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_teenager_youkai" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.villager_teenager_fairy" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_infant_human" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_infant_youkai" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_infant_fairy" text="Infant" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_child_human" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_child_youkai" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_child_fairy" text="Child" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_teenager_human" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_teenager_youkai" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_teenager_fairy" text="Teenager" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_human" text="Human Peasant" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_youkai" text="Youkai Peasant" />
+    <string id="NPCCharacters.NPCCharacter.name.village_woman_fairy" text="fairy Peasant" />
   </strings>
 </base>

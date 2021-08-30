@@ -1,353 +1,958 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SPCultures>
-  <Culture id="neutral_culture"
-           name="{=jKviMpbP}Calradian"
-           elite_basic_troop="NPCCharacter.guard"
-           basic_troop="NPCCharacter.guard" />
-  <Culture id="fc_hakurei_shrine" name="{=Cultures.Culture.fc_hakurei_shrine.name}Hakurei" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_aserai" basic_troop="NPCCharacter.aserai_recruit" elite_basic_troop="NPCCharacter.aserai_youth" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_human_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_human_template" melee_militia_troop="NPCCharacter.aserai_recruit" melee_elite_militia_troop="NPCCharacter.aserai_youth" ranged_militia_troop="NPCCharacter.aserai_recruit" ranged_elite_militia_troop="NPCCharacter.aserai_youth" tournament_master="NPCCharacter.aserai_youth" caravan_master="NPCCharacter.aserai_youth" armed_trader="NPCCharacter.aserai_youth" caravan_guard="NPCCharacter.aserai_youth" veteran_caravan_guard="NPCCharacter.aserai_youth" duel_preset="NPCCharacter.aserai_youth" prison_guard="NPCCharacter.aserai_youth" guard="NPCCharacter.aserai_youth" steward="NPCCharacter.aserai_youth" blacksmith="NPCCharacter.aserai_youth" weaponsmith="NPCCharacter.aserai_youth" townswoman="NPCCharacter.aserai_youth" townswoman_infant="NPCCharacter.aserai_youth" townswoman_child="NPCCharacter.aserai_youth" townswoman_teenager="NPCCharacter.aserai_youth" townsman="NPCCharacter.aserai_youth" townsman_infant="NPCCharacter.aserai_youth" townsman_child="NPCCharacter.aserai_youth" townsman_teenager="NPCCharacter.aserai_youth" villager="NPCCharacter.aserai_youth" village_woman="NPCCharacter.aserai_youth" villager_male_child="NPCCharacter.aserai_youth" villager_male_teenager="NPCCharacter.aserai_youth" villager_female_child="NPCCharacter.aserai_youth" villager_female_teenager="NPCCharacter.aserai_youth" ransom_broker="NPCCharacter.aserai_youth" gangleader_bodyguard="NPCCharacter.aserai_youth" merchant_notary="NPCCharacter.aserai_youth" preacher_notary="NPCCharacter.aserai_youth" rural_notable_notary="NPCCharacter.aserai_youth" shop_worker="NPCCharacter.aserai_youth" tavernkeeper="NPCCharacter.aserai_youth" taverngamehost="NPCCharacter.aserai_youth" musician="NPCCharacter.aserai_youth" tavern_wench="NPCCharacter.aserai_youth" armorer="NPCCharacter.aserai_youth" horseMerchant="NPCCharacter.aserai_youth" barber="NPCCharacter.aserai_youth" merchant="NPCCharacter.aserai_youth" beggar="NPCCharacter.aserai_youth" female_beggar="NPCCharacter.aserai_youth" female_dancer="NPCCharacter.aserai_youth" gear_practice_dummy="NPCCharacter.aserai_youth" weapon_practice_stage_1="NPCCharacter.aserai_youth" weapon_practice_stage_2="NPCCharacter.aserai_youth" weapon_practice_stage_3="NPCCharacter.aserai_youth" gear_dummy="NPCCharacter.aserai_youth" bandit_bandit="NPCCharacter.aserai_youth" bandit_chief="NPCCharacter.aserai_youth" bandit_raider="NPCCharacter.aserai_youth" bandit_boss="NPCCharacter.aserai_youth" />
-  <Culture id="fc_human_city" name="{=Cultures.Culture.fc_human_city.name}Metropolitian" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_aserai" basic_troop="NPCCharacter.aserai_recruit" elite_basic_troop="NPCCharacter.aserai_youth" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_human_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_human_template" melee_militia_troop="NPCCharacter.aserai_recruit" melee_elite_militia_troop="NPCCharacter.aserai_youth" ranged_militia_troop="NPCCharacter.aserai_recruit" ranged_elite_militia_troop="NPCCharacter.aserai_youth" tournament_master="NPCCharacter.aserai_youth" caravan_master="NPCCharacter.aserai_youth" armed_trader="NPCCharacter.aserai_youth" caravan_guard="NPCCharacter.aserai_youth" veteran_caravan_guard="NPCCharacter.aserai_youth" duel_preset="NPCCharacter.aserai_youth" prison_guard="NPCCharacter.aserai_youth" guard="NPCCharacter.aserai_youth" steward="NPCCharacter.aserai_youth" blacksmith="NPCCharacter.aserai_youth" weaponsmith="NPCCharacter.aserai_youth" townswoman="NPCCharacter.aserai_youth" townswoman_infant="NPCCharacter.aserai_youth" townswoman_child="NPCCharacter.aserai_youth" townswoman_teenager="NPCCharacter.aserai_youth" townsman="NPCCharacter.aserai_youth" townsman_infant="NPCCharacter.aserai_youth" townsman_child="NPCCharacter.aserai_youth" townsman_teenager="NPCCharacter.aserai_youth" villager="NPCCharacter.aserai_youth" village_woman="NPCCharacter.aserai_youth" villager_male_child="NPCCharacter.aserai_youth" villager_male_teenager="NPCCharacter.aserai_youth" villager_female_child="NPCCharacter.aserai_youth" villager_female_teenager="NPCCharacter.aserai_youth" ransom_broker="NPCCharacter.aserai_youth" gangleader_bodyguard="NPCCharacter.aserai_youth" merchant_notary="NPCCharacter.aserai_youth" preacher_notary="NPCCharacter.aserai_youth" rural_notable_notary="NPCCharacter.aserai_youth" shop_worker="NPCCharacter.aserai_youth" tavernkeeper="NPCCharacter.aserai_youth" taverngamehost="NPCCharacter.aserai_youth" musician="NPCCharacter.aserai_youth" tavern_wench="NPCCharacter.aserai_youth" armorer="NPCCharacter.aserai_youth" horseMerchant="NPCCharacter.aserai_youth" barber="NPCCharacter.aserai_youth" merchant="NPCCharacter.aserai_youth" beggar="NPCCharacter.aserai_youth" female_beggar="NPCCharacter.aserai_youth" female_dancer="NPCCharacter.aserai_youth" gear_practice_dummy="NPCCharacter.aserai_youth" weapon_practice_stage_1="NPCCharacter.aserai_youth" weapon_practice_stage_2="NPCCharacter.aserai_youth" weapon_practice_stage_3="NPCCharacter.aserai_youth" gear_dummy="NPCCharacter.aserai_youth" bandit_bandit="NPCCharacter.aserai_youth" bandit_chief="NPCCharacter.aserai_youth" bandit_raider="NPCCharacter.aserai_youth" bandit_boss="NPCCharacter.aserai_youth" />
-  <Culture id="fc_eientei" name="{=Cultures.Culture.fc_eientei.name}Lunarian" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_aserai" basic_troop="NPCCharacter.aserai_recruit" elite_basic_troop="NPCCharacter.aserai_youth" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_youkai_template" melee_militia_troop="NPCCharacter.aserai_recruit" melee_elite_militia_troop="NPCCharacter.aserai_youth" ranged_militia_troop="NPCCharacter.aserai_recruit" ranged_elite_militia_troop="NPCCharacter.aserai_youth" tournament_master="NPCCharacter.aserai_youth" caravan_master="NPCCharacter.aserai_youth" armed_trader="NPCCharacter.aserai_youth" caravan_guard="NPCCharacter.aserai_youth" veteran_caravan_guard="NPCCharacter.aserai_youth" duel_preset="NPCCharacter.aserai_youth" prison_guard="NPCCharacter.aserai_youth" guard="NPCCharacter.aserai_youth" steward="NPCCharacter.aserai_youth" blacksmith="NPCCharacter.aserai_youth" weaponsmith="NPCCharacter.aserai_youth" townswoman="NPCCharacter.aserai_youth" townswoman_infant="NPCCharacter.aserai_youth" townswoman_child="NPCCharacter.aserai_youth" townswoman_teenager="NPCCharacter.aserai_youth" townsman="NPCCharacter.aserai_youth" townsman_infant="NPCCharacter.aserai_youth" townsman_child="NPCCharacter.aserai_youth" townsman_teenager="NPCCharacter.aserai_youth" villager="NPCCharacter.aserai_youth" village_woman="NPCCharacter.aserai_youth" villager_male_child="NPCCharacter.aserai_youth" villager_male_teenager="NPCCharacter.aserai_youth" villager_female_child="NPCCharacter.aserai_youth" villager_female_teenager="NPCCharacter.aserai_youth" ransom_broker="NPCCharacter.aserai_youth" gangleader_bodyguard="NPCCharacter.aserai_youth" merchant_notary="NPCCharacter.aserai_youth" preacher_notary="NPCCharacter.aserai_youth" rural_notable_notary="NPCCharacter.aserai_youth" shop_worker="NPCCharacter.aserai_youth" tavernkeeper="NPCCharacter.aserai_youth" taverngamehost="NPCCharacter.aserai_youth" musician="NPCCharacter.aserai_youth" tavern_wench="NPCCharacter.aserai_youth" armorer="NPCCharacter.aserai_youth" horseMerchant="NPCCharacter.aserai_youth" barber="NPCCharacter.aserai_youth" merchant="NPCCharacter.aserai_youth" beggar="NPCCharacter.aserai_youth" female_beggar="NPCCharacter.aserai_youth" female_dancer="NPCCharacter.aserai_youth" gear_practice_dummy="NPCCharacter.aserai_youth" weapon_practice_stage_1="NPCCharacter.aserai_youth" weapon_practice_stage_2="NPCCharacter.aserai_youth" weapon_practice_stage_3="NPCCharacter.aserai_youth" gear_dummy="NPCCharacter.aserai_youth" bandit_bandit="NPCCharacter.aserai_youth" bandit_chief="NPCCharacter.aserai_youth" bandit_raider="NPCCharacter.aserai_youth" bandit_boss="NPCCharacter.aserai_youth" />
-  <Culture id="fc_test0" name="{=Cultures.Culture.fc_test0.name}Scarlet Devil" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_vlandia" basic_troop="NPCCharacter.vlandian_recruit" elite_basic_troop="NPCCharacter.vlandian_squire" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_youkai_template" melee_militia_troop="NPCCharacter.vlandian_recruit" melee_elite_militia_troop="NPCCharacter.vlandian_squire" ranged_militia_troop="NPCCharacter.vlandian_recruit" ranged_elite_militia_troop="NPCCharacter.vlandian_squire" tournament_master="NPCCharacter.vlandian_squire" caravan_master="NPCCharacter.vlandian_squire" armed_trader="NPCCharacter.vlandian_squire" caravan_guard="NPCCharacter.vlandian_squire" veteran_caravan_guard="NPCCharacter.vlandian_squire" duel_preset="NPCCharacter.vlandian_squire" prison_guard="NPCCharacter.vlandian_squire" guard="NPCCharacter.vlandian_squire" steward="NPCCharacter.vlandian_squire" blacksmith="NPCCharacter.vlandian_squire" weaponsmith="NPCCharacter.vlandian_squire" townswoman="NPCCharacter.vlandian_squire" townswoman_infant="NPCCharacter.vlandian_squire" townswoman_child="NPCCharacter.vlandian_squire" townswoman_teenager="NPCCharacter.vlandian_squire" townsman="NPCCharacter.vlandian_squire" townsman_infant="NPCCharacter.vlandian_squire" townsman_child="NPCCharacter.vlandian_squire" townsman_teenager="NPCCharacter.vlandian_squire" villager="NPCCharacter.vlandian_squire" village_woman="NPCCharacter.vlandian_squire" villager_male_child="NPCCharacter.vlandian_squire" villager_male_teenager="NPCCharacter.vlandian_squire" villager_female_child="NPCCharacter.vlandian_squire" villager_female_teenager="NPCCharacter.vlandian_squire" ransom_broker="NPCCharacter.vlandian_squire" gangleader_bodyguard="NPCCharacter.vlandian_squire" merchant_notary="NPCCharacter.vlandian_squire" preacher_notary="NPCCharacter.vlandian_squire" rural_notable_notary="NPCCharacter.vlandian_squire" shop_worker="NPCCharacter.vlandian_squire" tavernkeeper="NPCCharacter.vlandian_squire" taverngamehost="NPCCharacter.vlandian_squire" musician="NPCCharacter.vlandian_squire" tavern_wench="NPCCharacter.vlandian_squire" armorer="NPCCharacter.vlandian_squire" horseMerchant="NPCCharacter.vlandian_squire" barber="NPCCharacter.vlandian_squire" merchant="NPCCharacter.vlandian_squire" beggar="NPCCharacter.vlandian_squire" female_beggar="NPCCharacter.vlandian_squire" female_dancer="NPCCharacter.vlandian_squire" gear_practice_dummy="NPCCharacter.vlandian_squire" weapon_practice_stage_1="NPCCharacter.vlandian_squire" weapon_practice_stage_2="NPCCharacter.vlandian_squire" weapon_practice_stage_3="NPCCharacter.vlandian_squire" gear_dummy="NPCCharacter.vlandian_squire" bandit_bandit="NPCCharacter.vlandian_squire" bandit_chief="NPCCharacter.vlandian_squire" bandit_raider="NPCCharacter.vlandian_squire" bandit_boss="NPCCharacter.vlandian_squire" />
-  <Culture id="fc_test1" name="{=Cultures.Culture.fc_test1.name}Misty Lake" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_vlandia" basic_troop="NPCCharacter.vlandian_recruit" elite_basic_troop="NPCCharacter.vlandian_squire" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_fairy_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_fairy_template" melee_militia_troop="NPCCharacter.vlandian_recruit" melee_elite_militia_troop="NPCCharacter.vlandian_squire" ranged_militia_troop="NPCCharacter.vlandian_recruit" ranged_elite_militia_troop="NPCCharacter.vlandian_squire" tournament_master="NPCCharacter.vlandian_squire" caravan_master="NPCCharacter.vlandian_squire" armed_trader="NPCCharacter.vlandian_squire" caravan_guard="NPCCharacter.vlandian_squire" veteran_caravan_guard="NPCCharacter.vlandian_squire" duel_preset="NPCCharacter.vlandian_squire" prison_guard="NPCCharacter.vlandian_squire" guard="NPCCharacter.vlandian_squire" steward="NPCCharacter.vlandian_squire" blacksmith="NPCCharacter.vlandian_squire" weaponsmith="NPCCharacter.vlandian_squire" townswoman="NPCCharacter.vlandian_squire" townswoman_infant="NPCCharacter.vlandian_squire" townswoman_child="NPCCharacter.vlandian_squire" townswoman_teenager="NPCCharacter.vlandian_squire" townsman="NPCCharacter.vlandian_squire" townsman_infant="NPCCharacter.vlandian_squire" townsman_child="NPCCharacter.vlandian_squire" townsman_teenager="NPCCharacter.vlandian_squire" villager="NPCCharacter.vlandian_squire" village_woman="NPCCharacter.vlandian_squire" villager_male_child="NPCCharacter.vlandian_squire" villager_male_teenager="NPCCharacter.vlandian_squire" villager_female_child="NPCCharacter.vlandian_squire" villager_female_teenager="NPCCharacter.vlandian_squire" ransom_broker="NPCCharacter.vlandian_squire" gangleader_bodyguard="NPCCharacter.vlandian_squire" merchant_notary="NPCCharacter.vlandian_squire" preacher_notary="NPCCharacter.vlandian_squire" rural_notable_notary="NPCCharacter.vlandian_squire" shop_worker="NPCCharacter.vlandian_squire" tavernkeeper="NPCCharacter.vlandian_squire" taverngamehost="NPCCharacter.vlandian_squire" musician="NPCCharacter.vlandian_squire" tavern_wench="NPCCharacter.vlandian_squire" armorer="NPCCharacter.vlandian_squire" horseMerchant="NPCCharacter.vlandian_squire" barber="NPCCharacter.vlandian_squire" merchant="NPCCharacter.vlandian_squire" beggar="NPCCharacter.vlandian_squire" female_beggar="NPCCharacter.vlandian_squire" female_dancer="NPCCharacter.vlandian_squire" gear_practice_dummy="NPCCharacter.vlandian_squire" weapon_practice_stage_1="NPCCharacter.vlandian_squire" weapon_practice_stage_2="NPCCharacter.vlandian_squire" weapon_practice_stage_3="NPCCharacter.vlandian_squire" gear_dummy="NPCCharacter.vlandian_squire" bandit_bandit="NPCCharacter.vlandian_squire" bandit_chief="NPCCharacter.vlandian_squire" bandit_raider="NPCCharacter.vlandian_squire" bandit_boss="NPCCharacter.vlandian_squire" />
-  <Culture id="fc_anokuni" name="{=Cultures.Culture.fc_anokuni.name}Amanojaku" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_youkai_template" melee_militia_troop="NPCCharacter.imperial_recruit" melee_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" ranged_militia_troop="NPCCharacter.imperial_recruit" ranged_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" tournament_master="NPCCharacter.imperial_vigla_recruit" caravan_master="NPCCharacter.imperial_vigla_recruit" armed_trader="NPCCharacter.imperial_vigla_recruit" caravan_guard="NPCCharacter.imperial_vigla_recruit" veteran_caravan_guard="NPCCharacter.imperial_vigla_recruit" duel_preset="NPCCharacter.imperial_vigla_recruit" prison_guard="NPCCharacter.imperial_vigla_recruit" guard="NPCCharacter.imperial_vigla_recruit" steward="NPCCharacter.imperial_vigla_recruit" blacksmith="NPCCharacter.imperial_vigla_recruit" weaponsmith="NPCCharacter.imperial_vigla_recruit" townswoman="NPCCharacter.imperial_vigla_recruit" townswoman_infant="NPCCharacter.imperial_vigla_recruit" townswoman_child="NPCCharacter.imperial_vigla_recruit" townswoman_teenager="NPCCharacter.imperial_vigla_recruit" townsman="NPCCharacter.imperial_vigla_recruit" townsman_infant="NPCCharacter.imperial_vigla_recruit" townsman_child="NPCCharacter.imperial_vigla_recruit" townsman_teenager="NPCCharacter.imperial_vigla_recruit" villager="NPCCharacter.imperial_vigla_recruit" village_woman="NPCCharacter.imperial_vigla_recruit" villager_male_child="NPCCharacter.imperial_vigla_recruit" villager_male_teenager="NPCCharacter.imperial_vigla_recruit" villager_female_child="NPCCharacter.imperial_vigla_recruit" villager_female_teenager="NPCCharacter.imperial_vigla_recruit" ransom_broker="NPCCharacter.imperial_vigla_recruit" gangleader_bodyguard="NPCCharacter.imperial_vigla_recruit" merchant_notary="NPCCharacter.imperial_vigla_recruit" preacher_notary="NPCCharacter.imperial_vigla_recruit" rural_notable_notary="NPCCharacter.imperial_vigla_recruit" shop_worker="NPCCharacter.imperial_vigla_recruit" tavernkeeper="NPCCharacter.imperial_vigla_recruit" taverngamehost="NPCCharacter.imperial_vigla_recruit" musician="NPCCharacter.imperial_vigla_recruit" tavern_wench="NPCCharacter.imperial_vigla_recruit" armorer="NPCCharacter.imperial_vigla_recruit" horseMerchant="NPCCharacter.imperial_vigla_recruit" barber="NPCCharacter.imperial_vigla_recruit" merchant="NPCCharacter.imperial_vigla_recruit" beggar="NPCCharacter.imperial_vigla_recruit" female_beggar="NPCCharacter.imperial_vigla_recruit" female_dancer="NPCCharacter.imperial_vigla_recruit" gear_practice_dummy="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_1="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_2="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_3="NPCCharacter.imperial_vigla_recruit" gear_dummy="NPCCharacter.imperial_vigla_recruit" bandit_bandit="NPCCharacter.imperial_vigla_recruit" bandit_chief="NPCCharacter.imperial_vigla_recruit" bandit_raider="NPCCharacter.imperial_vigla_recruit" bandit_boss="NPCCharacter.imperial_vigla_recruit" />
-  <Culture id="fc_kyuutaki" name="{=Cultures.Culture.fc_kyuutaki.name}Tengu" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_youkai_template" melee_militia_troop="NPCCharacter.imperial_recruit" melee_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" ranged_militia_troop="NPCCharacter.imperial_recruit" ranged_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" tournament_master="NPCCharacter.imperial_vigla_recruit" caravan_master="NPCCharacter.imperial_vigla_recruit" armed_trader="NPCCharacter.imperial_vigla_recruit" caravan_guard="NPCCharacter.imperial_vigla_recruit" veteran_caravan_guard="NPCCharacter.imperial_vigla_recruit" duel_preset="NPCCharacter.imperial_vigla_recruit" prison_guard="NPCCharacter.imperial_vigla_recruit" guard="NPCCharacter.imperial_vigla_recruit" steward="NPCCharacter.imperial_vigla_recruit" blacksmith="NPCCharacter.imperial_vigla_recruit" weaponsmith="NPCCharacter.imperial_vigla_recruit" townswoman="NPCCharacter.imperial_vigla_recruit" townswoman_infant="NPCCharacter.imperial_vigla_recruit" townswoman_child="NPCCharacter.imperial_vigla_recruit" townswoman_teenager="NPCCharacter.imperial_vigla_recruit" townsman="NPCCharacter.imperial_vigla_recruit" townsman_infant="NPCCharacter.imperial_vigla_recruit" townsman_child="NPCCharacter.imperial_vigla_recruit" townsman_teenager="NPCCharacter.imperial_vigla_recruit" villager="NPCCharacter.imperial_vigla_recruit" village_woman="NPCCharacter.imperial_vigla_recruit" villager_male_child="NPCCharacter.imperial_vigla_recruit" villager_male_teenager="NPCCharacter.imperial_vigla_recruit" villager_female_child="NPCCharacter.imperial_vigla_recruit" villager_female_teenager="NPCCharacter.imperial_vigla_recruit" ransom_broker="NPCCharacter.imperial_vigla_recruit" gangleader_bodyguard="NPCCharacter.imperial_vigla_recruit" merchant_notary="NPCCharacter.imperial_vigla_recruit" preacher_notary="NPCCharacter.imperial_vigla_recruit" rural_notable_notary="NPCCharacter.imperial_vigla_recruit" shop_worker="NPCCharacter.imperial_vigla_recruit" tavernkeeper="NPCCharacter.imperial_vigla_recruit" taverngamehost="NPCCharacter.imperial_vigla_recruit" musician="NPCCharacter.imperial_vigla_recruit" tavern_wench="NPCCharacter.imperial_vigla_recruit" armorer="NPCCharacter.imperial_vigla_recruit" horseMerchant="NPCCharacter.imperial_vigla_recruit" barber="NPCCharacter.imperial_vigla_recruit" merchant="NPCCharacter.imperial_vigla_recruit" beggar="NPCCharacter.imperial_vigla_recruit" female_beggar="NPCCharacter.imperial_vigla_recruit" female_dancer="NPCCharacter.imperial_vigla_recruit" gear_practice_dummy="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_1="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_2="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_3="NPCCharacter.imperial_vigla_recruit" gear_dummy="NPCCharacter.imperial_vigla_recruit" bandit_bandit="NPCCharacter.imperial_vigla_recruit" bandit_chief="NPCCharacter.imperial_vigla_recruit" bandit_raider="NPCCharacter.imperial_vigla_recruit" bandit_boss="NPCCharacter.imperial_vigla_recruit" />
-  <Culture id="fc_underworld" name="{=Cultures.Culture.fc_underworld.name}Underworld" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_youkai_template" melee_militia_troop="NPCCharacter.imperial_recruit" melee_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" ranged_militia_troop="NPCCharacter.imperial_recruit" ranged_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" tournament_master="NPCCharacter.imperial_vigla_recruit" caravan_master="NPCCharacter.imperial_vigla_recruit" armed_trader="NPCCharacter.imperial_vigla_recruit" caravan_guard="NPCCharacter.imperial_vigla_recruit" veteran_caravan_guard="NPCCharacter.imperial_vigla_recruit" duel_preset="NPCCharacter.imperial_vigla_recruit" prison_guard="NPCCharacter.imperial_vigla_recruit" guard="NPCCharacter.imperial_vigla_recruit" steward="NPCCharacter.imperial_vigla_recruit" blacksmith="NPCCharacter.imperial_vigla_recruit" weaponsmith="NPCCharacter.imperial_vigla_recruit" townswoman="NPCCharacter.imperial_vigla_recruit" townswoman_infant="NPCCharacter.imperial_vigla_recruit" townswoman_child="NPCCharacter.imperial_vigla_recruit" townswoman_teenager="NPCCharacter.imperial_vigla_recruit" townsman="NPCCharacter.imperial_vigla_recruit" townsman_infant="NPCCharacter.imperial_vigla_recruit" townsman_child="NPCCharacter.imperial_vigla_recruit" townsman_teenager="NPCCharacter.imperial_vigla_recruit" villager="NPCCharacter.imperial_vigla_recruit" village_woman="NPCCharacter.imperial_vigla_recruit" villager_male_child="NPCCharacter.imperial_vigla_recruit" villager_male_teenager="NPCCharacter.imperial_vigla_recruit" villager_female_child="NPCCharacter.imperial_vigla_recruit" villager_female_teenager="NPCCharacter.imperial_vigla_recruit" ransom_broker="NPCCharacter.imperial_vigla_recruit" gangleader_bodyguard="NPCCharacter.imperial_vigla_recruit" merchant_notary="NPCCharacter.imperial_vigla_recruit" preacher_notary="NPCCharacter.imperial_vigla_recruit" rural_notable_notary="NPCCharacter.imperial_vigla_recruit" shop_worker="NPCCharacter.imperial_vigla_recruit" tavernkeeper="NPCCharacter.imperial_vigla_recruit" taverngamehost="NPCCharacter.imperial_vigla_recruit" musician="NPCCharacter.imperial_vigla_recruit" tavern_wench="NPCCharacter.imperial_vigla_recruit" armorer="NPCCharacter.imperial_vigla_recruit" horseMerchant="NPCCharacter.imperial_vigla_recruit" barber="NPCCharacter.imperial_vigla_recruit" merchant="NPCCharacter.imperial_vigla_recruit" beggar="NPCCharacter.imperial_vigla_recruit" female_beggar="NPCCharacter.imperial_vigla_recruit" female_dancer="NPCCharacter.imperial_vigla_recruit" gear_practice_dummy="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_1="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_2="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_3="NPCCharacter.imperial_vigla_recruit" gear_dummy="NPCCharacter.imperial_vigla_recruit" bandit_bandit="NPCCharacter.imperial_vigla_recruit" bandit_chief="NPCCharacter.imperial_vigla_recruit" bandit_raider="NPCCharacter.imperial_vigla_recruit" bandit_boss="NPCCharacter.imperial_vigla_recruit" />
-  <Culture id="fc_netherworld" name="{=Cultures.Culture.fc_netherworld.name}Netherworld" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_youkai_template" melee_militia_troop="NPCCharacter.imperial_recruit" melee_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" ranged_militia_troop="NPCCharacter.imperial_recruit" ranged_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" tournament_master="NPCCharacter.imperial_vigla_recruit" caravan_master="NPCCharacter.imperial_vigla_recruit" armed_trader="NPCCharacter.imperial_vigla_recruit" caravan_guard="NPCCharacter.imperial_vigla_recruit" veteran_caravan_guard="NPCCharacter.imperial_vigla_recruit" duel_preset="NPCCharacter.imperial_vigla_recruit" prison_guard="NPCCharacter.imperial_vigla_recruit" guard="NPCCharacter.imperial_vigla_recruit" steward="NPCCharacter.imperial_vigla_recruit" blacksmith="NPCCharacter.imperial_vigla_recruit" weaponsmith="NPCCharacter.imperial_vigla_recruit" townswoman="NPCCharacter.imperial_vigla_recruit" townswoman_infant="NPCCharacter.imperial_vigla_recruit" townswoman_child="NPCCharacter.imperial_vigla_recruit" townswoman_teenager="NPCCharacter.imperial_vigla_recruit" townsman="NPCCharacter.imperial_vigla_recruit" townsman_infant="NPCCharacter.imperial_vigla_recruit" townsman_child="NPCCharacter.imperial_vigla_recruit" townsman_teenager="NPCCharacter.imperial_vigla_recruit" villager="NPCCharacter.imperial_vigla_recruit" village_woman="NPCCharacter.imperial_vigla_recruit" villager_male_child="NPCCharacter.imperial_vigla_recruit" villager_male_teenager="NPCCharacter.imperial_vigla_recruit" villager_female_child="NPCCharacter.imperial_vigla_recruit" villager_female_teenager="NPCCharacter.imperial_vigla_recruit" ransom_broker="NPCCharacter.imperial_vigla_recruit" gangleader_bodyguard="NPCCharacter.imperial_vigla_recruit" merchant_notary="NPCCharacter.imperial_vigla_recruit" preacher_notary="NPCCharacter.imperial_vigla_recruit" rural_notable_notary="NPCCharacter.imperial_vigla_recruit" shop_worker="NPCCharacter.imperial_vigla_recruit" tavernkeeper="NPCCharacter.imperial_vigla_recruit" taverngamehost="NPCCharacter.imperial_vigla_recruit" musician="NPCCharacter.imperial_vigla_recruit" tavern_wench="NPCCharacter.imperial_vigla_recruit" armorer="NPCCharacter.imperial_vigla_recruit" horseMerchant="NPCCharacter.imperial_vigla_recruit" barber="NPCCharacter.imperial_vigla_recruit" merchant="NPCCharacter.imperial_vigla_recruit" beggar="NPCCharacter.imperial_vigla_recruit" female_beggar="NPCCharacter.imperial_vigla_recruit" female_dancer="NPCCharacter.imperial_vigla_recruit" gear_practice_dummy="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_1="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_2="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_3="NPCCharacter.imperial_vigla_recruit" gear_dummy="NPCCharacter.imperial_vigla_recruit" bandit_bandit="NPCCharacter.imperial_vigla_recruit" bandit_chief="NPCCharacter.imperial_vigla_recruit" bandit_raider="NPCCharacter.imperial_vigla_recruit" bandit_boss="NPCCharacter.imperial_vigla_recruit" />
-  <Culture id="fc_shogunate" name="{=Cultures.Culture.fc_shogunate.name}Shogunate" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_youkai_template" melee_militia_troop="NPCCharacter.imperial_recruit" melee_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" ranged_militia_troop="NPCCharacter.imperial_recruit" ranged_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" tournament_master="NPCCharacter.imperial_vigla_recruit" caravan_master="NPCCharacter.imperial_vigla_recruit" armed_trader="NPCCharacter.imperial_vigla_recruit" caravan_guard="NPCCharacter.imperial_vigla_recruit" veteran_caravan_guard="NPCCharacter.imperial_vigla_recruit" duel_preset="NPCCharacter.imperial_vigla_recruit" prison_guard="NPCCharacter.imperial_vigla_recruit" guard="NPCCharacter.imperial_vigla_recruit" steward="NPCCharacter.imperial_vigla_recruit" blacksmith="NPCCharacter.imperial_vigla_recruit" weaponsmith="NPCCharacter.imperial_vigla_recruit" townswoman="NPCCharacter.imperial_vigla_recruit" townswoman_infant="NPCCharacter.imperial_vigla_recruit" townswoman_child="NPCCharacter.imperial_vigla_recruit" townswoman_teenager="NPCCharacter.imperial_vigla_recruit" townsman="NPCCharacter.imperial_vigla_recruit" townsman_infant="NPCCharacter.imperial_vigla_recruit" townsman_child="NPCCharacter.imperial_vigla_recruit" townsman_teenager="NPCCharacter.imperial_vigla_recruit" villager="NPCCharacter.imperial_vigla_recruit" village_woman="NPCCharacter.imperial_vigla_recruit" villager_male_child="NPCCharacter.imperial_vigla_recruit" villager_male_teenager="NPCCharacter.imperial_vigla_recruit" villager_female_child="NPCCharacter.imperial_vigla_recruit" villager_female_teenager="NPCCharacter.imperial_vigla_recruit" ransom_broker="NPCCharacter.imperial_vigla_recruit" gangleader_bodyguard="NPCCharacter.imperial_vigla_recruit" merchant_notary="NPCCharacter.imperial_vigla_recruit" preacher_notary="NPCCharacter.imperial_vigla_recruit" rural_notable_notary="NPCCharacter.imperial_vigla_recruit" shop_worker="NPCCharacter.imperial_vigla_recruit" tavernkeeper="NPCCharacter.imperial_vigla_recruit" taverngamehost="NPCCharacter.imperial_vigla_recruit" musician="NPCCharacter.imperial_vigla_recruit" tavern_wench="NPCCharacter.imperial_vigla_recruit" armorer="NPCCharacter.imperial_vigla_recruit" horseMerchant="NPCCharacter.imperial_vigla_recruit" barber="NPCCharacter.imperial_vigla_recruit" merchant="NPCCharacter.imperial_vigla_recruit" beggar="NPCCharacter.imperial_vigla_recruit" female_beggar="NPCCharacter.imperial_vigla_recruit" female_dancer="NPCCharacter.imperial_vigla_recruit" gear_practice_dummy="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_1="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_2="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_3="NPCCharacter.imperial_vigla_recruit" gear_dummy="NPCCharacter.imperial_vigla_recruit" bandit_bandit="NPCCharacter.imperial_vigla_recruit" bandit_chief="NPCCharacter.imperial_vigla_recruit" bandit_raider="NPCCharacter.imperial_vigla_recruit" bandit_boss="NPCCharacter.imperial_vigla_recruit" />
-  <Culture id="human" name="{=Cultures.Culture.human.name}Human" is_main_culture="true" can_have_settlement="true" town_edge_number="16" prosperity_bonus="1" encounter_background_mesh="encounter_aserai" basic_troop="NPCCharacter.aserai_recruit" elite_basic_troop="NPCCharacter.aserai_youth" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_human_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_human_template" melee_militia_troop="NPCCharacter.aserai_recruit" melee_elite_militia_troop="NPCCharacter.aserai_youth" ranged_militia_troop="NPCCharacter.aserai_recruit" ranged_elite_militia_troop="NPCCharacter.aserai_youth" tournament_master="NPCCharacter.aserai_youth" caravan_master="NPCCharacter.aserai_youth" armed_trader="NPCCharacter.aserai_youth" caravan_guard="NPCCharacter.aserai_youth" veteran_caravan_guard="NPCCharacter.aserai_youth" duel_preset="NPCCharacter.aserai_youth" prison_guard="NPCCharacter.aserai_youth" guard="NPCCharacter.aserai_youth" steward="NPCCharacter.aserai_youth" blacksmith="NPCCharacter.aserai_youth" weaponsmith="NPCCharacter.aserai_youth" townswoman="NPCCharacter.aserai_youth" townswoman_infant="NPCCharacter.aserai_youth" townswoman_child="NPCCharacter.aserai_youth" townswoman_teenager="NPCCharacter.aserai_youth" townsman="NPCCharacter.aserai_youth" townsman_infant="NPCCharacter.aserai_youth" townsman_child="NPCCharacter.aserai_youth" townsman_teenager="NPCCharacter.aserai_youth" villager="NPCCharacter.aserai_youth" village_woman="NPCCharacter.aserai_youth" villager_male_child="NPCCharacter.aserai_youth" villager_male_teenager="NPCCharacter.aserai_youth" villager_female_child="NPCCharacter.aserai_youth" villager_female_teenager="NPCCharacter.aserai_youth" ransom_broker="NPCCharacter.aserai_youth" gangleader_bodyguard="NPCCharacter.aserai_youth" merchant_notary="NPCCharacter.aserai_youth" preacher_notary="NPCCharacter.aserai_youth" rural_notable_notary="NPCCharacter.aserai_youth" shop_worker="NPCCharacter.aserai_youth" tavernkeeper="NPCCharacter.aserai_youth" taverngamehost="NPCCharacter.aserai_youth" musician="NPCCharacter.aserai_youth" tavern_wench="NPCCharacter.aserai_youth" armorer="NPCCharacter.aserai_youth" horseMerchant="NPCCharacter.aserai_youth" barber="NPCCharacter.aserai_youth" merchant="NPCCharacter.aserai_youth" beggar="NPCCharacter.aserai_youth" female_beggar="NPCCharacter.aserai_youth" female_dancer="NPCCharacter.aserai_youth" gear_practice_dummy="NPCCharacter.aserai_youth" weapon_practice_stage_1="NPCCharacter.aserai_youth" weapon_practice_stage_2="NPCCharacter.aserai_youth" weapon_practice_stage_3="NPCCharacter.aserai_youth" gear_dummy="NPCCharacter.aserai_youth" bandit_bandit="NPCCharacter.aserai_youth" bandit_chief="NPCCharacter.aserai_youth" bandit_raider="NPCCharacter.aserai_youth" bandit_boss="NPCCharacter.aserai_youth">
-    <male_names>
-      <name name="{Cultures.Culture.human.male_names.akihito}Akihito" />
-      <name name="{Cultures.Culture.human.male_names.akimitsu}Akimitsu" />
-      <name name="{Cultures.Culture.human.male_names.arata}Arata" />
-      <name name="{Cultures.Culture.human.male_names.chihiro}Chihiro" />
-      <name name="{Cultures.Culture.human.male_names.daichi}Daichi" />
-      <name name="{Cultures.Culture.human.male_names.fumihito}Fumihito" />
-      <name name="{Cultures.Culture.human.male_names.goro}Goro" />
-      <name name="{Cultures.Culture.human.male_names.haru}Haru" />
-      <name name="{Cultures.Culture.human.male_names.hayate}Hayate" />
-      <name name="{Cultures.Culture.human.male_names.hiroto}Hiroto" />
-      <name name="{Cultures.Culture.human.male_names.kaedo}Kaedo" />
-      <name name="{Cultures.Culture.human.male_names.kaito}Kaito" />
-      <name name="{Cultures.Culture.human.male_names.kei}Kei" />
-      <name name="{Cultures.Culture.human.male_names.ken}Ken" />
-      <name name="{Cultures.Culture.human.male_names.koji}Koji" />
-      <name name="{Cultures.Culture.human.male_names.michi}Michi" />
-      <name name="{Cultures.Culture.human.male_names.nobu}Nobu" />
-      <name name="{Cultures.Culture.human.male_names.shion}Shion" />
-      <name name="{Cultures.Culture.human.male_names.shiro}Shiro" />
-      <name name="{Cultures.Culture.human.male_names.sora}Sora" />
-      <name name="{Cultures.Culture.human.male_names.subaru}Subaru" />
-      <name name="{Cultures.Culture.human.male_names.takashi}Takashi" />
-      <name name="{Cultures.Culture.human.male_names.tsubasa}Tsubasa" />
-      <name name="{Cultures.Culture.human.male_names.yori}Yori" />
-      <name name="{Cultures.Culture.human.male_names.yoshi}Yoshi" />
-      <name name="{Cultures.Culture.human.male_names.yuki}Yuki" />
-    </male_names>
-    <female_names>
-      <name name="{Cultures.Culture.human.female_names.airi}Airi" />
-      <name name="{Cultures.Culture.human.female_names.akari}Akari" />
-      <name name="{Cultures.Culture.human.female_names.ayame}Ayame" />
-      <name name="{Cultures.Culture.human.female_names.chika}Chika" />
-      <name name="{Cultures.Culture.human.female_names.chou}Chou" />
-      <name name="{Cultures.Culture.human.female_names.ema}Ema" />
-      <name name="{Cultures.Culture.human.female_names.emi}Emi" />
-      <name name="{Cultures.Culture.human.female_names.etsuko}Etsuko" />
-      <name name="{Cultures.Culture.human.female_names.fuyuko}Fuyuko" />
-      <name name="{Cultures.Culture.human.female_names.hanae}Hanae" />
-      <name name="{Cultures.Culture.human.female_names.haruka}Haruka" />
-      <name name="{Cultures.Culture.human.female_names.hibiki}Hibiki" />
-      <name name="{Cultures.Culture.human.female_names.hikari}Hikari" />
-      <name name="{Cultures.Culture.human.female_names.hina}Hina" />
-      <name name="{Cultures.Culture.human.female_names.hitomi}Hitomi" />
-      <name name="{Cultures.Culture.human.female_names.honoka}Honoka" />
-      <name name="{Cultures.Culture.human.female_names.hosha}Hosha" />
-      <name name="{Cultures.Culture.human.female_names.hotaru}Hotaru" />
-      <name name="{Cultures.Culture.human.female_names.izumi}Izumi" />
-      <name name="{Cultures.Culture.human.female_names.jun}Jun" />
-      <name name="{Cultures.Culture.human.female_names.kaede}Kaede" />
-      <name name="{Cultures.Culture.human.female_names.kanako}Kanako" />
-      <name name="{Cultures.Culture.human.female_names.kaori}Kaori" />
-      <name name="{Cultures.Culture.human.female_names.kasumi}Kasumi" />
-      <name name="{Cultures.Culture.human.female_names.kei}Kei" />
-      <name name="{Cultures.Culture.human.female_names.kimiko}Kimiko" />
-      <name name="{Cultures.Culture.human.female_names.kyoko}Kyoko" />
-      <name name="{Cultures.Culture.human.female_names.mai}Mai" />
-      <name name="{Cultures.Culture.human.female_names.makoto}Makoto" />
-      <name name="{Cultures.Culture.human.female_names.mayu}Mayu" />
-      <name name="{Cultures.Culture.human.female_names.megumi}Megumi" />
-      <name name="{Cultures.Culture.human.female_names.mei}Mei" />
-      <name name="{Cultures.Culture.human.female_names.mika}Mika" />
-      <name name="{Cultures.Culture.human.female_names.miku}Miku" />
-      <name name="{Cultures.Culture.human.female_names.moriko}Moriko" />
-      <name name="{Cultures.Culture.human.female_names.nanami}Nanami" />
-      <name name="{Cultures.Culture.human.female_names.natsumi}Natsumi" />
-      <name name="{Cultures.Culture.human.female_names.rei}Rei" />
-      <name name="{Cultures.Culture.human.female_names.rin}Rin" />
-      <name name="{Cultures.Culture.human.female_names.sachie}Sachie" />
-      <name name="{Cultures.Culture.human.female_names.saki}Saki" />
-      <name name="{Cultures.Culture.human.female_names.sakura}Sakura" />
-      <name name="{Cultures.Culture.human.female_names.saori}Saori" />
-      <name name="{Cultures.Culture.human.female_names.shion}Shion" />
-      <name name="{Cultures.Culture.human.female_names.sumiko}Sumiko" />
-      <name name="{Cultures.Culture.human.female_names.takara}Takara" />
-      <name name="{Cultures.Culture.human.female_names.tokomo}Tokomo" />
-      <name name="{Cultures.Culture.human.female_names.tsubasa}Tsubasa" />
-      <name name="{Cultures.Culture.human.female_names.wakana}Wakana" />
-      <name name="{Cultures.Culture.human.female_names.yoshi}Yoshi" />
-      <name name="{Cultures.Culture.human.female_names.youko}Youko" />
-      <name name="{Cultures.Culture.human.female_names.yui}Yui" />
-      <name name="{Cultures.Culture.human.female_names.yuka}Yuka" />
-      <name name="{Cultures.Culture.human.female_names.yuki}Yuki" />
-      <name name="{Cultures.Culture.human.female_names.yumi}Yumi" />
-      <name name="{Cultures.Culture.human.female_names.yuri}Yuri" />
-      <name name="{Cultures.Culture.human.female_names.yuzuki}Yuzuki" />
-    </female_names>
-    <clan_names>
-      <name name="{Cultures.Culture.human.clan_names.nagai}Nagai" />
-      <name name="{Cultures.Culture.human.clan_names.sato}Sato" />
-      <name name="{Cultures.Culture.human.clan_names.suzuki}Suzuki" />
-      <name name="{Cultures.Culture.human.clan_names.takahashi}Takahashi" />
-      <name name="{Cultures.Culture.human.clan_names.tanaka}Tanaka" />
-      <name name="{Cultures.Culture.human.clan_names.watanabe}Watanabe" />
-      <name name="{Cultures.Culture.human.clan_names.ito}Ito" />
-      <name name="{Cultures.Culture.human.clan_names.yamamoto}Yamamoto" />
-      <name name="{Cultures.Culture.human.clan_names.nakamura}Nakamura" />
-      <name name="{Cultures.Culture.human.clan_names.kobayashi}Kobayashi" />
-      <name name="{Cultures.Culture.human.clan_names.kato}Kato" />
-      <name name="{Cultures.Culture.human.clan_names.yoshida}Yoshida" />
-      <name name="{Cultures.Culture.human.clan_names.yamada}Yamada" />
-      <name name="{Cultures.Culture.human.clan_names.sasaki}Sasaki" />
-      <name name="{Cultures.Culture.human.clan_names.yamaguchi}Yamaguchi" />
-      <name name="{Cultures.Culture.human.clan_names.saito}Saito" />
-      <name name="{Cultures.Culture.human.clan_names.matsumoto}Matsumoto" />
-      <name name="{Cultures.Culture.human.clan_names.inoue}Inoue" />
-      <name name="{Cultures.Culture.human.clan_names.kimura}Kimura" />
-      <name name="{Cultures.Culture.human.clan_names.hayashi}Hayashi" />
-      <name name="{Cultures.Culture.human.clan_names.shimizu}Shimizu" />
-    </clan_names>
+  <!--This document was created with XmlTool, a tool originally developed for the Touhou Analepsia project by Urist McAurelian.
+
+Feel free to check out our own project at https://forums.taleworlds.com/index.php?threads/tbd-bannerlord-mod-touhou-analepsia-illusory-nirvana.411674/ 
+and join our discord at https://discord.gg/PUqYrGZ 
+
+If you want to use this tool yourself for you own project, you can find it at https://github.com/RomanResistance/XmlTool-->
+  <Culture id="fc_hakurei_shrine" name="{=Cultures.Culture.name.fc_hakurei_shrine}Hakurei" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_human_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire" caravan_party_template="PartyTemplate.caravan_template_empire" militia_party_template="PartyTemplate.militia_empire_template" rebels_party_template="PartyTemplate.rebels_empire_template" melee_militia_troop="NPCCharacter.imperial_militia_spearman" melee_elite_militia_troop="NPCCharacter.imperial_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.imperial_militia_archer" ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_empire" caravan_master="NPCCharacter.caravan_master_empire" armed_trader="NPCCharacter.armed_trader_empire" caravan_guard="NPCCharacter.caravan_guard_empire" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire" duel_preset="NPCCharacter.empire_duel_preset" prison_guard="NPCCharacter.prison_guard_empire" guard="NPCCharacter.guard_empire" steward="NPCCharacter.steward_empire" blacksmith="NPCCharacter.blacksmith_empire" weaponsmith="NPCCharacter.weaponsmith_empire" townswoman="NPCCharacter.townswoman_empire" townswoman_infant="NPCCharacter.townswoman_infant_empire" townswoman_child="NPCCharacter.townswoman_child_empire" townswoman_teenager="NPCCharacter.townswoman_teenager_empire" townsman="NPCCharacter.townsman_empire" townsman_infant="NPCCharacter.townsman_infant_empire" townsman_child="NPCCharacter.townsman_child_empire" townsman_teenager="NPCCharacter.townsman_teenager_empire" villager="NPCCharacter.villager_empire" village_woman="NPCCharacter.village_woman_empire" villager_male_child="NPCCharacter.villager_child_empire" villager_male_teenager="NPCCharacter.villager_teenager_empire" villager_female_child="NPCCharacter.village_woman_child_empire" villager_female_teenager="NPCCharacter.village_woman_teenager_empire" ransom_broker="NPCCharacter.ransom_broker_empire" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire" merchant_notary="NPCCharacter.merchant_notary_empire" preacher_notary="NPCCharacter.preacher_notary_empire" artisan_notary="NPCCharacter.preacher_notary_empire" rural_notable_notary="NPCCharacter.rural_notable_notary_empire" shop_worker="NPCCharacter.shop_worker_empire" tavernkeeper="NPCCharacter.tavernkeeper_empire" taverngamehost="NPCCharacter.taverngamehost_empire" musician="NPCCharacter.musician_empire" tavern_wench="NPCCharacter.tavern_wench_empire" armorer="NPCCharacter.armorer_empire" horseMerchant="NPCCharacter.horseMerchant_empire" barber="NPCCharacter.barber_empire" merchant="NPCCharacter.merchant_empire" beggar="NPCCharacter.beggar_empire" female_beggar="NPCCharacter.female_beggar_empire" female_dancer="NPCCharacter.female_dancer_empire" gear_practice_dummy="NPCCharacter.gear_practice_dummy_empire" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_empire" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_empire" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_empire" gear_dummy="NPCCharacter.gear_dummy_empire" board_game_type="Tablut">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
   </Culture>
-  <Culture id="youkai" name="{=Cultures.Culture.youkai.name}Youkai" is_main_culture="true" can_have_settlement="true" town_edge_number="16" militia_bonus="1" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.rebels_youkai_template" melee_militia_troop="NPCCharacter.imperial_recruit" melee_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" ranged_militia_troop="NPCCharacter.imperial_recruit" ranged_elite_militia_troop="NPCCharacter.imperial_vigla_recruit" tournament_master="NPCCharacter.imperial_vigla_recruit" caravan_master="NPCCharacter.imperial_vigla_recruit" armed_trader="NPCCharacter.imperial_vigla_recruit" caravan_guard="NPCCharacter.imperial_vigla_recruit" veteran_caravan_guard="NPCCharacter.imperial_vigla_recruit" duel_preset="NPCCharacter.imperial_vigla_recruit" prison_guard="NPCCharacter.imperial_vigla_recruit" guard="NPCCharacter.imperial_vigla_recruit" steward="NPCCharacter.imperial_vigla_recruit" blacksmith="NPCCharacter.imperial_vigla_recruit" weaponsmith="NPCCharacter.imperial_vigla_recruit" townswoman="NPCCharacter.imperial_vigla_recruit" townswoman_infant="NPCCharacter.imperial_vigla_recruit" townswoman_child="NPCCharacter.imperial_vigla_recruit" townswoman_teenager="NPCCharacter.imperial_vigla_recruit" townsman="NPCCharacter.imperial_vigla_recruit" townsman_infant="NPCCharacter.imperial_vigla_recruit" townsman_child="NPCCharacter.imperial_vigla_recruit" townsman_teenager="NPCCharacter.imperial_vigla_recruit" villager="NPCCharacter.imperial_vigla_recruit" village_woman="NPCCharacter.imperial_vigla_recruit" villager_male_child="NPCCharacter.imperial_vigla_recruit" villager_male_teenager="NPCCharacter.imperial_vigla_recruit" villager_female_child="NPCCharacter.imperial_vigla_recruit" villager_female_teenager="NPCCharacter.imperial_vigla_recruit" ransom_broker="NPCCharacter.imperial_vigla_recruit" gangleader_bodyguard="NPCCharacter.imperial_vigla_recruit" merchant_notary="NPCCharacter.imperial_vigla_recruit" preacher_notary="NPCCharacter.imperial_vigla_recruit" rural_notable_notary="NPCCharacter.imperial_vigla_recruit" shop_worker="NPCCharacter.imperial_vigla_recruit" tavernkeeper="NPCCharacter.imperial_vigla_recruit" taverngamehost="NPCCharacter.imperial_vigla_recruit" musician="NPCCharacter.imperial_vigla_recruit" tavern_wench="NPCCharacter.imperial_vigla_recruit" armorer="NPCCharacter.imperial_vigla_recruit" horseMerchant="NPCCharacter.imperial_vigla_recruit" barber="NPCCharacter.imperial_vigla_recruit" merchant="NPCCharacter.imperial_vigla_recruit" beggar="NPCCharacter.imperial_vigla_recruit" female_beggar="NPCCharacter.imperial_vigla_recruit" female_dancer="NPCCharacter.imperial_vigla_recruit" gear_practice_dummy="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_1="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_2="NPCCharacter.imperial_vigla_recruit" weapon_practice_stage_3="NPCCharacter.imperial_vigla_recruit" gear_dummy="NPCCharacter.imperial_vigla_recruit" bandit_bandit="NPCCharacter.imperial_vigla_recruit" bandit_chief="NPCCharacter.imperial_vigla_recruit" bandit_raider="NPCCharacter.imperial_vigla_recruit" bandit_boss="NPCCharacter.imperial_vigla_recruit">
-    <male_names>
-      <name name="{Cultures.Culture.youkai.male_names.akihito}Akihito" />
-      <name name="{Cultures.Culture.youkai.male_names.akimitsu}Akimitsu" />
-      <name name="{Cultures.Culture.youkai.male_names.arata}Arata" />
-      <name name="{Cultures.Culture.youkai.male_names.chihiro}Chihiro" />
-      <name name="{Cultures.Culture.youkai.male_names.daichi}Daichi" />
-      <name name="{Cultures.Culture.youkai.male_names.fumihito}Fumihito" />
-      <name name="{Cultures.Culture.youkai.male_names.goro}Goro" />
-      <name name="{Cultures.Culture.youkai.male_names.haru}Haru" />
-      <name name="{Cultures.Culture.youkai.male_names.hayate}Hayate" />
-      <name name="{Cultures.Culture.youkai.male_names.hiroto}Hiroto" />
-      <name name="{Cultures.Culture.youkai.male_names.kaedo}Kaedo" />
-      <name name="{Cultures.Culture.youkai.male_names.kaito}Kaito" />
-      <name name="{Cultures.Culture.youkai.male_names.kei}Kei" />
-      <name name="{Cultures.Culture.youkai.male_names.ken}Ken" />
-      <name name="{Cultures.Culture.youkai.male_names.koji}Koji" />
-      <name name="{Cultures.Culture.youkai.male_names.michi}Michi" />
-      <name name="{Cultures.Culture.youkai.male_names.nobu}Nobu" />
-      <name name="{Cultures.Culture.youkai.male_names.shion}Shion" />
-      <name name="{Cultures.Culture.youkai.male_names.shiro}Shiro" />
-      <name name="{Cultures.Culture.youkai.male_names.sora}Sora" />
-      <name name="{Cultures.Culture.youkai.male_names.subaru}Subaru" />
-      <name name="{Cultures.Culture.youkai.male_names.takashi}Takashi" />
-      <name name="{Cultures.Culture.youkai.male_names.tsubasa}Tsubasa" />
-      <name name="{Cultures.Culture.youkai.male_names.yori}Yori" />
-      <name name="{Cultures.Culture.youkai.male_names.yoshi}Yoshi" />
-      <name name="{Cultures.Culture.youkai.male_names.yuki}Yuki" />
-    </male_names>
-    <female_names>
-      <name name="{Cultures.Culture.youkai.female_names.airi}Airi" />
-      <name name="{Cultures.Culture.youkai.female_names.akari}Akari" />
-      <name name="{Cultures.Culture.youkai.female_names.ayame}Ayame" />
-      <name name="{Cultures.Culture.youkai.female_names.chika}Chika" />
-      <name name="{Cultures.Culture.youkai.female_names.chou}Chou" />
-      <name name="{Cultures.Culture.youkai.female_names.ema}Ema" />
-      <name name="{Cultures.Culture.youkai.female_names.emi}Emi" />
-      <name name="{Cultures.Culture.youkai.female_names.etsuko}Etsuko" />
-      <name name="{Cultures.Culture.youkai.female_names.fuyuko}Fuyuko" />
-      <name name="{Cultures.Culture.youkai.female_names.hanae}Hanae" />
-      <name name="{Cultures.Culture.youkai.female_names.haruka}Haruka" />
-      <name name="{Cultures.Culture.youkai.female_names.hibiki}Hibiki" />
-      <name name="{Cultures.Culture.youkai.female_names.hikari}Hikari" />
-      <name name="{Cultures.Culture.youkai.female_names.hina}Hina" />
-      <name name="{Cultures.Culture.youkai.female_names.hitomi}Hitomi" />
-      <name name="{Cultures.Culture.youkai.female_names.honoka}Honoka" />
-      <name name="{Cultures.Culture.youkai.female_names.hosha}Hosha" />
-      <name name="{Cultures.Culture.youkai.female_names.hotaru}Hotaru" />
-      <name name="{Cultures.Culture.youkai.female_names.izumi}Izumi" />
-      <name name="{Cultures.Culture.youkai.female_names.jun}Jun" />
-      <name name="{Cultures.Culture.youkai.female_names.kaede}Kaede" />
-      <name name="{Cultures.Culture.youkai.female_names.kanako}Kanako" />
-      <name name="{Cultures.Culture.youkai.female_names.kaori}Kaori" />
-      <name name="{Cultures.Culture.youkai.female_names.kasumi}Kasumi" />
-      <name name="{Cultures.Culture.youkai.female_names.kei}Kei" />
-      <name name="{Cultures.Culture.youkai.female_names.kimiko}Kimiko" />
-      <name name="{Cultures.Culture.youkai.female_names.kyoko}Kyoko" />
-      <name name="{Cultures.Culture.youkai.female_names.mai}Mai" />
-      <name name="{Cultures.Culture.youkai.female_names.makoto}Makoto" />
-      <name name="{Cultures.Culture.youkai.female_names.mayu}Mayu" />
-      <name name="{Cultures.Culture.youkai.female_names.megumi}Megumi" />
-      <name name="{Cultures.Culture.youkai.female_names.mei}Mei" />
-      <name name="{Cultures.Culture.youkai.female_names.mika}Mika" />
-      <name name="{Cultures.Culture.youkai.female_names.miku}Miku" />
-      <name name="{Cultures.Culture.youkai.female_names.moriko}Moriko" />
-      <name name="{Cultures.Culture.youkai.female_names.nanami}Nanami" />
-      <name name="{Cultures.Culture.youkai.female_names.natsumi}Natsumi" />
-      <name name="{Cultures.Culture.youkai.female_names.rei}Rei" />
-      <name name="{Cultures.Culture.youkai.female_names.rin}Rin" />
-      <name name="{Cultures.Culture.youkai.female_names.sachie}Sachie" />
-      <name name="{Cultures.Culture.youkai.female_names.saki}Saki" />
-      <name name="{Cultures.Culture.youkai.female_names.sakura}Sakura" />
-      <name name="{Cultures.Culture.youkai.female_names.saori}Saori" />
-      <name name="{Cultures.Culture.youkai.female_names.shion}Shion" />
-      <name name="{Cultures.Culture.youkai.female_names.sumiko}Sumiko" />
-      <name name="{Cultures.Culture.youkai.female_names.takara}Takara" />
-      <name name="{Cultures.Culture.youkai.female_names.tokomo}Tokomo" />
-      <name name="{Cultures.Culture.youkai.female_names.tsubasa}Tsubasa" />
-      <name name="{Cultures.Culture.youkai.female_names.wakana}Wakana" />
-      <name name="{Cultures.Culture.youkai.female_names.yoshi}Yoshi" />
-      <name name="{Cultures.Culture.youkai.female_names.youko}Youko" />
-      <name name="{Cultures.Culture.youkai.female_names.yui}Yui" />
-      <name name="{Cultures.Culture.youkai.female_names.yuka}Yuka" />
-      <name name="{Cultures.Culture.youkai.female_names.yuki}Yuki" />
-      <name name="{Cultures.Culture.youkai.female_names.yumi}Yumi" />
-      <name name="{Cultures.Culture.youkai.female_names.yuri}Yuri" />
-      <name name="{Cultures.Culture.youkai.female_names.yuzuki}Yuzuki" />
-    </female_names>
-    <clan_names>
-      <name name="{Cultures.Culture.youkai.clan_names.nagai}Nagai" />
-      <name name="{Cultures.Culture.youkai.clan_names.sato}Sato" />
-      <name name="{Cultures.Culture.youkai.clan_names.suzuki}Suzuki" />
-      <name name="{Cultures.Culture.youkai.clan_names.takahashi}Takahashi" />
-      <name name="{Cultures.Culture.youkai.clan_names.tanaka}Tanaka" />
-      <name name="{Cultures.Culture.youkai.clan_names.watanabe}Watanabe" />
-      <name name="{Cultures.Culture.youkai.clan_names.ito}Ito" />
-      <name name="{Cultures.Culture.youkai.clan_names.yamamoto}Yamamoto" />
-      <name name="{Cultures.Culture.youkai.clan_names.nakamura}Nakamura" />
-      <name name="{Cultures.Culture.youkai.clan_names.kobayashi}Kobayashi" />
-      <name name="{Cultures.Culture.youkai.clan_names.kato}Kato" />
-      <name name="{Cultures.Culture.youkai.clan_names.yoshida}Yoshida" />
-      <name name="{Cultures.Culture.youkai.clan_names.yamada}Yamada" />
-      <name name="{Cultures.Culture.youkai.clan_names.sasaki}Sasaki" />
-      <name name="{Cultures.Culture.youkai.clan_names.yamaguchi}Yamaguchi" />
-      <name name="{Cultures.Culture.youkai.clan_names.saito}Saito" />
-      <name name="{Cultures.Culture.youkai.clan_names.matsumoto}Matsumoto" />
-      <name name="{Cultures.Culture.youkai.clan_names.inoue}Inoue" />
-      <name name="{Cultures.Culture.youkai.clan_names.kimura}Kimura" />
-      <name name="{Cultures.Culture.youkai.clan_names.hayashi}Hayashi" />
-      <name name="{Cultures.Culture.youkai.clan_names.shimizu}Shimizu" />
-    </clan_names>
+  <Culture id="fc_human_city" name="{=Cultures.Culture.name.fc_human_city}Metropolitian" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_aserai" basic_troop="NPCCharacter.aserai_recruit" elite_basic_troop="NPCCharacter.aserai_youth" default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000" default_party_template="PartyTemplate.kingdom_hero_party_aserai_template" villager_party_template="PartyTemplate.villager_human_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai" caravan_party_template="PartyTemplate.caravan_template_aserai" militia_party_template="PartyTemplate.militia_aserai_template" rebels_party_template="PartyTemplate.rebels_aserai_template" melee_militia_troop="NPCCharacter.aserai_militia_spearman" melee_elite_militia_troop="NPCCharacter.aserai_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.aserai_militia_archer" ranged_elite_militia_troop="NPCCharacter.aserai_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_aserai" caravan_master="NPCCharacter.caravan_master_aserai" armed_trader="NPCCharacter.armed_trader_aserai" caravan_guard="NPCCharacter.caravan_guard_aserai" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai" duel_preset="NPCCharacter.aserai_duel_preset" prison_guard="NPCCharacter.prison_guard_aserai" guard="NPCCharacter.guard_aserai" steward="NPCCharacter.steward_aserai" blacksmith="NPCCharacter.blacksmith_aserai" weaponsmith="NPCCharacter.weaponsmith_aserai" townswoman="NPCCharacter.townswoman_aserai" townswoman_infant="NPCCharacter.townswoman_infant_aserai" townswoman_child="NPCCharacter.townswoman_child_aserai" townswoman_teenager="NPCCharacter.townswoman_teenager_aserai" townsman="NPCCharacter.townsman_aserai" townsman_infant="NPCCharacter.townsman_infant_aserai" townsman_child="NPCCharacter.townsman_child_aserai" townsman_teenager="NPCCharacter.townsman_teenager_aserai" villager="NPCCharacter.villager_aserai" village_woman="NPCCharacter.village_woman_aserai" villager_male_child="NPCCharacter.villager_child_aserai" villager_male_teenager="NPCCharacter.villager_teenager_aserai" villager_female_child="NPCCharacter.village_woman_child_aserai" villager_female_teenager="NPCCharacter.village_woman_teenager_aserai" ransom_broker="NPCCharacter.ransom_broker_aserai" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_aserai" merchant_notary="NPCCharacter.merchant_notary_aserai" preacher_notary="NPCCharacter.preacher_notary_aserai" artisan_notary="NPCCharacter.preacher_notary_aserai" rural_notable_notary="NPCCharacter.rural_notable_notary_aserai" shop_worker="NPCCharacter.shop_worker_aserai" tavernkeeper="NPCCharacter.tavernkeeper_aserai" taverngamehost="NPCCharacter.taverngamehost_aserai" musician="NPCCharacter.musician_aserai" tavern_wench="NPCCharacter.tavern_wench_aserai" armorer="NPCCharacter.armorer_aserai" horseMerchant="NPCCharacter.horseMerchant_aserai" barber="NPCCharacter.barber_aserai" merchant="NPCCharacter.merchant_aserai" beggar="NPCCharacter.beggar_aserai" female_beggar="NPCCharacter.female_beggar_aserai" female_dancer="NPCCharacter.female_dancer_aserai" gear_practice_dummy="NPCCharacter.gear_practice_dummy_aserai" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_aserai" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_aserai" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_aserai" gear_dummy="NPCCharacter.gear_dummy_aserai" board_game_type="Seega">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v4" />
+    </tournament_team_templates_four_participant>
   </Culture>
-  <Culture id="fairy" name="{=Cultures.Culture.fairy.name}Fairy" is_main_culture="true" can_have_settlement="true" town_edge_number="16" prosperity_bonus="1" encounter_background_mesh="encounter_vlandia" basic_troop="NPCCharacter.vlandian_recruit" elite_basic_troop="NPCCharacter.vlandian_squire" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.kingdom_hero_party_empire_template" elite_caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" bandit_boss_party_template="PartyTemplate.kingdom_hero_party_empire_template" caravan_party_template="PartyTemplate.kingdom_hero_party_empire_template" militia_party_template="PartyTemplate.kingdom_hero_party_empire_template" rebels_party_template="PartyTemplate.villager_fairy_template" melee_militia_troop="NPCCharacter.vlandian_recruit" melee_elite_militia_troop="NPCCharacter.vlandian_squire" ranged_militia_troop="NPCCharacter.vlandian_recruit" ranged_elite_militia_troop="NPCCharacter.vlandian_squire" tournament_master="NPCCharacter.vlandian_squire" caravan_master="NPCCharacter.vlandian_squire" armed_trader="NPCCharacter.vlandian_squire" caravan_guard="NPCCharacter.vlandian_squire" veteran_caravan_guard="NPCCharacter.vlandian_squire" duel_preset="NPCCharacter.vlandian_squire" prison_guard="NPCCharacter.vlandian_squire" guard="NPCCharacter.vlandian_squire" steward="NPCCharacter.vlandian_squire" blacksmith="NPCCharacter.vlandian_squire" weaponsmith="NPCCharacter.vlandian_squire" townswoman="NPCCharacter.vlandian_squire" townswoman_infant="NPCCharacter.vlandian_squire" townswoman_child="NPCCharacter.vlandian_squire" townswoman_teenager="NPCCharacter.vlandian_squire" townsman="NPCCharacter.vlandian_squire" townsman_infant="NPCCharacter.vlandian_squire" townsman_child="NPCCharacter.vlandian_squire" townsman_teenager="NPCCharacter.vlandian_squire" villager="NPCCharacter.vlandian_squire" village_woman="NPCCharacter.vlandian_squire" villager_male_child="NPCCharacter.vlandian_squire" villager_male_teenager="NPCCharacter.vlandian_squire" villager_female_child="NPCCharacter.vlandian_squire" villager_female_teenager="NPCCharacter.vlandian_squire" ransom_broker="NPCCharacter.vlandian_squire" gangleader_bodyguard="NPCCharacter.vlandian_squire" merchant_notary="NPCCharacter.vlandian_squire" preacher_notary="NPCCharacter.vlandian_squire" rural_notable_notary="NPCCharacter.vlandian_squire" shop_worker="NPCCharacter.vlandian_squire" tavernkeeper="NPCCharacter.vlandian_squire" taverngamehost="NPCCharacter.vlandian_squire" musician="NPCCharacter.vlandian_squire" tavern_wench="NPCCharacter.vlandian_squire" armorer="NPCCharacter.vlandian_squire" horseMerchant="NPCCharacter.vlandian_squire" barber="NPCCharacter.vlandian_squire" merchant="NPCCharacter.vlandian_squire" beggar="NPCCharacter.vlandian_squire" female_beggar="NPCCharacter.vlandian_squire" female_dancer="NPCCharacter.vlandian_squire" gear_practice_dummy="NPCCharacter.vlandian_squire" weapon_practice_stage_1="NPCCharacter.vlandian_squire" weapon_practice_stage_2="NPCCharacter.vlandian_squire" weapon_practice_stage_3="NPCCharacter.vlandian_squire" gear_dummy="NPCCharacter.vlandian_squire" bandit_bandit="NPCCharacter.vlandian_squire" bandit_chief="NPCCharacter.vlandian_squire" bandit_raider="NPCCharacter.vlandian_squire" bandit_boss="NPCCharacter.vlandian_squire">
+  <Culture id="fc_eientei" name="{=Cultures.Culture.name.fc_eientei}Lunarian" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_sturgia" basic_troop="NPCCharacter.sturgian_recruit" elite_basic_troop="NPCCharacter.sturgian_warrior_son" default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000" default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_sturgia" caravan_party_template="PartyTemplate.caravan_template_sturgia" militia_party_template="PartyTemplate.militia_sturgia_template" rebels_party_template="PartyTemplate.rebels_sturgia_template" melee_militia_troop="NPCCharacter.sturgian_militia_spearman" melee_elite_militia_troop="NPCCharacter.sturgian_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.sturgian_militia_archer" ranged_elite_militia_troop="NPCCharacter.sturgian_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_sturgia" caravan_master="NPCCharacter.caravan_master_sturgia" armed_trader="NPCCharacter.armed_trader_sturgia" caravan_guard="NPCCharacter.caravan_guard_sturgia" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_sturgia" duel_preset="NPCCharacter.sturgia_duel_preset" prison_guard="NPCCharacter.prison_guard_sturgia" guard="NPCCharacter.guard_sturgia" steward="NPCCharacter.steward_sturgia" blacksmith="NPCCharacter.blacksmith_sturgia" weaponsmith="NPCCharacter.weaponsmith_sturgia" townswoman="NPCCharacter.townswoman_sturgia" townswoman_infant="NPCCharacter.townswoman_infant_sturgia" townswoman_child="NPCCharacter.townswoman_child_sturgia" townswoman_teenager="NPCCharacter.townswoman_teenager_sturgia" townsman="NPCCharacter.townsman_sturgia" townsman_infant="NPCCharacter.townsman_infant_sturgia" townsman_child="NPCCharacter.townsman_child_sturgia" townsman_teenager="NPCCharacter.townsman_teenager_sturgia" villager="NPCCharacter.villager_sturgia" village_woman="NPCCharacter.village_woman_sturgia" villager_male_child="NPCCharacter.villager_child_sturgia" villager_male_teenager="NPCCharacter.villager_teenager_sturgia" villager_female_child="NPCCharacter.village_woman_child_sturgia" villager_female_teenager="NPCCharacter.village_woman_teenager_sturgia" ransom_broker="NPCCharacter.ransom_broker_sturgia" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_sturgia" merchant_notary="NPCCharacter.merchant_notary_sturgia" preacher_notary="NPCCharacter.preacher_notary_sturgia" artisan_notary="NPCCharacter.preacher_notary_sturgia" rural_notable_notary="NPCCharacter.rural_notable_notary_sturgia" shop_worker="NPCCharacter.shop_worker_sturgia" tavernkeeper="NPCCharacter.tavernkeeper_sturgia" taverngamehost="NPCCharacter.taverngamehost_sturgia" musician="NPCCharacter.musician_sturgia" tavern_wench="NPCCharacter.tavern_wench_sturgia" armorer="NPCCharacter.armorer_sturgia" horseMerchant="NPCCharacter.horseMerchant_sturgia" barber="NPCCharacter.barber_sturgia" merchant="NPCCharacter.merchant_sturgia" beggar="NPCCharacter.beggar_sturgia" female_beggar="NPCCharacter.female_beggar_sturgia" female_dancer="NPCCharacter.female_dancer_sturgia" gear_practice_dummy="NPCCharacter.gear_practice_dummy_sturgia" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_sturgia" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_sturgia" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_sturgia" gear_dummy="NPCCharacter.gear_dummy_sturgia" board_game_type="Konane">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="fc_test0" name="{=Cultures.Culture.name.fc_test0}Scarlet Devil" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_vlandia" basic_troop="NPCCharacter.vlandian_recruit" elite_basic_troop="NPCCharacter.vlandian_squire" default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000" default_party_template="PartyTemplate.kingdom_hero_party_vlandia_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_vlandia" caravan_party_template="PartyTemplate.caravan_template_vlandia" militia_party_template="PartyTemplate.militia_vlandia_template" rebels_party_template="PartyTemplate.rebels_vlandia_template" melee_militia_troop="NPCCharacter.vlandian_militia_spearman" melee_elite_militia_troop="NPCCharacter.vlandian_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.vlandian_militia_archer" ranged_elite_militia_troop="NPCCharacter.vlandian_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_vlandia" caravan_master="NPCCharacter.caravan_master_vlandia" armed_trader="NPCCharacter.armed_trader_vlandia" caravan_guard="NPCCharacter.caravan_guard_vlandia" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_vlandia" duel_preset="NPCCharacter.vlandia_duel_preset" prison_guard="NPCCharacter.prison_guard_vlandia" guard="NPCCharacter.guard_vlandia" steward="NPCCharacter.steward_vlandia" blacksmith="NPCCharacter.blacksmith_vlandia" weaponsmith="NPCCharacter.weaponsmith_vlandia" townswoman="NPCCharacter.townswoman_vlandia" townswoman_infant="NPCCharacter.townswoman_infant_vlandia" townswoman_child="NPCCharacter.townswoman_child_vlandia" townswoman_teenager="NPCCharacter.townswoman_teenager_vlandia" townsman="NPCCharacter.townsman_vlandia" townsman_infant="NPCCharacter.townsman_infant_vlandia" townsman_child="NPCCharacter.townsman_child_vlandia" townsman_teenager="NPCCharacter.townsman_teenager_vlandia" villager="NPCCharacter.villager_vlandia" village_woman="NPCCharacter.village_woman_vlandia" villager_male_child="NPCCharacter.villager_child_vlandia" villager_male_teenager="NPCCharacter.villager_teenager_vlandia" villager_female_child="NPCCharacter.village_woman_child_vlandia" villager_female_teenager="NPCCharacter.village_woman_teenager_vlandia" ransom_broker="NPCCharacter.ransom_broker_vlandia" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_vlandia" merchant_notary="NPCCharacter.merchant_notary_vlandia" preacher_notary="NPCCharacter.preacher_notary_vlandia" artisan_notary="NPCCharacter.preacher_notary_vlandia" rural_notable_notary="NPCCharacter.rural_notable_notary_vlandia" shop_worker="NPCCharacter.shop_worker_vlandia" tavernkeeper="NPCCharacter.tavernkeeper_vlandia" taverngamehost="NPCCharacter.taverngamehost_vlandia" musician="NPCCharacter.musician_vlandia" tavern_wench="NPCCharacter.tavern_wench_vlandia" armorer="NPCCharacter.armorer_vlandia" horseMerchant="NPCCharacter.horseMerchant_vlandia" barber="NPCCharacter.barber_vlandia" merchant="NPCCharacter.merchant_vlandia" beggar="NPCCharacter.beggar_vlandia" female_beggar="NPCCharacter.female_beggar_vlandia" female_dancer="NPCCharacter.female_dancer_vlandia" gear_practice_dummy="NPCCharacter.gear_practice_dummy_vlandia" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_vlandia" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_vlandia" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_vlandia" gear_dummy="NPCCharacter.gear_dummy_vlandia" board_game_type="MuTorere">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v3" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v4" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="fc_test1" name="{=Cultures.Culture.name.fc_test1}Misty Lake" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_battania" basic_troop="NPCCharacter.battanian_volunteer" elite_basic_troop="NPCCharacter.battanian_highborn_youth" default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000" default_party_template="PartyTemplate.kingdom_hero_party_battania_template" villager_party_template="PartyTemplate.villager_fairy_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_battania" caravan_party_template="PartyTemplate.caravan_template_battania" militia_party_template="PartyTemplate.militia_battania_template" rebels_party_template="PartyTemplate.rebels_battania_template" melee_militia_troop="NPCCharacter.battanian_militia_spearman" melee_elite_militia_troop="NPCCharacter.battanian_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.battanian_militia_archer" ranged_elite_militia_troop="NPCCharacter.battanian_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_battania" caravan_master="NPCCharacter.caravan_master_battania" armed_trader="NPCCharacter.armed_trader_battania" caravan_guard="NPCCharacter.caravan_guard_battania" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_battania" duel_preset="NPCCharacter.battania_duel_preset" prison_guard="NPCCharacter.prison_guard_battania" guard="NPCCharacter.guard_battania" steward="NPCCharacter.steward_battania" blacksmith="NPCCharacter.blacksmith_battania" weaponsmith="NPCCharacter.weaponsmith_battania" townswoman="NPCCharacter.townswoman_battania" townswoman_infant="NPCCharacter.townswoman_infant_battania" townswoman_child="NPCCharacter.townswoman_child_battania" townswoman_teenager="NPCCharacter.townswoman_teenager_battania" townsman="NPCCharacter.townsman_battania" townsman_infant="NPCCharacter.townsman_infant_battania" townsman_child="NPCCharacter.townsman_child_battania" townsman_teenager="NPCCharacter.townsman_teenager_battania" villager="NPCCharacter.villager_battania" village_woman="NPCCharacter.village_woman_battania" villager_male_child="NPCCharacter.villager_child_battania" villager_male_teenager="NPCCharacter.villager_teenager_battania" villager_female_child="NPCCharacter.village_woman_child_battania" villager_female_teenager="NPCCharacter.village_woman_teenager_battania" ransom_broker="NPCCharacter.ransom_broker_battania" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_battania" merchant_notary="NPCCharacter.merchant_notary_battania" preacher_notary="NPCCharacter.preacher_notary_battania" artisan_notary="NPCCharacter.preacher_notary_battania" rural_notable_notary="NPCCharacter.rural_notable_notary_battania" shop_worker="NPCCharacter.shop_worker_battania" tavernkeeper="NPCCharacter.tavernkeeper_battania" taverngamehost="NPCCharacter.taverngamehost_battania" musician="NPCCharacter.musician_battania" tavern_wench="NPCCharacter.tavern_wench_battania" armorer="NPCCharacter.armorer_battania" horseMerchant="NPCCharacter.horseMerchant_battania" barber="NPCCharacter.barber_battania" merchant="NPCCharacter.merchant_battania" beggar="NPCCharacter.beggar_battania" female_beggar="NPCCharacter.female_beggar_battania" female_dancer="NPCCharacter.female_dancer_battania" gear_practice_dummy="NPCCharacter.gear_practice_dummy_battania" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_battania" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_battania" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_battania" gear_dummy="NPCCharacter.gear_dummy_battania" board_game_type="BaghChal">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_battania_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v4" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="fc_anokuni" name="{=Cultures.Culture.name.fc_anokuni}Amanojaku" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_khuzait" basic_troop="NPCCharacter.khuzait_nomad" elite_basic_troop="NPCCharacter.khuzait_noble_son" default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000" default_party_template="PartyTemplate.kingdom_hero_party_khuzait_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_khuzait" caravan_party_template="PartyTemplate.caravan_template_khuzait" militia_party_template="PartyTemplate.militia_khuzait_template" rebels_party_template="PartyTemplate.rebels_khuzait_template" melee_militia_troop="NPCCharacter.khuzait_militia_spearman" melee_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.khuzait_militia_archer" ranged_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_khuzait" caravan_master="NPCCharacter.caravan_master_khuzait" armed_trader="NPCCharacter.armed_trader_khuzait" caravan_guard="NPCCharacter.caravan_guard_khuzait" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_khuzait" duel_preset="NPCCharacter.khuzait_duel_preset" prison_guard="NPCCharacter.prison_guard_khuzait" guard="NPCCharacter.guard_khuzait" steward="NPCCharacter.steward_khuzait" blacksmith="NPCCharacter.blacksmith_khuzait" weaponsmith="NPCCharacter.weaponsmith_khuzait" townswoman="NPCCharacter.townswoman_khuzait" townswoman_infant="NPCCharacter.townswoman_infant_khuzait" townswoman_child="NPCCharacter.townswoman_child_khuzait" townswoman_teenager="NPCCharacter.townswoman_teenager_khuzait" townsman="NPCCharacter.townsman_khuzait" townsman_infant="NPCCharacter.townsman_infant_khuzait" townsman_child="NPCCharacter.townsman_child_khuzait" townsman_teenager="NPCCharacter.townsman_teenager_khuzait" villager="NPCCharacter.villager_khuzait" village_woman="NPCCharacter.village_woman_khuzait" villager_male_child="NPCCharacter.villager_child_khuzait" villager_male_teenager="NPCCharacter.villager_teenager_khuzait" villager_female_child="NPCCharacter.village_woman_child_khuzait" villager_female_teenager="NPCCharacter.village_woman_teenager_khuzait" ransom_broker="NPCCharacter.ransom_broker_khuzait" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_khuzait" merchant_notary="NPCCharacter.merchant_notary_khuzait" preacher_notary="NPCCharacter.preacher_notary_khuzait" artisan_notary="NPCCharacter.preacher_notary_khuzait" rural_notable_notary="NPCCharacter.rural_notable_notary_khuzait" shop_worker="NPCCharacter.shop_worker_khuzait" tavernkeeper="NPCCharacter.tavernkeeper_khuzait" taverngamehost="NPCCharacter.taverngamehost_khuzait" musician="NPCCharacter.musician_khuzait" tavern_wench="NPCCharacter.tavern_wench_khuzait" armorer="NPCCharacter.armorer_khuzait" horseMerchant="NPCCharacter.horseMerchant_khuzait" barber="NPCCharacter.barber_khuzait" merchant="NPCCharacter.merchant_khuzait" beggar="NPCCharacter.beggar_khuzait" female_beggar="NPCCharacter.female_beggar_khuzait" female_dancer="NPCCharacter.female_dancer_khuzait" gear_practice_dummy="NPCCharacter.gear_practice_dummy_khuzait" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_khuzait" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_khuzait" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_khuzait" gear_dummy="NPCCharacter.gear_dummy_khuzait" board_game_type="Puluc">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="fc_kyuutaki" name="{=Cultures.Culture.name.fc_kyuutaki}Tengu" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_khuzait" caravan_party_template="PartyTemplate.caravan_template_khuzait" militia_party_template="PartyTemplate.militia_khuzait_template" rebels_party_template="PartyTemplate.rebels_khuzait_template" melee_militia_troop="NPCCharacter.khuzait_militia_spearman" melee_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.khuzait_militia_archer" ranged_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_khuzait" caravan_master="NPCCharacter.caravan_master_khuzait" armed_trader="NPCCharacter.armed_trader_khuzait" caravan_guard="NPCCharacter.caravan_guard_khuzait" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_khuzait" duel_preset="NPCCharacter.khuzait_duel_preset" prison_guard="NPCCharacter.prison_guard_khuzait" guard="NPCCharacter.guard_khuzait" steward="NPCCharacter.steward_khuzait" blacksmith="NPCCharacter.blacksmith_khuzait" weaponsmith="NPCCharacter.weaponsmith_khuzait" townswoman="NPCCharacter.townswoman_khuzait" townswoman_infant="NPCCharacter.townswoman_infant_khuzait" townswoman_child="NPCCharacter.townswoman_child_khuzait" townswoman_teenager="NPCCharacter.townswoman_teenager_khuzait" townsman="NPCCharacter.townsman_khuzait" townsman_infant="NPCCharacter.townsman_infant_khuzait" townsman_child="NPCCharacter.townsman_child_khuzait" townsman_teenager="NPCCharacter.townsman_teenager_khuzait" villager="NPCCharacter.villager_khuzait" village_woman="NPCCharacter.village_woman_khuzait" villager_male_child="NPCCharacter.villager_child_khuzait" villager_male_teenager="NPCCharacter.villager_teenager_khuzait" villager_female_child="NPCCharacter.village_woman_child_khuzait" villager_female_teenager="NPCCharacter.village_woman_teenager_khuzait" ransom_broker="NPCCharacter.ransom_broker_khuzait" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_khuzait" merchant_notary="NPCCharacter.merchant_notary_khuzait" preacher_notary="NPCCharacter.preacher_notary_khuzait" artisan_notary="NPCCharacter.preacher_notary_khuzait" rural_notable_notary="NPCCharacter.rural_notable_notary_khuzait" shop_worker="NPCCharacter.shop_worker_khuzait" tavernkeeper="NPCCharacter.tavernkeeper_khuzait" taverngamehost="NPCCharacter.taverngamehost_khuzait" musician="NPCCharacter.musician_khuzait" tavern_wench="NPCCharacter.tavern_wench_khuzait" armorer="NPCCharacter.armorer_khuzait" horseMerchant="NPCCharacter.horseMerchant_khuzait" barber="NPCCharacter.barber_khuzait" merchant="NPCCharacter.merchant_khuzait" beggar="NPCCharacter.beggar_khuzait" female_beggar="NPCCharacter.female_beggar_khuzait" female_dancer="NPCCharacter.female_dancer_khuzait" gear_practice_dummy="NPCCharacter.gear_practice_dummy_khuzait" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_khuzait" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_khuzait" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_khuzait" gear_dummy="NPCCharacter.gear_dummy_khuzait" board_game_type="Puluc">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="fc_underworld" name="{=Cultures.Culture.name.fc_underworld}Underworld" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_khuzait" caravan_party_template="PartyTemplate.caravan_template_khuzait" militia_party_template="PartyTemplate.militia_khuzait_template" rebels_party_template="PartyTemplate.rebels_khuzait_template" melee_militia_troop="NPCCharacter.khuzait_militia_spearman" melee_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.khuzait_militia_archer" ranged_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_khuzait" caravan_master="NPCCharacter.caravan_master_khuzait" armed_trader="NPCCharacter.armed_trader_khuzait" caravan_guard="NPCCharacter.caravan_guard_khuzait" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_khuzait" duel_preset="NPCCharacter.khuzait_duel_preset" prison_guard="NPCCharacter.prison_guard_khuzait" guard="NPCCharacter.guard_khuzait" steward="NPCCharacter.steward_khuzait" blacksmith="NPCCharacter.blacksmith_khuzait" weaponsmith="NPCCharacter.weaponsmith_khuzait" townswoman="NPCCharacter.townswoman_khuzait" townswoman_infant="NPCCharacter.townswoman_infant_khuzait" townswoman_child="NPCCharacter.townswoman_child_khuzait" townswoman_teenager="NPCCharacter.townswoman_teenager_khuzait" townsman="NPCCharacter.townsman_khuzait" townsman_infant="NPCCharacter.townsman_infant_khuzait" townsman_child="NPCCharacter.townsman_child_khuzait" townsman_teenager="NPCCharacter.townsman_teenager_khuzait" villager="NPCCharacter.villager_khuzait" village_woman="NPCCharacter.village_woman_khuzait" villager_male_child="NPCCharacter.villager_child_khuzait" villager_male_teenager="NPCCharacter.villager_teenager_khuzait" villager_female_child="NPCCharacter.village_woman_child_khuzait" villager_female_teenager="NPCCharacter.village_woman_teenager_khuzait" ransom_broker="NPCCharacter.ransom_broker_khuzait" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_khuzait" merchant_notary="NPCCharacter.merchant_notary_khuzait" preacher_notary="NPCCharacter.preacher_notary_khuzait" artisan_notary="NPCCharacter.preacher_notary_khuzait" rural_notable_notary="NPCCharacter.rural_notable_notary_khuzait" shop_worker="NPCCharacter.shop_worker_khuzait" tavernkeeper="NPCCharacter.tavernkeeper_khuzait" taverngamehost="NPCCharacter.taverngamehost_khuzait" musician="NPCCharacter.musician_khuzait" tavern_wench="NPCCharacter.tavern_wench_khuzait" armorer="NPCCharacter.armorer_khuzait" horseMerchant="NPCCharacter.horseMerchant_khuzait" barber="NPCCharacter.barber_khuzait" merchant="NPCCharacter.merchant_khuzait" beggar="NPCCharacter.beggar_khuzait" female_beggar="NPCCharacter.female_beggar_khuzait" female_dancer="NPCCharacter.female_dancer_khuzait" gear_practice_dummy="NPCCharacter.gear_practice_dummy_khuzait" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_khuzait" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_khuzait" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_khuzait" gear_dummy="NPCCharacter.gear_dummy_khuzait" board_game_type="Puluc">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="fc_netherworld" name="{=Cultures.Culture.name.fc_netherworld}Netherworld" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_khuzait" caravan_party_template="PartyTemplate.caravan_template_khuzait" militia_party_template="PartyTemplate.militia_khuzait_template" rebels_party_template="PartyTemplate.rebels_khuzait_template" melee_militia_troop="NPCCharacter.khuzait_militia_spearman" melee_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.khuzait_militia_archer" ranged_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_khuzait" caravan_master="NPCCharacter.caravan_master_khuzait" armed_trader="NPCCharacter.armed_trader_khuzait" caravan_guard="NPCCharacter.caravan_guard_khuzait" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_khuzait" duel_preset="NPCCharacter.khuzait_duel_preset" prison_guard="NPCCharacter.prison_guard_khuzait" guard="NPCCharacter.guard_khuzait" steward="NPCCharacter.steward_khuzait" blacksmith="NPCCharacter.blacksmith_khuzait" weaponsmith="NPCCharacter.weaponsmith_khuzait" townswoman="NPCCharacter.townswoman_khuzait" townswoman_infant="NPCCharacter.townswoman_infant_khuzait" townswoman_child="NPCCharacter.townswoman_child_khuzait" townswoman_teenager="NPCCharacter.townswoman_teenager_khuzait" townsman="NPCCharacter.townsman_khuzait" townsman_infant="NPCCharacter.townsman_infant_khuzait" townsman_child="NPCCharacter.townsman_child_khuzait" townsman_teenager="NPCCharacter.townsman_teenager_khuzait" villager="NPCCharacter.villager_khuzait" village_woman="NPCCharacter.village_woman_khuzait" villager_male_child="NPCCharacter.villager_child_khuzait" villager_male_teenager="NPCCharacter.villager_teenager_khuzait" villager_female_child="NPCCharacter.village_woman_child_khuzait" villager_female_teenager="NPCCharacter.village_woman_teenager_khuzait" ransom_broker="NPCCharacter.ransom_broker_khuzait" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_khuzait" merchant_notary="NPCCharacter.merchant_notary_khuzait" preacher_notary="NPCCharacter.preacher_notary_khuzait" artisan_notary="NPCCharacter.preacher_notary_khuzait" rural_notable_notary="NPCCharacter.rural_notable_notary_khuzait" shop_worker="NPCCharacter.shop_worker_khuzait" tavernkeeper="NPCCharacter.tavernkeeper_khuzait" taverngamehost="NPCCharacter.taverngamehost_khuzait" musician="NPCCharacter.musician_khuzait" tavern_wench="NPCCharacter.tavern_wench_khuzait" armorer="NPCCharacter.armorer_khuzait" horseMerchant="NPCCharacter.horseMerchant_khuzait" barber="NPCCharacter.barber_khuzait" merchant="NPCCharacter.merchant_khuzait" beggar="NPCCharacter.beggar_khuzait" female_beggar="NPCCharacter.female_beggar_khuzait" female_dancer="NPCCharacter.female_dancer_khuzait" gear_practice_dummy="NPCCharacter.gear_practice_dummy_khuzait" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_khuzait" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_khuzait" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_khuzait" gear_dummy="NPCCharacter.gear_dummy_khuzait" board_game_type="Puluc">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="fc_shogunate" name="{=Cultures.Culture.name.fc_shogunate}Shogunate" is_main_culture="true" can_have_settlement="true" town_edge_number="16" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.imperial_recruit" elite_basic_troop="NPCCharacter.imperial_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_khuzait" caravan_party_template="PartyTemplate.caravan_template_khuzait" militia_party_template="PartyTemplate.militia_khuzait_template" rebels_party_template="PartyTemplate.rebels_khuzait_template" melee_militia_troop="NPCCharacter.khuzait_militia_spearman" melee_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.khuzait_militia_archer" ranged_elite_militia_troop="NPCCharacter.khuzait_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_khuzait" caravan_master="NPCCharacter.caravan_master_khuzait" armed_trader="NPCCharacter.armed_trader_khuzait" caravan_guard="NPCCharacter.caravan_guard_khuzait" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_khuzait" duel_preset="NPCCharacter.khuzait_duel_preset" prison_guard="NPCCharacter.prison_guard_khuzait" guard="NPCCharacter.guard_khuzait" steward="NPCCharacter.steward_khuzait" blacksmith="NPCCharacter.blacksmith_khuzait" weaponsmith="NPCCharacter.weaponsmith_khuzait" townswoman="NPCCharacter.townswoman_khuzait" townswoman_infant="NPCCharacter.townswoman_infant_khuzait" townswoman_child="NPCCharacter.townswoman_child_khuzait" townswoman_teenager="NPCCharacter.townswoman_teenager_khuzait" townsman="NPCCharacter.townsman_khuzait" townsman_infant="NPCCharacter.townsman_infant_khuzait" townsman_child="NPCCharacter.townsman_child_khuzait" townsman_teenager="NPCCharacter.townsman_teenager_khuzait" villager="NPCCharacter.villager_khuzait" village_woman="NPCCharacter.village_woman_khuzait" villager_male_child="NPCCharacter.villager_child_khuzait" villager_male_teenager="NPCCharacter.villager_teenager_khuzait" villager_female_child="NPCCharacter.village_woman_child_khuzait" villager_female_teenager="NPCCharacter.village_woman_teenager_khuzait" ransom_broker="NPCCharacter.ransom_broker_khuzait" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_khuzait" merchant_notary="NPCCharacter.merchant_notary_khuzait" preacher_notary="NPCCharacter.preacher_notary_khuzait" artisan_notary="NPCCharacter.preacher_notary_khuzait" rural_notable_notary="NPCCharacter.rural_notable_notary_khuzait" shop_worker="NPCCharacter.shop_worker_khuzait" tavernkeeper="NPCCharacter.tavernkeeper_khuzait" taverngamehost="NPCCharacter.taverngamehost_khuzait" musician="NPCCharacter.musician_khuzait" tavern_wench="NPCCharacter.tavern_wench_khuzait" armorer="NPCCharacter.armorer_khuzait" horseMerchant="NPCCharacter.horseMerchant_khuzait" barber="NPCCharacter.barber_khuzait" merchant="NPCCharacter.merchant_khuzait" beggar="NPCCharacter.beggar_khuzait" female_beggar="NPCCharacter.female_beggar_khuzait" female_dancer="NPCCharacter.female_dancer_khuzait" gear_practice_dummy="NPCCharacter.gear_practice_dummy_khuzait" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_khuzait" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_khuzait" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_khuzait" gear_dummy="NPCCharacter.gear_dummy_khuzait" board_game_type="Puluc">
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="human" name="{=Cultures.Culture.name.human}Human" is_main_culture="true" can_have_settlement="true" town_edge_number="16" prosperity_bonus="1" encounter_background_mesh="encounter_aserai" basic_troop="NPCCharacter.human_nomad" elite_basic_troop="NPCCharacter.human_noble_son" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_human_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_khuzait" caravan_party_template="PartyTemplate.caravan_template_khuzait" militia_party_template="PartyTemplate.militia_khuzait_template" rebels_party_template="PartyTemplate.rebels_khuzait_template" melee_militia_troop="NPCCharacter.human_militia_spearman" melee_elite_militia_troop="NPCCharacter.human_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.human_militia_archer" ranged_elite_militia_troop="NPCCharacter.human_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_human" caravan_master="NPCCharacter.caravan_master_human" armed_trader="NPCCharacter.armed_trader_human" caravan_guard="NPCCharacter.caravan_guard_human" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_human" duel_preset="NPCCharacter.human_duel_preset" prison_guard="NPCCharacter.prison_guard_human" guard="NPCCharacter.guard_human" steward="NPCCharacter.steward_human" blacksmith="NPCCharacter.blacksmith_human" weaponsmith="NPCCharacter.weaponsmith_human" townswoman="NPCCharacter.townswoman_human" townswoman_infant="NPCCharacter.townswoman_infant_human" townswoman_child="NPCCharacter.townswoman_child_human" townswoman_teenager="NPCCharacter.townswoman_teenager_human" townsman="NPCCharacter.townsman_human" townsman_infant="NPCCharacter.townsman_infant_human" townsman_child="NPCCharacter.townsman_child_human" townsman_teenager="NPCCharacter.townsman_teenager_human" villager="NPCCharacter.villager_human" village_woman="NPCCharacter.village_woman_human" villager_male_child="NPCCharacter.villager_child_human" villager_male_teenager="NPCCharacter.villager_teenager_human" villager_female_child="NPCCharacter.village_woman_child_human" villager_female_teenager="NPCCharacter.village_woman_teenager_human" ransom_broker="NPCCharacter.ransom_broker_human" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_human" merchant_notary="NPCCharacter.merchant_notary_human" preacher_notary="NPCCharacter.preacher_notary_human" artisan_notary="NPCCharacter.preacher_notary_human" rural_notable_notary="NPCCharacter.rural_notable_notary_human" shop_worker="NPCCharacter.shop_worker_human" tavernkeeper="NPCCharacter.tavernkeeper_human" taverngamehost="NPCCharacter.taverngamehost_human" musician="NPCCharacter.musician_human" tavern_wench="NPCCharacter.tavern_wench_human" armorer="NPCCharacter.armorer_human" horseMerchant="NPCCharacter.horseMerchant_human" barber="NPCCharacter.barber_human" merchant="NPCCharacter.merchant_human" beggar="NPCCharacter.beggar_human" female_beggar="NPCCharacter.female_beggar_human" female_dancer="NPCCharacter.female_dancer_human" gear_practice_dummy="NPCCharacter.gear_practice_dummy_human" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_human" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_human" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_human" gear_dummy="NPCCharacter.gear_dummy_human" board_game_type="Konane">
     <male_names>
-      <name name="{Cultures.Culture.fairy.male_names.akihito}Akihito" />
-      <name name="{Cultures.Culture.fairy.male_names.akimitsu}Akimitsu" />
-      <name name="{Cultures.Culture.fairy.male_names.arata}Arata" />
-      <name name="{Cultures.Culture.fairy.male_names.chihiro}Chihiro" />
-      <name name="{Cultures.Culture.fairy.male_names.daichi}Daichi" />
-      <name name="{Cultures.Culture.fairy.male_names.fumihito}Fumihito" />
-      <name name="{Cultures.Culture.fairy.male_names.goro}Goro" />
-      <name name="{Cultures.Culture.fairy.male_names.haru}Haru" />
-      <name name="{Cultures.Culture.fairy.male_names.hayate}Hayate" />
-      <name name="{Cultures.Culture.fairy.male_names.hiroto}Hiroto" />
-      <name name="{Cultures.Culture.fairy.male_names.kaedo}Kaedo" />
-      <name name="{Cultures.Culture.fairy.male_names.kaito}Kaito" />
-      <name name="{Cultures.Culture.fairy.male_names.kei}Kei" />
-      <name name="{Cultures.Culture.fairy.male_names.ken}Ken" />
-      <name name="{Cultures.Culture.fairy.male_names.koji}Koji" />
-      <name name="{Cultures.Culture.fairy.male_names.michi}Michi" />
-      <name name="{Cultures.Culture.fairy.male_names.nobu}Nobu" />
-      <name name="{Cultures.Culture.fairy.male_names.shion}Shion" />
-      <name name="{Cultures.Culture.fairy.male_names.shiro}Shiro" />
-      <name name="{Cultures.Culture.fairy.male_names.sora}Sora" />
-      <name name="{Cultures.Culture.fairy.male_names.subaru}Subaru" />
-      <name name="{Cultures.Culture.fairy.male_names.takashi}Takashi" />
-      <name name="{Cultures.Culture.fairy.male_names.tsubasa}Tsubasa" />
-      <name name="{Cultures.Culture.fairy.male_names.yori}Yori" />
-      <name name="{Cultures.Culture.fairy.male_names.yoshi}Yoshi" />
-      <name name="{Cultures.Culture.fairy.male_names.yuki}Yuki" />
+      <name name="{=Cultures.Culture.human.male_names.akihito}Akihito" />
+      <name name="{=Cultures.Culture.human.male_names.akimitsu}Akimitsu" />
+      <name name="{=Cultures.Culture.human.male_names.arata}Arata" />
+      <name name="{=Cultures.Culture.human.male_names.chihiro}Chihiro" />
+      <name name="{=Cultures.Culture.human.male_names.daichi}Daichi" />
+      <name name="{=Cultures.Culture.human.male_names.fumihito}Fumihito" />
+      <name name="{=Cultures.Culture.human.male_names.goro}Goro" />
+      <name name="{=Cultures.Culture.human.male_names.haru}Haru" />
+      <name name="{=Cultures.Culture.human.male_names.hayate}Hayate" />
+      <name name="{=Cultures.Culture.human.male_names.hiroto}Hiroto" />
+      <name name="{=Cultures.Culture.human.male_names.kaedo}Kaedo" />
+      <name name="{=Cultures.Culture.human.male_names.kaito}Kaito" />
+      <name name="{=Cultures.Culture.human.male_names.kei}Kei" />
+      <name name="{=Cultures.Culture.human.male_names.ken}Ken" />
+      <name name="{=Cultures.Culture.human.male_names.koji}Koji" />
+      <name name="{=Cultures.Culture.human.male_names.michi}Michi" />
+      <name name="{=Cultures.Culture.human.male_names.nobu}Nobu" />
+      <name name="{=Cultures.Culture.human.male_names.shion}Shion" />
+      <name name="{=Cultures.Culture.human.male_names.shiro}Shiro" />
+      <name name="{=Cultures.Culture.human.male_names.sora}Sora" />
+      <name name="{=Cultures.Culture.human.male_names.subaru}Subaru" />
+      <name name="{=Cultures.Culture.human.male_names.takashi}Takashi" />
+      <name name="{=Cultures.Culture.human.male_names.tsubasa}Tsubasa" />
+      <name name="{=Cultures.Culture.human.male_names.yori}Yori" />
+      <name name="{=Cultures.Culture.human.male_names.yoshi}Yoshi" />
+      <name name="{=Cultures.Culture.human.male_names.yuki}Yuki" />
     </male_names>
     <female_names>
-      <name name="{Cultures.Culture.fairy.female_names.airi}Airi" />
-      <name name="{Cultures.Culture.fairy.female_names.akari}Akari" />
-      <name name="{Cultures.Culture.fairy.female_names.ayame}Ayame" />
-      <name name="{Cultures.Culture.fairy.female_names.chika}Chika" />
-      <name name="{Cultures.Culture.fairy.female_names.chou}Chou" />
-      <name name="{Cultures.Culture.fairy.female_names.ema}Ema" />
-      <name name="{Cultures.Culture.fairy.female_names.emi}Emi" />
-      <name name="{Cultures.Culture.fairy.female_names.etsuko}Etsuko" />
-      <name name="{Cultures.Culture.fairy.female_names.fuyuko}Fuyuko" />
-      <name name="{Cultures.Culture.fairy.female_names.hanae}Hanae" />
-      <name name="{Cultures.Culture.fairy.female_names.haruka}Haruka" />
-      <name name="{Cultures.Culture.fairy.female_names.hibiki}Hibiki" />
-      <name name="{Cultures.Culture.fairy.female_names.hikari}Hikari" />
-      <name name="{Cultures.Culture.fairy.female_names.hina}Hina" />
-      <name name="{Cultures.Culture.fairy.female_names.hitomi}Hitomi" />
-      <name name="{Cultures.Culture.fairy.female_names.honoka}Honoka" />
-      <name name="{Cultures.Culture.fairy.female_names.hosha}Hosha" />
-      <name name="{Cultures.Culture.fairy.female_names.hotaru}Hotaru" />
-      <name name="{Cultures.Culture.fairy.female_names.izumi}Izumi" />
-      <name name="{Cultures.Culture.fairy.female_names.jun}Jun" />
-      <name name="{Cultures.Culture.fairy.female_names.kaede}Kaede" />
-      <name name="{Cultures.Culture.fairy.female_names.kanako}Kanako" />
-      <name name="{Cultures.Culture.fairy.female_names.kaori}Kaori" />
-      <name name="{Cultures.Culture.fairy.female_names.kasumi}Kasumi" />
-      <name name="{Cultures.Culture.fairy.female_names.kei}Kei" />
-      <name name="{Cultures.Culture.fairy.female_names.kimiko}Kimiko" />
-      <name name="{Cultures.Culture.fairy.female_names.kyoko}Kyoko" />
-      <name name="{Cultures.Culture.fairy.female_names.mai}Mai" />
-      <name name="{Cultures.Culture.fairy.female_names.makoto}Makoto" />
-      <name name="{Cultures.Culture.fairy.female_names.mayu}Mayu" />
-      <name name="{Cultures.Culture.fairy.female_names.megumi}Megumi" />
-      <name name="{Cultures.Culture.fairy.female_names.mei}Mei" />
-      <name name="{Cultures.Culture.fairy.female_names.mika}Mika" />
-      <name name="{Cultures.Culture.fairy.female_names.miku}Miku" />
-      <name name="{Cultures.Culture.fairy.female_names.moriko}Moriko" />
-      <name name="{Cultures.Culture.fairy.female_names.nanami}Nanami" />
-      <name name="{Cultures.Culture.fairy.female_names.natsumi}Natsumi" />
-      <name name="{Cultures.Culture.fairy.female_names.rei}Rei" />
-      <name name="{Cultures.Culture.fairy.female_names.rin}Rin" />
-      <name name="{Cultures.Culture.fairy.female_names.sachie}Sachie" />
-      <name name="{Cultures.Culture.fairy.female_names.saki}Saki" />
-      <name name="{Cultures.Culture.fairy.female_names.sakura}Sakura" />
-      <name name="{Cultures.Culture.fairy.female_names.saori}Saori" />
-      <name name="{Cultures.Culture.fairy.female_names.shion}Shion" />
-      <name name="{Cultures.Culture.fairy.female_names.sumiko}Sumiko" />
-      <name name="{Cultures.Culture.fairy.female_names.takara}Takara" />
-      <name name="{Cultures.Culture.fairy.female_names.tokomo}Tokomo" />
-      <name name="{Cultures.Culture.fairy.female_names.tsubasa}Tsubasa" />
-      <name name="{Cultures.Culture.fairy.female_names.wakana}Wakana" />
-      <name name="{Cultures.Culture.fairy.female_names.yoshi}Yoshi" />
-      <name name="{Cultures.Culture.fairy.female_names.youko}Youko" />
-      <name name="{Cultures.Culture.fairy.female_names.yui}Yui" />
-      <name name="{Cultures.Culture.fairy.female_names.yuka}Yuka" />
-      <name name="{Cultures.Culture.fairy.female_names.yuki}Yuki" />
-      <name name="{Cultures.Culture.fairy.female_names.yumi}Yumi" />
-      <name name="{Cultures.Culture.fairy.female_names.yuri}Yuri" />
-      <name name="{Cultures.Culture.fairy.female_names.yuzuki}Yuzuki" />
+      <name name="{=Cultures.Culture.human.female_names.ai}Ai" />
+      <name name="{=Cultures.Culture.human.female_names.aka}Aka" />
+      <name name="{=Cultures.Culture.human.female_names.akai}Akai" />
+      <name name="{=Cultures.Culture.human.female_names.aki}Aki" />
+      <name name="{=Cultures.Culture.human.female_names.akii}Akii" />
+      <name name="{=Cultures.Culture.human.female_names.ama}Ama" />
+      <name name="{=Cultures.Culture.human.female_names.ane}Ane" />
+      <name name="{=Cultures.Culture.human.female_names.asa}Asa" />
+      <name name="{=Cultures.Culture.human.female_names.baba}Baba" />
+      <name name="{=Cultures.Culture.human.female_names.ben}Ben" />
+      <name name="{=Cultures.Culture.human.female_names.bin}Bin" />
+      <name name="{=Cultures.Culture.human.female_names.bou}Bou" />
+      <name name="{=Cultures.Culture.human.female_names.chiki}Chiki" />
+      <name name="{=Cultures.Culture.human.female_names.chima}Chima" />
+      <name name="{=Cultures.Culture.human.female_names.chin}Chin" />
+      <name name="{=Cultures.Culture.human.female_names.chiyo}Chiyo" />
+      <name name="{=Cultures.Culture.human.female_names.chou}Chou" />
+      <name name="{=Cultures.Culture.human.female_names.den}Den" />
+      <name name="{=Cultures.Culture.human.female_names.fude}Fude" />
+      <name name="{=Cultures.Culture.human.female_names.fuji}Fuji" />
+      <name name="{=Cultures.Culture.human.female_names.fuku}Fuku" />
+      <name name="{=Cultures.Culture.human.female_names.fume}Fume" />
+      <name name="{=Cultures.Culture.human.female_names.furi}Furi" />
+      <name name="{=Cultures.Culture.human.female_names.fusa}Fusa" />
+      <name name="{=Cultures.Culture.human.female_names.fuso}Fuso" />
+      <name name="{=Cultures.Culture.human.female_names.futsu}Futsu" />
+      <name name="{=Cultures.Culture.human.female_names.gen}Gen" />
+      <name name="{=Cultures.Culture.human.female_names.gin}Gin" />
+      <name name="{=Cultures.Culture.human.female_names.hama}Hama" />
+      <name name="{=Cultures.Culture.human.female_names.hana}Hana" />
+      <name name="{=Cultures.Culture.human.female_names.haru}Haru" />
+      <name name="{=Cultures.Culture.human.female_names.hatsu}Hatsu" />
+      <name name="{=Cultures.Culture.human.female_names.heya}Heya" />
+      <name name="{=Cultures.Culture.human.female_names.hiina}Hiina" />
+      <name name="{=Cultures.Culture.human.female_names.hiki}Hiki" />
+      <name name="{=Cultures.Culture.human.female_names.hiko}Hiko" />
+      <name name="{=Cultures.Culture.human.female_names.hime}Hime" />
+      <name name="{=Cultures.Culture.human.female_names.hin}Hin" />
+      <name name="{=Cultures.Culture.human.female_names.hinu}Hinu" />
+      <name name="{=Cultures.Culture.human.female_names.hisa}Hisa" />
+      <name name="{=Cultures.Culture.human.female_names.hitsu}Hitsu" />
+      <name name="{=Cultures.Culture.human.female_names.hiwa}Hiwa" />
+      <name name="{=Cultures.Culture.human.female_names.hoso}Hoso" />
+      <name name="{=Cultures.Culture.human.female_names.hotsu}Hotsu" />
+      <name name="{=Cultures.Culture.human.female_names.ichi}Ichi" />
+      <name name="{=Cultures.Culture.human.female_names.iku}Iku" />
+      <name name="{=Cultures.Culture.human.female_names.ima}Ima" />
+      <name name="{=Cultures.Culture.human.female_names.ina}Ina" />
+      <name name="{=Cultures.Culture.human.female_names.ine}Ine" />
+      <name name="{=Cultures.Culture.human.female_names.ino}Ino" />
+      <name name="{=Cultures.Culture.human.female_names.inu}Inu" />
+      <name name="{=Cultures.Culture.human.female_names.iri}Iri" />
+      <name name="{=Cultures.Culture.human.female_names.isa}Isa" />
+      <name name="{=Cultures.Culture.human.female_names.ise}Ise" />
+      <name name="{=Cultures.Culture.human.female_names.ishi}Ishi" />
+      <name name="{=Cultures.Culture.human.female_names.iso}Iso" />
+      <name name="{=Cultures.Culture.human.female_names.ito}Ito" />
+      <name name="{=Cultures.Culture.human.female_names.iwa}Iwa" />
+      <name name="{=Cultures.Culture.human.female_names.jou}Jou" />
+      <name name="{=Cultures.Culture.human.female_names.kachi}Kachi" />
+      <name name="{=Cultures.Culture.human.female_names.kaku}Kaku" />
+      <name name="{=Cultures.Culture.human.female_names.kama}Kama" />
+      <name name="{=Cultures.Culture.human.female_names.kame}Kame" />
+      <name name="{=Cultures.Culture.human.female_names.kan}Kan" />
+      <name name="{=Cultures.Culture.human.female_names.kana}Kana" />
+      <name name="{=Cultures.Culture.human.female_names.kane}Kane" />
+      <name name="{=Cultures.Culture.human.female_names.kane}Kane" />
+      <name name="{=Cultures.Culture.human.female_names.karu}Karu" />
+      <name name="{=Cultures.Culture.human.female_names.kase}Kase" />
+      <name name="{=Cultures.Culture.human.female_names.katsu}Katsu" />
+      <name name="{=Cultures.Culture.human.female_names.kawa}Kawa" />
+      <name name="{=Cultures.Culture.human.female_names.kaya}Kaya" />
+      <name name="{=Cultures.Culture.human.female_names.kayo}Kayo" />
+      <name name="{=Cultures.Culture.human.female_names.kesa}Kesa" />
+      <name name="{=Cultures.Culture.human.female_names.kesai}Kesai" />
+      <name name="{=Cultures.Culture.human.female_names.kichi}Kichi" />
+      <name name="{=Cultures.Culture.human.female_names.kiku}Kiku" />
+      <name name="{=Cultures.Culture.human.female_names.kin}Kin" />
+      <name name="{=Cultures.Culture.human.female_names.kina}Kina" />
+      <name name="{=Cultures.Culture.human.female_names.kinu}Kinu" />
+      <name name="{=Cultures.Culture.human.female_names.kiri}Kiri" />
+      <name name="{=Cultures.Culture.human.female_names.kisa}Kisa" />
+      <name name="{=Cultures.Culture.human.female_names.kitsu}Kitsu" />
+      <name name="{=Cultures.Culture.human.female_names.kiyo}Kiyo" />
+      <name name="{=Cultures.Culture.human.female_names.kogou}Kogou" />
+      <name name="{=Cultures.Culture.human.female_names.koku}Koku" />
+      <name name="{=Cultures.Culture.human.female_names.koma}Koma" />
+      <name name="{=Cultures.Culture.human.female_names.kome}Kome" />
+      <name name="{=Cultures.Culture.human.female_names.kona}Kona" />
+      <name name="{=Cultures.Culture.human.female_names.koro}Koro" />
+      <name name="{=Cultures.Culture.human.female_names.koya}Koya" />
+      <name name="{=Cultures.Culture.human.female_names.koyo}Koyo" />
+      <name name="{=Cultures.Culture.human.female_names.kuchi}Kuchi" />
+      <name name="{=Cultures.Culture.human.female_names.kuma}Kuma" />
+      <name name="{=Cultures.Culture.human.female_names.kume}Kume" />
+      <name name="{=Cultures.Culture.human.female_names.kuni}Kuni" />
+      <name name="{=Cultures.Culture.human.female_names.kura}Kura" />
+      <name name="{=Cultures.Culture.human.female_names.kuri}Kuri" />
+      <name name="{=Cultures.Culture.human.female_names.kuro}Kuro" />
+      <name name="{=Cultures.Culture.human.female_names.kusu}Kusu" />
+      <name name="{=Cultures.Culture.human.female_names.kuu}Kuu" />
+      <name name="{=Cultures.Culture.human.female_names.kuwa}Kuwa" />
+      <name name="{=Cultures.Culture.human.female_names.kuyo}Kuyo" />
+      <name name="{=Cultures.Culture.human.female_names.machi}Machi" />
+      <name name="{=Cultures.Culture.human.female_names.magi}Magi" />
+      <name name="{=Cultures.Culture.human.female_names.maki}Maki" />
+      <name name="{=Cultures.Culture.human.female_names.mako}Mako" />
+      <name name="{=Cultures.Culture.human.female_names.man}Man" />
+      <name name="{=Cultures.Culture.human.female_names.mane}Mane" />
+      <name name="{=Cultures.Culture.human.female_names.mare}Mare" />
+      <name name="{=Cultures.Culture.human.female_names.mari}Mari" />
+      <name name="{=Cultures.Culture.human.female_names.masa}Masa" />
+      <name name="{=Cultures.Culture.human.female_names.mashi}Mashi" />
+      <name name="{=Cultures.Culture.human.female_names.mata}Mata" />
+      <name name="{=Cultures.Culture.human.female_names.mate}Mate" />
+      <name name="{=Cultures.Culture.human.female_names.matsu}Matsu" />
+      <name name="{=Cultures.Culture.human.female_names.mego}Mego" />
+      <name name="{=Cultures.Culture.human.female_names.mimi}Mimi" />
+      <name name="{=Cultures.Culture.human.female_names.mina}Mina" />
+      <name name="{=Cultures.Culture.human.female_names.mine}Mine" />
+      <name name="{=Cultures.Culture.human.female_names.mino}Mino" />
+      <name name="{=Cultures.Culture.human.female_names.mitsu}Mitsu" />
+      <name name="{=Cultures.Culture.human.female_names.miya}Miya" />
+      <name name="{=Cultures.Culture.human.female_names.mochi}Mochi" />
+      <name name="{=Cultures.Culture.human.female_names.moku}Moku" />
+      <name name="{=Cultures.Culture.human.female_names.momo}Momo" />
+      <name name="{=Cultures.Culture.human.female_names.muma}Muma" />
+      <name name="{=Cultures.Culture.human.female_names.mume}Mume" />
+      <name name="{=Cultures.Culture.human.female_names.musu}Musu" />
+      <name name="{=Cultures.Culture.human.female_names.mutsu}Mutsu" />
+      <name name="{=Cultures.Culture.human.female_names.nabe}Nabe" />
+      <name name="{=Cultures.Culture.human.female_names.nagu}Nagu" />
+      <name name="{=Cultures.Culture.human.female_names.nai}Nai" />
+      <name name="{=Cultures.Culture.human.female_names.naka}Naka" />
+      <name name="{=Cultures.Culture.human.female_names.nana}Nana" />
+      <name name="{=Cultures.Culture.human.female_names.natsu}Natsu" />
+      <name name="{=Cultures.Culture.human.female_names.nei}Nei" />
+      <name name="{=Cultures.Culture.human.female_names.neko}Neko" />
+      <name name="{=Cultures.Culture.human.female_names.nene}Nene" />
+      <name name="{=Cultures.Culture.human.female_names.niga}Niga" />
+      <name name="{=Cultures.Culture.human.female_names.niku}Niku" />
+      <name name="{=Cultures.Culture.human.female_names.nino}Nino" />
+      <name name="{=Cultures.Culture.human.female_names.niwa}Niwa" />
+      <name name="{=Cultures.Culture.human.female_names.oma}Oma" />
+      <name name="{=Cultures.Culture.human.female_names.ona}Ona" />
+      <name name="{=Cultures.Culture.human.female_names.osa}Osa" />
+      <name name="{=Cultures.Culture.human.female_names.oshi}Oshi" />
+      <name name="{=Cultures.Culture.human.female_names.ota}Ota" />
+      <name name="{=Cultures.Culture.human.female_names.oto}Oto" />
+      <name name="{=Cultures.Culture.human.female_names.rin}Rin" />
+      <name name="{=Cultures.Culture.human.female_names.riyo}Riyo" />
+      <name name="{=Cultures.Culture.human.female_names.roku}Roku" />
+      <name name="{=Cultures.Culture.human.female_names.run}Run" />
+      <name name="{=Cultures.Culture.human.female_names.rusu}Rusu" />
+      <name name="{=Cultures.Culture.human.female_names.sago}Sago" />
+      <name name="{=Cultures.Culture.human.female_names.sai}Sai" />
+      <name name="{=Cultures.Culture.human.female_names.saka}Saka" />
+      <name name="{=Cultures.Culture.human.female_names.saki}Saki" />
+      <name name="{=Cultures.Culture.human.female_names.sako}Sako" />
+      <name name="{=Cultures.Culture.human.female_names.saku}Saku" />
+      <name name="{=Cultures.Culture.human.female_names.sama}Sama" />
+      <name name="{=Cultures.Culture.human.female_names.same}Same" />
+      <name name="{=Cultures.Culture.human.female_names.san}San" />
+      <name name="{=Cultures.Culture.human.female_names.sana}Sana" />
+      <name name="{=Cultures.Culture.human.female_names.sani}Sani" />
+      <name name="{=Cultures.Culture.human.female_names.saru}Saru" />
+      <name name="{=Cultures.Culture.human.female_names.satsu}Satsu" />
+      <name name="{=Cultures.Culture.human.female_names.sawa}Sawa" />
+      <name name="{=Cultures.Culture.human.female_names.saya}Saya" />
+      <name name="{=Cultures.Culture.human.female_names.sechi}Sechi" />
+      <name name="{=Cultures.Culture.human.female_names.seki}Seki" />
+      <name name="{=Cultures.Culture.human.female_names.sen}Sen" />
+      <name name="{=Cultures.Culture.human.female_names.senu}Senu" />
+      <name name="{=Cultures.Culture.human.female_names.shige}Shige" />
+      <name name="{=Cultures.Culture.human.female_names.shima}Shima" />
+      <name name="{=Cultures.Culture.human.female_names.shime}Shime" />
+      <name name="{=Cultures.Culture.human.female_names.shimo}Shimo" />
+      <name name="{=Cultures.Culture.human.female_names.shina}Shina" />
+      <name name="{=Cultures.Culture.human.female_names.shino}Shino" />
+      <name name="{=Cultures.Culture.human.female_names.shio}Shio" />
+      <name name="{=Cultures.Culture.human.female_names.shou}Shou" />
+      <name name="{=Cultures.Culture.human.female_names.shuu}Shuu" />
+      <name name="{=Cultures.Culture.human.female_names.some}Some" />
+      <name name="{=Cultures.Culture.human.female_names.sue}Sue" />
+      <name name="{=Cultures.Culture.human.female_names.sugi}Sugi" />
+      <name name="{=Cultures.Culture.human.female_names.suka}Suka" />
+      <name name="{=Cultures.Culture.human.female_names.suke}Suke" />
+      <name name="{=Cultures.Culture.human.female_names.suki}Suki" />
+      <name name="{=Cultures.Culture.human.female_names.suko}Suko" />
+      <name name="{=Cultures.Culture.human.female_names.suma}Suma" />
+      <name name="{=Cultures.Culture.human.female_names.sumi}Sumi" />
+      <name name="{=Cultures.Culture.human.female_names.suna}Suna" />
+      <name name="{=Cultures.Culture.human.female_names.suo}Suo" />
+      <name name="{=Cultures.Culture.human.female_names.sute}Sute" />
+      <name name="{=Cultures.Culture.human.female_names.take}Take" />
+      <name name="{=Cultures.Culture.human.female_names.tama}Tama" />
+      <name name="{=Cultures.Culture.human.female_names.tan}Tan" />
+      <name name="{=Cultures.Culture.human.female_names.tane}Tane" />
+      <name name="{=Cultures.Culture.human.female_names.tatsu}Tatsu" />
+      <name name="{=Cultures.Culture.human.female_names.ten}Ten" />
+      <name name="{=Cultures.Culture.human.female_names.toku}Toku" />
+      <name name="{=Cultures.Culture.human.female_names.toma}Toma" />
+      <name name="{=Cultures.Culture.human.female_names.tome}Tome" />
+      <name name="{=Cultures.Culture.human.female_names.tone}Tone" />
+      <name name="{=Cultures.Culture.human.female_names.tora}Tora" />
+      <name name="{=Cultures.Culture.human.female_names.tori}Tori" />
+      <name name="{=Cultures.Culture.human.female_names.totsu}Totsu" />
+      <name name="{=Cultures.Culture.human.female_names.towa}Towa" />
+      <name name="{=Cultures.Culture.human.female_names.toyo}Toyo" />
+      <name name="{=Cultures.Culture.human.female_names.tsubo}Tsubo" />
+      <name name="{=Cultures.Culture.human.female_names.tsuchi}Tsuchi" />
+      <name name="{=Cultures.Culture.human.female_names.tsuji}Tsuji" />
+      <name name="{=Cultures.Culture.human.female_names.tsuka}Tsuka" />
+      <name name="{=Cultures.Culture.human.female_names.tsuma}Tsuma" />
+      <name name="{=Cultures.Culture.human.female_names.tsuna}Tsuna" />
+      <name name="{=Cultures.Culture.human.female_names.tsune}Tsune" />
+      <name name="{=Cultures.Culture.human.female_names.tsuru}Tsuru" />
+      <name name="{=Cultures.Culture.human.female_names.tsushi}Tsushi" />
+      <name name="{=Cultures.Culture.human.female_names.tsuta}Tsuta" />
+      <name name="{=Cultures.Culture.human.female_names.tsuya}Tsuya" />
+      <name name="{=Cultures.Culture.human.female_names.uba}Uba" />
+      <name name="{=Cultures.Culture.human.female_names.uma}Uma" />
+      <name name="{=Cultures.Culture.human.female_names.ume}Ume" />
+      <name name="{=Cultures.Culture.human.female_names.uno}Uno" />
+      <name name="{=Cultures.Culture.human.female_names.ushi}Ushi" />
+      <name name="{=Cultures.Culture.human.female_names._uta} Uta" />
+      <name name="{=Cultures.Culture.human.female_names.yama}Yama" />
+      <name name="{=Cultures.Culture.human.female_names.yasu}Yasu" />
+      <name name="{=Cultures.Culture.human.female_names.yaya}Yaya" />
+      <name name="{=Cultures.Culture.human.female_names.yen}Yen" />
+      <name name="{=Cultures.Culture.human.female_names.yome}Yome" />
+      <name name="{=Cultures.Culture.human.female_names.yone}Yone" />
+      <name name="{=Cultures.Culture.human.female_names.yono}Yono" />
+      <name name="{=Cultures.Culture.human.female_names.yoshi}Yoshi" />
+      <name name="{=Cultures.Culture.human.female_names.yoso}Yoso" />
+      <name name="{=Cultures.Culture.human.female_names.yote}Yote" />
+      <name name="{=Cultures.Culture.human.female_names.yuki}Yuki" />
+      <name name="{=Cultures.Culture.human.female_names.yura}Yura" />
+      <name name="{=Cultures.Culture.human.female_names.yuri}Yuri" />
+      <name name="{=Cultures.Culture.human.female_names.yuwa}Yuwa" />
     </female_names>
     <clan_names>
-      <name name="{Cultures.Culture.fairy.clan_names.nagai}Nagai" />
-      <name name="{Cultures.Culture.fairy.clan_names.sato}Sato" />
-      <name name="{Cultures.Culture.fairy.clan_names.suzuki}Suzuki" />
-      <name name="{Cultures.Culture.fairy.clan_names.takahashi}Takahashi" />
-      <name name="{Cultures.Culture.fairy.clan_names.tanaka}Tanaka" />
-      <name name="{Cultures.Culture.fairy.clan_names.watanabe}Watanabe" />
-      <name name="{Cultures.Culture.fairy.clan_names.ito}Ito" />
-      <name name="{Cultures.Culture.fairy.clan_names.yamamoto}Yamamoto" />
-      <name name="{Cultures.Culture.fairy.clan_names.nakamura}Nakamura" />
-      <name name="{Cultures.Culture.fairy.clan_names.kobayashi}Kobayashi" />
-      <name name="{Cultures.Culture.fairy.clan_names.kato}Kato" />
-      <name name="{Cultures.Culture.fairy.clan_names.yoshida}Yoshida" />
-      <name name="{Cultures.Culture.fairy.clan_names.yamada}Yamada" />
-      <name name="{Cultures.Culture.fairy.clan_names.sasaki}Sasaki" />
-      <name name="{Cultures.Culture.fairy.clan_names.yamaguchi}Yamaguchi" />
-      <name name="{Cultures.Culture.fairy.clan_names.saito}Saito" />
-      <name name="{Cultures.Culture.fairy.clan_names.matsumoto}Matsumoto" />
-      <name name="{Cultures.Culture.fairy.clan_names.inoue}Inoue" />
-      <name name="{Cultures.Culture.fairy.clan_names.kimura}Kimura" />
-      <name name="{Cultures.Culture.fairy.clan_names.hayashi}Hayashi" />
-      <name name="{Cultures.Culture.fairy.clan_names.shimizu}Shimizu" />
+      <name name="{=Cultures.Culture.human.clan_names.abe}Abe" />
+      <name name="{=Cultures.Culture.human.clan_names.adachi}Adachi" />
+      <name name="{=Cultures.Culture.human.clan_names.akabashi}Akabashi" />
+      <name name="{=Cultures.Culture.human.clan_names.akamatsu}Akamatsu" />
+      <name name="{=Cultures.Culture.human.clan_names.akechi}Akechi" />
+      <name name="{=Cultures.Culture.human.clan_names.akimoto}Akimoto" />
+      <name name="{=Cultures.Culture.human.clan_names.akita}Akita" />
+      <name name="{=Cultures.Culture.human.clan_names.akizuki}Akizuki" />
+      <name name="{=Cultures.Culture.human.clan_names.amago}Amago" />
+      <name name="{=Cultures.Culture.human.clan_names.amano}Amano" />
+      <name name="{=Cultures.Culture.human.clan_names.andou}Andou" />
+      <name name="{=Cultures.Culture.human.clan_names.aoki}Aoki" />
+      <name name="{=Cultures.Culture.human.clan_names.aoyama}Aoyama" />
+      <name name="{=Cultures.Culture.human.clan_names.arai}Arai" />
+      <name name="{=Cultures.Culture.human.clan_names.arima}Arima" />
+      <name name="{=Cultures.Culture.human.clan_names.asai}Asai" />
+      <name name="{=Cultures.Culture.human.clan_names.asakura}Asakura" />
+      <name name="{=Cultures.Culture.human.clan_names.asano}Asano" />
+      <name name="{=Cultures.Culture.human.clan_names.ashikaga}Ashikaga" />
+      <name name="{=Cultures.Culture.human.clan_names.ashina}Ashina" />
+      <name name="{=Cultures.Culture.human.clan_names.aso}Aso" />
+      <name name="{=Cultures.Culture.human.clan_names.baba}Baba" />
+      <name name="{=Cultures.Culture.human.clan_names.besshou}Besshou" />
+      <name name="{=Cultures.Culture.human.clan_names.chiba}Chiba" />
+      <name name="{=Cultures.Culture.human.clan_names.daidouji}Daidouji" />
+      <name name="{=Cultures.Culture.human.clan_names.doi}Doi" />
+      <name name="{=Cultures.Culture.human.clan_names.endou}Endou" />
+      <name name="{=Cultures.Culture.human.clan_names.enomoto}Enomoto" />
+      <name name="{=Cultures.Culture.human.clan_names.enya}Enya" />
+      <name name="{=Cultures.Culture.human.clan_names.fujioka}Fujioka" />
+      <name name="{=Cultures.Culture.human.clan_names.fujita}Fujita" />
+      <name name="{=Cultures.Culture.human.clan_names.fukui}Fukui" />
+      <name name="{=Cultures.Culture.human.clan_names.furuta}Furuta" />
+      <name name="{=Cultures.Culture.human.clan_names.gamou}Gamou" />
+      <name name="{=Cultures.Culture.human.clan_names.gou}Gou" />
+      <name name="{=Cultures.Culture.human.clan_names.gotou}Gotou" />
+      <name name="{=Cultures.Culture.human.clan_names.hachisuka}Hachisuka" />
+      <name name="{=Cultures.Culture.human.clan_names.hara}Hara" />
+      <name name="{=Cultures.Culture.human.clan_names.harada}Harada" />
+      <name name="{=Cultures.Culture.human.clan_names.hasebe}Hasebe" />
+      <name name="{=Cultures.Culture.human.clan_names.hasegawa}Hasegawa" />
+      <name name="{=Cultures.Culture.human.clan_names.hatakeyama}Hatakeyama" />
+      <name name="{=Cultures.Culture.human.clan_names.hatano}Hatano" />
+      <name name="{=Cultures.Culture.human.clan_names.hayashi}Hayashi" />
+      <name name="{=Cultures.Culture.human.clan_names.hijikata}Hijikata" />
+      <name name="{=Cultures.Culture.human.clan_names.hieda}Hieda" />
+      <name name="{=Cultures.Culture.human.clan_names.hineno}Hineno" />
+      <name name="{=Cultures.Culture.human.clan_names.hiraga}Hiraga" />
+      <name name="{=Cultures.Culture.human.clan_names.hitotsuyanagi}Hitotsuyanagi" />
+      <name name="{=Cultures.Culture.human.clan_names.houjouyan}Houjouyan" />
+      <name name="{=Cultures.Culture.human.clan_names.honda}Honda" />
+      <name name="{=Cultures.Culture.human.clan_names.hondou}Hondou" />
+      <name name="{=Cultures.Culture.human.clan_names.honjou}Honjou" />
+      <name name="{=Cultures.Culture.human.clan_names.hori}Hori" />
+      <name name="{=Cultures.Culture.human.clan_names.horio}Horio" />
+      <name name="{=Cultures.Culture.human.clan_names.hoshina}Hoshina" />
+      <name name="{=Cultures.Culture.human.clan_names.hosokawa}Hosokawa" />
+      <name name="{=Cultures.Culture.human.clan_names.hotta}Hotta" />
+      <name name="{=Cultures.Culture.human.clan_names.ichibashi}Ichibashi" />
+      <name name="{=Cultures.Culture.human.clan_names.ii}Ii" />
+      <name name="{=Cultures.Culture.human.clan_names.ikeda}Ikeda" />
+      <name name="{=Cultures.Culture.human.clan_names.ikoma}Ikoma" />
+      <name name="{=Cultures.Culture.human.clan_names.imagawa}Imagawa" />
+      <name name="{=Cultures.Culture.human.clan_names.imai}Imai" />
+      <name name="{=Cultures.Culture.human.clan_names.hondou}Hondou" />
+      <name name="{=Cultures.Culture.human.clan_names.ina}Ina" />
+      <name name="{=Cultures.Culture.human.clan_names.inagaki}Inagaki" />
+      <name name="{=Cultures.Culture.human.clan_names.inoue}Inoue" />
+      <name name="{=Cultures.Culture.human.clan_names.ise}Ise" />
+      <name name="{=Cultures.Culture.human.clan_names.ishibashi}Ishibashi" />
+      <name name="{=Cultures.Culture.human.clan_names.ishida}Ishida" />
+      <name name="{=Cultures.Culture.human.clan_names.ishidou}Ishidou" />
+      <name name="{=Cultures.Culture.human.clan_names.ishikawa}Ishikawa" />
+      <name name="{=Cultures.Culture.human.clan_names.isshiki}Isshiki" />
+      <name name="{=Cultures.Culture.human.clan_names.itagaki}Itagaki" />
+      <name name="{=Cultures.Culture.human.clan_names.itakura}Itakura" />
+      <name name="{=Cultures.Culture.human.clan_names.itami}Itami" />
+      <name name="{=Cultures.Culture.human.clan_names.itou}Itou" />
+      <name name="{=Cultures.Culture.human.clan_names.iwaki}Iwaki" />
+      <name name="{=Cultures.Culture.human.clan_names.iwakura}Iwakura" />
+      <name name="{=Cultures.Culture.human.clan_names.iwamura}Iwamura" />
+      <name name="{=Cultures.Culture.human.clan_names.iwasaki}Iwasaki" />
+      <name name="{=Cultures.Culture.human.clan_names.iwashita}Iwashita" />
+      <name name="{=Cultures.Culture.human.clan_names.izumi}Izumi" />
+      <name name="{=Cultures.Culture.human.clan_names.jou}Jou" />
+      <name name="{=Cultures.Culture.human.clan_names.kagae}Kagae" />
+      <name name="{=Cultures.Culture.human.clan_names.kagami}Kagami" />
+      <name name="{=Cultures.Culture.human.clan_names.kajiwara}Kajiwara" />
+      <name name="{=Cultures.Culture.human.clan_names.kamei}Kamei" />
+      <name name="{=Cultures.Culture.human.clan_names.kanamori}Kanamori" />
+      <name name="{=Cultures.Culture.human.clan_names.kaneko}Kaneko" />
+      <name name="{=Cultures.Culture.human.clan_names.kanou}Kanou" />
+      <name name="{=Cultures.Culture.human.clan_names.katakura}Katakura" />
+      <name name="{=Cultures.Culture.human.clan_names.kataoka}Kataoka" />
+      <name name="{=Cultures.Culture.human.clan_names.katou}Katou" />
+      <name name="{=Cultures.Culture.human.clan_names.katsura}Katsura" />
+      <name name="{=Cultures.Culture.human.clan_names.kawabe}Kawabe" />
+      <name name="{=Cultures.Culture.human.clan_names.kawada}Kawada" />
+      <name name="{=Cultures.Culture.human.clan_names.kawguchi}Kawguchi" />
+      <name name="{=Cultures.Culture.human.clan_names.kawamura}Kawamura" />
+      <name name="{=Cultures.Culture.human.clan_names.kikkawa}Kikkawa" />
+      <name name="{=Cultures.Culture.human.clan_names.kikuchi}Kikuchi" />
+      <name name="{=Cultures.Culture.human.clan_names.kimura}Kimura" />
+      <name name="{=Cultures.Culture.human.clan_names.kinoshita}Kinoshita" />
+      <name name="{=Cultures.Culture.human.clan_names.kira}Kira" />
+      <name name="{=Cultures.Culture.human.clan_names.kitabatake}Kitabatake" />
+      <name name="{=Cultures.Culture.human.clan_names.kitagaki}Kitagaki" />
+      <name name="{=Cultures.Culture.human.clan_names.kiyooka}Kiyooka" />
+      <name name="{=Cultures.Culture.human.clan_names.kiyowara}Kiyowara" />
+      <name name="{=Cultures.Culture.human.clan_names.kou}Kou" />
+      <name name="{=Cultures.Culture.human.clan_names.kobayakawa}Kobayakawa" />
+      <name name="{=Cultures.Culture.human.clan_names.koide}Koide" />
+      <name name="{=Cultures.Culture.human.clan_names.komatsu}Komatsu" />
+      <name name="{=Cultures.Culture.human.clan_names.konishi}Konishi" />
+      <name name="{=Cultures.Culture.human.clan_names.kouno}Kouno" />
+      <name name="{=Cultures.Culture.human.clan_names.kouriki}Kouriki" />
+      <name name="{=Cultures.Culture.human.clan_names.kuchiki}Kuchiki" />
+      <name name="{=Cultures.Culture.human.clan_names.kuki}Kuki" />
+      <name name="{=Cultures.Culture.human.clan_names.kumagaya}Kumagaya" />
+      <name name="{=Cultures.Culture.human.clan_names.kuroda}Kuroda" />
+      <name name="{=Cultures.Culture.human.clan_names.kuroki}Kuroki" />
+      <name name="{=Cultures.Culture.human.clan_names.kusunoki}Kusunoki" />
+      <name name="{=Cultures.Culture.human.clan_names.kyougoku}Kyougoku" />
+      <name name="{=Cultures.Culture.human.clan_names.maeda}Maeda" />
+      <name name="{=Cultures.Culture.human.clan_names.makino}Makino" />
+      <name name="{=Cultures.Culture.human.clan_names.matsudaira}Matsudaira" />
+      <name name="{=Cultures.Culture.human.clan_names.matsui}Matsui" />
+      <name name="{=Cultures.Culture.human.clan_names.matsukura}Matsukura" />
+      <name name="{=Cultures.Culture.human.clan_names.matsumae}Matsumae" />
+      <name name="{=Cultures.Culture.human.clan_names.matsushita}Matsushita" />
+      <name name="{=Cultures.Culture.human.clan_names.matsuura}Matsuura" />
+      <name name="{=Cultures.Culture.human.clan_names.minagawa}Minagawa" />
+      <name name="{=Cultures.Culture.human.clan_names.minamoto}Minamoto" />
+      <name name="{=Cultures.Culture.human.clan_names.miura}Miura" />
+      <name name="{=Cultures.Culture.human.clan_names.miyabe}Miyabe" />
+      <name name="{=Cultures.Culture.human.clan_names.miyake}Miyake" />
+      <name name="{=Cultures.Culture.human.clan_names.miyoshi}Miyoshi" />
+      <name name="{=Cultures.Culture.human.clan_names.mizoguchi}Mizoguchi" />
+      <name name="{=Cultures.Culture.human.clan_names.mizuno}Mizuno" />
+      <name name="{=Cultures.Culture.human.clan_names.mobeutani}Mobeutani" />
+      <name name="{=Cultures.Culture.human.clan_names.mogonami}Mogonami" />
+      <name name="{=Cultures.Culture.human.clan_names.momono}Momono" />
+      <name name="{=Cultures.Culture.human.clan_names.morikawa}Morikawa" />
+      <name name="{=Cultures.Culture.human.clan_names.morioka}Morioka" />
+      <name name="{=Cultures.Culture.human.clan_names.munakata}Munakata" />
+      <name name="{=Cultures.Culture.human.clan_names.murakami}Murakami" />
+      <name name="{=Cultures.Culture.human.clan_names.murata}Murata" />
+      <name name="{=Cultures.Culture.human.clan_names.nabeshima}Nabeshima" />
+      <name name="{=Cultures.Culture.human.clan_names.nagai}Nagai" />
+      <name name="{=Cultures.Culture.human.clan_names.nagao}Nagao" />
+      <name name="{=Cultures.Culture.human.clan_names.nagasaki}Nagasaki" />
+      <name name="{=Cultures.Culture.human.clan_names.naitou}Naitou" />
+      <name name="{=Cultures.Culture.human.clan_names.nakagawa}Nakagawa" />
+      <name name="{=Cultures.Culture.human.clan_names.nakajima}Nakajima" />
+      <name name="{=Cultures.Culture.human.clan_names.nakamura}Nakamura" />
+      <name name="{=Cultures.Culture.human.clan_names.nakatomi}Nakatomi" />
+      <name name="{=Cultures.Culture.human.clan_names.nakayama}Nakayama" />
+      <name name="{=Cultures.Culture.human.clan_names.nanbu}Nanbu" />
+      <name name="{=Cultures.Culture.human.clan_names.naruse}Naruse" />
+      <name name="{=Cultures.Culture.human.clan_names.nasu}Nasu" />
+      <name name="{=Cultures.Culture.human.clan_names.nawa}Nawa" />
+      <name name="{=Cultures.Culture.human.clan_names.nikaidou}Nikaidou" />
+      <name name="{=Cultures.Culture.human.clan_names.nikki}Nikki" />
+      <name name="{=Cultures.Culture.human.clan_names.nishi}Nishi" />
+      <name name="{=Cultures.Culture.human.clan_names.nishina}Nishina" />
+      <name name="{=Cultures.Culture.human.clan_names.nishio}Nishio" />
+      <name name="{=Cultures.Culture.human.clan_names.nishi}Nishi" />
+      <name name="{=Cultures.Culture.human.clan_names.nishina}Nishina" />
+      <name name="{=Cultures.Culture.human.clan_names.nishio}Nishio" />
+      <name name="{=Cultures.Culture.human.clan_names.nishi}Nishi" />
+      <name name="{=Cultures.Culture.human.clan_names.niwa}Niwa" />
+      <name name="{=Cultures.Culture.human.clan_names.ouba}Ouba" />
+      <name name="{=Cultures.Culture.human.clan_names.oue}Oue" />
+      <name name="{=Cultures.Culture.human.clan_names.ogasawara}Ogasawara" />
+      <name name="{=Cultures.Culture.human.clan_names.ogawa}Ogawa" />
+      <name name="{=Cultures.Culture.human.clan_names.okabe}Okabe" />
+      <name name="{=Cultures.Culture.human.clan_names.oku}Oku" />
+      <name name="{=Cultures.Culture.human.clan_names.oukubo}Oukubo" />
+      <name name="{=Cultures.Culture.human.clan_names.okuda}Okuda" />
+      <name name="{=Cultures.Culture.human.clan_names.okudaira}Okudaira" />
+      <name name="{=Cultures.Culture.human.clan_names.oukuma}Oukuma" />
+      <name name="{=Cultures.Culture.human.clan_names.oumura}Oumura" />
+      <name name="{=Cultures.Culture.human.clan_names.ouoka}Ouoka" />
+      <name name="{=Cultures.Culture.human.clan_names.ouseki}Ouseki" />
+      <name name="{=Cultures.Culture.human.clan_names.oushima}Oushima" />
+      <name name="{=Cultures.Culture.human.clan_names.outa}Outa" />
+      <name name="{=Cultures.Culture.human.clan_names.outani}Outani" />
+      <name name="{=Cultures.Culture.human.clan_names.outawara}Outawara" />
+      <name name="{=Cultures.Culture.human.clan_names.outera}Outera" />
+      <name name="{=Cultures.Culture.human.clan_names.outomo}Outomo" />
+      <name name="{=Cultures.Culture.human.clan_names.ouuchi}Ouuchi" />
+      <name name="{=Cultures.Culture.human.clan_names.oyama}Oyama" />
+      <name name="{=Cultures.Culture.human.clan_names.rokkaku}Rokkaku" />
+      <name name="{=Cultures.Culture.human.clan_names.ryuzouji}Ryuzouji" />
+      <name name="{=Cultures.Culture.human.clan_names.saigou}Saigou" />
+      <name name="{=Cultures.Culture.human.clan_names.saitou}Saitou" />
+      <name name="{=Cultures.Culture.human.clan_names.sakai}Sakai" />
+      <name name="{=Cultures.Culture.human.clan_names.sakakibara}Sakakibara" />
+      <name name="{=Cultures.Culture.human.clan_names.sakuma}Sakuma" />
+      <name name="{=Cultures.Culture.human.clan_names.sakurai}Sakurai" />
+      <name name="{=Cultures.Culture.human.clan_names.sanada}Sanada" />
+      <name name="{=Cultures.Culture.human.clan_names.sano}Sano" />
+      <name name="{=Cultures.Culture.human.clan_names.sasaki}Sasaki" />
+      <name name="{=Cultures.Culture.human.clan_names.satake}Satake" />
+      <name name="{=Cultures.Culture.human.clan_names.satou}Satou" />
+      <name name="{=Cultures.Culture.human.clan_names.satomi}Satomi" />
+      <name name="{=Cultures.Culture.human.clan_names.seki}Seki" />
+      <name name="{=Cultures.Culture.human.clan_names.sengoku}Sengoku" />
+      <name name="{=Cultures.Culture.human.clan_names.sen}Sen" />
+      <name name="{=Cultures.Culture.human.clan_names.shibata}Shibata" />
+      <name name="{=Cultures.Culture.human.clan_names.shibukawa}Shibukawa" />
+      <name name="{=Cultures.Culture.human.clan_names.shimazu}Shimazu" />
+      <name name="{=Cultures.Culture.human.clan_names.shimokoube}Shimokoube" />
+      <name name="{=Cultures.Culture.human.clan_names.shinjou}Shinjou" />
+      <name name="{=Cultures.Culture.human.clan_names.shouni}Shouni" />
+      <name name="{=Cultures.Culture.human.clan_names.sou}Sou" />
+      <name name="{=Cultures.Culture.human.clan_names.soejima}Soejima" />
+      <name name="{=Cultures.Culture.human.clan_names.soga}Soga" />
+      <name name="{=Cultures.Culture.human.clan_names.souma}Souma" />
+      <name name="{=Cultures.Culture.human.clan_names.sonoda}Sonoda" />
+      <name name="{=Cultures.Culture.human.clan_names.suganuma}Suganuma" />
+      <name name="{=Cultures.Culture.human.clan_names.sugawara}Sugawara" />
+      <name name="{=Cultures.Culture.human.clan_names.sugihara}Sugihara" />
+      <name name="{=Cultures.Culture.human.clan_names.suwa}Suwa" />
+      <name name="{=Cultures.Culture.human.clan_names.suzuki}Suzuki" />
+      <name name="{=Cultures.Culture.human.clan_names.tachibana}Tachibana" />
+      <name name="{=Cultures.Culture.human.clan_names.taguchi}Taguchi" />
+      <name name="{=Cultures.Culture.human.clan_names.takahashi}Takahashi" />
+      <name name="{=Cultures.Culture.human.clan_names.takayama}Takayama" />
+      <name name="{=Cultures.Culture.human.clan_names.takenaka}Takenaka" />
+      <name name="{=Cultures.Culture.human.clan_names.tamura}Tamura" />
+      <name name="{=Cultures.Culture.human.clan_names.tani}Tani" />
+      <name name="{=Cultures.Culture.human.clan_names.tanuma}Tanuma" />
+      <name name="{=Cultures.Culture.human.clan_names.terazawa}Terazawa" />
+      <name name="{=Cultures.Culture.human.clan_names.toda}Toda" />
+      <name name="{=Cultures.Culture.human.clan_names.toudou}Toudou" />
+      <name name="{=Cultures.Culture.human.clan_names.togashi}Togashi" />
+      <name name="{=Cultures.Culture.human.clan_names.togawa}Togawa" />
+      <name name="{=Cultures.Culture.human.clan_names.toki}Toki" />
+      <name name="{=Cultures.Culture.human.clan_names.torii}Torii" />
+      <name name="{=Cultures.Culture.human.clan_names.tozawa}Tozawa" />
+      <name name="{=Cultures.Culture.human.clan_names.tsugaru}Tsugaru" />
+      <name name="{=Cultures.Culture.human.clan_names.tsukushi}Tsukushi" />
+      <name name="{=Cultures.Culture.human.clan_names.tsutsui}Tsutsui" />
+      <name name="{=Cultures.Culture.human.clan_names.ujie}Ujie" />
+      <name name="{=Cultures.Culture.human.clan_names.ukita}Ukita" />
+      <name name="{=Cultures.Culture.human.clan_names.umewaka}Umewaka" />
+      <name name="{=Cultures.Culture.human.clan_names.urakami}Urakami" />
+      <name name="{=Cultures.Culture.human.clan_names.usami}Usami" />
+      <name name="{=Cultures.Culture.human.clan_names.utsunomiya}Utsunomiya" />
+      <name name="{=Cultures.Culture.human.clan_names.wada}Wada" />
+      <name name="{=Cultures.Culture.human.clan_names.wakizaka}Wakizaka" />
+      <name name="{=Cultures.Culture.human.clan_names.yagyu}Yagyu" />
+      <name name="{=Cultures.Culture.human.clan_names.yamagata}Yamagata" />
+      <name name="{=Cultures.Culture.human.clan_names.yamaguchi}Yamaguchi" />
+      <name name="{=Cultures.Culture.human.clan_names.yamana}Yamana" />
+      <name name="{=Cultures.Culture.human.clan_names.yamashi}Yamashi" />
+      <name name="{=Cultures.Culture.human.clan_names.yanagiza}Yanagiza" />
+      <name name="{=Cultures.Culture.human.clan_names.ya_yonezu}Ya Yonezu" />
+      <name name="{=Cultures.Culture.human.clan_names.yoshii}Yoshii" />
+      <name name="{=Cultures.Culture.human.clan_names.yuki}Yuki" />
     </clan_names>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_human_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_human_two_participant_set_v1" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_human_four_participant_set_v1" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="youkai" name="{=Cultures.Culture.name.youkai}Youkai" is_main_culture="true" can_have_settlement="true" town_edge_number="16" militia_bonus="1" encounter_background_mesh="encounter_empire" basic_troop="NPCCharacter.youkai_recruit" elite_basic_troop="NPCCharacter.youkai_vigla_recruit" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_youkai_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire" caravan_party_template="PartyTemplate.caravan_template_empire" militia_party_template="PartyTemplate.militia_empire_template" rebels_party_template="PartyTemplate.rebels_empire_template" melee_militia_troop="NPCCharacter.youkai_militia_spearman" melee_elite_militia_troop="NPCCharacter.youkai_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.youkai_militia_archer" ranged_elite_militia_troop="NPCCharacter.youkai_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_youkai" caravan_master="NPCCharacter.caravan_master_youkai" armed_trader="NPCCharacter.armed_trader_youkai" caravan_guard="NPCCharacter.caravan_guard_youkai" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_youkai" duel_preset="NPCCharacter.youkai_duel_preset" prison_guard="NPCCharacter.prison_guard_youkai" guard="NPCCharacter.guard_youkai" steward="NPCCharacter.steward_youkai" blacksmith="NPCCharacter.blacksmith_youkai" weaponsmith="NPCCharacter.weaponsmith_youkai" townswoman="NPCCharacter.townswoman_youkai" townswoman_infant="NPCCharacter.townswoman_infant_youkai" townswoman_child="NPCCharacter.townswoman_child_youkai" townswoman_teenager="NPCCharacter.townswoman_teenager_youkai" townsman="NPCCharacter.townsman_youkai" townsman_infant="NPCCharacter.townsman_infant_youkai" townsman_child="NPCCharacter.townsman_child_youkai" townsman_teenager="NPCCharacter.townsman_teenager_youkai" villager="NPCCharacter.villager_youkai" village_woman="NPCCharacter.village_woman_youkai" villager_male_child="NPCCharacter.villager_child_youkai" villager_male_teenager="NPCCharacter.villager_teenager_youkai" villager_female_child="NPCCharacter.village_woman_child_youkai" villager_female_teenager="NPCCharacter.village_woman_teenager_youkai" ransom_broker="NPCCharacter.ransom_broker_youkai" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_youkai" merchant_notary="NPCCharacter.merchant_notary_youkai" preacher_notary="NPCCharacter.preacher_notary_youkai" artisan_notary="NPCCharacter.preacher_notary_youkai" rural_notable_notary="NPCCharacter.rural_notable_notary_youkai" shop_worker="NPCCharacter.shop_worker_youkai" tavernkeeper="NPCCharacter.tavernkeeper_youkai" taverngamehost="NPCCharacter.taverngamehost_youkai" musician="NPCCharacter.musician_youkai" tavern_wench="NPCCharacter.tavern_wench_youkai" armorer="NPCCharacter.armorer_youkai" horseMerchant="NPCCharacter.horseMerchant_youkai" barber="NPCCharacter.barber_youkai" merchant="NPCCharacter.merchant_youkai" beggar="NPCCharacter.beggar_youkai" female_beggar="NPCCharacter.female_beggar_youkai" female_dancer="NPCCharacter.female_dancer_youkai" gear_practice_dummy="NPCCharacter.gear_practice_dummy_youkai" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_youkai" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_youkai" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_youkai" gear_dummy="NPCCharacter.gear_dummy_youkai" board_game_type="Tablut">
+    <male_names>
+      <name name="{=Cultures.Culture.youkai.male_names.akihito}Akihito" />
+      <name name="{=Cultures.Culture.youkai.male_names.akimitsu}Akimitsu" />
+      <name name="{=Cultures.Culture.youkai.male_names.arata}Arata" />
+      <name name="{=Cultures.Culture.youkai.male_names.chihiro}Chihiro" />
+      <name name="{=Cultures.Culture.youkai.male_names.daichi}Daichi" />
+      <name name="{=Cultures.Culture.youkai.male_names.fumihito}Fumihito" />
+      <name name="{=Cultures.Culture.youkai.male_names.goro}Goro" />
+      <name name="{=Cultures.Culture.youkai.male_names.haru}Haru" />
+      <name name="{=Cultures.Culture.youkai.male_names.hayate}Hayate" />
+      <name name="{=Cultures.Culture.youkai.male_names.hiroto}Hiroto" />
+      <name name="{=Cultures.Culture.youkai.male_names.kaedo}Kaedo" />
+      <name name="{=Cultures.Culture.youkai.male_names.kaito}Kaito" />
+      <name name="{=Cultures.Culture.youkai.male_names.kei}Kei" />
+      <name name="{=Cultures.Culture.youkai.male_names.ken}Ken" />
+      <name name="{=Cultures.Culture.youkai.male_names.koji}Koji" />
+      <name name="{=Cultures.Culture.youkai.male_names.michi}Michi" />
+      <name name="{=Cultures.Culture.youkai.male_names.nobu}Nobu" />
+      <name name="{=Cultures.Culture.youkai.male_names.shion}Shion" />
+      <name name="{=Cultures.Culture.youkai.male_names.shiro}Shiro" />
+      <name name="{=Cultures.Culture.youkai.male_names.sora}Sora" />
+      <name name="{=Cultures.Culture.youkai.male_names.subaru}Subaru" />
+      <name name="{=Cultures.Culture.youkai.male_names.takashi}Takashi" />
+      <name name="{=Cultures.Culture.youkai.male_names.tsubasa}Tsubasa" />
+      <name name="{=Cultures.Culture.youkai.male_names.yori}Yori" />
+      <name name="{=Cultures.Culture.youkai.male_names.yoshi}Yoshi" />
+      <name name="{=Cultures.Culture.youkai.male_names.yuki}Yuki" />
+    </male_names>
+    <female_names>
+      <name name="{=Cultures.Culture.youkai.female_names.airi}Airi" />
+      <name name="{=Cultures.Culture.youkai.female_names.akari}Akari" />
+      <name name="{=Cultures.Culture.youkai.female_names.ayame}Ayame" />
+      <name name="{=Cultures.Culture.youkai.female_names.chika}Chika" />
+      <name name="{=Cultures.Culture.youkai.female_names.chou}Chou" />
+      <name name="{=Cultures.Culture.youkai.female_names.ema}Ema" />
+      <name name="{=Cultures.Culture.youkai.female_names.emi}Emi" />
+      <name name="{=Cultures.Culture.youkai.female_names.etsuko}Etsuko" />
+      <name name="{=Cultures.Culture.youkai.female_names.fuyuko}Fuyuko" />
+      <name name="{=Cultures.Culture.youkai.female_names.hanae}Hanae" />
+      <name name="{=Cultures.Culture.youkai.female_names.haruka}Haruka" />
+      <name name="{=Cultures.Culture.youkai.female_names.hibiki}Hibiki" />
+      <name name="{=Cultures.Culture.youkai.female_names.hikari}Hikari" />
+      <name name="{=Cultures.Culture.youkai.female_names.hina}Hina" />
+      <name name="{=Cultures.Culture.youkai.female_names.hitomi}Hitomi" />
+      <name name="{=Cultures.Culture.youkai.female_names.honoka}Honoka" />
+      <name name="{=Cultures.Culture.youkai.female_names.hosha}Hosha" />
+      <name name="{=Cultures.Culture.youkai.female_names.hotaru}Hotaru" />
+      <name name="{=Cultures.Culture.youkai.female_names.izumi}Izumi" />
+      <name name="{=Cultures.Culture.youkai.female_names.jun}Jun" />
+      <name name="{=Cultures.Culture.youkai.female_names.kaede}Kaede" />
+      <name name="{=Cultures.Culture.youkai.female_names.kanako}Kanako" />
+      <name name="{=Cultures.Culture.youkai.female_names.kaori}Kaori" />
+      <name name="{=Cultures.Culture.youkai.female_names.kasumi}Kasumi" />
+      <name name="{=Cultures.Culture.youkai.female_names.kei}Kei" />
+      <name name="{=Cultures.Culture.youkai.female_names.kimiko}Kimiko" />
+      <name name="{=Cultures.Culture.youkai.female_names.kyoko}Kyoko" />
+      <name name="{=Cultures.Culture.youkai.female_names.mai}Mai" />
+      <name name="{=Cultures.Culture.youkai.female_names.makoto}Makoto" />
+      <name name="{=Cultures.Culture.youkai.female_names.mayu}Mayu" />
+      <name name="{=Cultures.Culture.youkai.female_names.megumi}Megumi" />
+      <name name="{=Cultures.Culture.youkai.female_names.mei}Mei" />
+      <name name="{=Cultures.Culture.youkai.female_names.mika}Mika" />
+      <name name="{=Cultures.Culture.youkai.female_names.miku}Miku" />
+      <name name="{=Cultures.Culture.youkai.female_names.moriko}Moriko" />
+      <name name="{=Cultures.Culture.youkai.female_names.nanami}Nanami" />
+      <name name="{=Cultures.Culture.youkai.female_names.natsumi}Natsumi" />
+      <name name="{=Cultures.Culture.youkai.female_names.rei}Rei" />
+      <name name="{=Cultures.Culture.youkai.female_names.rin}Rin" />
+      <name name="{=Cultures.Culture.youkai.female_names.sachie}Sachie" />
+      <name name="{=Cultures.Culture.youkai.female_names.saki}Saki" />
+      <name name="{=Cultures.Culture.youkai.female_names.sakura}Sakura" />
+      <name name="{=Cultures.Culture.youkai.female_names.saori}Saori" />
+      <name name="{=Cultures.Culture.youkai.female_names.shion}Shion" />
+      <name name="{=Cultures.Culture.youkai.female_names.sumiko}Sumiko" />
+      <name name="{=Cultures.Culture.youkai.female_names.takara}Takara" />
+      <name name="{=Cultures.Culture.youkai.female_names.tokomo}Tokomo" />
+      <name name="{=Cultures.Culture.youkai.female_names.tsubasa}Tsubasa" />
+      <name name="{=Cultures.Culture.youkai.female_names.wakana}Wakana" />
+      <name name="{=Cultures.Culture.youkai.female_names.yoshi}Yoshi" />
+      <name name="{=Cultures.Culture.youkai.female_names.youko}Youko" />
+      <name name="{=Cultures.Culture.youkai.female_names.yui}Yui" />
+      <name name="{=Cultures.Culture.youkai.female_names.yuka}Yuka" />
+      <name name="{=Cultures.Culture.youkai.female_names.yuki}Yuki" />
+      <name name="{=Cultures.Culture.youkai.female_names.yumi}Yumi" />
+      <name name="{=Cultures.Culture.youkai.female_names.yuri}Yuri" />
+      <name name="{=Cultures.Culture.youkai.female_names.yuzuki}Yuzuki" />
+    </female_names>
+    <clan_names>
+      <name name="{=Cultures.Culture.youkai.clan_names.nagai}Nagai" />
+      <name name="{=Cultures.Culture.youkai.clan_names.sato}Sato" />
+      <name name="{=Cultures.Culture.youkai.clan_names.suzuki}Suzuki" />
+      <name name="{=Cultures.Culture.youkai.clan_names.takahashi}Takahashi" />
+      <name name="{=Cultures.Culture.youkai.clan_names.tanaka}Tanaka" />
+      <name name="{=Cultures.Culture.youkai.clan_names.watanabe}Watanabe" />
+      <name name="{=Cultures.Culture.youkai.clan_names.ito}Ito" />
+      <name name="{=Cultures.Culture.youkai.clan_names.yamamoto}Yamamoto" />
+      <name name="{=Cultures.Culture.youkai.clan_names.nakamura}Nakamura" />
+      <name name="{=Cultures.Culture.youkai.clan_names.kobayashi}Kobayashi" />
+      <name name="{=Cultures.Culture.youkai.clan_names.kato}Kato" />
+      <name name="{=Cultures.Culture.youkai.clan_names.yoshida}Yoshida" />
+      <name name="{=Cultures.Culture.youkai.clan_names.yamada}Yamada" />
+      <name name="{=Cultures.Culture.youkai.clan_names.sasaki}Sasaki" />
+      <name name="{=Cultures.Culture.youkai.clan_names.yamaguchi}Yamaguchi" />
+      <name name="{=Cultures.Culture.youkai.clan_names.saito}Saito" />
+      <name name="{=Cultures.Culture.youkai.clan_names.matsumoto}Matsumoto" />
+      <name name="{=Cultures.Culture.youkai.clan_names.inoue}Inoue" />
+      <name name="{=Cultures.Culture.youkai.clan_names.kimura}Kimura" />
+      <name name="{=Cultures.Culture.youkai.clan_names.hayashi}Hayashi" />
+      <name name="{=Cultures.Culture.youkai.clan_names.shimizu}Shimizu" />
+    </clan_names>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_youkai_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_youkai_two_participant_set_v1" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_youkai_four_participant_set_v1" />
+    </tournament_team_templates_four_participant>
+  </Culture>
+  <Culture id="fairy" name="{=Cultures.Culture.name.fairy}Fairy" is_main_culture="true" can_have_settlement="true" town_edge_number="16" prosperity_bonus="1" encounter_background_mesh="encounter_vlandia" basic_troop="NPCCharacter.fairy_recruit" elite_basic_troop="NPCCharacter.fairy_youth" default_party_template="PartyTemplate.kingdom_hero_party_empire_template" villager_party_template="PartyTemplate.villager_fairy_template" elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai" caravan_party_template="PartyTemplate.caravan_template_aserai" militia_party_template="PartyTemplate.militia_aserai_template" rebels_party_template="PartyTemplate.rebels_aserai_template" melee_militia_troop="NPCCharacter.fairy_militia_spearman" melee_elite_militia_troop="NPCCharacter.fairy_militia_veteran_spearman" ranged_militia_troop="NPCCharacter.fairy_militia_archer" ranged_elite_militia_troop="NPCCharacter.fairy_militia_veteran_archer" tournament_master="NPCCharacter.tournament_master_fairy" caravan_master="NPCCharacter.caravan_master_fairy" armed_trader="NPCCharacter.armed_trader_fairy" caravan_guard="NPCCharacter.caravan_guard_fairy" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_fairy" duel_preset="NPCCharacter.fairy_duel_preset" prison_guard="NPCCharacter.prison_guard_fairy" guard="NPCCharacter.guard_fairy" steward="NPCCharacter.steward_fairy" blacksmith="NPCCharacter.blacksmith_fairy" weaponsmith="NPCCharacter.weaponsmith_fairy" townswoman="NPCCharacter.townswoman_fairy" townswoman_infant="NPCCharacter.townswoman_infant_fairy" townswoman_child="NPCCharacter.townswoman_child_fairy" townswoman_teenager="NPCCharacter.townswoman_teenager_fairy" townsman="NPCCharacter.townsman_fairy" townsman_infant="NPCCharacter.townsman_infant_fairy" townsman_child="NPCCharacter.townsman_child_fairy" townsman_teenager="NPCCharacter.townsman_teenager_fairy" villager="NPCCharacter.villager_fairy" village_woman="NPCCharacter.village_woman_fairy" villager_male_child="NPCCharacter.villager_child_fairy" villager_male_teenager="NPCCharacter.villager_teenager_fairy" villager_female_child="NPCCharacter.village_woman_child_fairy" villager_female_teenager="NPCCharacter.village_woman_teenager_fairy" ransom_broker="NPCCharacter.ransom_broker_fairy" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_fairy" merchant_notary="NPCCharacter.merchant_notary_fairy" preacher_notary="NPCCharacter.preacher_notary_fairy" artisan_notary="NPCCharacter.preacher_notary_fairy" rural_notable_notary="NPCCharacter.rural_notable_notary_fairy" shop_worker="NPCCharacter.shop_worker_fairy" tavernkeeper="NPCCharacter.tavernkeeper_fairy" taverngamehost="NPCCharacter.taverngamehost_fairy" musician="NPCCharacter.musician_fairy" tavern_wench="NPCCharacter.tavern_wench_fairy" armorer="NPCCharacter.armorer_fairy" horseMerchant="NPCCharacter.horseMerchant_fairy" barber="NPCCharacter.barber_fairy" merchant="NPCCharacter.merchant_fairy" beggar="NPCCharacter.beggar_fairy" female_beggar="NPCCharacter.female_beggar_fairy" female_dancer="NPCCharacter.female_dancer_fairy" gear_practice_dummy="NPCCharacter.gear_practice_dummy_fairy" weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_fairy" weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_fairy" weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_fairy" gear_dummy="NPCCharacter.gear_dummy_fairy" board_game_type="Seega">
+    <male_names>
+      <name name="{=Cultures.Culture.fairy.male_names.akihito}Akihito" />
+      <name name="{=Cultures.Culture.fairy.male_names.akimitsu}Akimitsu" />
+      <name name="{=Cultures.Culture.fairy.male_names.arata}Arata" />
+      <name name="{=Cultures.Culture.fairy.male_names.chihiro}Chihiro" />
+      <name name="{=Cultures.Culture.fairy.male_names.daichi}Daichi" />
+      <name name="{=Cultures.Culture.fairy.male_names.fumihito}Fumihito" />
+      <name name="{=Cultures.Culture.fairy.male_names.goro}Goro" />
+      <name name="{=Cultures.Culture.fairy.male_names.haru}Haru" />
+      <name name="{=Cultures.Culture.fairy.male_names.hayate}Hayate" />
+      <name name="{=Cultures.Culture.fairy.male_names.hiroto}Hiroto" />
+      <name name="{=Cultures.Culture.fairy.male_names.kaedo}Kaedo" />
+      <name name="{=Cultures.Culture.fairy.male_names.kaito}Kaito" />
+      <name name="{=Cultures.Culture.fairy.male_names.kei}Kei" />
+      <name name="{=Cultures.Culture.fairy.male_names.ken}Ken" />
+      <name name="{=Cultures.Culture.fairy.male_names.koji}Koji" />
+      <name name="{=Cultures.Culture.fairy.male_names.michi}Michi" />
+      <name name="{=Cultures.Culture.fairy.male_names.nobu}Nobu" />
+      <name name="{=Cultures.Culture.fairy.male_names.shion}Shion" />
+      <name name="{=Cultures.Culture.fairy.male_names.shiro}Shiro" />
+      <name name="{=Cultures.Culture.fairy.male_names.sora}Sora" />
+      <name name="{=Cultures.Culture.fairy.male_names.subaru}Subaru" />
+      <name name="{=Cultures.Culture.fairy.male_names.takashi}Takashi" />
+      <name name="{=Cultures.Culture.fairy.male_names.tsubasa}Tsubasa" />
+      <name name="{=Cultures.Culture.fairy.male_names.yori}Yori" />
+      <name name="{=Cultures.Culture.fairy.male_names.yoshi}Yoshi" />
+      <name name="{=Cultures.Culture.fairy.male_names.yuki}Yuki" />
+    </male_names>
+    <female_names>
+      <name name="{=Cultures.Culture.fairy.female_names.airi}Airi" />
+      <name name="{=Cultures.Culture.fairy.female_names.akari}Akari" />
+      <name name="{=Cultures.Culture.fairy.female_names.ayame}Ayame" />
+      <name name="{=Cultures.Culture.fairy.female_names.chika}Chika" />
+      <name name="{=Cultures.Culture.fairy.female_names.chou}Chou" />
+      <name name="{=Cultures.Culture.fairy.female_names.ema}Ema" />
+      <name name="{=Cultures.Culture.fairy.female_names.emi}Emi" />
+      <name name="{=Cultures.Culture.fairy.female_names.etsuko}Etsuko" />
+      <name name="{=Cultures.Culture.fairy.female_names.fuyuko}Fuyuko" />
+      <name name="{=Cultures.Culture.fairy.female_names.hanae}Hanae" />
+      <name name="{=Cultures.Culture.fairy.female_names.haruka}Haruka" />
+      <name name="{=Cultures.Culture.fairy.female_names.hibiki}Hibiki" />
+      <name name="{=Cultures.Culture.fairy.female_names.hikari}Hikari" />
+      <name name="{=Cultures.Culture.fairy.female_names.hina}Hina" />
+      <name name="{=Cultures.Culture.fairy.female_names.hitomi}Hitomi" />
+      <name name="{=Cultures.Culture.fairy.female_names.honoka}Honoka" />
+      <name name="{=Cultures.Culture.fairy.female_names.hosha}Hosha" />
+      <name name="{=Cultures.Culture.fairy.female_names.hotaru}Hotaru" />
+      <name name="{=Cultures.Culture.fairy.female_names.izumi}Izumi" />
+      <name name="{=Cultures.Culture.fairy.female_names.jun}Jun" />
+      <name name="{=Cultures.Culture.fairy.female_names.kaede}Kaede" />
+      <name name="{=Cultures.Culture.fairy.female_names.kanako}Kanako" />
+      <name name="{=Cultures.Culture.fairy.female_names.kaori}Kaori" />
+      <name name="{=Cultures.Culture.fairy.female_names.kasumi}Kasumi" />
+      <name name="{=Cultures.Culture.fairy.female_names.kei}Kei" />
+      <name name="{=Cultures.Culture.fairy.female_names.kimiko}Kimiko" />
+      <name name="{=Cultures.Culture.fairy.female_names.kyoko}Kyoko" />
+      <name name="{=Cultures.Culture.fairy.female_names.mai}Mai" />
+      <name name="{=Cultures.Culture.fairy.female_names.makoto}Makoto" />
+      <name name="{=Cultures.Culture.fairy.female_names.mayu}Mayu" />
+      <name name="{=Cultures.Culture.fairy.female_names.megumi}Megumi" />
+      <name name="{=Cultures.Culture.fairy.female_names.mei}Mei" />
+      <name name="{=Cultures.Culture.fairy.female_names.mika}Mika" />
+      <name name="{=Cultures.Culture.fairy.female_names.miku}Miku" />
+      <name name="{=Cultures.Culture.fairy.female_names.moriko}Moriko" />
+      <name name="{=Cultures.Culture.fairy.female_names.nanami}Nanami" />
+      <name name="{=Cultures.Culture.fairy.female_names.natsumi}Natsumi" />
+      <name name="{=Cultures.Culture.fairy.female_names.rei}Rei" />
+      <name name="{=Cultures.Culture.fairy.female_names.rin}Rin" />
+      <name name="{=Cultures.Culture.fairy.female_names.sachie}Sachie" />
+      <name name="{=Cultures.Culture.fairy.female_names.saki}Saki" />
+      <name name="{=Cultures.Culture.fairy.female_names.sakura}Sakura" />
+      <name name="{=Cultures.Culture.fairy.female_names.saori}Saori" />
+      <name name="{=Cultures.Culture.fairy.female_names.shion}Shion" />
+      <name name="{=Cultures.Culture.fairy.female_names.sumiko}Sumiko" />
+      <name name="{=Cultures.Culture.fairy.female_names.takara}Takara" />
+      <name name="{=Cultures.Culture.fairy.female_names.tokomo}Tokomo" />
+      <name name="{=Cultures.Culture.fairy.female_names.tsubasa}Tsubasa" />
+      <name name="{=Cultures.Culture.fairy.female_names.wakana}Wakana" />
+      <name name="{=Cultures.Culture.fairy.female_names.yoshi}Yoshi" />
+      <name name="{=Cultures.Culture.fairy.female_names.youko}Youko" />
+      <name name="{=Cultures.Culture.fairy.female_names.yui}Yui" />
+      <name name="{=Cultures.Culture.fairy.female_names.yuka}Yuka" />
+      <name name="{=Cultures.Culture.fairy.female_names.yuki}Yuki" />
+      <name name="{=Cultures.Culture.fairy.female_names.yumi}Yumi" />
+      <name name="{=Cultures.Culture.fairy.female_names.yuri}Yuri" />
+      <name name="{=Cultures.Culture.fairy.female_names.yuzuki}Yuzuki" />
+    </female_names>
+    <clan_names>
+      <name name="{=Cultures.Culture.fairy.clan_names.nagai}Nagai" />
+      <name name="{=Cultures.Culture.fairy.clan_names.sato}Sato" />
+      <name name="{=Cultures.Culture.fairy.clan_names.suzuki}Suzuki" />
+      <name name="{=Cultures.Culture.fairy.clan_names.takahashi}Takahashi" />
+      <name name="{=Cultures.Culture.fairy.clan_names.tanaka}Tanaka" />
+      <name name="{=Cultures.Culture.fairy.clan_names.watanabe}Watanabe" />
+      <name name="{=Cultures.Culture.fairy.clan_names.ito}Ito" />
+      <name name="{=Cultures.Culture.fairy.clan_names.yamamoto}Yamamoto" />
+      <name name="{=Cultures.Culture.fairy.clan_names.nakamura}Nakamura" />
+      <name name="{=Cultures.Culture.fairy.clan_names.kobayashi}Kobayashi" />
+      <name name="{=Cultures.Culture.fairy.clan_names.kato}Kato" />
+      <name name="{=Cultures.Culture.fairy.clan_names.yoshida}Yoshida" />
+      <name name="{=Cultures.Culture.fairy.clan_names.yamada}Yamada" />
+      <name name="{=Cultures.Culture.fairy.clan_names.sasaki}Sasaki" />
+      <name name="{=Cultures.Culture.fairy.clan_names.yamaguchi}Yamaguchi" />
+      <name name="{=Cultures.Culture.fairy.clan_names.saito}Saito" />
+      <name name="{=Cultures.Culture.fairy.clan_names.matsumoto}Matsumoto" />
+      <name name="{=Cultures.Culture.fairy.clan_names.inoue}Inoue" />
+      <name name="{=Cultures.Culture.fairy.clan_names.kimura}Kimura" />
+      <name name="{=Cultures.Culture.fairy.clan_names.hayashi}Hayashi" />
+      <name name="{=Cultures.Culture.fairy.clan_names.shimizu}Shimizu" />
+    </clan_names>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_fairy_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_fairy_two_participant_set_v1" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_fairy_four_participant_set_v1" />
+    </tournament_team_templates_four_participant>
   </Culture>
 </SPCultures>

@@ -4,7 +4,7 @@
     <tag language="English" />
   </tags>
   <strings>
-    <string id="Settlements.Settlement.name.castle_HS1" text="Inchling's Pillar" />
+    <string id="Settlements.Settlement.name.castle_HS1" text="Inchling's Pavilion" />
     <string id="Settlements.Settlement.name.castle_HS2" text="Dream Ruins" />
     <string id="Settlements.Settlement.name.castle_HS3" text="Komainu Temple" />
     <string id="Settlements.Settlement.name.castle_HS4" text="Youkai Trail" />
@@ -28,7 +28,7 @@
     <string id="Settlements.Settlement.name.town_HC1" text="Human City" />
     <string id="Settlements.Settlement.name.castle_ET1" text="White Rabbit Camp" />
     <string id="Settlements.Settlement.name.castle_ET2" text="Night Sparrow's Wood" />
-    <string id="Settlements.Settlement.name.castle_ET3" text="Nightbug Hill" />
+    <string id="Settlements.Settlement.name.castle_ET3" text="Nightbug's Hill" />
     <string id="Settlements.Settlement.name.castle_ET4" text="Moonlight Palace" />
     <string id="Settlements.Settlement.name.castle_ET5" text="Lake of Blood" />
     <string id="Settlements.Settlement.name.castle_ET6" text="Nameless Hill" />
@@ -46,15 +46,15 @@
     <string id="Settlements.Settlement.name.castle_SE4" text="Sealed Castle" />
     <string id="Settlements.Settlement.name.castle_SE5" text="Ghost Mansion" />
     <string id="Settlements.Settlement.name.castle_SE6" text="Black Tea Castle" />
-    <string id="Settlements.Settlement.name.castle_SE7" text="Late Dawn Fort" />
-    <string id="Settlements.Settlement.name.castle_SE8" text="Phantom Prairie " />
-    <string id="Settlements.Settlement.name.castle_SE9" text="Pudding Castle" />
-    <string id="Settlements.Settlement.name.town_SE1" text="Voile, the Magic Library" />
+    <string id="Settlements.Settlement.name.castle_SE7" text="Castle of the Late Dawn" />
+    <string id="Settlements.Settlement.name.castle_SE8" text="Phantom Prairie" />
+    <string id="Settlements.Settlement.name.castle_SE9" text="Château Pudding" />
+    <string id="Settlements.Settlement.name.town_SE1" text="Magic Library" />
     <string id="Settlements.Settlement.name.town_SE2" text="Scarlet Devil Mansion" />
     <string id="Settlements.Settlement.name.town_SE3" text="Lunar Clock" />
     <string id="Settlements.Settlement.name.town_SE4" text="Little Devil's Stream" />
     <string id="Settlements.Settlement.name.town_SE5" text="Ruined Western Mansion" />
-    <string id="Settlements.Settlement.name.town_SE6" text="Everdusk Fortress" />
+    <string id="Settlements.Settlement.name.town_SE6" text="Dusk Fortress" />
     <string id="Settlements.Settlement.name.castle_ME1" text="Flandre's Better Mansion" />
     <string id="Settlements.Settlement.name.castle_ME2" text="Castle You Can't Enter" />
     <string id="Settlements.Settlement.name.castle_ME3" text="Pastry Town" />
@@ -68,7 +68,7 @@
     <string id="Settlements.Settlement.name.town_ME3" text="Sacred Tree of Tokoyo" />
     <string id="Settlements.Settlement.name.town_ME4" text="Bright Moon Bay" />
     <string id="Settlements.Settlement.name.town_ME5" text="Sparkling Starlight Village" />
-    <string id="Settlements.Settlement.name.castle_AK1" text="Youkai Approach" />
+    <string id="Settlements.Settlement.name.castle_AK1" text="Youkai Back Road" />
     <string id="Settlements.Settlement.name.castle_AK2" text="UFO Landing Site" />
     <string id="Settlements.Settlement.name.castle_AK3" text="Unidentified Fort" />
     <string id="Settlements.Settlement.name.castle_AK4" text="Beheaded Stones" />
@@ -79,7 +79,7 @@
     <string id="Settlements.Settlement.name.town_AK1" text="Tanuki Forest" />
     <string id="Settlements.Settlement.name.town_AK2" text="Thunderdrum Beat Paradise" />
     <string id="Settlements.Settlement.name.town_AK3" text="City Under the Willows" />
-    <string id="Settlements.Settlement.name.town_AK4" text="Full Moon Town" />
+    <string id="Settlements.Settlement.name.town_AK4" text="Full Moon City" />
     <string id="Settlements.Settlement.name.town_AK5" text="Reverse Hierarchy City" />
     <string id="Settlements.Settlement.name.town_AK6" text="Joyful World" />
     <string id="Settlements.Settlement.name.castle_KT1" text="Rainbow Dragon Cave" />
@@ -110,7 +110,7 @@
     <string id="Settlements.Settlement.name.town_UW5" text="Underground Geyser Center" />
     <string id="Settlements.Settlement.name.town_UW6" text="Nuclear Furnace" />
     <string id="Settlements.Settlement.name.castle_NW1" text="Mayohiga" />
-    <string id="Settlements.Settlement.name.castle_NW2" text="Infinite Hell, Avici" />
+    <string id="Settlements.Settlement.name.castle_NW2" text="Avici" />
     <string id="Settlements.Settlement.name.castle_NW3" text="Broken Soul Cliff" />
     <string id="Settlements.Settlement.name.castle_NW4" text="Entrance to the Animal Realm" />
     <string id="Settlements.Settlement.name.castle_NW5" text="Soul Ferry" />
@@ -118,7 +118,7 @@
     <string id="Settlements.Settlement.name.castle_NW7" text="Hakugyokurou's Stairway" />
     <string id="Settlements.Settlement.name.castle_NW8" text="Barrier of Life and Death" />
     <string id="Settlements.Settlement.name.town_NW1" text="Slumbering Dimension" />
-    <string id="Settlements.Settlement.name.town_NW2" text="Shikigami Capital" />
+    <string id="Settlements.Settlement.name.town_NW2" text="Capital of Hell" />
     <string id="Settlements.Settlement.name.town_NW3" text="Ministry of Right and Wrong" />
     <string id="Settlements.Settlement.name.town_NW4" text="Primate Spirit Garden" />
     <string id="Settlements.Settlement.name.town_NW5" text="Sanzu River" />
@@ -279,7 +279,7 @@
     <string id="Settlements.Settlement.text.village_ET3_1" text="Grey Tree Cove" />
     <string id="Settlements.Settlement.name.village_ET3_2" text="Alioth" />
     <string id="Settlements.Settlement.text.village_ET3_2" text="Jade Land" />
-    <string id="Settlements.Settlement.name.village_ET3_3" text="Thousand Figure Pavillion" />
+    <string id="Settlements.Settlement.name.village_ET3_3" text="Thousand Figure Pavilion" />
     <string id="Settlements.Settlement.text.village_ET3_3" text="Thousand Figure Pavillion" />
     <string id="Settlements.Settlement.name.village_ET4_1" text="Sagittarius" />
     <string id="Settlements.Settlement.text.village_ET4_1" text="Sagittarius" />
@@ -293,15 +293,15 @@
     <string id="Settlements.Settlement.text.village_ET5_2" text="Autumn Rain Hamlet" />
     <string id="Settlements.Settlement.name.village_ET5_3" text="Shores of Blood" />
     <string id="Settlements.Settlement.text.village_ET5_3" text="Shores of Blood" />
-    <string id="Settlements.Settlement.name.village_ET6_1" text="Swallow's Shell" />
+    <string id="Settlements.Settlement.name.village_ET6_1" text="Swallow's Cowrie Shell" />
     <string id="Settlements.Settlement.text.village_ET6_1" text="Swallow's Shell" />
     <string id="Settlements.Settlement.name.village_ET6_2" text="Buddha's Stone Bowl" />
     <string id="Settlements.Settlement.text.village_ET6_2" text="Buddha's Stone Bowl" />
     <string id="Settlements.Settlement.name.village_ET6_3" text="Jeweled Branch of Hourai" />
     <string id="Settlements.Settlement.text.village_ET6_3" text="Jeweled Branch of Hourai" />
-    <string id="Settlements.Settlement.name.village_ET6_4" text="Dragon's Neck Jewel" />
+    <string id="Settlements.Settlement.name.village_ET6_4" text="Jewel from the Dragon's Neck" />
     <string id="Settlements.Settlement.text.village_ET6_4" text="Dragon's Neck Jewel" />
-    <string id="Settlements.Settlement.name.village_ET6_5" text="Fire Rat's Robe" />
+    <string id="Settlements.Settlement.name.village_ET6_5" text="Robe of the Fire Rat" />
     <string id="Settlements.Settlement.text.village_ET6_5" text="Fire Rat's Robe" />
     <string id="Settlements.Settlement.name.castle_village_SE1_1" text="Pilgrimage Road" />
     <string id="Settlements.Settlement.text.castle_village_SE1_1" text="Pilgrimage Road" />
@@ -505,73 +505,73 @@
     <string id="Settlements.Settlement.text.village_AK6_2" text="Ensemble Platform " />
     <string id="Settlements.Settlement.name.village_AK6_3" text="Koto Village" />
     <string id="Settlements.Settlement.text.village_AK6_3" text="Koto Village" />
-    <string id="Settlements.Settlement.name.castle_village_KT1_1" text="Rainbow Dragon Cave 1" />
+    <string id="Settlements.Settlement.name.castle_village_KT1_1" text="Between the Clouds" />
     <string id="Settlements.Settlement.text.castle_village_KT1_1" text="Offering Temple 1" />
-    <string id="Settlements.Settlement.name.castle_village_KT1_2" text="Rainbow Dragon Cave 2" />
+    <string id="Settlements.Settlement.name.castle_village_KT1_2" text="Fine Snow" />
     <string id="Settlements.Settlement.text.castle_village_KT1_2" text="Sleepless" />
     <string id="Settlements.Settlement.name.castle_village_KT2_1" text="Oarfish's Scarlet Cloth" />
     <string id="Settlements.Settlement.text.castle_village_KT2_1" text="Oarfish's Scarlet Cloth" />
     <string id="Settlements.Settlement.name.castle_village_KT2_2" text="Thundering Plains" />
     <string id="Settlements.Settlement.text.castle_village_KT2_2" text="Thundering Plains" />
-    <string id="Settlements.Settlement.name.castle_village_KT3_1" text="Great Youkai Forest 1" />
+    <string id="Settlements.Settlement.name.castle_village_KT3_1" text="Old Falling Maple Path" />
     <string id="Settlements.Settlement.text.castle_village_KT3_1" text="Rice Fields" />
-    <string id="Settlements.Settlement.name.castle_village_KT3_2" text="Great Youkai Forest 2" />
+    <string id="Settlements.Settlement.name.castle_village_KT3_2" text="Shady Grove" />
     <string id="Settlements.Settlement.text.castle_village_KT3_2" text="Grainfall Town" />
-    <string id="Settlements.Settlement.name.castle_village_KT4_1" text="Evil-sealing Castle 1" />
+    <string id="Settlements.Settlement.name.castle_village_KT4_1" text="Lake Shinji" />
     <string id="Settlements.Settlement.text.castle_village_KT4_1" text="Lake Shinji" />
-    <string id="Settlements.Settlement.name.castle_village_KT4_2" text="Evil-sealing Castle 2" />
+    <string id="Settlements.Settlement.name.castle_village_KT4_2" text="Mountain Manor" />
     <string id="Settlements.Settlement.text.castle_village_KT4_2" text="Eclipse" />
-    <string id="Settlements.Settlement.name.castle_village_KT5_1" text="Untrodden Valley 1" />
+    <string id="Settlements.Settlement.name.castle_village_KT5_1" text="Camouflage Cave" />
     <string id="Settlements.Settlement.text.castle_village_KT5_1" text="Echoing Bamboo Forest" />
-    <string id="Settlements.Settlement.name.castle_village_KT5_2" text="Untrodden Valley 2" />
+    <string id="Settlements.Settlement.name.castle_village_KT5_2" text="Abandoned Factory" />
     <string id="Settlements.Settlement.text.castle_village_KT5_2" text="Velvet Cave" />
-    <string id="Settlements.Settlement.name.castle_village_KT6_1" text="False Heaven Shelf 1" />
+    <string id="Settlements.Settlement.name.castle_village_KT6_1" text="Meadow" />
     <string id="Settlements.Settlement.text.castle_village_KT6_1" text="Valley of Autumn" />
-    <string id="Settlements.Settlement.name.castle_village_KT6_2" text="False Heaven Shelf 2" />
+    <string id="Settlements.Settlement.name.castle_village_KT6_2" text="Glacier" />
     <string id="Settlements.Settlement.text.castle_village_KT6_2" text="Night Ridge" />
-    <string id="Settlements.Settlement.name.castle_village_KT7_1" text="Wind God's Gate 1" />
+    <string id="Settlements.Settlement.name.castle_village_KT7_1" text="Valley of Autumn's Arrival" />
     <string id="Settlements.Settlement.text.castle_village_KT7_1" text="Wind God's Gate 1" />
-    <string id="Settlements.Settlement.name.castle_village_KT7_2" text="Wind God's Gate 2" />
+    <string id="Settlements.Settlement.name.castle_village_KT7_2" text="Eclipse Ridge" />
     <string id="Settlements.Settlement.text.castle_village_KT7_2" text="Wind God's Gate 2" />
-    <string id="Settlements.Settlement.name.castle_village_KT8_1" text="Thousand Wolves' Post 1" />
+    <string id="Settlements.Settlement.name.castle_village_KT8_1" text="Momiji's Rock" />
     <string id="Settlements.Settlement.text.castle_village_KT8_1" text="Kabuki" />
-    <string id="Settlements.Settlement.name.castle_village_KT8_2" text="Thousand Wolves' Post 2" />
+    <string id="Settlements.Settlement.name.castle_village_KT8_2" text="Signal Fire Station" />
     <string id="Settlements.Settlement.text.castle_village_KT8_2" text="Wolf Smoke Station" />
-    <string id="Settlements.Settlement.name.village_KT1_1" text="Great Tengu Fortress 1" />
+    <string id="Settlements.Settlement.name.village_KT1_1" text="Yamabushi Printing Press" />
     <string id="Settlements.Settlement.text.village_KT1_1" text="Ninety-Nine Mountains" />
-    <string id="Settlements.Settlement.name.village_KT1_2" text="Great Tengu Fortress 2" />
+    <string id="Settlements.Settlement.name.village_KT1_2" text="Mountain Valley's Book Stand" />
     <string id="Settlements.Settlement.text.village_KT1_2" text="Celestial Peach-Tree Town" />
-    <string id="Settlements.Settlement.name.village_KT1_3" text="Great Tengu Fortress 3" />
+    <string id="Settlements.Settlement.name.village_KT1_3" text="Kakashi Spirit News Headquarters" />
     <string id="Settlements.Settlement.text.village_KT1_3" text="Bean Market" />
-    <string id="Settlements.Settlement.name.village_KT2_1" text="Bhava-agra 1" />
+    <string id="Settlements.Settlement.name.village_KT2_1" text="House in the Clouds" />
     <string id="Settlements.Settlement.text.village_KT2_1" text="Tengu Newspaper Agency" />
-    <string id="Settlements.Settlement.name.village_KT2_2" text="Bhava-agra 2" />
+    <string id="Settlements.Settlement.name.village_KT2_2" text="Meteorological Court" />
     <string id="Settlements.Settlement.text.village_KT2_2" text="Foggy Hill" />
     <string id="Settlements.Settlement.name.village_KT2_3" text="Keystone Remains" />
     <string id="Settlements.Settlement.text.village_KT2_3" text="Keystone Remains" />
-    <string id="Settlements.Settlement.name.village_KT5_5" text="Kyuuten Shrine 5" />
-    <string id="Settlements.Settlement.name.village_KT3_1" text="Secret Heaven Cliff 1" />
+    <string id="Settlements.Settlement.name.village_KT5_5" text="Mount Ōmine" />
+    <string id="Settlements.Settlement.name.village_KT3_1" text="Hidden Wood" />
     <string id="Settlements.Settlement.text.village_KT3_1" text="Shiraemachi" />
-    <string id="Settlements.Settlement.name.village_KT3_2" text="Secret Heaven Cliff 2" />
+    <string id="Settlements.Settlement.name.village_KT3_2" text="Green Cyclone" />
     <string id="Settlements.Settlement.text.village_KT3_2" text="Kinōchō" />
-    <string id="Settlements.Settlement.name.village_KT3_3" text="Secret Heaven Cliff 3" />
+    <string id="Settlements.Settlement.name.village_KT3_3" text="Yamashiro's Trading Market" />
     <string id="Settlements.Settlement.text.village_KT3_3" text="Umichō" />
-    <string id="Settlements.Settlement.name.village_KT5_6" text="Kyuuten Shrine 6" />
-    <string id="Settlements.Settlement.name.village_KT4_1" text="Waterfall of Nine Heavens 1" />
+    <string id="Settlements.Settlement.name.village_KT5_6" text="Mount Iizuna" />
+    <string id="Settlements.Settlement.name.village_KT4_1" text="Waterfall Rapids" />
     <string id="Settlements.Settlement.text.village_KT4_1" text="Waterfall Rapids" />
-    <string id="Settlements.Settlement.name.village_KT4_2" text="Waterfall of Nine Heavens 2" />
+    <string id="Settlements.Settlement.name.village_KT4_2" text="Kurama Tabloid Press" />
     <string id="Settlements.Settlement.text.village_KT4_2" text="Eclipse" />
-    <string id="Settlements.Settlement.name.village_KT4_3" text="Waterfall of Nine Heavens 3" />
+    <string id="Settlements.Settlement.name.village_KT4_3" text="Shrine" />
     <string id="Settlements.Settlement.text.village_KT4_3" text="Aya-no-Tsuzumi" />
-    <string id="Settlements.Settlement.name.village_KT4_4" text="Waterfall of Nine Heavens 4" />
+    <string id="Settlements.Settlement.name.village_KT4_4" text="Mount Shiramine" />
     <string id="Settlements.Settlement.text.village_KT4_4" text="Woven Silk" />
-    <string id="Settlements.Settlement.name.village_KT5_1" text="Kyuuten Shrine 1" />
+    <string id="Settlements.Settlement.name.village_KT5_1" text="Mount Atago" />
     <string id="Settlements.Settlement.text.village_KT5_1" text="Ikujima" />
-    <string id="Settlements.Settlement.name.village_KT5_2" text="Kyuuten Shrine 2" />
+    <string id="Settlements.Settlement.name.village_KT5_2" text="Mount Hidehiko" />
     <string id="Settlements.Settlement.text.village_KT5_2" text="Heavenly Pillar" />
-    <string id="Settlements.Settlement.name.village_KT5_3" text="Kyuuten Shrine 3" />
+    <string id="Settlements.Settlement.name.village_KT5_3" text="Mount Hira" />
     <string id="Settlements.Settlement.text.village_KT5_3" text="Scattered Blood" />
-    <string id="Settlements.Settlement.name.village_KT5_4" text="Kyuuten Shrine 4" />
+    <string id="Settlements.Settlement.name.village_KT5_4" text="Mount Sagami" />
     <string id="Settlements.Settlement.text.village_KT5_4" text="Break Away" />
     <string id="Settlements.Settlement.name.castle_village_UW1_1" text="Bucket Dropping Hollows" />
     <string id="Settlements.Settlement.text.castle_village_UW1_1" text="Bucket Dropping Hollows" />
@@ -633,7 +633,7 @@
     <string id="Settlements.Settlement.text.village_UW4_3" text="Mind-reading Town" />
     <string id="Settlements.Settlement.name.village_UW4_4" text="Unfamiliar Grounds" />
     <string id="Settlements.Settlement.text.village_UW4_4" text="Unfamiliar Grounds" />
-    <string id="Settlements.Settlement.name.village_UW5_1" text="Saltpeter Streets" />
+    <string id="Settlements.Settlement.name.village_UW5_1" text="Glass Flower Streets" />
     <string id="Settlements.Settlement.text.village_UW5_1" text="Saltpeter Streets" />
     <string id="Settlements.Settlement.name.village_UW5_2" text="Gravel Pit" />
     <string id="Settlements.Settlement.text.village_UW5_2" text="Gravel Pit" />

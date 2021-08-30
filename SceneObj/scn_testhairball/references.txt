@@ -1,0 +1,12 @@
+11
+mesh editor_plane_low
+texture cg_50c_5b
+texture desert_floor_a
+texture desert_floor_b
+texture desert_floor_b_h
+texture desert_floor_b_n
+texture desert_floor_b_s
+texture lens_dirt
+texture lens_star
+texture semi_cloudy_2
+texture sun_core2

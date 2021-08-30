@@ -1,0 +1,30 @@
+<prefabs>
+	<game_entity name="map_youkai_watchtower" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_battania_arena_tower">
+		<flags>
+			<flag name="lod" value="10"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.061, 0.061, 0.061"/>
+		<physics shape="bo_battania_arena_tower" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="battania_arena_tower">
+				<mesh name="battania_arena_tower.0" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.1" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.2" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.5" material="stone_wall_5"/>
+				<mesh name="battania_arena_tower.lod3.0" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.lod3.1" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.lod3.2" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.lod3.5" material="stone_wall_5"/>
+				<mesh name="battania_arena_tower.lod4.0" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.lod4.1" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.lod4.2" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.lod4.5" material="stone_wall_5"/>
+				<mesh name="battania_arena_tower.lod5.0" material="th_tiled_roof"/>
+				<mesh name="battania_arena_tower.lod5.1" material="stone_white_a"/>
+				<mesh name="battania_arena_tower.lod5.2" material="planks_1"/>
+				<mesh name="battania_arena_tower.lod5.3" material="stone_white_a"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+</prefabs>
+

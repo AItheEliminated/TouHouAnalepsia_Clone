@@ -34,6 +34,8 @@
 
 ##### 方案B：克隆到一个外部目录，然后创建一个符号链接
 
+*（如果你要经常编辑场景的话，建议采用方案 A，使用方案 B在地图编辑器中启动测试时可能会遇到 Bug。）*
+
 出于各种原因，你可能不想把一个大垃圾堆直接放到游戏盘内，你可以通过符号链接做到这一点。将项目克隆到一个你想存放它的地方，然后以管理员权限启动CMD窗口，并执行*mklink /D "\[砍二Module目录的路径\]/TouhouAnalepsia" "\[仓库路径\]"*
 
 <img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/clone3.png" />
@@ -73,5 +75,7 @@
 <img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/sp2.png" />
 
 就这些，用你最爱的IDE打开*TouhouAnalepsia.sln*后就可以搬砖了，你可以在IDE中启动运行砍二，在编译时生成的DLL会被自动复制入Mod的bin目录内。
+
+*给Visual Studio Code用户的提示：你需要将UserSettings.props中的VSCode一项改为true，然后把Sources/.vscode目录中的两个以.json.template为后缀的文件各复制一份并去掉.template后缀，其中tasks.json是开箱即用的构建方案；launch.json是启动方案的模板，需要你补充砍二EXE位置和EXE所在目录。*
 
 *给JetBrains Rider用户的提示：（验证于2018.2版）不要直接将项目克隆到砍二Module目录中，由于砍二目录中包含有 &号，Rider在初始化项目时会报错，你会看到类似于'Error executing the AssignProjectConfiguration task'的错误提示。此外，你得自己手动配置启动方案。还有一个问题是项目引用的砍二DLL不会显示在左侧列表中，不过不影响正常使用。*

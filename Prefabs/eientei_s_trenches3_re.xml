@@ -1,0 +1,12 @@
+<prefabs>
+	<game_entity season_mask="255" old_prefab_name="" name="eientei_s_trenches3">
+		<components>
+			<meta_mesh_component name="eientei_s_trenches3">
+				<mesh material="woodsection_a_burned" name="eientei_s_trenches3.0"/>
+			</meta_mesh_component>
+		</components>
+		<physics mass="1.000" shape="bo_eientei_s_trenches3"/>
+		<transform scale="0.821, 1.271, 0.821" rotation_euler="0.000, 0.000, 0.000" position="220.052, 231.263, 2.395"/>
+	</game_entity>
+</prefabs>
+

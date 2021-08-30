@@ -4,47 +4,47 @@
     <tag language="English" />
   </tags>
   <strings>
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_0" text=" the Knowing" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_1" text=" the Hawk" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_2" text=" the Fatherless" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_3" text=" Ironeye" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_4" text=" the Outcast" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_5" text=" the Mad" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_6" text=" the Grey Falcon" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_7" text=" the She-Wolf" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_8" text=" the Alone" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_9" text=" the Swift" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_10" text=" the Ragged" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_0" text=" the Scholar" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_1" text=" the Bull" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_2" text=" the Silent" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_3" text=" the Boar" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_4" text=" the Robber" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_5" text=" the Butcher" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_6" text=" of the Hills" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_7" text=" the Wanderer" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_8" text=" the Wronged" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_9" text=" the Black" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_10" text=" the Surgeon" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_11" text=" the Wronged" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_0" text=" the Scholar" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_1" text=" the Golden" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_2" text=" the Falcon" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_3" text=" the Swordsman" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_4" text=" the Prince" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_5" text=" the Hyena" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_6" text=" of the Wastes" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_7" text=" the Wanderer" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_8" text=" the Spicevendor" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_9" text=" the Leopardess" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_10" text=" the Engineer" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_0" text="{HERO.FIRSTNAME} the Magician" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_1" text="{HERO.FIRSTNAME} the Maid" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_2" text="{HERO.FIRSTNAME} of the Lost" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_3" text="{HERO.FIRSTNAME} the Human" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_4" text="{HERO.FIRSTNAME} of the Shrine" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_5" text="{HERO.FIRSTNAME} the Disciple" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_6" text="{HERO.FIRSTNAME} the Priestess" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_7" text="{HERO.FIRSTNAME} the Maiden" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_8" text="{HERO.FIRSTNAME} the Youkai Exterminator" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_9" text="{HERO.FIRSTNAME} the Drunk" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_human_10" text="{HERO.FIRSTNAME} of the Human Village" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_0" text="{HERO.FIRSTNAME} the Beast" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_1" text="{HERO.FIRSTNAME} the Hermit" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_2" text="{HERO.FIRSTNAME} the Horned" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_3" text="{HERO.FIRSTNAME} the Phantom" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_4" text="{HERO.FIRSTNAME} the Horror" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_5" text="{HERO.FIRSTNAME} of Hell" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_6" text="{HERO.FIRSTNAME} the Soldier" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_7" text="{HERO.FIRSTNAME} Man-Eater" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_8" text="{HERO.FIRSTNAME} the Hidden" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_9" text="{HERO.FIRSTNAME} the Inhuman" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_10" text="{HERO.FIRSTNAME} the Animal" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_youkai_11" text="{HERO.FIRSTNAME} the Gatekeeper" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_0" text="{HERO.FIRSTNAME} Moon" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_1" text="{HERO.FIRSTNAME} Ruby" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_2" text="{HERO.FIRSTNAME} Emerald" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_3" text="{HERO.FIRSTNAME} Dazzle" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_4" text="{HERO.FIRSTNAME} Twinkle" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_5" text="{HERO.FIRSTNAME} Joy" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_6" text="{HERO.FIRSTNAME} Midsummer" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_7" text="{HERO.FIRSTNAME} Spring" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_8" text="{HERO.FIRSTNAME}" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_9" text="{HERO.FIRSTNAME} Dew" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_wanderer_fairy_10" text="{HERO.FIRSTNAME} Breeze" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_merchant_1" text="Cautious human merchant" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_0b" text=" the Broker" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_1" text=" the Dyer" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_1b" text=" the Horsetrader" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_1c" text=" the Wineseller" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_2" text=" the Freedwoman" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_2b" text=" the Silkseller" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_0b" text="{HERO.FIRSTNAME} the Curio Seller" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_1" text="{HERO.FIRSTNAME} the Dyer" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_1b" text="{HERO.FIRSTNAME} the Horsetrader" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_1c" text="{HERO.FIRSTNAME} the Wineseller" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_2" text="{HERO.FIRSTNAME} the Pharmacist" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_2b" text="{HERO.FIRSTNAME} the Silkseller" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_3" text="human shaman" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_human_4" text="Female preacher" />
     <string id="NPCCharacters.NPCCharacter.name.spc_human_gangleader_1" text="Female gang leader" />
@@ -61,10 +61,10 @@
     <string id="NPCCharacters.NPCCharacter.name.spc_human_headman_2" text="human conservative headman" />
     <string id="NPCCharacters.NPCCharacter.name.spc_human_headman_3" text="human devious headman" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_0" text="Cautious imperial merchant" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_0b" text=" the Vintner" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_0b" text="{HERO.FIRSTNAME} the Vintner" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_1" text="youkai merchant 3, ruthless" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_1b" text="Cold imperial merchant" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_2" text=" the Saltpanner" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_2" text="{HERO.FIRSTNAME} the Saltpanner" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_2b" text="youkai merchant 6, cautious" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_3" text="youkai merchant 7, selfmade" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_youkai_3b" text="youkai merchant 8, jocular" />
@@ -88,14 +88,14 @@
     <string id="NPCCharacters.NPCCharacter.name.spc_youkai_headman_1" text="youkai rebellious headman" />
     <string id="NPCCharacters.NPCCharacter.name.spc_youkai_headman_2" text="youkai conservative headman" />
     <string id="NPCCharacters.NPCCharacter.name.spc_youkai_headman_3" text="youkai devious headman" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_0" text=" the Dateseller" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_0b" text=" the Minter" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_1" text=" the Coppermonger" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_1b" text=" the Incensemonger" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_2" text=" the Woolseller" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_2b" text=" the Appraiser" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_3" text=" the Caravanser" />
-    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_3b" text=" the Benefactor" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_0" text="{HERO.FIRSTNAME} the Dateseller" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_0b" text="{HERO.FIRSTNAME} the Minter" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_1" text="{HERO.FIRSTNAME} the Coppermonger" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_1b" text="{HERO.FIRSTNAME} the Incensemonger" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_2" text="{HERO.FIRSTNAME} the Woolseller" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_2b" text="{HERO.FIRSTNAME} the Appraiser" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_3" text="{HERO.FIRSTNAME} the Caravanser" />
+    <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_3b" text="{HERO.FIRSTNAME} the Benefactor" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_4" text="fairy rebellious preacher" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_5" text="fairy fire-and-brimstone preacher" />
     <string id="NPCCharacters.NPCCharacter.name.spc_notable_fairy_6" text="fairy female preacher" />

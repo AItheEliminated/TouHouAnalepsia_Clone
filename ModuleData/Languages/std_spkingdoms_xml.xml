@@ -4,21 +4,21 @@
     <tag language="English" />
   </tags>
   <strings>
-    <string id="Kingdoms.Kingdom.hakurei_shrine.name" text="Hakurei Shrine" />
-    <string id="Kingdoms.Kingdom.hakurei_shrine.title" text="Hakurei Shrine" />
-    <string id="Kingdoms.Kingdom.hakurei_shrine.ruler_title" text="Shrine Maiden" />
-    <string id="Kingdoms.Kingdom.human_city.name" text="Human City" />
-    <string id="Kingdoms.Kingdom.eientei.name" text="Eientei" />
-    <string id="Kingdoms.Kingdom.scarlet_empire.name" text="Scarlet Empire" />
-    <string id="Kingdoms.Kingdom.scarlet_empire.ruler_title" text="Emperor" />
-    <string id="Kingdoms.Kingdom.misty_empire.name" text="Mistylake Empire" />
-    <string id="Kingdoms.Kingdom.misty_empire.ruler_title" text="Emperor" />
-    <string id="Kingdoms.Kingdom.anokuni.name" text="Amanojaku no Kuni" />
-    <string id="Kingdoms.Kingdom.kyuutaki.name" text="Kyuuten no Taki" />
-    <string id="Kingdoms.Kingdom.underworld.name" text="Underworld" />
-    <string id="Kingdoms.Kingdom.netherworld.name" text="Netherworld" />
-    <string id="Kingdoms.Kingdom.shogunate.name" text="Shogunate of the Gods" />
-    <string id="Kingdoms.Kingdom.shogunate.short_name" text="Shogunate" />
-    <string id="Kingdoms.Kingdom.shogunate.ruler_title" text="Shogun" />
+    <string id="Kingdoms.Kingdom.name.hakurei_shrine" text="Hakurei Shrine" />
+    <string id="Kingdoms.Kingdom.title.hakurei_shrine" text="Hakurei Shrine" />
+    <string id="Kingdoms.Kingdom.ruler_title.hakurei_shrine" text="Shrine Maiden" />
+    <string id="Kingdoms.Kingdom.name.human_city" text="Human City" />
+    <string id="Kingdoms.Kingdom.name.eientei" text="Eientei" />
+    <string id="Kingdoms.Kingdom.name.scarlet_empire" text="Scarlet Empire" />
+    <string id="Kingdoms.Kingdom.ruler_title.scarlet_empire" text="Emperor" />
+    <string id="Kingdoms.Kingdom.name.misty_empire" text="Great Fairy Alliance" />
+    <string id="Kingdoms.Kingdom.ruler_title.misty_empire" text="Emperor" />
+    <string id="Kingdoms.Kingdom.name.anokuni" text="Amanojaku no Kuni" />
+    <string id="Kingdoms.Kingdom.name.kyuutaki" text="Mountain of Heaven" />
+    <string id="Kingdoms.Kingdom.name.underworld" text="Underworld" />
+    <string id="Kingdoms.Kingdom.name.netherworld" text="Netherworld" />
+    <string id="Kingdoms.Kingdom.name.shogunate" text="Mountain of Faith" />
+    <string id="Kingdoms.Kingdom.short_name.shogunate" text="Shogunate" />
+    <string id="Kingdoms.Kingdom.ruler_title.shogunate" text="Shogun" />
   </strings>
 </base>

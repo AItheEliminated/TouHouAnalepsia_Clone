@@ -185,10 +185,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="5" />
       <skill id="Throwing" value="5" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.human_tribal_warrior" />
-      <upgrade_target id="NPCCharacter.human_footman" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
@@ -230,10 +226,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="5" />
       <skill id="Throwing" value="10" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.youkai_infantryman" />
-      <upgrade_target id="NPCCharacter.youkai_archer" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.peasant_pitchfork_2_t1" />
@@ -274,10 +266,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Crossbow" value="0" />
       <skill id="Throwing" value="5" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.fairy_tribesman" />
-      <upgrade_target id="NPCCharacter.fairy_mameluke_soldier" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.aserai_sword_2_t2" />
@@ -767,7 +755,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
     </skills>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="guard_human" default_group="Infantry" level="4" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.guard_human}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+  <NPCCharacter id="guard_human" default_group="Infantry" level="4" culture="Culture.human" is_hidden_encyclopedia="TRUE" name="{=NPCCharacters.NPCCharacter.name.guard_human}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -779,12 +767,9 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Bow" value="50" />
       <skill id="Throwing" value="50" />
     </skills>
-    <Traits>
-      <Trait id="HiddenInEncyclopedia" value="1" />
-    </Traits>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="guard_youkai" default_group="Infantry" level="21" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.guard_youkai}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
+  <NPCCharacter id="guard_youkai" default_group="Infantry" level="21" culture="Culture.youkai" is_hidden_encyclopedia="TRUE" name="{=NPCCharacters.NPCCharacter.name.guard_youkai}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -796,12 +781,9 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Bow" value="50" />
       <skill id="Throwing" value="50" />
     </skills>
-    <Traits>
-      <Trait id="HiddenInEncyclopedia" value="1" />
-    </Traits>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="guard_fairy" default_group="Infantry" level="21" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.guard_fairy}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
+  <NPCCharacter id="guard_fairy" default_group="Infantry" level="21" culture="Culture.fairy" is_hidden_encyclopedia="TRUE" name="{=NPCCharacters.NPCCharacter.name.guard_fairy}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -813,9 +795,6 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <skill id="Bow" value="50" />
       <skill id="Throwing" value="50" />
     </skills>
-    <Traits>
-      <Trait id="HiddenInEncyclopedia" value="1" />
-    </Traits>
     <Equipments />
   </NPCCharacter>
   <NPCCharacter id="steward_human" default_group="Infantry" level="21" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.steward_human}Judge" occupation="Judge">
@@ -1256,6 +1235,3173 @@ If you want to use this tool yourself for you own project, you can find it at ht
   <NPCCharacter id="townsman_fairy" default_group="Infantry" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.townsman_fairy}Townsman" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="human_noble_son" default_group="HorseArcher" level="11" is_basic_troop="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.human_noble_son}Human Noble's Son" occupation="Soldier" upgrade_requires="ItemCategory.horse">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="55" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="5" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="youkai_vigla_recruit" default_group="Infantry" level="11" is_basic_troop="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.youkai_vigla_recruit}Youkai Vigla Recruit" occupation="Soldier">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="5" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="5" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fairy_youth" default_group="Cavalry" level="11" is_basic_troop="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fairy_youth}Fairy Youth" occupation="Soldier" upgrade_requires="ItemCategory.horse">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="15" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="5" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="human_militia_archer" default_group="Ranged" level="11" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.human_militia_archer}Human Militia Archer" occupation="Soldier" skill_template="NPCCharacter.ranged_skirmisher_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="youkai_militia_archer" default_group="Ranged" level="11" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.youkai_militia_archer}Youkai Militia Archer" occupation="Soldier" skill_template="NPCCharacter.ranged_skirmisher_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fairy_militia_archer" default_group="Ranged" level="11" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fairy_militia_archer}Fairy Militia Archer" occupation="Soldier" skill_template="NPCCharacter.ranged_skirmisher_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="human_militia_veteran_archer" default_group="Ranged" level="21" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.human_militia_veteran_archer}Human Militia Veteran Archer" occupation="Soldier" skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="youkai_militia_veteran_archer" default_group="Ranged" level="21" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.youkai_militia_veteran_archer}Youkai Militia Veteran Archer" occupation="Soldier" skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fairy_militia_veteran_archer" default_group="Ranged" level="21" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fairy_militia_veteran_archer}Fairy Militia Veteran Archer" occupation="Soldier" skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="human_militia_spearman" default_group="Infantry" level="11" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.human_militia_spearman}Human Militia Spearman" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="youkai_militia_spearman" default_group="Infantry" level="11" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.youkai_militia_spearman}Youkai Militia Spearman" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fairy_militia_spearman" default_group="Infantry" level="11" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fairy_militia_spearman}Fairy Militia Spearman" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="human_militia_veteran_spearman" default_group="Infantry" level="21" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.human_militia_veteran_spearman}Human Militia Veteran Spearman" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="youkai_militia_veteran_spearman" default_group="Infantry" level="21" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.youkai_militia_veteran_spearman}Youkai Militia Veteran Spearman" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="fairy_militia_veteran_spearman" default_group="Infantry" level="21" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.fairy_militia_veteran_spearman}Fairy Militia Veteran Spearman" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.fighter_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_infant_human" default_group="Infantry" age="3" is_hero="false" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.townswoman_infant_human}Infant" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_infant_youkai" default_group="Infantry" age="3" is_hero="false" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.townswoman_infant_youkai}Infant" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_infant_fairy" default_group="Infantry" age="3" is_hero="false" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.townswoman_infant_fairy}Infant" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_child_human" default_group="Infantry" age="6" is_hero="false" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.townswoman_child_human}Child" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_child_youkai" default_group="Infantry" age="6" is_hero="false" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.townswoman_child_youkai}Child" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_child_fairy" default_group="Infantry" age="6" is_hero="false" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.townswoman_child_fairy}Child" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_teenager_human" default_group="Infantry" age="14" is_hero="false" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.townswoman_teenager_human}Teenager" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_teenager_youkai" default_group="Infantry" age="14" is_hero="false" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.townswoman_teenager_youkai}Teenager" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_teenager_fairy" default_group="Infantry" age="14" is_hero="false" is_female="false" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.townswoman_teenager_fairy}Teenager" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_infant_human" default_group="Infantry" age="6" is_hero="false" is_female="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.townsman_infant_human}Child" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_infant_youkai" default_group="Infantry" age="3" is_hero="false" is_female="false" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.townsman_infant_youkai}Infant" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_infant_fairy" default_group="Infantry" age="3" is_hero="false" is_female="false" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.townsman_infant_fairy}Infant" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_child_human" default_group="Infantry" age="6" is_hero="false" is_female="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.townsman_child_human}Child" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_child_youkai" default_group="Infantry" age="6" is_hero="false" is_female="false" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.townsman_child_youkai}Child" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_child_fairy" default_group="Infantry" age="6" is_hero="false" is_female="false" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.townsman_child_fairy}Child" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_teenager_human" default_group="Infantry" age="14" is_hero="false" is_female="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.townsman_teenager_human}Teenager" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_teenager_youkai" default_group="Infantry" age="14" is_hero="false" is_female="false" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.townsman_teenager_youkai}Teenager" occupation="Townsfolk" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_teenager_fairy" default_group="Infantry" age="14" is_hero="false" is_female="false" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.townsman_teenager_fairy}Teenager" occupation="Townsfolk">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_infant_human" default_group="Infantry" age="3" is_hero="false" is_female="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.villager_infant_human}Infant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_infant_youkai" default_group="Infantry" age="3" is_hero="false" is_female="false" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.villager_infant_youkai}Infant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_infant_fairy" default_group="Infantry" age="3" is_hero="false" is_female="false" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.villager_infant_fairy}Infant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_child_human" default_group="Infantry" age="6" is_hero="false" is_female="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.villager_child_human}Child" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_child_youkai" default_group="Infantry" age="6" is_hero="false" is_female="false" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.villager_child_youkai}Child" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_child_fairy" default_group="Infantry" age="6" is_hero="false" is_female="false" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.villager_child_fairy}Child" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_teenager_human" default_group="Infantry" age="14" is_hero="false" is_female="false" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.villager_teenager_human}Teenager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_teenager_youkai" default_group="Infantry" age="14" is_hero="false" is_female="false" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.villager_teenager_youkai}Teenager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_teenager_fairy" default_group="Infantry" age="14" is_hero="false" is_female="false" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.villager_teenager_fairy}Teenager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_infant_human" default_group="Infantry" age="3" is_hero="false" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.village_woman_infant_human}Infant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_infant_youkai" default_group="Infantry" age="3" is_hero="false" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.village_woman_infant_youkai}Infant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_infant_fairy" default_group="Infantry" age="6" is_hero="false" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.village_woman_infant_fairy}Infant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_child_human" default_group="Infantry" age="6" is_hero="false" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.village_woman_child_human}Child" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_child_youkai" default_group="Infantry" age="6" is_hero="false" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.village_woman_child_youkai}Child" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_child_fairy" default_group="Infantry" age="6" is_hero="false" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.village_woman_child_fairy}Child" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_teenager_human" default_group="Infantry" age="14" is_hero="false" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.village_woman_teenager_human}Teenager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_teenager_youkai" default_group="Infantry" age="14" is_hero="false" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.village_woman_teenager_youkai}Teenager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_teenager_fairy" default_group="Infantry" age="14" is_hero="false" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.village_woman_teenager_fairy}Teenager" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_human" default_group="Infantry" level="1" is_female="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.village_woman_human}Human Peasant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_human" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_youkai" default_group="Infantry" level="1" is_female="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.village_woman_youkai}Youkai Peasant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_youkai" />
+      <hair_tags>
+        <hair_tag name="Bobbed" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+      </hair_tags>
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.burlap_waistcoat" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_fairy" default_group="Infantry" level="1" is_female="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.village_woman_fairy}fairy Peasant" occupation="Villager" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_fairy" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
