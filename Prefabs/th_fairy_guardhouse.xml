@@ -1,0 +1,270 @@
+<prefabs>
+	<game_entity name="th_fairy_guardhouse" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_fairy_s_banyan3"/>
+		<components>
+			<meta_mesh_component name="fairy_s_banyan3"/>
+		</components>
+		<children>
+			<game_entity name="th_fairy_s_banyan3" old_prefab_name="">
+				<transform position="0.568, -6.544, -0.009"/>
+				<physics shape="bo_fairy_s_banyan3"/>
+				<components>
+					<meta_mesh_component name="fairy_s_banyan3"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_fairy_s_banyan3" old_prefab_name="">
+				<transform position="-4.840, 0.412, -0.009" rotation_euler="0.000, 0.000, 2.533"/>
+				<physics shape="bo_fairy_s_banyan3"/>
+				<components>
+					<meta_mesh_component name="fairy_s_banyan3"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_fairy_s_banyan3" old_prefab_name="">
+				<transform position="-4.715, -6.031, -0.009" rotation_euler="0.000, 0.000, -2.317"/>
+				<physics shape="bo_fairy_s_banyan3"/>
+				<components>
+					<meta_mesh_component name="fairy_s_banyan3"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-0.169, 0.539, 10.704"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-4.599, 0.525, 10.718"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="0.191, -0.669, 10.623" rotation_euler="0.000, 0.000, -1.531"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="0.255, -4.948, 10.572" rotation_euler="0.000, 0.000, 1.625"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-0.545, -6.104, 10.741"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-4.407, -6.249, 10.736"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-4.461, -5.348, 10.707" rotation_euler="0.000, 0.000, 1.590"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-4.618, -2.177, 10.632" rotation_euler="0.000, 0.000, 1.590"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-2.146, -1.203, 10.755"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-2.127, -3.093, 10.847"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-2.003, -4.617, 10.836"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_s_fence2" old_prefab_name="">
+				<transform position="1.174, 1.247, 10.759" rotation_euler="0.000, 0.000, -0.027" scale="1.500, 1.500, 1.500"/>
+				<physics shape="bo_th_s_fence2"/>
+				<components>
+					<meta_mesh_component name="th_s_fence2"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_s_fence2" old_prefab_name="">
+				<transform position="1.901, 0.596, 10.844" rotation_euler="0.000, 0.000, -1.514" scale="1.500, 1.500, 1.500"/>
+				<physics shape="bo_th_s_fence2"/>
+				<components>
+					<meta_mesh_component name="th_s_fence2"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_s_fence2" old_prefab_name="">
+				<transform position="-6.050, 1.258, 10.825" rotation_euler="0.000, 0.000, -0.003" scale="1.500, 1.500, 1.500"/>
+				<physics shape="bo_th_s_fence2"/>
+				<components>
+					<meta_mesh_component name="th_s_fence2"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_s_fence2" old_prefab_name="">
+				<transform position="-6.720, 0.575, 10.857" rotation_euler="0.000, 0.000, 1.605" scale="1.500, 1.500, 1.500"/>
+				<physics shape="bo_th_s_fence2"/>
+				<components>
+					<meta_mesh_component name="th_s_fence2"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_s_fence2" old_prefab_name="">
+				<transform position="-6.515, -6.316, 10.806" rotation_euler="0.000, 0.000, 1.576" scale="1.500, 1.500, 1.500"/>
+				<physics shape="bo_th_s_fence2"/>
+				<components>
+					<meta_mesh_component name="th_s_fence2"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_s_fence2" old_prefab_name="">
+				<transform position="-5.702, -7.041, 10.866" rotation_euler="0.000, 0.000, -3.099" scale="1.500, 1.500, 1.500"/>
+				<physics shape="bo_th_s_fence2"/>
+				<components>
+					<meta_mesh_component name="th_s_fence2"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_s_fence2" old_prefab_name="">
+				<transform position="0.816, -7.014, 10.881" rotation_euler="0.000, 0.000, -3.099" scale="1.500, 1.500, 1.500"/>
+				<physics shape="bo_th_s_fence2"/>
+				<components>
+					<meta_mesh_component name="th_s_fence2"/>
+				</components>
+			</game_entity>
+			<game_entity name="th_s_fence2" old_prefab_name="">
+				<transform position="1.577, -6.300, 10.881" rotation_euler="0.000, 0.000, -1.522" scale="1.500, 1.500, 1.500"/>
+				<physics shape="bo_th_s_fence2"/>
+				<components>
+					<meta_mesh_component name="th_s_fence2"/>
+				</components>
+			</game_entity>
+			<game_entity name="rope_stealth_mission_b" old_prefab_name="">
+				<transform position="0.577, -3.896, 10.626" rotation_euler="0.000, 0.000, -0.579"/>
+				<components>
+					<meta_mesh_component name="rope_stealth_mission_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_04" old_prefab_name="">
+				<transform position="0.329, -0.446, 8.315" rotation_euler="0.000, 0.000, 1.709"/>
+				<components>
+					<meta_mesh_component name="ivy_european_04"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_05" old_prefab_name="">
+				<transform position="-1.519, -6.641, 8.641"/>
+				<components>
+					<meta_mesh_component name="ivy_european_05"/>
+				</components>
+			</game_entity>
+			<game_entity name="arrow_barrel" old_prefab_name="" mobility="1">
+				<transform position="-1.935, -2.906, 10.986"/>
+				<physics shape="bo_arrow_barrel"/>
+				<components>
+					<meta_mesh_component name="arrow_barrel"/>
+				</components>
+				<scripts>
+					<script name="ArrowBarrel">
+						<variables>
+							<variable name="PilotStandingPointTag" value="Pilot"/>
+							<variable name="AmmoPickUpTag" value="ammopickup"/>
+							<variable name="WaitStandingPointTag" value="Wait"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="icon_man" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-0.005, 0.030, 0.008" rotation_euler="0.000, 0.000, 0.065"/>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="WaypointTag" value="aiwaypoint"/>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="aserai_castle_tower_roof" old_prefab_name="">
+				<transform position="-2.505, -2.945, 10.986" rotation_euler="0.000, 0.000, 0.000" scale="0.726, 0.726, 1.848"/>
+				<children>
+					<game_entity name="aserai_castle_tower_roof_1" old_prefab_name="" occlusion_body_name="bo_occ_aserai_castle_tower_roof_1">
+						<physics shape="bo_aserai_castle_tower_roof_1"/>
+						<components>
+							<meta_mesh_component name="aserai_castle_tower_roof_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="aserai_castle_tower_roof_2" old_prefab_name="" occlusion_body_name="bo_occ_aserai_castle_tower_roof_2">
+						<physics shape="bo_aserai_castle_tower_roof_2"/>
+						<components>
+							<meta_mesh_component name="aserai_castle_tower_roof_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="aserai_castle_tower_roof_3" old_prefab_name="" occlusion_body_name="bo_occ_aserai_castle_tower_roof_3">
+						<physics shape="bo_aserai_castle_tower_roof_3"/>
+						<components>
+							<meta_mesh_component name="aserai_castle_tower_roof_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="aserai_castle_tower_roof_4" old_prefab_name="" occlusion_body_name="bo_occ_aserai_castle_tower_roof_4">
+						<physics shape="bo_aserai_castle_tower_roof_4"/>
+						<components>
+							<meta_mesh_component name="aserai_castle_tower_roof_4"/>
+						</components>
+					</game_entity>
+					<game_entity name="aserai_castle_tower_roof_5" old_prefab_name="">
+						<physics shape="bo_aserai_castle_tower_roof_5"/>
+						<components>
+							<meta_mesh_component name="aserai_castle_tower_roof_5"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="khuzait_ladder_wood_b" old_prefab_name="">
+				<transform position="-10.160, -10.645, -0.267"/>
+				<physics shape="bo_khuzait_ladder_wood_b" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="khuzait_ladder_wood_b"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

@@ -1,4 +1,4 @@
-548
+546
 mesh arabian_house_new_detail_window_b
 mesh arrow_new_icon
 mesh battania_arena_tower
@@ -454,7 +454,6 @@ prefab map_icons_production_cattle_farm_d
 prefab map_icons_production_claymine_e
 prefab map_icons_production_datefarm_d
 prefab map_icons_production_farm_flax_d
-prefab map_icons_production_farm_wheat_a
 prefab map_icons_production_farm_wheat_d
 prefab map_icons_production_fisherman_3
 prefab map_icons_production_flax_mesh_a
@@ -491,7 +490,6 @@ prefab terrain_desert_rock_a
 prefab terrain_desert_rock_c
 prefab terrain_rock_a
 prefab th_bridge
-prefab th_map_bamboo_tree_cluster
 prefab th_map_youkai_watchtower
 prefab town_circle_decal
 prefab volume_box
@@ -501,9 +499,9 @@ prefab waterfall_end
 texture TW_shaderdefaults_white
 texture ashes_a_n
 texture ashes_a_s
+texture cg_50c_5b
 texture cliff_c_h
 texture cliff_c_s
-texture color_grade_empire_harsh
 texture forest_a_h
 texture gensokyo1new
 texture gensokyo2
@@ -538,7 +536,7 @@ texture plowed_field_a_d
 texture plowed_field_a_h
 texture plowed_field_a_n
 texture plowed_field_a_s
-texture semi_cloudy_2
+texture semi_cloudy_5
 texture snow_a_s
 texture snow_b_d
 texture snow_b_h
