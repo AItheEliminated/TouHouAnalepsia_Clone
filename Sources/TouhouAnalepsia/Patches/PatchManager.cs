@@ -1,8 +1,10 @@
 ﻿using HarmonyLib;
+using StoryMode.CharacterCreationContent;
 using System;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.CharacterCreationContent;
 using TaleWorlds.CampaignSystem.Encyclopedia;
 using TaleWorlds.CampaignSystem.Encyclopedia.Pages;
 using TaleWorlds.CampaignSystem.ViewModelCollection.CharacterCreation;
@@ -27,12 +29,6 @@ namespace TouhouAnalepsia.Patches {
 
 
 			patchPrefix("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Prefix");
-
-			patchReturn("StoryMode.CharacterCreationContent.StoryModeCharacterCreationContent", "ChangeParentsOutfit");
-			patchReturn("StoryMode.CharacterCreationContent.StoryModeCharacterCreationContent", "ChangePlayerOutfit");
-			patchReturn("StoryMode.CharacterCreationContent.StoryModeCharacterCreationContent", "RefreshPropsAndClothing");
-			patchReturn("StoryMode.CharacterCreationContent.StoryModeCharacterCreationContent", "ApplyEquipments");
-			patchReturn("StoryMode.CharacterCreationContent.StoryModeCharacterCreationContent", "ApplyBrotherClothingAndEquipment");
 		}
 		static bool Prefix(UIntPtr scenePointer, int navMeshFace, ref Vec3 centerPos) {
 			if (navMeshFace>=0) return true;
@@ -69,6 +65,24 @@ namespace TouhouAnalepsia.Patches {
 				foreach (CodeInstruction instruction in instructions) {
 
 
+				}
+			}
+		}
+		[HarmonyPatch(typeof(CharacterCreationContentBase), "GetCultures", new Type[] { })]//TODO
+		public static class GetCulturesPatch {
+			static IEnumerable<CultureObject> Postfix(IEnumerable<CultureObject> values) {
+				foreach (CultureObject value in values) {
+					if(!FactionCulture.IsFactionCulture(value.StringId)) yield return value;
+				}
+			}
+		}
+		[HarmonyPatch(typeof(SandboxCharacterCreationContent), "OnCultureSelected", new Type[] { })]
+		[HarmonyPatch(typeof(StoryModeCharacterCreationContent), "OnCultureSelected", new Type[] { })]
+		public static class OnCultureSelectedPatch {
+			static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
+				foreach (CodeInstruction instruction in instructions) {
+					if (instruction.opcode.Equals(OpCodes.Ldc_I4_0)) instruction.opcode = OpCodes.Ldc_I4_1;
+					yield return instruction;
 				}
 			}
 		}

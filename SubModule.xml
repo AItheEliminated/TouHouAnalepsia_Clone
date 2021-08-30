@@ -126,5 +126,12 @@
 		<XmlNode>                
 			<XmlName id="Abilities" path="abilities"/>
 		</XmlNode>  
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="charcreation_equipment_sets"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode> 
 	</Xmls>
 </Module>
