@@ -12,6 +12,7 @@ using TouhouAnalepsia.CampaignSystem.Behaviors;
 using TouhouAnalepsia.Editor.FastScene;
 using TouhouAnalepsia.Editor.Playground;
 using Module = TaleWorlds.MountAndBlade.Module;
+using TouhouAnalepsia.Patches;
 
 namespace TouhouAnalepsia
 {
@@ -21,10 +22,10 @@ namespace TouhouAnalepsia
 
 		protected override void OnSubModuleLoad() {
 			base.OnSubModuleLoad();
-			Patches.Prepatch(); //For transpilers and whatnot, in case they need it.
+			PatchManager.Prepatch(); //For transpilers and whatnot, in case they need it.
 			HarmonyHandler.PatchAll();
 
-			Patches.DefaultPatches();
+			PatchManager.DefaultPatches();
 
 			//CampaignOptions.EnableCampaignTutorials = false;
 #if !DEBUG

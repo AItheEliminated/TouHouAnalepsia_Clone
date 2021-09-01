@@ -15,8 +15,8 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.ModuleManager;
 
-namespace TouhouAnalepsia {
-	class Patches {
+namespace TouhouAnalepsia.Patches {
+	class PatchManager {
 		public static void Prepatch() {
 
 		}
@@ -24,22 +24,22 @@ namespace TouhouAnalepsia {
 			//HarmonyHandler.patchPrefix("SandBox.View.Map.PartyVisual", "TaleWorlds.CampaignSystem.IPartyVisual.OnStartup", "TouhouAnalepsia.Patches", "DebugPatchPrefix");
 
 			//StoryMode patches
-			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod");
-			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnMainStoryLineSideChosen", "TouhouAnalepsia.Patches", "RemoveMethod");
-			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches", "RemoveMethod");
-			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "InitializeTutorial", "TouhouAnalepsia.Patches", "RemoveMethod");
-			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches", "RemoveMethod");
-			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnGameLoaded", "TouhouAnalepsia.Patches", "RemoveMethod");
-			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "RegisterEvents", "TouhouAnalepsia.Patches", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnMainStoryLineSideChosen", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.FirstPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "InitializeTutorial", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnStoryModeTutorialEnded", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "OnGameLoaded", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod");
+			HarmonyHandler.patchPrefix("StoryMode.Behaviors.TutorialPhaseCampaignBehavior", "RegisterEvents", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod");
 
 			//Various deletions
-			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.BackstoryCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches", "RemoveMethod"); //Makes reference to certain characters who now have their information removed from the files.
+			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.BackstoryCampaignBehavior", "OnNewGameCreated", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod"); //Makes reference to certain characters who now have their information removed from the files.
 																																														//HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.WorkshopsCampaignBehavior", "BuildWorkshopsAtGameStart", "TouhouAnalepsia.Patches", "RemoveMethod");
-			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.Source.TournamentGames.TournamentCampaignBehavior", "InitializeTournamentLeaderboard", "TouhouAnalepsia.Patches", "RemoveMethod");
+			HarmonyHandler.patchPrefix("TaleWorlds.CampaignSystem.SandBox.Source.TournamentGames.TournamentCampaignBehavior", "InitializeTournamentLeaderboard", "TouhouAnalepsia.Patches.PatchManager", "RemoveMethod");
 
-			//HarmonyHandler.patchFinalizer("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Finalizer");
-			HarmonyHandler.patchPrefix("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Prefix");
-			//HarmonyHandler.patchTranspiler("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches", "Transpiler");
+			//HarmonyHandler.patchFinalizer("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches.PatchManager", "Finalizer");
+			HarmonyHandler.patchPrefix("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches.PatchManager", "Prefix");
+			//HarmonyHandler.patchTranspiler("ManagedCallbacks.ScriptingInterfaceOfIScene", "GetNavMeshFaceCenterPosition", "TouhouAnalepsia.Patches.PatchManager", "Transpiler");
 
 		}
 		static Exception Finalizer(UIntPtr scenePointer, int navMeshFace, ref Vec3 centerPos, Exception __exception) {
