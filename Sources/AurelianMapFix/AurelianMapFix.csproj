@@ -3,8 +3,8 @@
 		<Platforms>x64</Platforms>
 		<Authors>Hinageshi Koubou</Authors>
 		<Copyright>Copyright © 2020</Copyright>
-		<PackageId>Bannerlord.GeneralModdingPatches</PackageId>
-		<AssemblyName>Bannerlord.GeneralModdingPatches</AssemblyName>
+		<PackageId>Aurelian.MapFix</PackageId>
+		<AssemblyName>Aurelian.MapFix</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>

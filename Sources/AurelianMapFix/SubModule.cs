@@ -6,11 +6,8 @@ using TaleWorlds.MountAndBlade;
 using TaleWorlds.Library;
 using System.Reflection;
 using System.IO;
-using TaleWorlds.Core;
-using System;
-using TaleWorlds.ModuleManager;
 
-namespace Bannerlord.GeneralModdingPatches {
+namespace Aurelian.MapFix {
 	public class SubModule : MBSubModuleBase {
 		protected static string ModulePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase.Remove(0, 8)) + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar;
 
@@ -27,14 +24,14 @@ namespace Bannerlord.GeneralModdingPatches {
 		protected override void OnSubModuleLoad() {
 			base.OnSubModuleLoad();
 
-			if (File.Exists(ModulePath + "GeneralModdingPatches_Config.txt")) {
-				string[] lines = File.ReadAllLines(ModulePath + "GeneralModdingPatches_Config.txt");
+			if (File.Exists(ModulePath + "MapFix.txt")) {
+				string[] lines = File.ReadAllLines(ModulePath + "MapFix.txt");
 				new_map_name = lines[0];
 			} else {
-				Debug.Print("There does not exist a config for GeneralModdingPatches at: " + ModulePath + "GeneralModdingPatches_Config.txt" + "\nDefaulting to modded_main_map.");
+				Debug.Print("There does not exist a config for Aurelian's Map Fix at: " + ModulePath + "MapFix.txt" + "\nDefaulting to modded_main_map.");
 			}
 
-			new Harmony("GeneralModdingPatches").PatchAll();
+			new Harmony("Aurelian.MapFix").PatchAll();
 		}
 
 		[HarmonyPatch(typeof(MapScene), "Load")]

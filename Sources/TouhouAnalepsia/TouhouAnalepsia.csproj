@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\BannerlordGeneralModdingPatches\BannerlordGeneralModdingPatches.csproj" />
+		<ProjectReference Include="..\BannerlordGeneralModdingPatches\AurelianMapFix.csproj" />
 		<PackageReference Include="Lib.Harmony" Version="2.0.4" />
 		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.9" />
 		<CopyAfterBuild Include="0Harmony.dll;System.Linq.Dynamic.Core.dll" />

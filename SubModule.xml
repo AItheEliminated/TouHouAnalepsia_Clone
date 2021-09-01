@@ -23,9 +23,9 @@
 			</Tags>
 		</SubModule>
 		<SubModule>
-			<Name value = "Bannerlord.GeneralModdingPatches"/>
-			<DLLName value = "Bannerlord.GeneralModdingPatches.dll"/>
-			<SubModuleClassType value = "Bannerlord.GeneralModdingPatches.SubModule"/>
+			<Name value = "Aurelian.MapFix"/>
+			<DLLName value = "Aurelian.MapFix.dll"/>
+			<SubModuleClassType value = "Aurelian.MapFix.SubModule"/>
 			<Tags>
 				<Tag key="DedicatedServerType" value ="none" />
 				<Tag key="IsNoRenderModeElement" value ="false" />
