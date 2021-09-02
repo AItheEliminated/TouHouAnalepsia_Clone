@@ -6,6 +6,7 @@ using TaleWorlds.MountAndBlade;
 using TaleWorlds.Library;
 using System.Reflection;
 using System.IO;
+using TaleWorlds.Core;
 
 namespace Aurelian.MapFix {
 	public class SubModule : MBSubModuleBase {
@@ -13,13 +14,12 @@ namespace Aurelian.MapFix {
 
 		private static string new_map_name = "modded_main_map";
 
-		/*
 		public override void OnGameInitializationFinished(Game game) {
 			base.OnGameInitializationFinished(game);
 			if (File.Exists(ModulePath + "ModuleData" + Path.DirectorySeparatorChar + "managed_modded_parameters.xml")) {
 				ManagedParameters.Instance.Initialize(ModulePath + "ModuleData" + Path.DirectorySeparatorChar + "managed_modded_parameters.xml");
 			}
-		}*/
+		}
 
 		protected override void OnSubModuleLoad() {
 			base.OnSubModuleLoad();
