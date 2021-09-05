@@ -1,0 +1,18 @@
+<prefabs>
+	<game_entity name="th_map_house" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_empire_house_fake_a">
+		<flags>
+			<flag name="lod" value="10"/>
+			<flag name="align_to_terrain" value="true"/>
+			<flag name="align_rotation_to_terrain" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.031, 0.031, 0.031"/>
+		<physics shape="bo_empire_house_fake_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="empire_house_fake_a">
+				<mesh name="empire_house_fake_a.0" material="planks_1"/>
+				<mesh name="empire_house_fake_a.1" material="th_tiled_roof"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+</prefabs>
+

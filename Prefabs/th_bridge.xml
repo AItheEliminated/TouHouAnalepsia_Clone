@@ -1,0 +1,10 @@
+<prefabs>
+	<game_entity name="th_bridge" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.267, 0.267, 0.267"/>
+		<physics shape="bo_th_gekokujo_bridge_24m" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="th_gekokujo_bridge_24m"/>
+		</components>
+	</game_entity>
+</prefabs>
+
