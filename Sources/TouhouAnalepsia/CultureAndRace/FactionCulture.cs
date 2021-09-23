@@ -17,9 +17,9 @@ namespace TouhouAnalepsia {
 			foreach (FactionCulture factionCulture in factionCultures) {
 				if (id.Equals(factionCulture.culture.StringId)) return factionCulture;
 			}
-			if (id.Equals("fc_human")) {
-				List<CultureObject> allCultures = new List<CultureObject>();
-				Game.Current.ObjectManager.GetAllInstancesOfObjectType<CultureObject>(ref allCultures);
+			if (id.Equals("fc_human"))
+			{
+				List<CultureObject> allCultures = Game.Current.ObjectManager.GetObjectTypeList<CultureObject>().ToList();
 				foreach (FactionCulture factionCulture in factionCultures) {
 					if (factionCulture.culture==allCultures.First()) return factionCulture;
 				}
@@ -37,8 +37,7 @@ namespace TouhouAnalepsia {
 		}
 
 		public static void initializeFactionCultures() {
-			List<CultureObject> allCultures = new List<CultureObject>();
-			Game.Current.ObjectManager.GetAllInstancesOfObjectType<CultureObject>(ref allCultures);
+			List<CultureObject> allCultures = Game.Current.ObjectManager.GetObjectTypeList<CultureObject>().ToList();
 			IEnumerable<CultureObject> filteredCultures = from x in allCultures where x.StringId.Split('_')[0].Equals("fc") select x;
 
 			foreach (CultureObject cultureObject in filteredCultures) initializeFactionCultureByCulture(cultureObject);

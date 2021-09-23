@@ -15,26 +15,25 @@ namespace TouhouAnalepsia.Editor.FastScene
 
 		protected override void OnInitialize()
 		{
-
 			Game currentGame = base.CurrentGame;
-			currentGame.FirstInitialize(false);
 			GameTextManager gameTextManager = currentGame.GameTextManager;
 			this.InitializeGameTexts(gameTextManager);
 			IGameStarter gameStarter = new BasicGameStarter();
 			this.InitializeGameModels(gameStarter);
+			base.GameManager.InitializeGameStarter(currentGame, gameStarter);
 			base.GameManager.OnGameStart(base.CurrentGame, gameStarter);
 			MBObjectManager objectManager = currentGame.ObjectManager;
-			currentGame.SecondInitialize(gameStarter.Models);
+			currentGame.SetBasicModels(gameStarter.Models);
 			currentGame.CreateGameManager();
 			base.GameManager.BeginGameStart(base.CurrentGame);
-			base.CurrentGame.ThirdInitialize();
+			base.CurrentGame.SetRandomGenerators();
 			currentGame.InitializeDefaultGameObjects();
-			currentGame.LoadBasicFiles(false);
+			currentGame.LoadBasicFiles();
 			this.LoadCustomGameXmls();
-			objectManager.ClearEmptyObjects();
+			objectManager.UnregisterNonReadyObjects();
 			currentGame.SetDefaultEquipments(new Dictionary<string, Equipment>());
-			objectManager.ClearEmptyObjects();
-			base.GameManager.OnCampaignStart(base.CurrentGame, null);
+			objectManager.UnregisterNonReadyObjects();
+			base.GameManager.OnNewCampaignStart(base.CurrentGame, null);
 			base.GameManager.OnAfterCampaignStart(base.CurrentGame);
 			base.GameManager.OnGameInitializationFinished(base.CurrentGame);
 		}
@@ -68,7 +67,6 @@ namespace TouhouAnalepsia.Editor.FastScene
 		}
 
 		private void LoadCustomGameXmls() {
-			ObjectManager.LoadXML("SPCultures");
 			//ObjectManager.LoadXML("Monsters");
 			//ObjectManager.LoadXML("SkeletonScales");
 			//ObjectManager.LoadXML("ItemModifiers");
@@ -78,6 +76,7 @@ namespace TouhouAnalepsia.Editor.FastScene
 			ObjectManager.LoadXML("Items");
 			ObjectManager.LoadXML("EquipmentRosters");
 			ObjectManager.LoadXML("NPCCharacters");
+			ObjectManager.LoadXML("SPCultures");
 		}
 
 		public override void OnDestroy()

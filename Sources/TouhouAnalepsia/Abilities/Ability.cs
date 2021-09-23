@@ -69,8 +69,7 @@ namespace TouhouAnalepsia.Abilities {
 				yield return abilityFromLevel(agent.Origin.Troop.Level); //TODO agent.Character.Level;
 			}
 
-			List<Ability> all_abilities = new List<Ability>();
-			Game.Current.ObjectManager.GetAllInstancesOfObjectType(ref all_abilities);
+			List<Ability> all_abilities = Game.Current.ObjectManager.GetObjectTypeList<Ability>().ToList();
 
 			foreach (Ability ability in all_abilities) {
 				List<Tuple<string,Delegate>> requirements = null;
