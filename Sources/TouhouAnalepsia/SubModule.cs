@@ -110,7 +110,9 @@ namespace TouhouAnalepsia
 				LoadLocalizationData(campaignGameStarter);
    				
 				//campaignGameStarter.AddBehavior(new MyCampainBehavior()); //Disabled temporarily - this sort of addition should go through a pull request first.
-																			//	Plus I'm pretty sure this was moreso experimentation than a proper feature.
+				//	Plus I'm pretty sure this was moreso experimentation than a proper feature.
+				//get ride of life and death cycle
+				CampaignOptions.IsLifeDeathCycleDisabled = true;
 			}
 		}
 		public override void OnCampaignStart(Game game, object starterObject) {
