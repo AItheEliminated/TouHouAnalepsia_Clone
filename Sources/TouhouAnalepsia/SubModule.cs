@@ -1,9 +1,7 @@
-using StoryMode.StoryModePhases;
+﻿using StoryMode.StoryModePhases;
 using System.Reflection;
 using StoryMode;
-using StoryMode.Behaviors;
 using TaleWorlds.CampaignSystem;
-using TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors;
 using TaleWorlds.Core;
 using TaleWorlds.Engine;
 using TaleWorlds.Library;
@@ -52,31 +50,6 @@ namespace TouhouAnalepsia
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapMaxAllowedDistanceFromCenterPointY, 720);
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointX, 360);
 			//TaleWorlds.Core.ManagedParameters.SetParameter(TaleWorlds.Core.ManagedParametersEnum.CampaignMapCenterPointY, 360);
-		}
-	
-
-		static private void RemoveCompaignBehavior<T>(Game game)  where T: CampaignBehaviorBase
-		{
-
-			bool flag = Campaign.Current.CampaignBehaviorManager.GetBehavior<T>() != null;
-			if (flag)
-			{
-				Campaign.Current.CampaignBehaviorManager.RemoveBehavior<T>();
-			}
-		}
-		public override void OnGameInitializationFinished(Game game)
-		{
-
-			base.OnGameInitializationFinished(game);
-			bool flag = game.GameType is Campaign;
-			if (flag)
-			{
-				//type safe and runtime safe way to delete behavior
-				RemoveCompaignBehavior<FirstPhaseCampaignBehavior>(game);
-				RemoveCompaignBehavior<TutorialPhaseCampaignBehavior>(game);
-				RemoveCompaignBehavior<BackstoryCampaignBehavior>(game);
-		
-			}
 		}
 		protected override void OnBeforeInitialModuleScreenSetAsRoot() {
 			// skip the shit intro video while developing. I almost get smithing-phobia for it.
