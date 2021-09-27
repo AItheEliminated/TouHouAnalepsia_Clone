@@ -1,0 +1,3 @@
+[submodule "TouhouAnalepsia_Core"]
+	path = TouhouAnalepsia_Core
+	url = https://git.hinageshi.org/static_cast/TouhouAnalepsia_Core
