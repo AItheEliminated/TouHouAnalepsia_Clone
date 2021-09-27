@@ -26,6 +26,10 @@ Clone the repository with this url "https://\[Your_access_token\]@git.hinageshi.
 
 <img src="https://git.hinageshi.org/TouhouAnalepsia/TouhouAnalepsia/raw/commit/17fd06cf57cb4a3e29541ea8b402dd3e0d5b68f6/Tools/Gitea/clone1.png" />
 
+The codes are now included as a git submodule. To fetch the code module along with the assets, simply run 
+`git clone --recursive  git://git.hinageshi.org/TouhouAnalepsia.git` or
+`git clone --recurse-submodules  git://git.hinageshi.org/TouhouAnalepsia.git` for Git > 2.13.
+
 ##### Choice A: Clone to the module folder
 
 Cloning the repo to the module folder is the easiest way. Just set the destination to the module folder and you can move to next section.
@@ -81,3 +85,5 @@ That's all. Open *TouhouAnalepsia.sln* with your favourite IDE and the project i
 *Tips for Visual Studio Code users: You need to change VSCode to true in UserSettings.props, then make copies of the two files with the suffix .json.template in Sources/.vscode directory, and remove the .template suffix. tasks.json is an out-of-the-box build configuration. launch.json is a template for the launch configuration, and you need to fill in the location of Bannerlord EXE and the directory where the EXE is located.*
 
 *Tips for JetBrains Rider users: (Tested in version 2018.2) Don't clone the project to the module folder of Bannerlord. Due to the ampersand(&) symbol in the path, Rider cannot correctly initialize the project. You will get 'Error executing the AssignProjectConfiguration task' message and the project is corrupt if you do so. Moreover, you have to configure the launching settings by yourself. One more problem is that, the reference libraries don't show up in the left list, though they actully exist. It shouldn't affect the operation, anyway.*
+
+

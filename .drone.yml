@@ -49,5 +49,5 @@ steps:
     - zip -r artifacts.zip Win64_Shipping_Client Win64_Shipping_wEditor
     - curl -F scene=touhouanalepsia -F path=./touhouanalepsia/${DRONE_BRANCH} -F file=@manifest.txt http://fastdfs:8080/upload
     - curl -F scene=touhouanalepsia -F path=./touhouanalepsia/${DRONE_BRANCH} -F file=@artifacts.zip http://fastdfs:8080/upload
-    # TODO: pack the game lol
+    # TODO: This CI should only pack the game now, building process is moved to core module CI.
     
