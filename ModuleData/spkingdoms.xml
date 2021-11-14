@@ -34,7 +34,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="underworld" owner="Hero.lord_satori" primary_banner_color="0x0FFFFCEE" secondary_banner_color="0xFF007711" color="0FFFFCEE0" color2="FFDD11CC" culture="Culture.fc_underworld" name="{=Kingdoms.Kingdom.name.underworld}Underworld">
+  <Kingdom id="underworld" owner="Hero.lord_satori" primary_banner_color="0x0FFFFCEE" secondary_banner_color="0xFF007711" color="0FFFFCEE" color2="FFDD11CC" culture="Culture.fc_underworld" name="{=Kingdoms.Kingdom.name.underworld}Underworld">
     <relationships />
     <policies />
   </Kingdom>
