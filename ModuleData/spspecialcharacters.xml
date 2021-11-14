@@ -786,7 +786,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_human_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_outlaw_1}human bold outlaw" occupation="Outlaw">
+  <NPCCharacter id="spc_human_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_outlaw_1}human bold outlaw" occupation="Bandit">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -800,7 +800,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_human_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_outlaw_2}human menacing outlaw" occupation="Outlaw">
+  <NPCCharacter id="spc_human_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.spc_human_outlaw_2}human menacing outlaw" occupation="Bandit">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -1248,7 +1248,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_youkai_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_outlaw_1}youkai bold outlaw" occupation="Outlaw">
+  <NPCCharacter id="spc_youkai_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_outlaw_1}youkai bold outlaw" occupation="Bandit">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -1264,7 +1264,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_youkai_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_outlaw_2}youkai menacing outlaw" occupation="Outlaw">
+  <NPCCharacter id="spc_youkai_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.spc_youkai_outlaw_2}youkai menacing outlaw" occupation="Bandit">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -1581,7 +1581,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_fairy_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_outlaw_1}fairy bold outlaw" occupation="Outlaw">
+  <NPCCharacter id="spc_fairy_outlaw_1" default_group="Infantry" voice="ironic" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_outlaw_1}fairy bold outlaw" occupation="Bandit">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>
@@ -1597,7 +1597,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
       <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_fairy_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_outlaw_2}fairy menacing outlaw" occupation="Outlaw">
+  <NPCCharacter id="spc_fairy_outlaw_2" default_group="Infantry" voice="softspoken" is_hero="false" is_template="true" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.spc_fairy_outlaw_2}fairy menacing outlaw" occupation="Bandit">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>

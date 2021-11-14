@@ -755,7 +755,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
     </skills>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="guard_human" default_group="Infantry" level="4" culture="Culture.human" is_hidden_encyclopedia="TRUE" name="{=NPCCharacters.NPCCharacter.name.guard_human}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+  <NPCCharacter id="guard_human" default_group="Infantry" level="4" culture="Culture.human" is_hidden_encyclopedia="true" name="{=NPCCharacters.NPCCharacter.name.guard_human}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="NPCCharacter.fighter_human" />
     </face>
@@ -769,7 +769,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
     </skills>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="guard_youkai" default_group="Infantry" level="21" culture="Culture.youkai" is_hidden_encyclopedia="TRUE" name="{=NPCCharacters.NPCCharacter.name.guard_youkai}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
+  <NPCCharacter id="guard_youkai" default_group="Infantry" level="21" culture="Culture.youkai" is_hidden_encyclopedia="true" name="{=NPCCharacters.NPCCharacter.name.guard_youkai}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -783,7 +783,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
     </skills>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="guard_fairy" default_group="Infantry" level="21" culture="Culture.fairy" is_hidden_encyclopedia="TRUE" name="{=NPCCharacters.NPCCharacter.name.guard_fairy}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
+  <NPCCharacter id="guard_fairy" default_group="Infantry" level="21" culture="Culture.fairy" is_hidden_encyclopedia="true" name="{=NPCCharacters.NPCCharacter.name.guard_fairy}Guard" occupation="Soldier" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
     <face>
       <face_key_template value="NPCCharacter.fighter_fairy" />
     </face>
@@ -797,7 +797,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
     </skills>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="steward_human" default_group="Infantry" level="21" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.steward_human}Judge" occupation="Judge">
+  <NPCCharacter id="steward_human" default_group="Infantry" level="21" culture="Culture.human" name="{=NPCCharacters.NPCCharacter.name.steward_human}Judge" occupation="Preacher">
     <face>
       <face_key_template value="NPCCharacter.villager_human" />
     </face>
@@ -811,7 +811,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
     </skills>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="steward_youkai" default_group="Infantry" level="21" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.steward_youkai}Judge" occupation="Judge">
+  <NPCCharacter id="steward_youkai" default_group="Infantry" level="21" culture="Culture.youkai" name="{=NPCCharacters.NPCCharacter.name.steward_youkai}Judge" occupation="Preacher">
     <face>
       <face_key_template value="NPCCharacter.fighter_youkai" />
     </face>
@@ -825,7 +825,7 @@ If you want to use this tool yourself for you own project, you can find it at ht
     </skills>
     <Equipments />
   </NPCCharacter>
-  <NPCCharacter id="steward_fairy" default_group="Infantry" level="21" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.steward_fairy}Judge" occupation="Judge">
+  <NPCCharacter id="steward_fairy" default_group="Infantry" level="21" culture="Culture.fairy" name="{=NPCCharacters.NPCCharacter.name.steward_fairy}Judge" occupation="Preacher">
     <face>
       <face_key_template value="NPCCharacter.villager_fairy" />
     </face>

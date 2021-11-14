@@ -6,43 +6,43 @@ Feel free to check out our own project at https://forums.taleworlds.com/index.ph
 and join our discord at https://discord.gg/PUqYrGZ 
 
 If you want to use this tool yourself for you own project, you can find it at https://github.com/RomanResistance/XmlTool-->
-  <Kingdom id="hakurei_shrine" banner_key="26.35.83.1128.1725.764.764.1.0.90.510.83.116.323.240.870.764.1.0.-90.510.83.116.323.240.658.764.1.0.-90.510.83.116.323.240.764.594.1.0.0" owner="Hero.lord_reimu" label_color="FFBB0000" primary_banner_color="FFFF3030" secondary_banner_color="FFEEEEEE" color="FFFF3030" color2="FFEEEEEE" culture="Culture.fc_hakurei_shrine" name="{=Kingdoms.Kingdom.name.hakurei_shrine}Hakurei Shrine" title="{=Kingdoms.Kingdom.title.hakurei_shrine}Hakurei Shrine" ruler_title="{=Kingdoms.Kingdom.ruler_title.hakurei_shrine}Shrine Maiden">
+  <Kingdom id="hakurei_shrine" banner_key="26.35.83.1128.1725.764.764.1.0.90.510.83.116.323.240.870.764.1.0.-90.510.83.116.323.240.658.764.1.0.-90.510.83.116.323.240.764.594.1.0.0" owner="Hero.lord_reimu" label_color="0xFFBB0000" primary_banner_color="0xFFFF3030" secondary_banner_color="0xFFEEEEEE" color="FFFF3030" color2="FFEEEEEE" culture="Culture.fc_hakurei_shrine" name="{=Kingdoms.Kingdom.name.hakurei_shrine}Hakurei Shrine" title="{=Kingdoms.Kingdom.title.hakurei_shrine}Hakurei Shrine" ruler_title="{=Kingdoms.Kingdom.ruler_title.hakurei_shrine}Shrine Maiden">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="human_city" banner_key="31.3.83.2197.1725.764.764.1.0.90.331.83.116.533.395.764.763.1.0.0" owner="Hero.lord_akyuu" primary_banner_color="FF00FFEE" secondary_banner_color="FFFF0011" color="FF00FFEE" color2="FF33DDEE" culture="Culture.fc_human_city" name="{=Kingdoms.Kingdom.name.human_city}Human City">
+  <Kingdom id="human_city" banner_key="31.3.83.2197.1725.764.764.1.0.90.331.83.116.533.395.764.763.1.0.0" owner="Hero.lord_akyuu" primary_banner_color="0xFF00FFEE" secondary_banner_color="0xFFFF0011" color="FF00FFEE" color2="FF33DDEE" culture="Culture.fc_human_city" name="{=Kingdoms.Kingdom.name.human_city}Human City">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="eientei" banner_key="31.35.19.1836.1836.764.764.1.0.0.125.6.48.360.360.764.764.1.0.0.125.6.48.360.360.764.764.1.0.0" owner="Hero.lord_kaguya" primary_banner_color="FFFFFF00" secondary_banner_color="FF0000FF" color="FFFFFF00" color2="FFCCCC22" culture="Culture.fc_eientei" name="{=Kingdoms.Kingdom.name.eientei}Eientei">
+  <Kingdom id="eientei" banner_key="31.35.19.1836.1836.764.764.1.0.0.125.6.48.360.360.764.764.1.0.0.125.6.48.360.360.764.764.1.0.0" owner="Hero.lord_kaguya" primary_banner_color="0xFFFFFF00" secondary_banner_color="0xFF0000FF" color="FFFFFF00" color2="FFCCCC22" culture="Culture.fc_eientei" name="{=Kingdoms.Kingdom.name.eientei}Eientei">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="scarlet_empire" owner="Hero.lord_remelia" primary_banner_color="FF961313" secondary_banner_color="FF33EEEE" color="FF961313" color2="FFBB2222" culture="Culture.fc_test0" name="{=Kingdoms.Kingdom.name.scarlet_empire}Scarlet Empire" ruler_title="{=Kingdoms.Kingdom.ruler_title.scarlet_empire}Emperor">
+  <Kingdom id="scarlet_empire" owner="Hero.lord_remelia" primary_banner_color="0xFF961313" secondary_banner_color="0xFF33EEEE" color="FF961313" color2="FFBB2222" culture="Culture.fc_test0" name="{=Kingdoms.Kingdom.name.scarlet_empire}Scarlet Empire" ruler_title="{=Kingdoms.Kingdom.ruler_title.scarlet_empire}Emperor">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="misty_empire" owner="Hero.lord_flandre" primary_banner_color="FF3333DD" secondary_banner_color="FFDDDD33" color="FF3333DD" color2="FF1111BB" culture="Culture.fc_test1" name="{=Kingdoms.Kingdom.name.misty_empire}Great Fairy Alliance" ruler_title="{=Kingdoms.Kingdom.ruler_title.misty_empire}Emperor">
+  <Kingdom id="misty_empire" owner="Hero.lord_flandre" primary_banner_color="0xFF3333DD" secondary_banner_color="0xFFDDDD33" color="FF3333DD" color2="FF1111BB" culture="Culture.fc_test1" name="{=Kingdoms.Kingdom.name.misty_empire}Great Fairy Alliance" ruler_title="{=Kingdoms.Kingdom.ruler_title.misty_empire}Emperor">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="anokuni" owner="Hero.lord_seija" primary_banner_color="666699" secondary_banner_color="F93D3D" color="FF11AA11" color2="FF229922" culture="Culture.fc_anokuni" name="{=Kingdoms.Kingdom.name.anokuni}Amanojaku no Kuni">
+  <Kingdom id="anokuni" owner="Hero.lord_seija" primary_banner_color="0x666699" secondary_banner_color="0xF93D3D" color="FF11AA11" color2="FF229922" culture="Culture.fc_anokuni" name="{=Kingdoms.Kingdom.name.anokuni}Amanojaku no Kuni">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="kyuutaki" owner="Hero.lord_tenma" primary_banner_color="FFFFAA00" secondary_banner_color="FF0055FF" color="FFFFAA00" color2="FFF0A020" culture="Culture.fc_kyuutaki" name="{=Kingdoms.Kingdom.name.kyuutaki}Mountain of Heaven">
+  <Kingdom id="kyuutaki" owner="Hero.lord_tenma" primary_banner_color="0xFFFFAA00" secondary_banner_color="0xFF0055FF" color="FFFFAA00" color2="FFF0A020" culture="Culture.fc_kyuutaki" name="{=Kingdoms.Kingdom.name.kyuutaki}Mountain of Heaven">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="underworld" owner="Hero.lord_satori" primary_banner_color="FFFFCEE" secondary_banner_color="FF007711" color="FFFFCEE" color2="FFDD11CC" culture="Culture.fc_underworld" name="{=Kingdoms.Kingdom.name.underworld}Underworld">
+  <Kingdom id="underworld" owner="Hero.lord_satori" primary_banner_color="0x0FFFFCEE" secondary_banner_color="0xFF007711" color="0FFFFCEE0" color2="FFDD11CC" culture="Culture.fc_underworld" name="{=Kingdoms.Kingdom.name.underworld}Underworld">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="netherworld" owner="Hero.lord_yuyuko" primary_banner_color="FF994499" secondary_banner_color="FF66BB66" color="FF994499" color2="FF771177" culture="Culture.fc_netherworld" name="{=Kingdoms.Kingdom.name.netherworld}Netherworld">
+  <Kingdom id="netherworld" owner="Hero.lord_yuyuko" primary_banner_color="0xFF994499" secondary_banner_color="0xFF66BB66" color="FF994499" color2="FF771177" culture="Culture.fc_netherworld" name="{=Kingdoms.Kingdom.name.netherworld}Netherworld">
     <relationships />
     <policies />
   </Kingdom>
-  <Kingdom id="shogunate" owner="Hero.lord_kanako" primary_banner_color="FF55FF55" secondary_banner_color="FFAA00AA" color="FF55FF55" color2="FF22CC22" culture="Culture.fc_shogunate" name="{=Kingdoms.Kingdom.name.shogunate}Mountain of Faith" short_name="{=Kingdoms.Kingdom.short_name.shogunate}Shogunate" ruler_title="{=Kingdoms.Kingdom.ruler_title.shogunate}Shogun">
+  <Kingdom id="shogunate" owner="Hero.lord_kanako" primary_banner_color="0xFF55FF55" secondary_banner_color="0xFFAA00AA" color="FF55FF55" color2="FF22CC22" culture="Culture.fc_shogunate" name="{=Kingdoms.Kingdom.name.shogunate}Mountain of Faith" short_name="{=Kingdoms.Kingdom.short_name.shogunate}Shogunate" ruler_title="{=Kingdoms.Kingdom.ruler_title.shogunate}Shogun">
     <relationships />
     <policies />
   </Kingdom>
