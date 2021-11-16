@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<scene name="Main_map" version="2">
+<scene name="gensokyo_map_development2" version="2">
 	<flora_bounding_rect min="0.000, 0.000" max="0.000, 0.000"/>
 	<levels>
 		<level name="base" mask="1"/>
